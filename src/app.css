@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  color: #000b00 !important;
+  background-image: url("./assets/logo-bg.png");
+
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+* {
+  font-family: "LFR", sans-serif !important;
+}
+
+section {
+  width: 100%;
+  max-width: 100%;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  box-sizing: border-box !important;
+}
+
+.darken {
+  background-color: #ccc;
+}
+
+.darkback {
+  background-color: #000b00;
+  color: white;
+}
+
+.shade {
+  opacity: 0.6;
+}
+
+.lightback {
+  background-color: #f7f9fc;
+}
+
+.whiteback {
+  background-color: white;
+}
+
+.color-primary {
+  color: #007bbb;
+}
+
+.big-button {
+  font-size: 130%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-transform: none !important;
+  box-sizing: content-box !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+/* NAV */
+
+.nav-header {
+  padding-top: 20px;
+}
+
+.nav-brandwrap {
+  display: flex;
+  align-items: center;
+}
+
+.nav-linkwrap {
+  justify-content: right;
+  align-items: center;
+  display: flex;
+}
+
+.nav-link {
+  font-weight: 500;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.nav-header img {
+  height: 64px;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+
+.nav-brand {
+  font-size: 42px;
+}
+
+/* HERO */
+
+.hero .row {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero-left {
+    text-align: right;
+  }
+}
+
+.hero-left > h2 {
+  font-weight: 500;
+}
+
+.hero-text {
+  font-size: 105%;
+  padding-top: 8px;
+}
+
+@media (min-width: 768px) {
+  .hero-text {
+    font-size: 120%;
+  }
+}
+
+.hero-img {
+  height: 500px;
+  box-shadow: 0px 0px 30px #ccc;
+  margin-top: 40px;
+}
+
+@font-face {
+  font-family: "LFR";
+  src: url("./assets/lfr/LibreFranklin-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LFR";
+  src: url("./assets/lfr/LibreFranklin-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "LFR";
+  src: url("./assets/lfr/LibreFranklin-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LFR";
+  src: url("./assets/lfr/LibreFranklin-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LFR";
+  src: url("./assets/lfr/LibreFranklin-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
