@@ -42,18 +42,20 @@ const LINVER = "3.0.0";
 const ANDVER = "3.0.0";
 
 const defaultDownload = () => {
-  if (!window) {
-    return ["Windows (installer)", win32exe, WINVER];
-  }
-  const platform = window.navigator.platform;
-  if (/Android/.test(platform)) {
-    return ["Android APK", androidapk, ANDVER];
-  } else if (/Linux/.test(platform)) {
-    return ["Linux amd64 (.tar.bz2)", lin64tar, LINVER];
-  } else if (/Mac/.test(platform)) {
-    return ["macOS (dmg)", mac64dmg, MACVER];
-  } else {
-    return ["Windows (installer)", win32exe, WINVER];
+  try {
+    const platform = window.navigator.platform;
+    alert(platform);
+    if (/Android/.test(platform)) {
+      return ["Android APK", androidapk, ANDVER];
+    } else if (/Linux/.test(platform)) {
+      return ["Linux amd64 (.tar.bz2)", lin64tar, LINVER];
+    } else if (/Mac/.test(platform)) {
+      return ["macOS 10.10+ (dmg)", mac64dmg, MACVER];
+    } else {
+      return ["Windows 7+ (installer)", win32exe, WINVER];
+    }
+  } catch (e) {
+    return ["Windows 7+ (installer)", win32exe, WINVER];
   }
 };
 

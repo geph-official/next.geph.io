@@ -1,0 +1,87 @@
+#lang web-server
+(require db
+         db/util/datetime
+         "paymentwall.rkt"
+         "paymentwall-secrets.rkt"
+         web-server/templates
+         racket/random
+         racket/date
+         file/sha1)
+(provide serve-login
+         serve-dashboard
+         serve-buyplus
+         serve-pingback
+         serve-plans
+         serve-user-login)
+
+;; db connection for postgres
+(define db-conn
+  (virtual-connection
+   (connection-pool
+    (lambda ()
+      (postgresql-connect
+       #:user "postgres"
+       #:password "postgres"
+       #:database "postgres")))))
+
+(define (in-transaction tx)
+  (query-exec db-conn "BEGIN TRANSACTION ISOLATION LEVEL SERIALIZABLE")
+  (with-handlers ([exn? (λ (e)
+                          (query-exec db-conn "ROLLBACK")
+                          (raise e))])
+    (define res (tx))
+    (query-exec db-conn "COMMIT")
+    res))
+
+
+(define session-cache (make-hash))
+
+(define (serve-paymentwall-pingback req secret)
+  (unless (equal? secret pw-skey)
+    (error "unauthorized"))
+  (with-handlers ([exn:fail? void])
+    (let* ([bindings (request-bindings req)]
+           [type (extract-binding/single 'type bindings)]
+           [invoice-id (extract-binding/single 'uid bindings)])
+      (pay-invoice (string->number invoice-id))))
+    (response/full 200
+                    #"OK"
+                    (current-seconds)
+                    TEXT/HTML-MIME-TYPE
+                    (list (make-header #"Cache-Control" #"no-store"))
+                    '(#"OK")))
+
+
+
+(define (serve-buyplus req)
+  (parameterize ([current-website-language (request-language req)])
+    (define bindings (request-bindings req))
+    (define cookie (extract-binding/single 'cookie bindings))
+    (define uid (check-cookie cookie))
+    (define months (string->number (extract-binding/single 'months bindings)))
+    (define price-multiplier
+      (cond
+        [(< months 6) 3]
+        [(< months 12) 1.5]
+        [else 1]))
+    (define-values (price code)
+      (values (* months PRICE-IN-USD price-multiplier) "USD"))
+    (define invoice-id (make-invoice uid months (exact-round (* price 100)) code))
+    (define payment-url
+      (widget-url #:currency-code code
+                  #:amount (* price 100)
+                  #:order-name (format "~a Plus" (l10n 'main.geph))
+                  #:order-id invoice-id
+                  #:payment-type "all"
+                  #:language (lang->standard-lang (current-website-language))
+                  #:success-url (format "https://geph.io/billing/dashboard?cookie=~a"
+                                        cookie)))
+
+    (response/full 302
+                   #"Found"
+                   (current-seconds)
+                   TEXT/HTML-MIME-TYPE
+                   (list (make-header #"Location"
+                                      (string->bytes/utf-8 payment-url))
+                         (make-header #"Cache-Control" #"no-store"))
+                   '())))

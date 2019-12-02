@@ -16,7 +16,7 @@ export const Header = props => {
     <section className="nav-header">
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col-md">
             <div className="nav-brandwrap">
               <img src={require("../assets/logo-naked.png")} />
               <span className="nav-brand">
@@ -24,7 +24,7 @@ export const Header = props => {
               </span>
             </div>
           </div>
-          <div className="col nav-linkwrap">
+          <div className="col-md nav-linkwrap">
             <div className="nav-link">
               <a
                 target="_blank"
@@ -45,21 +45,21 @@ export const Header = props => {
             </div>
             <div className="nav-link">
               <Link
-                to="/en"
+                to="/en/"
                 style={{ fontWeight: props.lang === "en" ? 600 : 400 }}
               >
                 en
               </Link>
               /
               <Link
-                to="/zhs"
+                to="/zhs/"
                 style={{ fontWeight: props.lang === "zhs" ? 600 : 400 }}
               >
                 简
               </Link>
               /
               <Link
-                to="/zht"
+                to="/zht/"
                 style={{ fontWeight: props.lang === "zht" ? 600 : 400 }}
               >
                 繁

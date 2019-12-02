@@ -2,6 +2,31 @@ import React, { useState } from "react";
 import { addl10n, l10n } from "../common/l10n.js";
 
 addl10n({
+  "account-overview": {
+    en: "Account overview",
+    zht: "用戶信息",
+    zhs: "用户信息"
+  },
+  username: {
+    en: "Username",
+    zht: "用戶名",
+    zhs: "用户名"
+  },
+  subscription: {
+    en: "Subscription",
+    zht: "用戶等級",
+    zhs: "用户等级"
+  },
+  expires: {
+    en: "Expiry date",
+    zht: "截止日期",
+    zhs: "截止日期"
+  },
+  free: {
+    en: "Free",
+    zht: "免費",
+    zhs: "免费"
+  },
   "flat-rate-blurb": {
     en: (
       <>

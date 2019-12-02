@@ -7,7 +7,6 @@
 import React from "react";
 
 export default {
-  maxThreads: 1,
   Document: ({
     Html,
     Head,
@@ -15,7 +14,7 @@ export default {
     children,
     state: { siteData, renderMeta }
   }) => (
-    <Html lang="en-US">
+    <Html>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,19 +29,19 @@ export default {
       template: "src/lel.jsx"
     },
     {
-      path: "en",
+      path: "en/",
       template: "src/Main.en.jsx"
     },
     {
-      path: "zht",
+      path: "zht/",
       template: "src/Main.zht.jsx"
     },
     {
-      path: "zhs",
+      path: "zhs/",
       template: "src/Main.zhs.jsx"
     },
     {
-      path: "billing",
+      path: "billing/",
       template: "src/billing/PlanPicker.jsx"
     }
   ]

@@ -5,6 +5,7 @@ import "./PlanPicker.css";
 import { addl10n, l10n } from "../common/l10n";
 import "./PlanPicker.l10n";
 import "bootstrap/dist/css/bootstrap.min.css";
+import axios from "axios";
 
 const toCNY = eur => 7.8 * eur;
 const toUSD = eur => 1.1 * eur;
@@ -38,6 +39,24 @@ const Selector = props => (
     </div>
   </div>
 );
+
+const toQueryString = params => {
+  const esc = encodeURIComponent;
+  return Object.keys(params)
+    .map(k => esc(k) + "=" + esc(params[k]))
+    .join("&");
+};
+
+const getUserInfo = async (uname, pwd) => {
+  const response = await axios.get(
+    "/billing/userinfo?" +
+      toQueryString({
+        username: uname,
+        password: pwd
+      })
+  );
+  return response.data;
+};
 
 const Payer = props => {
   const [payMethod, setPayMethod] = useState("card");
@@ -142,9 +161,56 @@ const Payer = props => {
 
 const Planner = props => {
   const [months, setMonths] = useState(1);
+  const [userInfo, setUserInfo] = useState(false);
   const localize = l10n("en");
+  try {
+    const urlParams = new URLSearchParams(window.location.search);
+    const toGo = async () => {
+      try {
+        const info = await getUserInfo(
+          urlParams.get("uname"),
+          urlParams.get("pwd")
+        );
+        setUserInfo(info);
+      } catch (e) {
+        alert(e);
+        await toGo();
+      }
+    };
+    toGo();
+  } catch (e) {}
   return (
     <>
+      <section className="lightback">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-2"></div>
+            <div className="col">
+              <h3>{localize("account-overview")}</h3>
+            </div>
+            <div className="col-md-2"></div>
+          </div>
+          <div className="row">
+            <div className="col-md-2"></div>
+            <div className="col-md">
+              <b>{localize("username")}</b> <br />
+              {userInfo && userInfo.username}
+            </div>
+            <div className="col-md">
+              <b>{localize("subscription")}</b> <br />
+              {userInfo &&
+                (userInfo.type === "free" ? localize("free") : "Plus")}
+            </div>
+            {userInfo && userInfo.expires && (
+              <div className="col-md">
+                <b>{localize("expiry")}</b> <br />
+                {new Date(userInfo.expires * 1000).toUTCString()}
+              </div>
+            )}
+            <div className="col-md-2"></div>
+          </div>
+        </div>
+      </section>
       <section className="whiteback">
         <div className="container">
           <div className="row">

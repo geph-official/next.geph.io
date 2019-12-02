@@ -1,6 +1,6 @@
 {
   "prefetchRate": 5,
-  "maxThreads": 1,
+  "maxThreads": null,
   "disableRoutePrefixing": false,
   "outputFileRate": 100,
   "extensions": [
