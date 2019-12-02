@@ -19,18 +19,31 @@ export default {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-      <Body>{children}</Body>
+      </Head>{" "}
+      <Body> {children} </Body>{" "}
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </Html>
   ),
   getRoutes: async ({ dev }) => [
     {
       path: "/",
-      template: "src/Main.js"
+      template: "src/lel.jsx"
+    },
+    {
+      path: "en",
+      template: "src/Main.en.jsx"
+    },
+    {
+      path: "zht",
+      template: "src/Main.zht.jsx"
+    },
+    {
+      path: "zhs",
+      template: "src/Main.zhs.jsx"
     },
     {
       path: "billing",
-      template: "src/billing/PlanPicker.js"
+      template: "src/billing/PlanPicker.jsx"
     }
   ]
 };

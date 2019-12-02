@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-147 -70 294 345"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="android.svg"
+   inkscape:version="0.92.4 (unknown)">
+  <metadata
+     id="metadata33">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs31" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="989"
+     id="namedview29"
+     showgrid="false"
+     inkscape:zoom="1.3681159"
+     inkscape:cx="-117.07322"
+     inkscape:cy="217.64872"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27" />
+  <g
+     fill="#a4c639"
+     id="g17"
+     style="fill:#040404;fill-opacity:1">
+    <use
+       stroke-width="14.4"
+       xlink:href="#b"
+       stroke="#FFF"
+       id="use2"
+       style="fill:#040404;fill-opacity:1" />
+    <use
+       xlink:href="#a"
+       transform="scale(-1,1)"
+       id="use4"
+       style="fill:#040404;fill-opacity:1" />
+    <g
+       id="a"
+       stroke="#FFF"
+       stroke-width="7.2"
+       style="fill:#040404;fill-opacity:1">
+      <rect
+         rx="6.5"
+         transform="rotate(29)"
+         height="86"
+         width="13"
+         y="-86"
+         x="14"
+         id="rect6"
+         style="fill:#040404;fill-opacity:1" />
+      <rect
+         id="c"
+         rx="24"
+         height="133"
+         width="48"
+         y="41"
+         x="-143"
+         style="fill:#040404;fill-opacity:1" />
+      <use
+         y="97"
+         x="85"
+         xlink:href="#c"
+         id="use9"
+         style="fill:#040404;fill-opacity:1" />
+    </g>
+    <g
+       id="b"
+       style="fill:#040404;fill-opacity:1">
+      <ellipse
+         cy="41"
+         rx="91"
+         ry="84"
+         id="ellipse12"
+         style="fill:#040404;fill-opacity:1" />
+      <rect
+         rx="22"
+         height="182"
+         width="182"
+         y="20"
+         x="-91"
+         id="rect14"
+         style="fill:#040404;fill-opacity:1" />
+    </g>
+  </g>
+  <g
+     stroke="#FFF"
+     stroke-width="7.2"
+     fill="#FFF"
+     id="g25">
+    <path
+       d="m-95 44.5h190"
+       id="path19" />
+    <circle
+       cx="-42"
+       r="4"
+       id="circle21" />
+    <circle
+       cx="42"
+       r="4"
+       id="circle23" />
+  </g>
+</svg>
