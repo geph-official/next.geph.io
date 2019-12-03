@@ -123,23 +123,29 @@ module.exports = require("react");
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = require("path");
+module.exports = require("@babel/runtime/regenerator");
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = require("babel-plugin-universal-import/universalImport");
+module.exports = require("path");
 
 /***/ }),
 /* 3 */
+/***/ (function(module, exports) {
+
+module.exports = require("babel-plugin-universal-import/universalImport");
+
+/***/ }),
+/* 4 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return addl10n; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return l10n; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return toLangCode; });
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(31);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(11);
 /* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__);
 
 
@@ -167,13 +173,13 @@ var toLangCode = function toLangCode(lang) {
 };
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
-var _typeof = __webpack_require__(13);
+var _typeof = __webpack_require__(15);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -241,11 +247,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(20);
+var _propTypes = __webpack_require__(23);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(21);
+var _hoistNonReactStatics = __webpack_require__(24);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -253,7 +259,7 @@ var _vm = __webpack_require__(40);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _utils = __webpack_require__(14);
+var _utils = __webpack_require__(16);
 
 var _helpers = __webpack_require__(41);
 
@@ -650,28 +656,28 @@ function universal(asyncModule) {
     report: _propTypes2["default"].func
   }, _temp;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(12)(module)))
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports) {
-
-module.exports = require("@reach/router");
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(14)(module)))
 
 /***/ }),
 /* 6 */
 /***/ (function(module, exports) {
 
-module.exports = require("@babel/runtime/helpers/slicedToArray");
+module.exports = require("@reach/router");
 
 /***/ }),
 /* 7 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/slicedToArray");
+
+/***/ }),
+/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(6);
+var slicedToArray_ = __webpack_require__(7);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "react"
@@ -679,13 +685,13 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/app.css
-var app = __webpack_require__(15);
+var app = __webpack_require__(17);
 
 // EXTERNAL MODULE: external "bootstrap/dist/css/bootstrap.min.css"
-var bootstrap_min_css_ = __webpack_require__(26);
+var bootstrap_min_css_ = __webpack_require__(29);
 
 // EXTERNAL MODULE: external "@reach/router"
-var router_ = __webpack_require__(5);
+var router_ = __webpack_require__(6);
 
 // CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/common/footer.jsx
 
@@ -706,7 +712,7 @@ var footer_Footer = function Footer(props) {
   }, "contact@geph.io"))))));
 };
 // EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/common/l10n.js
-var l10n = __webpack_require__(3);
+var l10n = __webpack_require__(4);
 
 // CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/common/header.jsx
 
@@ -725,13 +731,17 @@ Object(l10n["a" /* addl10n */])({
   },
   policies: {
     en: "Policies",
-    zht: "服務條款",
-    zhs: "服务条款"
+    zht: "條款",
+    zhs: "条款"
   },
   contact: {
     en: "Contact",
-    zht: "聯繫我們",
-    zhs: "联系我们"
+    zht: "聯繫",
+    zhs: "联系"
+  },
+  mirror: {
+    zht: "免翻牆鏡像",
+    zhs: "免翻墙镜像"
   }
 });
 var header_Header = function Header(props) {
@@ -756,6 +766,7 @@ var header_Header = function Header(props) {
     className: "nav-link"
   }, external_react_default.a.createElement("a", {
     target: "_blank",
+    rel: "noopener",
     href: props.lang === "en" ? "https://github.com/geph-official/geph2/wiki/Policies-and-terms" : "https://github.com/geph-official/geph2/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89",
     style: {
       color: "#19448e"
@@ -767,7 +778,16 @@ var header_Header = function Header(props) {
     style: {
       color: "#19448e"
     }
-  }, localize("contact"))), external_react_default.a.createElement("div", {
+  }, localize("contact"))), props.lang !== "en" && external_react_default.a.createElement("div", {
+    className: "nav-link"
+  }, external_react_default.a.createElement("a", {
+    href: "https://is.gd/getmiwutong",
+    style: {
+      color: "#19448e"
+    },
+    target: "_blank",
+    rel: "noopener"
+  }, localize("mirror"))), external_react_default.a.createElement("div", {
     className: "nav-link"
   }, external_react_default.a.createElement(router_["Link"], {
     to: "/en/",
@@ -933,13 +953,18 @@ Object(l10n["a" /* addl10n */])({
     en: "Download links",
     zht: "下載鏈接",
     zhs: "下载链接"
+  },
+  geph: {
+    en: "Geph",
+    zhs: "迷雾通",
+    zht: "迷霧通"
   }
 });
 // EXTERNAL MODULE: external "react-static"
 var external_react_static_ = __webpack_require__(10);
 
 // EXTERNAL MODULE: external "react-helmet"
-var external_react_helmet_ = __webpack_require__(32);
+var external_react_helmet_ = __webpack_require__(12);
 
 // EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/logo.png
 var logo = __webpack_require__(58);
@@ -967,7 +992,7 @@ var lin32tar = function lin32tar(version) {
 };
 
 var win32exe = function win32exe(version) {
-  return "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-windows-" + version + ".exe";
+  return "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-windows-" + version + "-setup.exe";
 };
 
 var mac64dmg = function mac64dmg(version) {
@@ -985,8 +1010,7 @@ var ANDVER = "3.0.0";
 
 var defaultDownload = function defaultDownload() {
   try {
-    var platform = window.navigator.platform;
-    alert(platform);
+    var platform = window.navigator.userAgent;
 
     if (/Android/.test(platform)) {
       return ["Android APK", androidapk, ANDVER];
@@ -1015,7 +1039,29 @@ var defaultDownload = function defaultDownload() {
     htmlAttributes: {
       lang: Object(l10n["c" /* toLangCode */])(props.lang)
     }
-  }), external_react_default.a.createElement(header_Header, {
+  }, external_react_default.a.createElement("title", null, localize("geph")), external_react_default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1.0"
+  }), external_react_default.a.createElement("meta", {
+    "http-equiv": "x-ua-compatible",
+    content: "ie=edge"
+  }), external_react_default.a.createElement("link", {
+    rel: "alternate",
+    hreflang: "en",
+    href: "https://geph.io/en/"
+  }), external_react_default.a.createElement("link", {
+    rel: "alternate",
+    hreflang: "zh-TW",
+    href: "https://geph.io/zht/"
+  }), external_react_default.a.createElement("link", {
+    rel: "alternate",
+    hreflang: "zh-CN",
+    href: "https://geph.io/zhs/"
+  }), external_react_default.a.createElement("link", {
+    rel: "alternate",
+    hreflang: "zh",
+    href: "https://geph.io/zht/"
+  })), external_react_default.a.createElement(header_Header, {
     lang: props.lang
   }), external_react_default.a.createElement("section", {
     className: "hero"
@@ -1030,6 +1076,7 @@ var defaultDownload = function defaultDownload() {
   }, localize("geph-connects")), external_react_default.a.createElement("a", {
     href: downLinkGen(downVer),
     target: "_blank",
+    rel: "noopener",
     className: "btn btn-primary btn-lg"
   }, localize("download-now")), external_react_default.a.createElement("br", null), external_react_default.a.createElement("small", null, downDesc, "\u2002\xB7\u2002", external_react_default.a.createElement("a", {
     href: "#download-links"
@@ -1125,12 +1172,6 @@ var defaultDownload = function defaultDownload() {
 });
 
 /***/ }),
-/* 8 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/regenerator");
-
-/***/ }),
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1141,7 +1182,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = __webpack_require__(14);
+var _utils = __webpack_require__(16);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
@@ -1161,6 +1202,18 @@ module.exports = require("react-static");
 
 /***/ }),
 /* 11 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/defineProperty");
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-helmet");
+
+/***/ }),
+/* 13 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1168,9 +1221,9 @@ module.exports = require("react-static");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(15);
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(17);
 /* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_3__);
 
  //
@@ -1191,7 +1244,7 @@ function App() {
 /* harmony default export */ __webpack_exports__["a"] = (App);
 
 /***/ }),
-/* 12 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = function (module) {
@@ -1220,19 +1273,19 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 13 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/typeof");
 
 /***/ }),
-/* 14 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof2 = __webpack_require__(13);
+var _typeof2 = __webpack_require__(15);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1392,10 +1445,10 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 };
 
 /***/ }),
-/* 15 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(22)(false);
+exports = module.exports = __webpack_require__(25)(false);
 // Imports
 var urlEscape = __webpack_require__(50);
 var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(51));
@@ -1406,18 +1459,24 @@ var ___CSS_LOADER_URL___4___ = urlEscape(__webpack_require__(55));
 var ___CSS_LOADER_URL___5___ = urlEscape(__webpack_require__(56));
 
 // Module
-exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box !important;\n  color: #000b00 !important;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n\n  background-repeat: no-repeat;\n  background-position: top center;\n  background-size: cover;\n}\n\n* {\n  font-family: \"LFR\", sans-serif;\n}\n\n\nsection {\n  width: 100%;\n  max-width: 100%;\n  padding-top: 40px !important;\n  padding-bottom: 40px !important;\n  box-sizing: border-box !important;\n}\n\n.darken {\n  background-color: #ccc;\n}\n\n.darkback {\n  background-color: #000b00;\n  color: white;\n}\n\n.shade {\n  opacity: 0.6;\n}\n\n.lightback {\n  background-color: #f7f9fc;\n}\n\n.whiteback {\n  background-color: white;\n}\n\n.color-primary {\n  color: #007bbb;\n}\n\n.big-button {\n  font-size: 130%;\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 16px;\n  padding-right: 16px;\n  text-transform: none !important;\n  box-sizing: content-box !important;\n}\n\n.center {\n  text-align: center;\n}\n\n\n.right {\n  text-align: right;\n}\n\na {\n  font-weight: 500;\n}\n\n.cardbrand {\n  height: 24px;\n  padding-right: 10px;\n}\n\n/* NAV */\n\n.nav-header {\n  padding-top: 20px;\n}\n\n.nav-brandwrap {\n  display: flex;\n  align-items: center;\n}\n\n.nav-linkwrap {\n  justify-content: right;\n  align-items: center;\n  display: flex;\n}\n\n.nav-link {\n  font-weight: 500;\n  padding-left: 16px;\n  padding-right: 16px;\n}\n\n.nav-header img {\n  height: 64px;\n  vertical-align: middle;\n  margin-right: 16px;\n}\n\n.nav-brand {\n  font-size: 42px;\n}\n\n/* HERO */\n\n.hero .row {\n  display: flex;\n  align-items: center;\n  text-align: center;\n}\n\n@media (min-width: 768px) {\n  .hero-left {\n    text-align: right;\n  }\n}\n\n.hero-left>h2 {\n  font-weight: 500;\n}\n\n.hero-text {\n  font-size: 105%;\n  padding-top: 8px;\n}\n\n.hero-text>a {\n  font-weight: 500;\n  color: #a0d8ef;\n}\n\n\n@media (min-width: 768px) {\n  .hero-text {\n    font-size: 120%;\n  }\n}\n\n.hero-img {\n  height: 500px;\n  box-shadow: 0px 0px 30px #ccc;\n  margin-top: 40px;\n}\n\n/* others */\n\n.oslogo {\n  width: 48px;\n  height: 48px;\n  margin-bottom: 16px;\n  margin-top: 16px;\n}\n\n/* fonts */\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___1___ + ") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___2___ + ") format(\"truetype\");\n  font-weight: normal;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___3___ + ") format(\"truetype\");\n  font-weight: 500;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___4___ + ") format(\"truetype\");\n  font-weight: bold;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___5___ + ") format(\"truetype\");\n  font-weight: bold;\n  font-style: italic;\n}", ""]);
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box !important;\n  color: #000b00 !important;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n\n  background-repeat: no-repeat;\n  background-position: top center;\n  background-size: cover;\n}\n\n* {\n  font-family: \"LFR\", sans-serif;\n}\n\n:lang(zh-CN) {\n  font-family: \"LFR\", \"Noto Sans CJK SC\", \"Microsoft YaHei\", sans-serif;\n}\n\n:lang(zh-TW) {\n  font-family: \"LFR\", \"Noto Sans CJK TC\", \"Microsoft JhengHei\", sans-serif;\n}\n\nsection {\n  width: 100%;\n  max-width: 100%;\n  padding-top: 40px !important;\n  padding-bottom: 40px !important;\n  box-sizing: border-box !important;\n}\n\n.darken {\n  background-color: #ccc;\n}\n\n.darkback {\n  background-color: #000b00;\n  color: white;\n}\n\n.shade {\n  opacity: 0.6;\n}\n\n.lightback {\n  background-color: #f7f9fc;\n}\n\n.whiteback {\n  background-color: white;\n}\n\n.color-primary {\n  color: #007bbb;\n}\n\n.big-button {\n  font-size: 130%;\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 16px;\n  padding-right: 16px;\n  text-transform: none !important;\n  box-sizing: content-box !important;\n}\n\n.center {\n  text-align: center;\n}\n\n.right {\n  text-align: right;\n}\n\na {\n  font-weight: 500;\n}\n\n.cardbrand {\n  height: 24px;\n  padding-right: 10px;\n}\n\n/* NAV */\n\n.nav-header {\n  padding-top: 20px;\n}\n\n.nav-brandwrap {\n  display: flex;\n  align-items: center;\n}\n\n.nav-linkwrap {\n  justify-content: right;\n  align-items: center;\n  display: flex;\n}\n\n.nav-link {\n  font-weight: 500;\n  padding-left: 10px;\n  padding-right: 16px;\n}\n\n.nav-header img {\n  height: 64px;\n  vertical-align: middle;\n  margin-right: 16px;\n}\n\n.nav-brand {\n  font-size: 42px;\n}\n\n/* HERO */\n\n.hero .row {\n  display: flex;\n  align-items: center;\n  text-align: center;\n}\n\n@media (min-width: 768px) {\n  .hero-left {\n    text-align: right;\n  }\n}\n\n.hero-left > h2 {\n  font-weight: 500;\n}\n\n.hero-text {\n  font-size: 105%;\n  padding-top: 8px;\n}\n\n.hero-text > a {\n  font-weight: 500;\n  color: #a0d8ef;\n}\n\n@media (min-width: 768px) {\n  .hero-text {\n    font-size: 120%;\n  }\n}\n\n.hero-img {\n  height: 500px;\n  box-shadow: 0px 0px 30px #ccc;\n  margin-top: 40px;\n}\n\n/* others */\n\n.oslogo {\n  width: 48px;\n  height: 48px;\n  margin-bottom: 16px;\n  margin-top: 16px;\n}\n\n/* fonts */\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___1___ + ") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___2___ + ") format(\"truetype\");\n  font-weight: normal;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___3___ + ") format(\"truetype\");\n  font-weight: 500;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___4___ + ") format(\"truetype\");\n  font-weight: bold;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___5___ + ") format(\"truetype\");\n  font-weight: bold;\n  font-style: italic;\n}\n", ""]);
 
 
 
 /***/ }),
-/* 16 */
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 17 */
+/* 19 */
+/***/ (function(module, exports) {
+
+module.exports = require("axios");
+
+/***/ }),
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1433,25 +1492,25 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 18 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = require("/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser");
 
 /***/ }),
-/* 19 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(__dirname) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "notFoundTemplate", function() { return notFoundTemplate; });
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
 /* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
+/* harmony import */ var _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
 /* harmony import */ var _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -1481,7 +1540,7 @@ var universalOptions = {
 var t_0 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 23, 7))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 26, 7))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1489,7 +1548,7 @@ var t_0 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_comp
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(23);
+    return /*require.resolve*/(26);
   },
   chunkName: function chunkName() {
     return "home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404";
@@ -1499,7 +1558,7 @@ t_0.template = '/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/l
 var t_1 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx */).then(__webpack_require__.bind(null, 24))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx */).then(__webpack_require__.bind(null, 27))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1507,7 +1566,7 @@ var t_1 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_comp
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(24);
+    return /*require.resolve*/(27);
   },
   chunkName: function chunkName() {
     return "home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx";
@@ -1517,7 +1576,7 @@ t_1.template = '/home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx';
 var t_2 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx */).then(__webpack_require__.bind(null, 25))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1525,7 +1584,7 @@ var t_2 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_comp
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(25);
+    return /*require.resolve*/(28);
   },
   chunkName: function chunkName() {
     return "home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx";
@@ -1535,7 +1594,7 @@ t_2.template = '/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx';
 var t_3 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx */).then(__webpack_require__.bind(null, 27))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1543,7 +1602,7 @@ var t_3 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_comp
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(27);
+    return /*require.resolve*/(30);
   },
   chunkName: function chunkName() {
     return "home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx";
@@ -1553,7 +1612,7 @@ t_3.template = '/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx';
 var t_4 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1561,7 +1620,7 @@ var t_4 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_comp
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(28);
+    return /*require.resolve*/(31);
   },
   chunkName: function chunkName() {
     return "home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx";
@@ -1571,7 +1630,7 @@ t_4.template = '/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx';
 var t_5 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx */).then(__webpack_require__.bind(null, 29))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1579,7 +1638,7 @@ var t_5 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_comp
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(29);
+    return /*require.resolve*/(32);
   },
   chunkName: function chunkName() {
     return "home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx";
@@ -1600,19 +1659,19 @@ var notFoundTemplate = "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
-/* 20 */
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 21 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 22 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1703,13 +1762,13 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 23 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports = require("/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404");
 
 /***/ }),
-/* 24 */
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1722,14 +1781,14 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 25 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
@@ -1739,20 +1798,20 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 26 */
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports = require("bootstrap/dist/css/bootstrap.min.css");
 
 /***/ }),
-/* 27 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
@@ -1762,14 +1821,14 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 28 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
@@ -1779,18 +1838,22 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 29 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
+// EXTERNAL MODULE: external "@babel/runtime/helpers/defineProperty"
+var defineProperty_ = __webpack_require__(11);
+var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
+
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(6);
+var slicedToArray_ = __webpack_require__(7);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "@babel/runtime/regenerator"
-var regenerator_ = __webpack_require__(8);
+var regenerator_ = __webpack_require__(1);
 var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator_);
 
 // EXTERNAL MODULE: external "react"
@@ -1798,13 +1861,13 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/app.css
-var app = __webpack_require__(15);
+var app = __webpack_require__(17);
 
 // EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.css
 var PlanPicker = __webpack_require__(64);
 
 // EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/common/l10n.js
-var l10n = __webpack_require__(3);
+var l10n = __webpack_require__(4);
 
 // CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.l10n.jsx
 
@@ -1835,49 +1898,85 @@ Object(l10n["a" /* addl10n */])({
     zht: "免費",
     zhs: "免费"
   },
+  "extend-blurb": {
+    en: "You may purchase or extend a Plus account below:",
+    zhs: "可在下方购买/续订Plus",
+    zht: "可在下方購買/續訂Plus"
+  },
+  "subscription-blurb": {
+    en: function en(onClick) {
+      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "Your subscription automatically renews when it expires.", " ", external_react_default.a.createElement("button", {
+        onClick: onClick,
+        className: "btn btn-secondary btn-sm"
+      }, "Cancel"));
+    },
+    zht: function zht(onClick) {
+      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u5C07\u5728\u904E\u671F\u6642\u81EA\u52D5\u7E8C\u8A02\u8FF7\u9727\u901APlus\u3002", " ", external_react_default.a.createElement("button", {
+        onClick: onClick,
+        className: "btn btn-secondary btn-sm"
+      }, "\u53D6\u6D88"));
+    },
+    zhs: function zhs(onClick) {
+      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u5C06\u5728\u8FC7\u671F\u65F6\u81EA\u52A8\u7EED\u8BA2\u8FF7\u96FE\u901APlus\u3002", " ", external_react_default.a.createElement("button", {
+        onClick: onClick,
+        className: "btn btn-secondary btn-sm"
+      }, "\u53D6\u6D88"));
+    }
+  },
   "flat-rate-blurb": {
     en: external_react_default.a.createElement(external_react_default.a.Fragment, null, "We offer a flat rate of", " ", external_react_default.a.createElement("b", null, "\u20AC5/month regardless of subscription length"), ". ", external_react_default.a.createElement("br", null), "Please choose the length most convenient for you."),
-    zht: external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u7121\u8AD6\u8A02\u95B1\u6642\u9593\u9577\u77ED\uFF0C", external_react_default.a.createElement("b", null, "\u6BCF\u6708\u7684\u8CBB\u7387\u56FA\u5B9A\u70BA\u20AC5\u3002"), external_react_default.a.createElement("br", null), "\u8ACB\u9078\u64C7\u5C0D\u60A8\u6700\u65B9\u4FBF\u7684\u6642\u9577\u3002")
+    zht: external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u7121\u8AD6\u8A02\u95B1\u6642\u9593\u9577\u77ED\uFF0C", external_react_default.a.createElement("b", null, "\u6BCF\u6708\u7684\u8CBB\u7387\u56FA\u5B9A\u70BA\u20AC5\u3002"), external_react_default.a.createElement("br", null), "\u8ACB\u9078\u64C7\u5C0D\u60A8\u6700\u65B9\u4FBF\u7684\u6642\u9577\u3002"),
+    zhs: external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u65E0\u8BBA\u8BA2\u9605\u65F6\u95F4\u957F\u77ED\uFF0C", external_react_default.a.createElement("b", null, "\u6BCF\u6708\u7684\u8D39\u7387\u56FA\u5B9A\u4E3A\u20AC5\u3002 "), external_react_default.a.createElement("br", null), "\u8BF7\u9009\u62E9\u5BF9\u60A8\u6700\u65B9\u4FBF\u7684\u65F6\u957F\u3002")
   },
   days: {
     en: "days",
-    zht: "天"
+    zht: "天",
+    zhs: "天"
   },
   fee: {
     en: "fee",
-    zht: "手續費"
+    zht: "手續費",
+    zhs: "手续费"
   },
   step1: {
     en: "Step 1",
-    zht: "第一步"
+    zht: "第一步",
+    zhs: "第一步"
   },
   step2: {
     en: "Step 2",
-    zht: "第二步"
+    zht: "第二步",
+    zhs: "第二步"
   },
   "choose-a-plan-length": {
     en: "Choose a plan length",
-    zht: "選擇時長"
+    zht: "選擇時長",
+    zhs: "选择时长"
   },
   month: {
     en: "month",
-    zht: "個月"
+    zht: "個月",
+    zhs: "个月"
   },
   months: {
     en: "months",
-    zht: "個月"
+    zht: "個月",
+    zhs: "个月"
   },
   "pay-for-plan": {
     en: "Pay for plan",
-    zht: "付款"
+    zht: "付款",
+    zhs: "付款"
   },
   "credit-debit": {
     en: "Credit/debit cards",
-    zht: "國際信用卡/借記卡"
+    zht: "國際信用卡/借記卡",
+    zhs: "国际信用卡/借记卡"
   },
   alipay: {
     en: "Alipay",
-    zht: "支付寶"
+    zht: "支付寶",
+    zhs: "支付宝"
   },
   "for-X-months": {
     en: function en(x) {
@@ -1885,19 +1984,25 @@ Object(l10n["a" /* addl10n */])({
     },
     zht: function zht(x) {
       return "（" + x + "個月）";
+    },
+    zhs: function zhs(x) {
+      return "（" + x + "个月）";
     }
   },
   "discount-code": {
     en: "Discount code",
-    zht: "優惠碼"
+    zht: "優惠碼",
+    zhs: "优惠码"
   },
   "check-out": {
-    en: "Check out",
-    zht: "結賬"
+    en: "Pay now",
+    zht: "支付",
+    zhs: "支付"
   },
   "automatically-renew": {
     en: "Automatically renew subscription",
-    zht: "自動續訂"
+    zht: "自動續訂",
+    zhs: "自动续订"
   },
   "automatically-renew-blurb": {
     en: function en(euroCents, months) {
@@ -1905,6 +2010,9 @@ Object(l10n["a" /* addl10n */])({
     },
     zht: function zht(euroCents, months) {
       return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("b", null, "\u6BCF", months * 30, "\u5929\u81EA\u52D5\u6263\u8CBB\u20AC", (euroCents / 100).toFixed(2)), "\uFF0C\u76F4\u5230\u60A8\u53D6\u6D88");
+    },
+    zhs: function zhs(euroCents, months) {
+      return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("b", null, "\u6BCF", months * 30, "\u5929\u81EA\u52A8\u6263\u8D39\u20AC", (euroCents / 100).toFixed(2)), "\uFF0C\u76F4\u5230\u60A8\u53D6\u6D88");
     }
   },
   "no-renew-blurb": {
@@ -1913,15 +2021,21 @@ Object(l10n["a" /* addl10n */])({
     },
     zht: function zht(months) {
       return external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u82E5\u4E0D\u624B\u52D5\u7E8C\u8CBB\uFF0C\u5C07\u65BC", external_react_default.a.createElement("b", null, months * 30, "\u5929"), "\u5F8C\u81EA\u52D5\u53D6\u6D88");
+    },
+    zhs: function zhs(months) {
+      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u82E5\u4E0D\u624B\u52A8\u7EED\u8D39\uFF0C\u5C06\u4E8E", external_react_default.a.createElement("b", null, months * 30, "\u5929"), "\u540E\u81EA\u52A8\u53D6\u6D88");
     }
   }
 });
 // EXTERNAL MODULE: external "bootstrap/dist/css/bootstrap.min.css"
-var bootstrap_min_css_ = __webpack_require__(26);
+var bootstrap_min_css_ = __webpack_require__(29);
 
 // EXTERNAL MODULE: external "axios"
-var external_axios_ = __webpack_require__(33);
+var external_axios_ = __webpack_require__(19);
 var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
+
+// EXTERNAL MODULE: external "react-helmet"
+var external_react_helmet_ = __webpack_require__(12);
 
 // CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx
 
@@ -1933,6 +2047,9 @@ var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_)
 
 
 
+
+
+var STRIPEKEY = "pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY";
 
 var toCNY = function toCNY(eur) {
   return 7.8 * eur;
@@ -2001,20 +2118,124 @@ var PlanPicker_getUserInfo = function getUserInfo(uname, pwd) {
   });
 };
 
+var PlanPicker_cancelStripe = function cancelStripe(uname, pwd) {
+  var response;
+  return regenerator_default.a.async(function cancelStripe$(_context2) {
+    while (1) {
+      switch (_context2.prev = _context2.next) {
+        case 0:
+          _context2.next = 2;
+          return regenerator_default.a.awrap(external_axios_default.a.get("/billing/stripe-cancel?" + toQueryString({
+            username: uname,
+            password: pwd
+          })));
+
+        case 2:
+          response = _context2.sent;
+          return _context2.abrupt("return", response.data);
+
+        case 4:
+        case "end":
+          return _context2.stop();
+      }
+    }
+  });
+};
+
+var getStripeID = function getStripeID(months, autoRenew) {
+  if (months === 1) {
+    return autoRenew ? "plan_GIE5voityP0f9u" : "sku_GIE7Nx2J7ZhXI8";
+  } else if (months === 3) {
+    return autoRenew ? "plan_GIE5eNXYZsLlMX" : "sku_GIE8CZ6qSEzd0t";
+  } else {
+    return autoRenew ? "plan_GIE5JhURW2fFND" : "sku_GIE8iScbw4grMT";
+  }
+};
+
 var PlanPicker_Payer = function Payer(props) {
   var _useState = Object(external_react_["useState"])("card"),
       _useState2 = slicedToArray_default()(_useState, 2),
       payMethod = _useState2[0],
       setPayMethod = _useState2[1];
 
-  var _useState3 = Object(external_react_["useState"])(true),
+  var euroCents = 500 * props.months * (payMethod === "alipay" ? 1.05 : 1);
+  var months = props.months;
+  var renewable = !(props.userInfo && props.userInfo.expires) && payMethod !== "alipay";
+
+  var _useState3 = Object(external_react_["useState"])(renewable),
       _useState4 = slicedToArray_default()(_useState3, 2),
       autoRenew = _useState4[0],
       setAutoRenew = _useState4[1];
 
-  var euroCents = 500 * props.months * (payMethod === "alipay" ? 1.05 : 1);
-  var months = props.months;
-  return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("nav", {
+  var stripeCheckout = function stripeCheckout() {
+    var _ref2;
+
+    var stripe, _ref, error;
+
+    return regenerator_default.a.async(function stripeCheckout$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            stripe = window.Stripe(STRIPEKEY);
+            _context3.next = 3;
+            return regenerator_default.a.awrap(stripe.redirectToCheckout({
+              items: [(_ref2 = {}, defineProperty_default()(_ref2, autoRenew ? "plan" : "sku", getStripeID(months, autoRenew)), defineProperty_default()(_ref2, "quantity", 1), _ref2)],
+              successUrl: window.location.href,
+              cancelUrl: window.location.href,
+              customerEmail: props.userInfo.username + "@receipts.geph.io"
+            }));
+
+          case 3:
+            _ref = _context3.sent;
+            error = _ref.error;
+
+            if (error) {
+              alert(error);
+            }
+
+          case 6:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    });
+  };
+
+  var checkout = function checkout() {
+    return regenerator_default.a.async(function checkout$(_context4) {
+      while (1) {
+        switch (_context4.prev = _context4.next) {
+          case 0:
+            if (!(payMethod === "card")) {
+              _context4.next = 5;
+              break;
+            }
+
+            _context4.next = 3;
+            return regenerator_default.a.awrap(stripeCheckout());
+
+          case 3:
+            _context4.next = 6;
+            break;
+
+          case 5:
+            window.location.href = "/billing/alipay?" + toQueryString({
+              username: props.userInfo.username,
+              password: props.userInfo.password,
+              months: months
+            });
+
+          case 6:
+          case "end":
+            return _context4.stop();
+        }
+      }
+    });
+  };
+
+  return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement(external_react_helmet_["Helmet"], null, external_react_default.a.createElement("script", {
+    src: "https://js.stripe.com/v3/"
+  })), external_react_default.a.createElement("nav", {
     className: "nav nav-tabs"
   }, external_react_default.a.createElement("a", {
     className: payMethod === "card" ? "nav-link active" : "nav-link",
@@ -2066,23 +2287,24 @@ var PlanPicker_Payer = function Payer(props) {
       fontFamily: "monospace",
       fontSize: "80%"
     },
-    onBlur: function onBlur(_) {
-      return alert("TODO: check discount");
-    }
+    disabled: true
   })), external_react_default.a.createElement("button", {
     type: "button",
-    className: "btn btn-primary btn-lg mb-3 mt-2",
+    className: "btn btn-primary mb-3 mt-2",
     onClick: function onClick(_) {
-      return alert("method=" + payMethod + "; months=" + months);
+      return checkout();
     }
   }, props.localize("check-out")), external_react_default.a.createElement("div", {
-    className: "form-check"
+    className: "form-check",
+    style: {
+      visibility: renewable ? "visible" : "hidden"
+    }
   }, external_react_default.a.createElement("input", {
     className: "form-check-input",
     type: "checkbox",
     id: "inputAutoRenew",
     checked: autoRenew,
-    disabled: payMethod === "alipay",
+    disabled: !renewable,
     onClick: function onClick(_) {
       return setAutoRenew(!autoRenew);
     }
@@ -2091,6 +2313,12 @@ var PlanPicker_Payer = function Payer(props) {
     htmlFor: "inputAutoRenew"
   }, "\xA0", props.localize("automatically-renew"))), external_react_default.a.createElement("small", null, autoRenew ? props.localize("automatically-renew-blurb")(euroCents, months) : props.localize("no-renew-blurb")(months)))));
 };
+
+function sleep(ms) {
+  return new Promise(function (resolve) {
+    return setTimeout(resolve, ms);
+  });
+}
 
 var PlanPicker_Planner = function Planner(props) {
   var _useState5 = Object(external_react_["useState"])(1),
@@ -2103,47 +2331,66 @@ var PlanPicker_Planner = function Planner(props) {
       userInfo = _useState8[0],
       setUserInfo = _useState8[1];
 
-  var localize = Object(l10n["b" /* l10n */])("en");
+  var getLang = function getLang() {
+    try {
+      if (navigator.language === "zh-CN") {
+        return "zhs";
+      }
+
+      if (/zh/.test(navigator.language)) {
+        return "zht";
+      }
+
+      return "en";
+    } catch (e) {
+      return "en";
+    }
+  };
+
+  var localize = Object(l10n["b" /* l10n */])(getLang());
 
   try {
     var urlParams = new URLSearchParams(window.location.search);
 
     var toGo = function toGo() {
       var info;
-      return regenerator_default.a.async(function toGo$(_context2) {
+      return regenerator_default.a.async(function toGo$(_context5) {
         while (1) {
-          switch (_context2.prev = _context2.next) {
+          switch (_context5.prev = _context5.next) {
             case 0:
-              _context2.prev = 0;
-              _context2.next = 3;
+              _context5.prev = 0;
+              _context5.next = 3;
               return regenerator_default.a.awrap(PlanPicker_getUserInfo(urlParams.get("uname"), urlParams.get("pwd")));
 
             case 3:
-              info = _context2.sent;
+              info = _context5.sent;
+              console.log("INFO");
+              console.log(info);
+              info.password = urlParams.get("pwd");
               setUserInfo(info);
-              _context2.next = 12;
+              _context5.next = 13;
               break;
 
-            case 7:
-              _context2.prev = 7;
-              _context2.t0 = _context2["catch"](0);
-              alert(_context2.t0);
-              _context2.next = 12;
-              return regenerator_default.a.awrap(toGo());
+            case 10:
+              _context5.prev = 10;
+              _context5.t0 = _context5["catch"](0);
+              console.log(_context5.t0);
 
-            case 12:
+            case 13:
             case "end":
-              return _context2.stop();
+              return _context5.stop();
           }
         }
-      }, null, null, [[0, 7]]);
+      }, null, null, [[0, 10]]);
     };
 
-    toGo();
+    if (!userInfo) {
+      toGo();
+    }
   } catch (e) {}
 
   return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("section", {
-    className: "lightback"
+    className: "whiteback"
   }, external_react_default.a.createElement("div", {
     className: "container"
   }, external_react_default.a.createElement("div", {
@@ -2164,10 +2411,35 @@ var PlanPicker_Planner = function Planner(props) {
     className: "col-md"
   }, external_react_default.a.createElement("b", null, localize("subscription")), " ", external_react_default.a.createElement("br", null), userInfo && (userInfo.type === "free" ? localize("free") : "Plus")), userInfo && userInfo.expires && external_react_default.a.createElement("div", {
     className: "col-md"
-  }, external_react_default.a.createElement("b", null, localize("expiry")), " ", external_react_default.a.createElement("br", null), new Date(userInfo.expires * 1000).toUTCString()), external_react_default.a.createElement("div", {
+  }, external_react_default.a.createElement("b", null, localize("expires")), " ", external_react_default.a.createElement("br", null), new Date(userInfo.expires * 1000).toISOString().substring(0, 10)), external_react_default.a.createElement("div", {
     className: "col-md-2"
-  })))), external_react_default.a.createElement("section", {
-    className: "whiteback"
+  })), external_react_default.a.createElement("div", {
+    className: "row"
+  }, external_react_default.a.createElement("div", {
+    className: "col-md-2"
+  }), external_react_default.a.createElement("div", {
+    className: "col"
+  }, external_react_default.a.createElement("hr", null), external_react_default.a.createElement("p", null, userInfo && (userInfo.subscription ? localize("subscription-blurb")(function _callee(_) {
+    return regenerator_default.a.async(function _callee$(_context6) {
+      while (1) {
+        switch (_context6.prev = _context6.next) {
+          case 0:
+            _context6.next = 2;
+            return regenerator_default.a.awrap(PlanPicker_cancelStripe(userInfo.username, userInfo.password));
+
+          case 2:
+            window.location.reload();
+
+          case 3:
+          case "end":
+            return _context6.stop();
+        }
+      }
+    });
+  }) : localize("extend-blurb")))), external_react_default.a.createElement("div", {
+    className: "col-md-2"
+  })))), userInfo && !userInfo.subscription && external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("section", {
+    className: "lightback"
   }, external_react_default.a.createElement("div", {
     className: "container"
   }, external_react_default.a.createElement("div", {
@@ -2191,7 +2463,7 @@ var PlanPicker_Planner = function Planner(props) {
   }), external_react_default.a.createElement(PlanPicker_Selector, {
     localize: localize,
     selected: months === 3,
-    description: "2 " + localize("months"),
+    description: "3 " + localize("months"),
     months: 3,
     onClick: function onClick(_) {
       return setMonths(3);
@@ -2219,38 +2491,21 @@ var PlanPicker_Planner = function Planner(props) {
   }, external_react_default.a.createElement("h3", null, external_react_default.a.createElement("span", {
     className: "badge badge-secondary"
   }, localize("step2")), " ", "\xA0 ", localize("pay-for-plan")), external_react_default.a.createElement(PlanPicker_Payer, {
+    userInfo: userInfo,
     localize: localize,
     months: months
   })), external_react_default.a.createElement("div", {
     className: "col-md-2"
-  })))));
+  }))))));
 };
 
 /* harmony default export */ var billing_PlanPicker = __webpack_exports__["default"] = (PlanPicker_Planner);
 
 /***/ }),
-/* 30 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-hot-loader");
-
-/***/ }),
-/* 31 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/defineProperty");
-
-/***/ }),
-/* 32 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-helmet");
-
-/***/ }),
 /* 33 */
 /***/ (function(module, exports) {
 
-module.exports = require("axios");
+module.exports = require("react-hot-loader");
 
 /***/ }),
 /* 34 */
@@ -2269,19 +2524,19 @@ module.exports = __webpack_require__(42);
 /* WEBPACK VAR INJECTION */(function(module) {
 /* eslint-disable import/no-dynamic-require */
 
-var plugins = __webpack_require__(17)["default"];
+var plugins = __webpack_require__(20)["default"];
 
-var _require = __webpack_require__(18),
+var _require = __webpack_require__(21),
     registerPlugins = _require.registerPlugins;
 
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
   module.hot.accept("/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-browser-plugins.js", function () {
-    registerPlugins(__webpack_require__(17)["default"]);
+    registerPlugins(__webpack_require__(20)["default"]);
   });
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(12)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(14)(module)))
 
 /***/ }),
 /* 36 */
@@ -2291,10 +2546,10 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */(function(module) {
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(18),
+var _require = __webpack_require__(21),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(19),
+var _require2 = __webpack_require__(22),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
@@ -2302,14 +2557,14 @@ registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
   module.hot.accept("/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js", function () {
-    var _require3 = __webpack_require__(19),
+    var _require3 = __webpack_require__(22),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
 
     registerTemplates(templates, notFoundTemplate);
   });
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(12)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(14)(module)))
 
 /***/ }),
 /* 37 */
@@ -2339,7 +2594,7 @@ var _extends = Object.assign || function (target) {
 
 exports["default"] = requireUniversalModule;
 
-var _utils = __webpack_require__(14);
+var _utils = __webpack_require__(16);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -2560,7 +2815,7 @@ webpackContext.id = 38;
 "use strict";
 
 
-var _typeof = __webpack_require__(13);
+var _typeof = __webpack_require__(15);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2588,7 +2843,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(20);
+var _propTypes = __webpack_require__(23);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -2680,11 +2935,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(21);
+var _hoistNonReactStatics = __webpack_require__(24);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _index = __webpack_require__(4);
+var _index = __webpack_require__(5);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -2828,11 +3083,11 @@ module.exports = require("/home/miyuruasuka/Geph2/next.geph.io/node_modules/reac
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(16);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(30);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(33);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(11);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(13);
 
 
  // Your top level component
@@ -2998,7 +3253,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(22)(false);
+exports = module.exports = __webpack_require__(25)(false);
 // Module
 exports.push([module.i, "h3 {\n  padding-bottom: 20px;\n}\n", ""]);
 

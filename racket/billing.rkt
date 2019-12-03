@@ -3,15 +3,19 @@
          db/util/datetime
          "paymentwall.rkt"
          "paymentwall-secrets.rkt"
+         "stripe-secrets.rkt"
          web-server/templates
          racket/random
          racket/date
          json
          web-server/http/response-structs
+         racket/system
          file/sha1)
 (provide serve-paymentwall-pingback
          serve-alipay
-         serve-userinfo)
+         serve-userinfo
+         serve-stripe-cancel
+         serve-stripe-webhook)
 
 ;; db connection for postgres
 (define db-conn
@@ -39,6 +43,19 @@
                         "select id from users where username=$1" username)
        [(list (vector uid)) uid]))))
 
+(define (register-subscription username subid)
+  (in-transaction
+   (lambda()
+     (query-exec db-conn
+                 "insert into stripeSubs (username, subscription) values ($1, $2)
+on conflict (username) do update set
+subscription = excluded.subscription" username subid))))
+
+(define (extend-subscription username months)
+  (let ([uid (username->uid username)])
+    (in-transaction
+     (lambda()
+       (pay-invoice (make-invoice uid months (* months 500) "EUR"))))))
 
 
 (define (make-invoice uid months price code)
@@ -53,9 +70,11 @@
                      0
                      #f)))
   (define base-seconds
-    (match (query-rows db-conn
-                       "SELECT expires FROM subscriptions WHERE id = $1" uid)
-      [(list (vector expires)) (date->seconds (sql-datetime->srfi-date expires))]
+    (match (query-rows
+            db-conn
+            "SELECT expires FROM subscriptions WHERE id = $1" uid)
+      [(list (vector expires))
+       (date->seconds (sql-datetime->srfi-date expires))]
       [else (current-seconds)]))
   (query-value
    db-conn
@@ -67,7 +86,7 @@ VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING InvoiceID"
    code
    uid
    "plus"
-   (seconds->sql-timestamp (+ (* months 2629800) base-seconds))))
+   (seconds->sql-timestamp (+ 86400 (* months 2592000) base-seconds))))
 
 (define (pay-invoice invoice-id)
   (query-exec
@@ -103,14 +122,72 @@ plan = excluded.plan, expires = excluded.expires"
                  (list (make-header #"Cache-Control" #"no-store"))
                  '(#"OK")))
 
+(define (serve-stripe-webhook req secret)
+  (unless (equal? secret stripe-webhook-secret)
+    (error "bad secret"))
+  (let ([x (bytes->jsexpr (request-post-data/raw req))])
+    (match (hash-ref x 'type)
+      ["invoice.payment_succeeded"
+       (define inner-data (hash-ref (hash-ref x 'data) 'object))
+       (define customer (car (string-split (hash-ref inner-data 'customer_email) "@")))
+       (define amount-paid (hash-ref inner-data 'amount_paid))
+       (extend-subscription customer (exact-round (/ amount-paid 500)))
+       (printf "extending ~a by ~a months \n" customer (exact-round (/ amount-paid 500)))]
+      ["checkout.session.completed"
+       (define inner-data (hash-ref (hash-ref x 'data) 'object))
+       (define customer (car (string-split (hash-ref inner-data 'customer_email) "@")))
+       (match (hash-ref inner-data 'mode)
+         ["subscription" (define subscription-id (hash-ref inner-data 'subscription))
+                         (printf "registering subscription ~a :: ~a\n" customer subscription-id)
+                         (register-subscription customer subscription-id)]
+         ["payment" (define customer (car (string-split (hash-ref inner-data 'customer_email) "@")))
+                    (define amount-paid (hash-ref (car (hash-ref inner-data 'display_items))
+                                                  'amount))
+                    (printf "extending ~a by ~a months \n" customer (exact-round (/ amount-paid 500)))
+                    (extend-subscription customer (exact-round (/ amount-paid 500)))]
+         [_ (void)])]
+      [_ (void)]))
+                         
+  (response/full 200
+                 #"OK"
+                 (current-seconds)
+                 TEXT/HTML-MIME-TYPE
+                 (list (make-header #"Cache-Control" #"no-store"))
+                 empty))
+
+(define (serve-stripe-cancel req)
+  (define user (extract-binding/single 'username (request-bindings req)))
+  (with-output-to-string
+    (lambda()
+      (in-transaction
+       (lambda()
+         (match (query-rows db-conn
+                            "select subscription from stripeSubs where username = $1"
+                            user)
+           [(list (vector ss))
+            (system (format
+                     "curl https://api.stripe.com/v1/subscriptions/~a -u ~a: -X POST -d cancel_at_period_end=true
+"
+                     ss
+                     stripe-sk))
+            (query-exec db-conn "delete from stripeSubs where username = $1" user)])))))
+  (response/full 200
+                 #"OK"
+                 (current-seconds)
+                 TEXT/HTML-MIME-TYPE
+                 (list (make-header #"Cache-Control" #"no-store"))
+                 '(#"OK")))
 
 (define (serve-userinfo req)
   (define username (extract-binding/single 'username (request-bindings req)))
   (let ([rows (in-transaction
                (lambda()
-                 (query-rows db-conn
+                 (append
+                  (query-rows db-conn
                              "select extract(epoch from expires) from subscriptions where id = $1"
-                             (username->uid username))))])
+                             (username->uid username))
+                  (query-rows db-conn
+                              "select subscription from stripeSubs where username = $1" username))))])
     (response/full 200
                    #"OK"
                    (current-seconds)
@@ -121,7 +198,14 @@ plan = excluded.plan, expires = excluded.expires"
                             [(list (vector expiry))
                              (hash 'username username
                                    'type "paid"
-                                   'expires expiry)]
+                                   'expires expiry
+                                   'subscription #f)]
+                            [(list (vector expiry)
+                                   (vector stripeSub))
+                             (hash 'username username
+                                   'type "paid"
+                                   'expires expiry
+                                   'subscription #t)]
                             [_ (hash 'username username
                                      'type "free")]))))))
 
@@ -134,7 +218,7 @@ plan = excluded.plan, expires = excluded.expires"
   (define months (string->number (extract-binding/single 'months bindings)))
   (displayln months)
   (define-values (price code)
-    (values (* months 5) "EUR"))
+    (values (* months 5.25) "EUR"))
   (define invoice-id (make-invoice uid months (exact-round (* price 100)) code))
   (define payment-url
     (widget-url #:currency-code code

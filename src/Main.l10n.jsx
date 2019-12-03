@@ -275,5 +275,10 @@ addl10n({
     en: "Download links",
     zht: "下載鏈接",
     zhs: "下载链接"
+  },
+  geph: {
+    en: "Geph",
+    zhs: "迷雾通",
+    zht: "迷霧通"
   }
 });

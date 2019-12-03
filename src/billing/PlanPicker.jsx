@@ -6,6 +6,9 @@ import { addl10n, l10n } from "../common/l10n";
 import "./PlanPicker.l10n";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
+import { Helmet } from "react-helmet";
+
+const STRIPEKEY = "pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY";
 
 const toCNY = eur => 7.8 * eur;
 const toUSD = eur => 1.1 * eur;
@@ -58,13 +61,70 @@ const getUserInfo = async (uname, pwd) => {
   return response.data;
 };
 
+const cancelStripe = async (uname, pwd) => {
+  const response = await axios.get(
+    "/billing/stripe-cancel?" +
+      toQueryString({
+        username: uname,
+        password: pwd
+      })
+  );
+  return response.data;
+};
+
+const getStripeID = (months, autoRenew) => {
+  if (months === 1) {
+    return autoRenew ? "plan_GIE5voityP0f9u" : "sku_GIE7Nx2J7ZhXI8";
+  } else if (months === 3) {
+    return autoRenew ? "plan_GIE5eNXYZsLlMX" : "sku_GIE8CZ6qSEzd0t";
+  } else {
+    return autoRenew ? "plan_GIE5JhURW2fFND" : "sku_GIE8iScbw4grMT";
+  }
+};
+
 const Payer = props => {
   const [payMethod, setPayMethod] = useState("card");
-  const [autoRenew, setAutoRenew] = useState(true);
   const euroCents = 500 * props.months * (payMethod === "alipay" ? 1.05 : 1);
   const months = props.months;
+  const renewable =
+    !(props.userInfo && props.userInfo.expires) && payMethod !== "alipay";
+  const [autoRenew, setAutoRenew] = useState(renewable);
+
+  const stripeCheckout = async () => {
+    const stripe = window.Stripe(STRIPEKEY);
+    const { error } = await stripe.redirectToCheckout({
+      items: [
+        {
+          [autoRenew ? "plan" : "sku"]: getStripeID(months, autoRenew),
+          quantity: 1
+        }
+      ],
+      successUrl: window.location.href,
+      cancelUrl: window.location.href,
+      customerEmail: props.userInfo.username + "@receipts.geph.io"
+    });
+    if (error) {
+      alert(error);
+    }
+  };
+  const checkout = async () => {
+    if (payMethod === "card") {
+      await stripeCheckout();
+    } else {
+      window.location.href =
+        "/billing/alipay?" +
+        toQueryString({
+          username: props.userInfo.username,
+          password: props.userInfo.password,
+          months: months
+        });
+    }
+  };
   return (
     <>
+      <Helmet>
+        <script src="https://js.stripe.com/v3/"></script>
+      </Helmet>
       <nav className="nav nav-tabs">
         <a
           className={payMethod === "card" ? "nav-link active" : "nav-link"}
@@ -125,23 +185,26 @@ const Payer = props => {
                 fontFamily: "monospace",
                 fontSize: "80%"
               }}
-              onBlur={_ => alert("TODO: check discount")}
+              disabled
             />
           </div>
           <button
             type="button"
-            className="btn btn-primary btn-lg mb-3 mt-2"
-            onClick={_ => alert("method=" + payMethod + "; months=" + months)}
+            className="btn btn-primary mb-3 mt-2"
+            onClick={_ => checkout()}
           >
             {props.localize("check-out")}
           </button>
-          <div className="form-check">
+          <div
+            className="form-check"
+            style={{ visibility: renewable ? "visible" : "hidden" }}
+          >
             <input
               className="form-check-input"
               type="checkbox"
               id="inputAutoRenew"
               checked={autoRenew}
-              disabled={payMethod === "alipay"}
+              disabled={!renewable}
               onClick={_ => setAutoRenew(!autoRenew)}
             />
             <label className="form-check-label" htmlFor="inputAutoRenew">
@@ -159,10 +222,27 @@ const Payer = props => {
   );
 };
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 const Planner = props => {
   const [months, setMonths] = useState(1);
   const [userInfo, setUserInfo] = useState(false);
-  const localize = l10n("en");
+  const getLang = () => {
+    try {
+      if (navigator.language === "zh-CN") {
+        return "zhs";
+      }
+      if (/zh/.test(navigator.language)) {
+        return "zht";
+      }
+      return "en";
+    } catch (e) {
+      return "en";
+    }
+  };
+  const localize = l10n(getLang());
   try {
     const urlParams = new URLSearchParams(window.location.search);
     const toGo = async () => {
@@ -171,17 +251,22 @@ const Planner = props => {
           urlParams.get("uname"),
           urlParams.get("pwd")
         );
+        console.log("INFO");
+        console.log(info);
+        info.password = urlParams.get("pwd");
         setUserInfo(info);
       } catch (e) {
-        alert(e);
-        await toGo();
+        console.log(e);
       }
     };
-    toGo();
+    if (!userInfo) {
+      toGo();
+    }
   } catch (e) {}
+
   return (
     <>
-      <section className="lightback">
+      <section className="whiteback">
         <div className="container">
           <div className="row">
             <div className="col-md-2"></div>
@@ -203,70 +288,99 @@ const Planner = props => {
             </div>
             {userInfo && userInfo.expires && (
               <div className="col-md">
-                <b>{localize("expiry")}</b> <br />
-                {new Date(userInfo.expires * 1000).toUTCString()}
+                <b>{localize("expires")}</b> <br />
+                {new Date(userInfo.expires * 1000)
+                  .toISOString()
+                  .substring(0, 10)}
               </div>
             )}
             <div className="col-md-2"></div>
           </div>
-        </div>
-      </section>
-      <section className="whiteback">
-        <div className="container">
           <div className="row">
             <div className="col-md-2"></div>
             <div className="col">
-              <h3>
-                <span className="badge badge-secondary">
-                  {localize("step1")}
-                </span>{" "}
-                &nbsp;
-                {localize("choose-a-plan-length")}
-              </h3>
-              <p className="hero-text">{localize("flat-rate-blurb")}</p>
-              <Selector
-                localize={localize}
-                selected={months === 1}
-                description={"1 " + localize("month")}
-                months={1}
-                onClick={_ => setMonths(1)}
-              />
-              <Selector
-                localize={localize}
-                selected={months === 3}
-                description={"2 " + localize("months")}
-                months={3}
-                onClick={_ => setMonths(3)}
-              />
-              <Selector
-                localize={localize}
-                selected={months === 12}
-                description={"12 " + localize("months")}
-                months={12}
-                onClick={_ => setMonths(12)}
-              />
+              <hr></hr>
+              <p>
+                {userInfo &&
+                  (userInfo.subscription
+                    ? localize("subscription-blurb")(async _ => {
+                        await cancelStripe(
+                          userInfo.username,
+                          userInfo.password
+                        );
+                        window.location.reload();
+                      })
+                    : localize("extend-blurb"))}
+              </p>
             </div>
             <div className="col-md-2"></div>
           </div>
         </div>
       </section>
-      <section className="lightback">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-2"></div>
-            <div className="col">
-              <h3>
-                <span className="badge badge-secondary">
-                  {localize("step2")}
-                </span>{" "}
-                &nbsp; {localize("pay-for-plan")}
-              </h3>
-              <Payer localize={localize} months={months} />
+      {userInfo && !userInfo.subscription && (
+        <>
+          <section className="lightback">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col">
+                  <h3>
+                    <span className="badge badge-secondary">
+                      {localize("step1")}
+                    </span>{" "}
+                    &nbsp;
+                    {localize("choose-a-plan-length")}
+                  </h3>
+                  <p className="hero-text">{localize("flat-rate-blurb")}</p>
+                  <Selector
+                    localize={localize}
+                    selected={months === 1}
+                    description={"1 " + localize("month")}
+                    months={1}
+                    onClick={_ => setMonths(1)}
+                  />
+                  <Selector
+                    localize={localize}
+                    selected={months === 3}
+                    description={"3 " + localize("months")}
+                    months={3}
+                    onClick={_ => setMonths(3)}
+                  />
+                  <Selector
+                    localize={localize}
+                    selected={months === 12}
+                    description={"12 " + localize("months")}
+                    months={12}
+                    onClick={_ => setMonths(12)}
+                  />
+                </div>
+                <div className="col-md-2"></div>
+              </div>
             </div>
-            <div className="col-md-2"></div>
-          </div>
-        </div>
-      </section>
+          </section>
+          <section className="lightback">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col">
+                  <h3>
+                    <span className="badge badge-secondary">
+                      {localize("step2")}
+                    </span>{" "}
+                    &nbsp; {localize("pay-for-plan")}
+                  </h3>
+                  <Payer
+                    userInfo={userInfo}
+                    localize={localize}
+                    months={months}
+                  />
+                </div>
+                <div className="col-md-2"></div>
+              </div>
+            </div>
+          </section>
+        </>
+      )}
     </>
   );
 };

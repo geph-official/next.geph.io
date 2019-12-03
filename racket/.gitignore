@@ -1,1 +1,4 @@
 paymentwall-secrets.rkt
+stripe-secrets.rkt
+*~
+compiled

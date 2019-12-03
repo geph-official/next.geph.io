@@ -5,16 +5,18 @@
          web-server/servlet-env
          racket/runtime-path)
 (require (for-syntax racket))
-(require "billing.rkt")
+(require "billing.rkt"
+         "stripe-secrets.rkt")
 
 (define-runtime-path static-path "../dist/")
 
 (define (request-language req)
-  (match (extract-binding/single 'accept-language
-                                       (request-headers req))
-    [(regexp #rx"zh-CN") "zhs"]
-    [(regexp #rx"zh") "zht"]
-    [_ "en"]))
+  (with-handlers ([exn:fail? (λ _ "en")])
+    (match (extract-binding/single 'accept-language
+                                   (request-headers req))
+      [(regexp #rx"CN") "zhs"]
+      [(regexp #rx"zh") "zht"]
+      [_ "en"])))
 
 (define (auto-jump req)
   (let ([lang (request-language req)])
@@ -24,9 +26,9 @@
                    TEXT/HTML-MIME-TYPE
                    (list (make-header #"Location"
                                       (match lang
-                                        ["zhs" #"/zhs"]
-                                        ["zht" #"/zht"]
-                                        [_ #"/en"]))
+                                        ["zhs" #"/zhs/"]
+                                        ["zht" #"/zht/"]
+                                        [_ #"/en/"]))
                          (make-header #"Vary" #"Accept-Language"))
                    '())))
 
@@ -36,6 +38,8 @@
   (dispatch-rules
    [("") auto-jump]
    [("billing" "userinfo") serve-userinfo]
+   [("billing" "stripe-cancel") serve-stripe-cancel]
+   [("billing" "stripe-webhook" (string-arg)) #:method "post" serve-stripe-webhook]
    [("billing" "alipay") serve-alipay]))
 
 (displayln static-path)

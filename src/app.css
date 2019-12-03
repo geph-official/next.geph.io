@@ -14,6 +14,13 @@ body {
   font-family: "LFR", sans-serif;
 }
 
+:lang(zh-CN) {
+  font-family: "LFR", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+}
+
+:lang(zh-TW) {
+  font-family: "LFR", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
 
 section {
   width: 100%;
@@ -62,7 +69,6 @@ section {
   text-align: center;
 }
 
-
 .right {
   text-align: right;
 }
@@ -95,7 +101,7 @@ a {
 
 .nav-link {
   font-weight: 500;
-  padding-left: 16px;
+  padding-left: 10px;
   padding-right: 16px;
 }
 
@@ -123,7 +129,7 @@ a {
   }
 }
 
-.hero-left>h2 {
+.hero-left > h2 {
   font-weight: 500;
 }
 
@@ -132,11 +138,10 @@ a {
   padding-top: 8px;
 }
 
-.hero-text>a {
+.hero-text > a {
   font-weight: 500;
   color: #a0d8ef;
 }
-
 
 @media (min-width: 768px) {
   .hero-text {

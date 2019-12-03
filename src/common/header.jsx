@@ -6,8 +6,9 @@ import { addl10n, l10n } from "./l10n";
 addl10n({
   geph: { en: "Geph", zht: "迷霧通", zhs: "迷雾通" },
   help: { en: "Help", zht: "幫助", zhs: "帮助" },
-  policies: { en: "Policies", zht: "服務條款", zhs: "服务条款" },
-  contact: { en: "Contact", zht: "聯繫我們", zhs: "联系我们" }
+  policies: { en: "Policies", zht: "條款", zhs: "条款" },
+  contact: { en: "Contact", zht: "聯繫", zhs: "联系" },
+  mirror: { zht: "免翻牆鏡像", zhs: "免翻墙镜像" }
 });
 
 export const Header = props => {
@@ -28,6 +29,7 @@ export const Header = props => {
             <div className="nav-link">
               <a
                 target="_blank"
+                rel="noopener"
                 href={
                   props.lang === "en"
                     ? "https://github.com/geph-official/geph2/wiki/Policies-and-terms"
@@ -43,6 +45,18 @@ export const Header = props => {
                 {localize("contact")}
               </a>
             </div>
+            {props.lang !== "en" && (
+              <div className="nav-link">
+                <a
+                  href="https://is.gd/getmiwutong"
+                  style={{ color: "#19448e" }}
+                  target="_blank"
+                  rel="noopener"
+                >
+                  {localize("mirror")}
+                </a>
+              </div>
+            )}
             <div className="nav-link">
               <Link
                 to="/en/"

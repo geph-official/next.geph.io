@@ -24,7 +24,7 @@ const lin32tar = version =>
 const win32exe = version =>
   "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-windows-" +
   version +
-  ".exe";
+  "-setup.exe";
 
 const mac64dmg = version =>
   "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-macos-" +
@@ -43,8 +43,7 @@ const ANDVER = "3.0.0";
 
 const defaultDownload = () => {
   try {
-    const platform = window.navigator.platform;
-    alert(platform);
+    const platform = window.navigator.userAgent;
     if (/Android/.test(platform)) {
       return ["Android APK", androidapk, ANDVER];
     } else if (/Linux/.test(platform)) {
@@ -64,7 +63,15 @@ export default props => {
   const [downDesc, downLinkGen, downVer] = defaultDownload();
   return (
     <>
-      <Helmet htmlAttributes={{ lang: toLangCode(props.lang) }} />
+      <Helmet htmlAttributes={{ lang: toLangCode(props.lang) }}>
+        <title>{localize("geph")}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <link rel="alternate" hreflang="en" href="https://geph.io/en/" />
+        <link rel="alternate" hreflang="zh-TW" href="https://geph.io/zht/" />
+        <link rel="alternate" hreflang="zh-CN" href="https://geph.io/zhs/" />
+        <link rel="alternate" hreflang="zh" href="https://geph.io/zht/" />
+      </Helmet>
       <Header lang={props.lang} />
       <section className="hero">
         <div className="container">
@@ -75,6 +82,7 @@ export default props => {
               <a
                 href={downLinkGen(downVer)}
                 target="_blank"
+                rel="noopener"
                 className="btn btn-primary btn-lg"
               >
                 {localize("download-now")}
