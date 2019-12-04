@@ -71,6 +71,7 @@ export default props => {
         <link rel="alternate" hreflang="zh-TW" href="https://geph.io/zht/" />
         <link rel="alternate" hreflang="zh-CN" href="https://geph.io/zhs/" />
         <link rel="alternate" hreflang="zh" href="https://geph.io/zht/" />
+        <meta name="description" content={localize("hero-text")} />
       </Helmet>
       <Header lang={props.lang} />
       <section className="hero">

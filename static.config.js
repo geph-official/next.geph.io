@@ -21,6 +21,11 @@ export default {
         <link rel="icon" href="/favicon.ico?v=2" />
       </Head>{" "}
       <Body> {children} </Body>
+      <script
+        src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"
+        integrity="sha384-SUKVFL96/F3W7HeIynfEsxa4KzwJDaMoDmUg55kklFVgIfxhDIrvEkQIHfLfGV2J"
+        crossorigin="anonymous"
+      ></script>
       <div class="statcounter">
         <img
           class="statcounter"

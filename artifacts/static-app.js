@@ -1061,6 +1061,9 @@ var defaultDownload = function defaultDownload() {
     rel: "alternate",
     hreflang: "zh",
     href: "https://geph.io/zht/"
+  }), external_react_default.a.createElement("meta", {
+    name: "description",
+    content: localize("hero-text")
   })), external_react_default.a.createElement(header_Header, {
     lang: props.lang
   }), external_react_default.a.createElement("section", {
