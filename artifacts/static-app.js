@@ -757,7 +757,8 @@ var header_Header = function Header(props) {
   }, external_react_default.a.createElement("div", {
     className: "nav-brandwrap"
   }, external_react_default.a.createElement("img", {
-    src: __webpack_require__(57)
+    src: __webpack_require__(57),
+    alt: "Geph logo"
   }), external_react_default.a.createElement("span", {
     className: "nav-brand"
   }, external_react_default.a.createElement("b", null, localize("geph"))))), external_react_default.a.createElement("div", {
@@ -1087,7 +1088,8 @@ var defaultDownload = function defaultDownload() {
     className: "col-md"
   }, external_react_default.a.createElement("img", {
     src: __webpack_require__(59),
-    className: "hero-img"
+    className: "hero-img",
+    alt: "Screenshot"
   }))))), external_react_default.a.createElement("section", {
     className: "darkback"
   }, external_react_default.a.createElement("div", {
@@ -1128,6 +1130,7 @@ var defaultDownload = function defaultDownload() {
   }, external_react_default.a.createElement("div", {
     "class": "card-body"
   }, external_react_default.a.createElement("img", {
+    alt: "Windows",
     src: __webpack_require__(60),
     className: "oslogo"
   }), external_react_default.a.createElement("p", {
@@ -1139,6 +1142,7 @@ var defaultDownload = function defaultDownload() {
   }, external_react_default.a.createElement("div", {
     "class": "card-body"
   }, external_react_default.a.createElement("img", {
+    alt: "Mac",
     src: __webpack_require__(61),
     className: "oslogo"
   }), external_react_default.a.createElement("p", {
@@ -1150,6 +1154,7 @@ var defaultDownload = function defaultDownload() {
   }, external_react_default.a.createElement("div", {
     "class": "card-body"
   }, external_react_default.a.createElement("img", {
+    alt: "Linux",
     src: __webpack_require__(62),
     className: "oslogo"
   }), external_react_default.a.createElement("p", {
@@ -1163,6 +1168,7 @@ var defaultDownload = function defaultDownload() {
   }, external_react_default.a.createElement("div", {
     "class": "card-body"
   }, external_react_default.a.createElement("img", {
+    alt: "Android",
     src: __webpack_require__(63),
     className: "oslogo"
   }), external_react_default.a.createElement("p", {

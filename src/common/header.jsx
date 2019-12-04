@@ -19,7 +19,7 @@ export const Header = props => {
         <div className="row">
           <div className="col-md">
             <div className="nav-brandwrap">
-              <img src={require("../assets/logo-naked.png")} />
+              <img src={require("../assets/logo-naked.png")} alt="Geph logo" />
               <span className="nav-brand">
                 <b>{localize("geph")}</b>
               </span>

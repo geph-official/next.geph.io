@@ -98,6 +98,7 @@ export default props => {
               <img
                 src={require("./assets/screenshot-en.png")}
                 className="hero-img"
+                alt="Screenshot"
               />
             </div>
           </div>
@@ -133,7 +134,11 @@ export default props => {
           <div className="row">
             <div className="col-md card text-center">
               <div class="card-body">
-                <img src={require("./assets/windows.svg")} className="oslogo" />
+                <img
+                  alt="Windows"
+                  src={require("./assets/windows.svg")}
+                  className="oslogo"
+                />
                 <p class="card-text">
                   <a href={win32exe(WINVER)}>
                     <b>Windows 7+</b> (installer)
@@ -143,7 +148,11 @@ export default props => {
             </div>
             <div className="col-md card text-center">
               <div class="card-body">
-                <img src={require("./assets/apple.svg")} className="oslogo" />
+                <img
+                  alt="Mac"
+                  src={require("./assets/apple.svg")}
+                  className="oslogo"
+                />
                 <p class="card-text">
                   <a href={mac64dmg(MACVER)}>
                     <b>macOS 10.10+</b> (dmg)
@@ -153,7 +162,11 @@ export default props => {
             </div>
             <div className="col-md card text-center">
               <div class="card-body">
-                <img src={require("./assets/tux.svg")} className="oslogo" />
+                <img
+                  alt="Linux"
+                  src={require("./assets/tux.svg")}
+                  className="oslogo"
+                />
                 <p class="card-text">
                   <a href={lin64tar(LINVER)}>
                     <b>Linux amd64</b> (.tar.bz2)
@@ -168,7 +181,11 @@ export default props => {
             </div>
             <div className="col-md card text-center">
               <div class="card-body">
-                <img src={require("./assets/android.svg")} className="oslogo" />
+                <img
+                  alt="Android"
+                  src={require("./assets/android.svg")}
+                  className="oslogo"
+                />
                 <p class="card-text">
                   <a href={androidapk(ANDVER)}>
                     <b>Android 5.0+</b> (APK)
