@@ -1004,9 +1004,9 @@ var androidapk = function androidapk(version) {
   return "https://f001.backblazeb2.com/file/geph-dl/android-builds/geph-android-" + version + ".apk";
 };
 
-var WINVER = "3.0.0";
+var WINVER = "3.0.2";
 var MACVER = "3.0.1";
-var LINVER = "3.0.0";
+var LINVER = "3.0.2";
 var ANDVER = "3.0.0";
 
 var defaultDownload = function defaultDownload() {
