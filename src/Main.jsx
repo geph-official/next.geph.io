@@ -39,7 +39,7 @@ const androidapk = version =>
 const WINVER = "3.0.2";
 const MACVER = "3.0.1";
 const LINVER = "3.0.2";
-const ANDVER = "3.0.0";
+const ANDVER = "3.0.2";
 
 const defaultDownload = () => {
   try {

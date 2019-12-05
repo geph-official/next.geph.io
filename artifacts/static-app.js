@@ -1007,7 +1007,7 @@ var androidapk = function androidapk(version) {
 var WINVER = "3.0.2";
 var MACVER = "3.0.1";
 var LINVER = "3.0.2";
-var ANDVER = "3.0.0";
+var ANDVER = "3.0.2";
 
 var defaultDownload = function defaultDownload() {
   try {
