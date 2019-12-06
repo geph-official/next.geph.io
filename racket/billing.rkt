@@ -227,8 +227,7 @@ plan = excluded.plan, expires = excluded.expires"
                 #:order-id invoice-id
                 #:payment-type "all"
                 #:language "zh-CN"
-                #:success-url (format "https://geph.io/billing/dashboard?cookie=~a"
-                                      cookie)))
+                #:success-url "https://geph.io"))
   (displayln payment-url)
   (response/full 302
                  #"Found"

@@ -12,34 +12,24 @@ import { Helmet } from "react-helmet";
 import logo from "./logo.png";
 
 const lin64tar = version =>
-  "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-linux64-" +
-  version +
-  ".tar.bz2";
+  "https://dl.geph.io/desktop-builds/geph-linux64-" + version + ".tar.bz2";
 
 const lin32tar = version =>
-  "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-linux32-" +
-  version +
-  ".tar.bz2";
+  "https://dl.geph.io/desktop-builds/geph-linux32-" + version + ".tar.bz2";
 
 const win32exe = version =>
-  "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-windows-" +
-  version +
-  "-setup.exe";
+  "https://dl.geph.io/desktop-builds/geph-windows-" + version + "-setup.exe";
 
 const mac64dmg = version =>
-  "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-macos-" +
-  version +
-  ".dmg";
+  "https://dl.geph.io/desktop-builds/geph-macos-" + version + ".dmg";
 
 const androidapk = version =>
-  "https://f001.backblazeb2.com/file/geph-dl/android-builds/geph-android-" +
-  version +
-  ".apk";
+  "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 
-const WINVER = "3.0.2";
+const WINVER = "3.0.3";
 const MACVER = "3.0.1";
-const LINVER = "3.0.2";
-const ANDVER = "3.0.2";
+const LINVER = "3.0.3";
+const ANDVER = "3.0.3";
 
 const defaultDownload = () => {
   try {

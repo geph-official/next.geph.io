@@ -1,18 +1,18 @@
 {
   "errors": [],
   "warnings": [
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (393 KiB)\n      styles.5895718a.css\n      templates/styles.5895718a.js\n      templates/vendors~main.878c2aea.js\n      main.d51fe451.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (393 KiB)\n      styles.2a6a6c05.css\n      templates/styles.2a6a6c05.js\n      templates/vendors~main.878c2aea.js\n      main.54981c23.js\n"
   ],
   "version": "4.41.2",
-  "hash": "d51fe45180d2103e19d4",
-  "time": 10406,
-  "builtAt": 1575521300454,
+  "hash": "54981c23300b21b48e81",
+  "time": 3182,
+  "builtAt": 1575526636255,
   "publicPath": "/",
   "outputPath": "/home/miyuruasuka/Geph2/next.geph.io/dist",
   "assetsByChunkName": {
     "styles": [
-      "styles.5895718a.css",
-      "templates/styles.5895718a.js"
+      "styles.2a6a6c05.css",
+      "templates/styles.2a6a6c05.js"
     ],
     "home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.0fedc2e6.js",
     "home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404": "templates/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404.4d917fb0.js",
@@ -21,12 +21,12 @@
     "home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx.54044af3.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.82cb6498.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx.3ccfc4ee.js",
-    "main": "main.d51fe451.js",
+    "main": "main.54981c23.js",
     "vendors~main": "templates/vendors~main.878c2aea.js"
   },
   "assets": [
     {
-      "name": "main.d51fe451.js",
+      "name": "main.54981c23.js",
       "size": 8053,
       "chunks": [
         8
@@ -128,7 +128,7 @@
       "emitted": true
     },
     {
-      "name": "styles.5895718a.css",
+      "name": "styles.2a6a6c05.css",
       "size": 146377,
       "chunks": [
         0
@@ -240,7 +240,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.5895718a.js",
+      "name": "templates/styles.2a6a6c05.js",
       "size": 125,
       "chunks": [
         0
@@ -277,10 +277,10 @@
         8
       ],
       "assets": [
-        "styles.5895718a.css",
-        "templates/styles.5895718a.js",
+        "styles.2a6a6c05.css",
+        "templates/styles.2a6a6c05.js",
         "templates/vendors~main.878c2aea.js",
-        "main.d51fe451.js"
+        "main.54981c23.js"
       ],
       "children": {},
       "childAssets": {},
@@ -295,10 +295,10 @@
         8
       ],
       "assets": [
-        "styles.5895718a.css",
-        "templates/styles.5895718a.js",
+        "styles.2a6a6c05.css",
+        "templates/styles.2a6a6c05.js",
         "templates/vendors~main.878c2aea.js",
-        "main.d51fe451.js"
+        "main.54981c23.js"
       ],
       "children": {},
       "childAssets": {},
@@ -331,8 +331,8 @@
         3
       ],
       "assets": [
-        "styles.5895718a.css",
-        "templates/styles.5895718a.js",
+        "styles.2a6a6c05.css",
+        "templates/styles.2a6a6c05.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.0fedc2e6.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx.278785e1.js"
       ],
@@ -346,8 +346,8 @@
         5
       ],
       "assets": [
-        "styles.5895718a.css",
-        "templates/styles.5895718a.js",
+        "styles.2a6a6c05.css",
+        "templates/styles.2a6a6c05.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.0fedc2e6.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx.54044af3.js"
       ],
@@ -361,8 +361,8 @@
         4
       ],
       "assets": [
-        "styles.5895718a.css",
-        "templates/styles.5895718a.js",
+        "styles.2a6a6c05.css",
+        "templates/styles.2a6a6c05.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.0fedc2e6.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx.f203287b.js"
       ],
@@ -375,8 +375,8 @@
         6
       ],
       "assets": [
-        "styles.5895718a.css",
-        "templates/styles.5895718a.js",
+        "styles.2a6a6c05.css",
+        "templates/styles.2a6a6c05.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.82cb6498.js"
       ],
       "children": {},
@@ -395,10 +395,10 @@
         "styles"
       ],
       "files": [
-        "styles.5895718a.css",
-        "templates/styles.5895718a.js"
+        "styles.2a6a6c05.css",
+        "templates/styles.2a6a6c05.js"
       ],
-      "hash": "5895718a846705a9527f",
+      "hash": "2a6a6c05378eb0eb9675",
       "siblings": [
         1,
         3,
@@ -469,11 +469,11 @@
           "warnings": 0,
           "assets": [
             "static/logo-bg.02b32555.png",
+            "static/LibreFranklin-Medium.c1ed12e2.ttf",
+            "static/LibreFranklin-BoldItalic.3453f7c2.ttf",
             "static/LibreFranklin-Regular.817fb321.ttf",
             "static/LibreFranklin-RegularItalic.1b746baa.ttf",
-            "static/LibreFranklin-Medium.c1ed12e2.ttf",
-            "static/LibreFranklin-Bold.4fe3bce8.ttf",
-            "static/LibreFranklin-BoldItalic.3453f7c2.ttf"
+            "static/LibreFranklin-Bold.4fe3bce8.ttf"
           ],
           "reasons": [
             {
@@ -510,7 +510,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575521294003\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575526634415\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": 130,
@@ -581,7 +581,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575521294603\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575526634813\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": 131,
@@ -643,7 +643,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575521293992\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575526634404\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -1181,9 +1181,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "issuerId": 54,
-              "issuerName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
+              "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "issuerId": 53,
+              "issuerName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
               "issuerPath": [
                 {
                   "id": 57,
@@ -1201,9 +1201,9 @@
                   "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 54,
-                  "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-                  "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+                  "id": 53,
+                  "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+                  "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
                 }
               ],
               "failed": false,
@@ -1308,9 +1308,9 @@
                   "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 54,
-                  "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-                  "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+                  "id": 53,
+                  "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+                  "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
                 },
                 {
                   "id": null,
@@ -1384,9 +1384,9 @@
                   "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 54,
-                  "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-                  "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+                  "id": 53,
+                  "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+                  "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
                 },
                 {
                   "id": null,
@@ -1460,9 +1460,9 @@
                   "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 54,
-                  "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-                  "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+                  "id": 53,
+                  "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+                  "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
                 },
                 {
                   "id": null,
@@ -1528,9 +1528,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             },
             {
               "id": null,
@@ -1602,9 +1602,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             },
             {
               "id": null,
@@ -1671,9 +1671,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             },
             {
               "id": null,
@@ -1740,9 +1740,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             },
             {
               "id": null,
@@ -1807,9 +1807,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             },
             {
               "id": null,
@@ -1874,9 +1874,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             },
             {
               "id": null,
@@ -1943,9 +1943,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             },
             {
               "id": null,
@@ -3123,7 +3123,7 @@
         "main"
       ],
       "files": [
-        "main.d51fe451.js"
+        "main.54981c23.js"
       ],
       "hash": "6d201da5e7e8c679d3b4",
       "siblings": [
@@ -5456,25 +5456,25 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-36"
-            },
-            {
-              "moduleId": 133,
-              "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx c94056bffd0141a2cc92243d881cbc40",
-              "module": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
-              "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-36"
-            },
-            {
-              "moduleId": 133,
-              "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx c94056bffd0141a2cc92243d881cbc40",
-              "module": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
-              "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
               "loc": "1:0-35"
+            },
+            {
+              "moduleId": 133,
+              "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx c94056bffd0141a2cc92243d881cbc40",
+              "module": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
+              "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-36"
+            },
+            {
+              "moduleId": 133,
+              "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx c94056bffd0141a2cc92243d881cbc40",
+              "module": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
+              "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-36"
             },
             {
               "moduleId": 133,
@@ -8569,9 +8569,9 @@
           "chunks": [
             9
           ],
-          "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "issuerId": 84,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "issuerId": 58,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 57,
@@ -8579,9 +8579,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -8977,9 +8977,9 @@
           "chunks": [
             9
           ],
-          "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "issuerId": 84,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "issuerId": 58,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 57,
@@ -8987,9 +8987,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -9075,9 +9075,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9369,9 +9369,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -11097,9 +11097,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -11902,9 +11902,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13008,9 +13008,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13065,9 +13065,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13127,9 +13127,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13189,9 +13189,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14503,9 +14503,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -14568,9 +14568,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 84,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 58,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -19454,25 +19454,25 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-36"
-        },
-        {
-          "moduleId": 133,
-          "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx c94056bffd0141a2cc92243d881cbc40",
-          "module": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
-          "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-36"
-        },
-        {
-          "moduleId": 133,
-          "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx c94056bffd0141a2cc92243d881cbc40",
-          "module": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
-          "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
           "loc": "1:0-35"
+        },
+        {
+          "moduleId": 133,
+          "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx c94056bffd0141a2cc92243d881cbc40",
+          "module": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
+          "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-36"
+        },
+        {
+          "moduleId": 133,
+          "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx c94056bffd0141a2cc92243d881cbc40",
+          "module": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
+          "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-36"
         },
         {
           "moduleId": 133,
@@ -22567,9 +22567,9 @@
       "chunks": [
         9
       ],
-      "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-      "issuerId": 84,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+      "issuerId": 58,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 57,
@@ -22577,9 +22577,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -22975,9 +22975,9 @@
       "chunks": [
         9
       ],
-      "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-      "issuerId": 84,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+      "issuerId": 58,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 57,
@@ -22985,9 +22985,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -23073,9 +23073,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -23367,9 +23367,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -25244,9 +25244,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -26049,9 +26049,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -26991,11 +26991,11 @@
       "warnings": 0,
       "assets": [
         "static/logo-bg.02b32555.png",
+        "static/LibreFranklin-Medium.c1ed12e2.ttf",
+        "static/LibreFranklin-BoldItalic.3453f7c2.ttf",
         "static/LibreFranklin-Regular.817fb321.ttf",
         "static/LibreFranklin-RegularItalic.1b746baa.ttf",
-        "static/LibreFranklin-Medium.c1ed12e2.ttf",
-        "static/LibreFranklin-Bold.4fe3bce8.ttf",
-        "static/LibreFranklin-BoldItalic.3453f7c2.ttf"
+        "static/LibreFranklin-Bold.4fe3bce8.ttf"
       ],
       "reasons": [
         {
@@ -27032,7 +27032,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575521294003\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575526634415\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 51,
@@ -27865,9 +27865,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27922,9 +27922,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27984,9 +27984,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28046,9 +28046,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29360,9 +29360,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -29425,9 +29425,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 84,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 58,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -32594,7 +32594,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575521294603\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575526634813\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 131,
@@ -32656,7 +32656,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575521293992\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1575526634404\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 132,
@@ -32931,9 +32931,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-          "issuerId": 54,
-          "issuerName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
+          "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+          "issuerId": 53,
+          "issuerName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
           "issuerPath": [
             {
               "id": 57,
@@ -32951,9 +32951,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             }
           ],
           "failed": false,
@@ -33058,9 +33058,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             },
             {
               "id": null,
@@ -33134,9 +33134,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             },
             {
               "id": null,
@@ -33210,9 +33210,9 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 54,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+              "id": 53,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
             },
             {
               "id": null,
@@ -33278,9 +33278,9 @@
           "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+          "id": 53,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
         },
         {
           "id": null,
@@ -33352,9 +33352,9 @@
           "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+          "id": 53,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
         },
         {
           "id": null,
@@ -33421,9 +33421,9 @@
           "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+          "id": 53,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
         },
         {
           "id": null,
@@ -33490,9 +33490,9 @@
           "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+          "id": 53,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
         },
         {
           "id": null,
@@ -33557,9 +33557,9 @@
           "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+          "id": 53,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
         },
         {
           "id": null,
@@ -33624,9 +33624,9 @@
           "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+          "id": 53,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
         },
         {
           "id": null,
@@ -33693,9 +33693,9 @@
           "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
         },
         {
-          "id": 54,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
-          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx"
+          "id": 53,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+          "name": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx"
         },
         {
           "id": null,
