@@ -985,29 +985,29 @@ var logo = __webpack_require__(58);
 
 
 var lin64tar = function lin64tar(version) {
-  return "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-linux64-" + version + ".tar.bz2";
+  return "https://dl.geph.io/desktop-builds/geph-linux64-" + version + ".tar.bz2";
 };
 
 var lin32tar = function lin32tar(version) {
-  return "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-linux32-" + version + ".tar.bz2";
+  return "https://dl.geph.io/desktop-builds/geph-linux32-" + version + ".tar.bz2";
 };
 
 var win32exe = function win32exe(version) {
-  return "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-windows-" + version + "-setup.exe";
+  return "https://dl.geph.io/desktop-builds/geph-windows-" + version + "-setup.exe";
 };
 
 var mac64dmg = function mac64dmg(version) {
-  return "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-macos-" + version + ".dmg";
+  return "https://dl.geph.io/desktop-builds/geph-macos-" + version + ".dmg";
 };
 
 var androidapk = function androidapk(version) {
-  return "https://f001.backblazeb2.com/file/geph-dl/android-builds/geph-android-" + version + ".apk";
+  return "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 };
 
-var WINVER = "3.0.2";
+var WINVER = "3.0.4";
 var MACVER = "3.0.1";
-var LINVER = "3.0.2";
-var ANDVER = "3.0.2";
+var LINVER = "3.0.4";
+var ANDVER = "3.0.4";
 
 var defaultDownload = function defaultDownload() {
   try {
