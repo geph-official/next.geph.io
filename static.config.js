@@ -26,13 +26,6 @@ export default {
         integrity="sha384-SUKVFL96/F3W7HeIynfEsxa4KzwJDaMoDmUg55kklFVgIfxhDIrvEkQIHfLfGV2J"
         crossorigin="anonymous"
       ></script>
-      <div class="statcounter">
-        <img
-          class="statcounter"
-          src="https://c.statcounter.com/12155608/0/044606fb/1/"
-          alt="Web Analytics"
-        />
-      </div>
     </Html>
   ),
   getRoutes: async ({ dev }) => [
