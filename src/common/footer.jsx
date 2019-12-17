@@ -14,8 +14,13 @@ export const Footer = props => (
             </p>
             <p>
               <a href="mailto:contact@geph.io">contact@geph.io</a>
-              <a href="https://t.me/joinchat/Pc6C1hMBREf-8_TZM5z6_g">
-                Official Telegram group
+              <br />
+              <a
+                href="https://t.me/joinchat/Pc6C1hMBREf-8_TZM5z6_g"
+                target="_blank"
+                rel="noopener"
+              >
+                Telegram
               </a>
             </p>
           </div>

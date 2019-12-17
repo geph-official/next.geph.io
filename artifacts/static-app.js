@@ -696,7 +696,7 @@ var router_ = __webpack_require__(6);
 // CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/common/footer.jsx
 
 var footer_Footer = function Footer(props) {
-  return external_react_default.a.createElement("section", {
+  return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("section", {
     className: "whiteback"
   }, external_react_default.a.createElement("div", {
     "class": "container"
@@ -709,7 +709,16 @@ var footer_Footer = function Footer(props) {
     "class": "text-muted"
   }, "\xA9 2019- Gephyra O\xDC"), external_react_default.a.createElement("p", null, "Sakala 7-2, Tallinn", external_react_default.a.createElement("br", null), "Estonia 10141"), external_react_default.a.createElement("p", null, external_react_default.a.createElement("a", {
     href: "mailto:contact@geph.io"
-  }, "contact@geph.io"))))));
+  }, "contact@geph.io"), external_react_default.a.createElement("br", null), external_react_default.a.createElement("a", {
+    href: "https://t.me/joinchat/Pc6C1hMBREf-8_TZM5z6_g",
+    target: "_blank",
+    rel: "noopener"
+  }, "Telegram")))))), external_react_default.a.createElement("div", {
+    className: "statcounter"
+  }, external_react_default.a.createElement("img", {
+    className: "statcounter",
+    src: "https://c.statcounter.com/12155608/0/044606fb/1/"
+  })));
 };
 // EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/common/l10n.js
 var l10n = __webpack_require__(4);
@@ -1004,10 +1013,10 @@ var androidapk = function androidapk(version) {
   return "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 };
 
-var WINVER = "3.0.5";
-var MACVER = "3.0.1";
-var LINVER = "3.0.5";
-var ANDVER = "3.0.5";
+var WINVER = "3.1.0";
+var MACVER = "3.0.7";
+var LINVER = "3.1.0";
+var ANDVER = "3.1.0";
 
 var defaultDownload = function defaultDownload() {
   try {
