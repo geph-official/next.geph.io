@@ -1014,7 +1014,7 @@ var androidapk = function androidapk(version) {
 };
 
 var WINVER = "3.1.0";
-var MACVER = "3.0.7";
+var MACVER = "3.1.0";
 var LINVER = "3.1.0";
 var ANDVER = "3.1.0";
 
@@ -1091,7 +1091,7 @@ var defaultDownload = function defaultDownload() {
     target: "_blank",
     rel: "noopener",
     className: "btn btn-primary btn-lg"
-  }, localize("download-now")), external_react_default.a.createElement("br", null), external_react_default.a.createElement("small", null, downDesc, "\u2002\xB7\u2002", external_react_default.a.createElement("a", {
+  }, localize("download-now")), external_react_default.a.createElement("br", null), external_react_default.a.createElement("small", null, downDesc + " v" + downVer, "\u2002\xB7\u2002", external_react_default.a.createElement("a", {
     href: "#download-links"
   }, localize("other-platforms")))), external_react_default.a.createElement("div", {
     className: "col-md"

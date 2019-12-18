@@ -27,7 +27,7 @@ const androidapk = version =>
   "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 
 const WINVER = "3.1.0";
-const MACVER = "3.0.7";
+const MACVER = "3.1.0";
 const LINVER = "3.1.0";
 const ANDVER = "3.1.0";
 
@@ -80,7 +80,7 @@ export default props => {
               </a>
               <br />
               <small>
-                {downDesc}&ensp;&middot;&ensp;
+                {downDesc + " v" + downVer}&ensp;&middot;&ensp;
                 <a href="#download-links">{localize("other-platforms")}</a>
               </small>
             </div>
