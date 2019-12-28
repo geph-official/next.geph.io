@@ -244,16 +244,15 @@ const Planner = props => {
   };
   const localize = l10n(getLang());
   try {
-    const urlParams = new URLSearchParams(window.location.search);
     const toGo = async () => {
       try {
         const info = await getUserInfo(
-          urlParams.get("uname"),
-          urlParams.get("pwd")
+          sessionStorage.getItem("username"),
+          sessionStorage.getItem("password")
         );
         console.log("INFO");
         console.log(info);
-        info.password = urlParams.get("pwd");
+        info.password = sessionStorage.getItem("password");
         setUserInfo(info);
       } catch (e) {
         console.log(e);

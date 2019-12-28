@@ -14,6 +14,7 @@
 (provide serve-paymentwall-pingback
          serve-alipay
          serve-userinfo
+         serve-login
          serve-stripe-cancel
          serve-stripe-webhook)
 
@@ -106,6 +107,26 @@ plan = excluded.plan, expires = excluded.expires"
 
 
 (define session-cache (make-hash))
+
+(define (serve-login req)
+  (let* ([bindings (request-bindings req)]
+         [username (extract-binding/single 'uname bindings)]
+         [password (extract-binding/single 'pwd bindings)])
+    (response/full 200
+                   #"OK"
+                   (current-seconds)
+                   TEXT/HTML-MIME-TYPE
+                   empty
+                   '(#"<!DOCTYPE html><html><head>
+<script>
+var urlParams = new URLSearchParams(window.location.search);
+sessionStorage.setItem('username', urlParams.get('uname'));
+sessionStorage.setItem('password', urlParams.get('pwd'));
+window.location.replace('/billing');
+</script>
+</head>
+<body></body>
+</html>"))))
 
 (define (serve-paymentwall-pingback req secret)
   (unless (equal? secret pw-skey)
@@ -227,7 +248,7 @@ plan = excluded.plan, expires = excluded.expires"
                 #:order-id invoice-id
                 #:payment-type "all"
                 #:language "zh-CN"
-                #:success-url "https://geph.io"))
+                #:success-url "https://geph.io/billing"))
   (displayln payment-url)
   (response/full 302
                  #"Found"

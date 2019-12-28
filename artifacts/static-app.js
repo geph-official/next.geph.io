@@ -1013,10 +1013,10 @@ var androidapk = function androidapk(version) {
   return "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 };
 
-var WINVER = "3.1.0";
-var MACVER = "3.1.0";
-var LINVER = "3.1.0";
-var ANDVER = "3.1.0";
+var WINVER = "3.1.5";
+var MACVER = "3.1.5";
+var LINVER = "3.1.5";
+var ANDVER = "3.1.4";
 
 var defaultDownload = function defaultDownload() {
   try {
@@ -2368,8 +2368,6 @@ var PlanPicker_Planner = function Planner(props) {
   var localize = Object(l10n["b" /* l10n */])(getLang());
 
   try {
-    var urlParams = new URLSearchParams(window.location.search);
-
     var toGo = function toGo() {
       var info;
       return regenerator_default.a.async(function toGo$(_context5) {
@@ -2378,13 +2376,13 @@ var PlanPicker_Planner = function Planner(props) {
             case 0:
               _context5.prev = 0;
               _context5.next = 3;
-              return regenerator_default.a.awrap(PlanPicker_getUserInfo(urlParams.get("uname"), urlParams.get("pwd")));
+              return regenerator_default.a.awrap(PlanPicker_getUserInfo(sessionStorage.getItem("username"), sessionStorage.getItem("password")));
 
             case 3:
               info = _context5.sent;
               console.log("INFO");
               console.log(info);
-              info.password = urlParams.get("pwd");
+              info.password = sessionStorage.getItem("password");
               setUserInfo(info);
               _context5.next = 13;
               break;
