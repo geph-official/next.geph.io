@@ -124,7 +124,6 @@ const Payer = props => {
     <>
       <Helmet>
         <script src="https://js.stripe.com/v3/"></script>
-	<meta charset="UTF-8" />
       </Helmet>
       <nav className="nav nav-tabs">
         <a
@@ -266,6 +265,7 @@ const Planner = props => {
 
   return (
     <>
+      <Helmet><meta charset="UTF-8" /></Helmet>
       <section className="whiteback">
         <div className="container">
           <div className="row">
