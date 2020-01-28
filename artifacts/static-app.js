@@ -1013,10 +1013,10 @@ var androidapk = function androidapk(version) {
   return "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 };
 
-var WINVER = "3.1.5";
-var MACVER = "3.1.5";
-var LINVER = "3.1.5";
-var ANDVER = "3.1.4";
+var WINVER = "3.2.3";
+var MACVER = "3.2.3";
+var LINVER = "3.2.3";
+var ANDVER = "3.2.3";
 
 var defaultDownload = function defaultDownload() {
   try {
@@ -1049,7 +1049,9 @@ var defaultDownload = function defaultDownload() {
     htmlAttributes: {
       lang: Object(l10n["c" /* toLangCode */])(props.lang)
     }
-  }, external_react_default.a.createElement("title", null, localize("geph")), external_react_default.a.createElement("meta", {
+  }, external_react_default.a.createElement("meta", {
+    charset: "UTF-8"
+  }), external_react_default.a.createElement("title", null, localize("geph")), external_react_default.a.createElement("meta", {
     name: "viewport",
     content: "width=device-width, initial-scale=1.0"
   }), external_react_default.a.createElement("meta", {
@@ -2253,6 +2255,8 @@ var PlanPicker_Payer = function Payer(props) {
 
   return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement(external_react_helmet_["Helmet"], null, external_react_default.a.createElement("script", {
     src: "https://js.stripe.com/v3/"
+  }), external_react_default.a.createElement("meta", {
+    charset: "UTF-8"
   })), external_react_default.a.createElement("nav", {
     className: "nav nav-tabs"
   }, external_react_default.a.createElement("a", {

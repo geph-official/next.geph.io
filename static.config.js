@@ -16,16 +16,14 @@ export default {
   }) => (
     <Html>
       <Head>
-        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico?v=2" />
       </Head>{" "}
-      <Body> {children} </Body>
-      <script
+      <Body> {children} <script
         src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"
         integrity="sha384-SUKVFL96/F3W7HeIynfEsxa4KzwJDaMoDmUg55kklFVgIfxhDIrvEkQIHfLfGV2J"
         crossorigin="anonymous"
-      ></script>
+      ></script></Body>
     </Html>
   ),
   getRoutes: async ({ dev }) => [
