@@ -1,32 +1,32 @@
 {
   "errors": [],
   "warnings": [
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (393 KiB)\n      styles.c2903810.css\n      templates/styles.c2903810.js\n      templates/vendors~main.878c2aea.js\n      main.ec4723f2.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (393 KiB)\n      styles.607b46d0.css\n      templates/styles.607b46d0.js\n      templates/vendors~main.878c2aea.js\n      main.ad5e86cd.js\n"
   ],
   "version": "4.41.2",
-  "hash": "ec4723f25f61db7e3359",
-  "time": 3587,
-  "builtAt": 1580220633600,
+  "hash": "ad5e86cd02e0fcc5c986",
+  "time": 13541,
+  "builtAt": 1580228787098,
   "publicPath": "/",
   "outputPath": "/home/miyuruasuka/Geph2/next.geph.io/dist",
   "assetsByChunkName": {
     "styles": [
-      "styles.c2903810.css",
-      "templates/styles.c2903810.js"
+      "styles.607b46d0.css",
+      "templates/styles.607b46d0.js"
     ],
     "home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.cb839658.js",
     "home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404": "templates/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404.4d917fb0.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx.278785e1.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx.f203287b.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx.54044af3.js",
-    "home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.d95c12ce.js",
+    "home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.560c2434.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx.3ccfc4ee.js",
-    "main": "main.ec4723f2.js",
+    "main": "main.ad5e86cd.js",
     "vendors~main": "templates/vendors~main.878c2aea.js"
   },
   "assets": [
     {
-      "name": "main.ec4723f2.js",
+      "name": "main.ad5e86cd.js",
       "size": 8053,
       "chunks": [
         8
@@ -128,7 +128,7 @@
       "emitted": true
     },
     {
-      "name": "styles.c2903810.css",
+      "name": "styles.607b46d0.css",
       "size": 146377,
       "chunks": [
         0
@@ -212,8 +212,8 @@
       "emitted": true
     },
     {
-      "name": "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.d95c12ce.js",
-      "size": 19676,
+      "name": "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.560c2434.js",
+      "size": 19709,
       "chunks": [
         6
       ],
@@ -240,7 +240,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.c2903810.js",
+      "name": "templates/styles.607b46d0.js",
       "size": 125,
       "chunks": [
         0
@@ -277,10 +277,10 @@
         8
       ],
       "assets": [
-        "styles.c2903810.css",
-        "templates/styles.c2903810.js",
+        "styles.607b46d0.css",
+        "templates/styles.607b46d0.js",
         "templates/vendors~main.878c2aea.js",
-        "main.ec4723f2.js"
+        "main.ad5e86cd.js"
       ],
       "children": {},
       "childAssets": {},
@@ -295,10 +295,10 @@
         8
       ],
       "assets": [
-        "styles.c2903810.css",
-        "templates/styles.c2903810.js",
+        "styles.607b46d0.css",
+        "templates/styles.607b46d0.js",
         "templates/vendors~main.878c2aea.js",
-        "main.ec4723f2.js"
+        "main.ad5e86cd.js"
       ],
       "children": {},
       "childAssets": {},
@@ -331,8 +331,8 @@
         3
       ],
       "assets": [
-        "styles.c2903810.css",
-        "templates/styles.c2903810.js",
+        "styles.607b46d0.css",
+        "templates/styles.607b46d0.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.cb839658.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx.278785e1.js"
       ],
@@ -346,8 +346,8 @@
         5
       ],
       "assets": [
-        "styles.c2903810.css",
-        "templates/styles.c2903810.js",
+        "styles.607b46d0.css",
+        "templates/styles.607b46d0.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.cb839658.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx.54044af3.js"
       ],
@@ -361,8 +361,8 @@
         4
       ],
       "assets": [
-        "styles.c2903810.css",
-        "templates/styles.c2903810.js",
+        "styles.607b46d0.css",
+        "templates/styles.607b46d0.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.cb839658.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx.f203287b.js"
       ],
@@ -375,9 +375,9 @@
         6
       ],
       "assets": [
-        "styles.c2903810.css",
-        "templates/styles.c2903810.js",
-        "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.d95c12ce.js"
+        "styles.607b46d0.css",
+        "templates/styles.607b46d0.js",
+        "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.560c2434.js"
       ],
       "children": {},
       "childAssets": {}
@@ -395,10 +395,10 @@
         "styles"
       ],
       "files": [
-        "styles.c2903810.css",
-        "templates/styles.c2903810.js"
+        "styles.607b46d0.css",
+        "templates/styles.607b46d0.js"
       ],
-      "hash": "c290381067132311c5bd",
+      "hash": "607b46d014bc31c3e8db",
       "siblings": [
         1,
         3,
@@ -469,11 +469,11 @@
           "warnings": 0,
           "assets": [
             "static/logo-bg.02b32555.png",
-            "static/LibreFranklin-RegularItalic.1b746baa.ttf",
             "static/LibreFranklin-Regular.817fb321.ttf",
             "static/LibreFranklin-Medium.c1ed12e2.ttf",
             "static/LibreFranklin-Bold.4fe3bce8.ttf",
-            "static/LibreFranklin-BoldItalic.3453f7c2.ttf"
+            "static/LibreFranklin-BoldItalic.3453f7c2.ttf",
+            "static/LibreFranklin-RegularItalic.1b746baa.ttf"
           ],
           "reasons": [
             {
@@ -510,7 +510,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580220631346\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580228777622\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": 130,
@@ -581,7 +581,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580220631755\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580228777593\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": 131,
@@ -643,7 +643,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580220631330\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580228777609\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -987,7 +987,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../common/l10n",
-              "loc": "1:7510-7514"
+              "loc": "1:7464-7468"
             },
             {
               "moduleId": 133,
@@ -2436,14 +2436,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 23865,
+      "size": 23898,
       "names": [
         "home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx"
       ],
       "files": [
-        "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.d95c12ce.js"
+        "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.560c2434.js"
       ],
-      "hash": "d95c12cefd5fe718e2fe",
+      "hash": "560c24343411bc107a32",
       "siblings": [
         0
       ],
@@ -2461,7 +2461,7 @@
           "name": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "index": 148,
           "index2": 154,
-          "size": 16199,
+          "size": 16232,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2518,7 +2518,7 @@
               "name": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx",
               "index": 148,
               "index2": 154,
-              "size": 11615,
+              "size": 11648,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2576,7 +2576,7 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
               ],
               "depth": 3,
-              "source": "import _defineProperty from\"@babel/runtime/helpers/defineProperty\";import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import _regeneratorRuntime from\"@babel/runtime/regenerator\";import React,{useState}from\"react\";import\"../app.css\";import\"./PlanPicker.css\";import{addl10n,l10n}from\"../common/l10n\";import\"./PlanPicker.l10n\";import\"bootstrap/dist/css/bootstrap.min.css\";import axios from\"axios\";import{Helmet}from\"react-helmet\";var STRIPEKEY=\"pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY\";var toCNY=function toCNY(eur){return 7.8*eur;};var toUSD=function toUSD(eur){return 1.1*eur;};var Selector=function Selector(props){return React.createElement(\"div\",{className:\"card\",onClick:props.onClick},React.createElement(\"div\",{className:\"card-body\",style:{display:\"flex\",alignItems:\"center\",borderStyle:props.selected?\"solid\":\"none\",borderColor:\"#007bff\",borderWidth:\"2px\"}},React.createElement(\"ion-icon\",{name:props.selected?\"radio-button-on\":\"radio-button-off\",size:\"large\",style:{verticalAlign:\"middle\",marginRight:\"12px\"}}),React.createElement(\"b\",null,props.description),React.createElement(\"span\",{className:\"text-muted\",style:{marginLeft:\"auto\"}},React.createElement(\"b\",null,\"\\u20AC\",5*props.months),\" / \",30*props.months,\" \",props.localize(\"days\"),\" \",React.createElement(\"br\",null),React.createElement(\"small\",null))));};var toQueryString=function toQueryString(params){var esc=encodeURIComponent;return Object.keys(params).map(function(k){return esc(k)+\"=\"+esc(params[k]);}).join(\"&\");};var getUserInfo=function getUserInfo(uname,pwd){var response;return _regeneratorRuntime.async(function getUserInfo$(_context){while(1){switch(_context.prev=_context.next){case 0:_context.next=2;return _regeneratorRuntime.awrap(axios.get(\"/billing/userinfo?\"+toQueryString({username:uname,password:pwd})));case 2:response=_context.sent;return _context.abrupt(\"return\",response.data);case 4:case\"end\":return _context.stop();}}});};var cancelStripe=function cancelStripe(uname,pwd){var response;return _regeneratorRuntime.async(function cancelStripe$(_context2){while(1){switch(_context2.prev=_context2.next){case 0:_context2.next=2;return _regeneratorRuntime.awrap(axios.get(\"/billing/stripe-cancel?\"+toQueryString({username:uname,password:pwd})));case 2:response=_context2.sent;return _context2.abrupt(\"return\",response.data);case 4:case\"end\":return _context2.stop();}}});};var getStripeID=function getStripeID(months,autoRenew){if(months===1){return autoRenew?\"plan_GIE5voityP0f9u\":\"sku_GIE7Nx2J7ZhXI8\";}else if(months===3){return autoRenew?\"plan_GIE5eNXYZsLlMX\":\"sku_GIE8CZ6qSEzd0t\";}else{return autoRenew?\"plan_GIE5JhURW2fFND\":\"sku_GIE8iScbw4grMT\";}};var Payer=function Payer(props){var _useState=useState(\"card\"),_useState2=_slicedToArray(_useState,2),payMethod=_useState2[0],setPayMethod=_useState2[1];var euroCents=500*props.months*(payMethod===\"alipay\"?1.05:1);var months=props.months;var renewable=!(props.userInfo&&props.userInfo.expires)&&payMethod!==\"alipay\";var _useState3=useState(renewable),_useState4=_slicedToArray(_useState3,2),autoRenew=_useState4[0],setAutoRenew=_useState4[1];var stripeCheckout=function stripeCheckout(){var _ref2;var stripe,_ref,error;return _regeneratorRuntime.async(function stripeCheckout$(_context3){while(1){switch(_context3.prev=_context3.next){case 0:stripe=window.Stripe(STRIPEKEY);_context3.next=3;return _regeneratorRuntime.awrap(stripe.redirectToCheckout({items:[(_ref2={},_defineProperty(_ref2,autoRenew?\"plan\":\"sku\",getStripeID(months,autoRenew)),_defineProperty(_ref2,\"quantity\",1),_ref2)],successUrl:window.location.href,cancelUrl:window.location.href,customerEmail:props.userInfo.username+\"@receipts.geph.io\"}));case 3:_ref=_context3.sent;error=_ref.error;if(error){alert(error);}case 6:case\"end\":return _context3.stop();}}});};var checkout=function checkout(){return _regeneratorRuntime.async(function checkout$(_context4){while(1){switch(_context4.prev=_context4.next){case 0:if(!(payMethod===\"card\")){_context4.next=5;break;}_context4.next=3;return _regeneratorRuntime.awrap(stripeCheckout());case 3:_context4.next=6;break;case 5:window.location.href=\"/billing/alipay?\"+toQueryString({username:props.userInfo.username,password:props.userInfo.password,months:months});case 6:case\"end\":return _context4.stop();}}});};return React.createElement(React.Fragment,null,React.createElement(Helmet,null,React.createElement(\"script\",{src:\"https://js.stripe.com/v3/\"}),React.createElement(\"meta\",{charset:\"UTF-8\"})),React.createElement(\"nav\",{className:\"nav nav-tabs\"},React.createElement(\"a\",{className:payMethod===\"card\"?\"nav-link active\":\"nav-link\",onClick:function onClick(_){return setPayMethod(\"card\");}},React.createElement(\"img\",{src:require(\"../assets/visa.jpg\"),className:\"cardbrand\"}),React.createElement(\"img\",{src:require(\"../assets/mastercard.svg\"),className:\"cardbrand\"}),props.localize(\"credit-debit\")),React.createElement(\"a\",{className:payMethod===\"alipay\"?\"nav-link active\":\"nav-link\",onClick:function onClick(_){setPayMethod(\"alipay\");setAutoRenew(false);}},React.createElement(\"img\",{src:require(\"../assets/alipay.svg\"),className:\"cardbrand\"}),props.localize(\"alipay\"),\"\\xA0\",React.createElement(\"span\",{className:\"badge badge-warning\"},\"5% \",props.localize(\"fee\")))),React.createElement(\"div\",{className:\"card\"},React.createElement(\"div\",{className:\"card-body\"},React.createElement(\"span\",{style:{fontSize:\"150%\"}},React.createElement(\"b\",{className:\"text-success\"},\"\\u20AC\",(euroCents/100).toFixed(2)),\"\\xA0\",React.createElement(\"span\",{className:\"text-muted\"},props.localize(\"for-X-months\")(months))),React.createElement(\"br\",null),React.createElement(\"span\",{className:\"text-muted\"},\"\\u2248 \",React.createElement(\"b\",null,\"$\",(toUSD(euroCents)/100).toFixed(1),\" \"),\"USD\\xA0\\xA0\\xB7\\xA0\\xA0\\u2248\",\" \",React.createElement(\"b\",null,\"\\xA5\",(toCNY(euroCents)/100).toFixed(0)),\" RMB\"),React.createElement(\"hr\",null),React.createElement(\"div\",{className:\"input-group input-group-sm\"},React.createElement(\"div\",{className:\"input-group-prepend\"},React.createElement(\"span\",{className:\"input-group-text\"},props.localize(\"discount-code\"))),React.createElement(\"input\",{type:\"text\",maxlength:\"10\",style:{width:\"128px\",fontFamily:\"monospace\",fontSize:\"80%\"},disabled:true})),React.createElement(\"button\",{type:\"button\",className:\"btn btn-primary mb-3 mt-2\",onClick:function onClick(_){return checkout();}},props.localize(\"check-out\")),React.createElement(\"div\",{className:\"form-check\",style:{visibility:renewable?\"visible\":\"hidden\"}},React.createElement(\"input\",{className:\"form-check-input\",type:\"checkbox\",id:\"inputAutoRenew\",checked:autoRenew,disabled:!renewable,onClick:function onClick(_){return setAutoRenew(!autoRenew);}}),React.createElement(\"label\",{className:\"form-check-label\",htmlFor:\"inputAutoRenew\"},\"\\xA0\",props.localize(\"automatically-renew\"))),React.createElement(\"small\",null,autoRenew?props.localize(\"automatically-renew-blurb\")(euroCents,months):props.localize(\"no-renew-blurb\")(months)))));};function sleep(ms){return new Promise(function(resolve){return setTimeout(resolve,ms);});}var Planner=function Planner(props){var _useState5=useState(1),_useState6=_slicedToArray(_useState5,2),months=_useState6[0],setMonths=_useState6[1];var _useState7=useState(false),_useState8=_slicedToArray(_useState7,2),userInfo=_useState8[0],setUserInfo=_useState8[1];var getLang=function getLang(){try{if(navigator.language===\"zh-CN\"){return\"zhs\";}if(/zh/.test(navigator.language)){return\"zht\";}return\"en\";}catch(e){return\"en\";}};var localize=l10n(getLang());try{var toGo=function toGo(){var info;return _regeneratorRuntime.async(function toGo$(_context5){while(1){switch(_context5.prev=_context5.next){case 0:_context5.prev=0;_context5.next=3;return _regeneratorRuntime.awrap(getUserInfo(sessionStorage.getItem(\"username\"),sessionStorage.getItem(\"password\")));case 3:info=_context5.sent;console.log(\"INFO\");console.log(info);info.password=sessionStorage.getItem(\"password\");setUserInfo(info);_context5.next=13;break;case 10:_context5.prev=10;_context5.t0=_context5[\"catch\"](0);console.log(_context5.t0);case 13:case\"end\":return _context5.stop();}}},null,null,[[0,10]]);};if(!userInfo){toGo();}}catch(e){}return React.createElement(React.Fragment,null,React.createElement(\"section\",{className:\"whiteback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,localize(\"account-overview\"))),React.createElement(\"div\",{className:\"col-md-2\"})),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"username\")),\" \",React.createElement(\"br\",null),userInfo&&userInfo.username),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"subscription\")),\" \",React.createElement(\"br\",null),userInfo&&(userInfo.type===\"free\"?localize(\"free\"):\"Plus\")),userInfo&&userInfo.expires&&React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"expires\")),\" \",React.createElement(\"br\",null),new Date(userInfo.expires*1000).toISOString().substring(0,10)),React.createElement(\"div\",{className:\"col-md-2\"})),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"hr\",null),React.createElement(\"p\",null,userInfo&&(userInfo.subscription?localize(\"subscription-blurb\")(function _callee(_){return _regeneratorRuntime.async(function _callee$(_context6){while(1){switch(_context6.prev=_context6.next){case 0:_context6.next=2;return _regeneratorRuntime.awrap(cancelStripe(userInfo.username,userInfo.password));case 2:window.location.reload();case 3:case\"end\":return _context6.stop();}}});}):localize(\"extend-blurb\")))),React.createElement(\"div\",{className:\"col-md-2\"})))),userInfo&&!userInfo.subscription&&React.createElement(React.Fragment,null,React.createElement(\"section\",{className:\"lightback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,React.createElement(\"span\",{className:\"badge badge-secondary\"},localize(\"step1\")),\" \",\"\\xA0\",localize(\"choose-a-plan-length\")),React.createElement(\"p\",{className:\"hero-text\"},localize(\"flat-rate-blurb\")),React.createElement(Selector,{localize:localize,selected:months===1,description:\"1 \"+localize(\"month\"),months:1,onClick:function onClick(_){return setMonths(1);}}),React.createElement(Selector,{localize:localize,selected:months===3,description:\"3 \"+localize(\"months\"),months:3,onClick:function onClick(_){return setMonths(3);}}),React.createElement(Selector,{localize:localize,selected:months===12,description:\"12 \"+localize(\"months\"),months:12,onClick:function onClick(_){return setMonths(12);}})),React.createElement(\"div\",{className:\"col-md-2\"})))),React.createElement(\"section\",{className:\"lightback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,React.createElement(\"span\",{className:\"badge badge-secondary\"},localize(\"step2\")),\" \",\"\\xA0 \",localize(\"pay-for-plan\")),React.createElement(Payer,{userInfo:userInfo,localize:localize,months:months})),React.createElement(\"div\",{className:\"col-md-2\"}))))));};export default Planner;"
+              "source": "import _defineProperty from\"@babel/runtime/helpers/defineProperty\";import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import _regeneratorRuntime from\"@babel/runtime/regenerator\";import React,{useState}from\"react\";import\"../app.css\";import\"./PlanPicker.css\";import{addl10n,l10n}from\"../common/l10n\";import\"./PlanPicker.l10n\";import\"bootstrap/dist/css/bootstrap.min.css\";import axios from\"axios\";import{Helmet}from\"react-helmet\";var STRIPEKEY=\"pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY\";var toCNY=function toCNY(eur){return 7.8*eur;};var toUSD=function toUSD(eur){return 1.1*eur;};var Selector=function Selector(props){return React.createElement(\"div\",{className:\"card\",onClick:props.onClick},React.createElement(\"div\",{className:\"card-body\",style:{display:\"flex\",alignItems:\"center\",borderStyle:props.selected?\"solid\":\"none\",borderColor:\"#007bff\",borderWidth:\"2px\"}},React.createElement(\"ion-icon\",{name:props.selected?\"radio-button-on\":\"radio-button-off\",size:\"large\",style:{verticalAlign:\"middle\",marginRight:\"12px\"}}),React.createElement(\"b\",null,props.description),React.createElement(\"span\",{className:\"text-muted\",style:{marginLeft:\"auto\"}},React.createElement(\"b\",null,\"\\u20AC\",5*props.months),\" / \",30*props.months,\" \",props.localize(\"days\"),\" \",React.createElement(\"br\",null),React.createElement(\"small\",null))));};var toQueryString=function toQueryString(params){var esc=encodeURIComponent;return Object.keys(params).map(function(k){return esc(k)+\"=\"+esc(params[k]);}).join(\"&\");};var getUserInfo=function getUserInfo(uname,pwd){var response;return _regeneratorRuntime.async(function getUserInfo$(_context){while(1){switch(_context.prev=_context.next){case 0:_context.next=2;return _regeneratorRuntime.awrap(axios.get(\"/billing/userinfo?\"+toQueryString({username:uname,password:pwd})));case 2:response=_context.sent;return _context.abrupt(\"return\",response.data);case 4:case\"end\":return _context.stop();}}});};var cancelStripe=function cancelStripe(uname,pwd){var response;return _regeneratorRuntime.async(function cancelStripe$(_context2){while(1){switch(_context2.prev=_context2.next){case 0:_context2.next=2;return _regeneratorRuntime.awrap(axios.get(\"/billing/stripe-cancel?\"+toQueryString({username:uname,password:pwd})));case 2:response=_context2.sent;return _context2.abrupt(\"return\",response.data);case 4:case\"end\":return _context2.stop();}}});};var getStripeID=function getStripeID(months,autoRenew){if(months===1){return autoRenew?\"plan_GIE5voityP0f9u\":\"sku_GIE7Nx2J7ZhXI8\";}else if(months===3){return autoRenew?\"plan_GIE5eNXYZsLlMX\":\"sku_GIE8CZ6qSEzd0t\";}else{return autoRenew?\"plan_GIE5JhURW2fFND\":\"sku_GIE8iScbw4grMT\";}};var Payer=function Payer(props){var _useState=useState(\"card\"),_useState2=_slicedToArray(_useState,2),payMethod=_useState2[0],setPayMethod=_useState2[1];var euroCents=500*props.months*(payMethod===\"alipay\"?1.05:1);var months=props.months;var renewable=!(props.userInfo&&props.userInfo.expires)&&payMethod!==\"alipay\";var _useState3=useState(renewable),_useState4=_slicedToArray(_useState3,2),autoRenew=_useState4[0],setAutoRenew=_useState4[1];var stripeCheckout=function stripeCheckout(){var _ref2;var stripe,_ref,error;return _regeneratorRuntime.async(function stripeCheckout$(_context3){while(1){switch(_context3.prev=_context3.next){case 0:stripe=window.Stripe(STRIPEKEY);_context3.next=3;return _regeneratorRuntime.awrap(stripe.redirectToCheckout({items:[(_ref2={},_defineProperty(_ref2,autoRenew?\"plan\":\"sku\",getStripeID(months,autoRenew)),_defineProperty(_ref2,\"quantity\",1),_ref2)],successUrl:window.location.href,cancelUrl:window.location.href,customerEmail:props.userInfo.username+\"@receipts.geph.io\"}));case 3:_ref=_context3.sent;error=_ref.error;if(error){alert(error);}case 6:case\"end\":return _context3.stop();}}});};var checkout=function checkout(){return _regeneratorRuntime.async(function checkout$(_context4){while(1){switch(_context4.prev=_context4.next){case 0:if(!(payMethod===\"card\")){_context4.next=5;break;}_context4.next=3;return _regeneratorRuntime.awrap(stripeCheckout());case 3:_context4.next=6;break;case 5:window.location.href=\"/billing/alipay?\"+toQueryString({username:props.userInfo.username,password:props.userInfo.password,months:months});case 6:case\"end\":return _context4.stop();}}});};return React.createElement(React.Fragment,null,React.createElement(Helmet,null,React.createElement(\"script\",{src:\"https://js.stripe.com/v3/\"})),React.createElement(\"nav\",{className:\"nav nav-tabs\"},React.createElement(\"a\",{className:payMethod===\"card\"?\"nav-link active\":\"nav-link\",onClick:function onClick(_){return setPayMethod(\"card\");}},React.createElement(\"img\",{src:require(\"../assets/visa.jpg\"),className:\"cardbrand\"}),React.createElement(\"img\",{src:require(\"../assets/mastercard.svg\"),className:\"cardbrand\"}),props.localize(\"credit-debit\")),React.createElement(\"a\",{className:payMethod===\"alipay\"?\"nav-link active\":\"nav-link\",onClick:function onClick(_){setPayMethod(\"alipay\");setAutoRenew(false);}},React.createElement(\"img\",{src:require(\"../assets/alipay.svg\"),className:\"cardbrand\"}),props.localize(\"alipay\"),\"\\xA0\",React.createElement(\"span\",{className:\"badge badge-warning\"},\"5% \",props.localize(\"fee\")))),React.createElement(\"div\",{className:\"card\"},React.createElement(\"div\",{className:\"card-body\"},React.createElement(\"span\",{style:{fontSize:\"150%\"}},React.createElement(\"b\",{className:\"text-success\"},\"\\u20AC\",(euroCents/100).toFixed(2)),\"\\xA0\",React.createElement(\"span\",{className:\"text-muted\"},props.localize(\"for-X-months\")(months))),React.createElement(\"br\",null),React.createElement(\"span\",{className:\"text-muted\"},\"\\u2248 \",React.createElement(\"b\",null,\"$\",(toUSD(euroCents)/100).toFixed(1),\" \"),\"USD\\xA0\\xA0\\xB7\\xA0\\xA0\\u2248\",\" \",React.createElement(\"b\",null,\"\\xA5\",(toCNY(euroCents)/100).toFixed(0)),\" RMB\"),React.createElement(\"hr\",null),React.createElement(\"div\",{className:\"input-group input-group-sm\"},React.createElement(\"div\",{className:\"input-group-prepend\"},React.createElement(\"span\",{className:\"input-group-text\"},props.localize(\"discount-code\"))),React.createElement(\"input\",{type:\"text\",maxlength:\"10\",style:{width:\"128px\",fontFamily:\"monospace\",fontSize:\"80%\"},disabled:true})),React.createElement(\"button\",{type:\"button\",className:\"btn btn-primary mb-3 mt-2\",onClick:function onClick(_){return checkout();}},props.localize(\"check-out\")),React.createElement(\"div\",{className:\"form-check\",style:{visibility:renewable?\"visible\":\"hidden\"}},React.createElement(\"input\",{className:\"form-check-input\",type:\"checkbox\",id:\"inputAutoRenew\",checked:autoRenew,disabled:!renewable,onClick:function onClick(_){return setAutoRenew(!autoRenew);}}),React.createElement(\"label\",{className:\"form-check-label\",htmlFor:\"inputAutoRenew\"},\"\\xA0\",props.localize(\"automatically-renew\"))),React.createElement(\"small\",null,autoRenew?props.localize(\"automatically-renew-blurb\")(euroCents,months):props.localize(\"no-renew-blurb\")(months)))));};function sleep(ms){return new Promise(function(resolve){return setTimeout(resolve,ms);});}var Planner=function Planner(props){var _useState5=useState(1),_useState6=_slicedToArray(_useState5,2),months=_useState6[0],setMonths=_useState6[1];var _useState7=useState(false),_useState8=_slicedToArray(_useState7,2),userInfo=_useState8[0],setUserInfo=_useState8[1];var getLang=function getLang(){try{if(navigator.language===\"zh-CN\"){return\"zhs\";}if(/zh/.test(navigator.language)){return\"zht\";}return\"en\";}catch(e){return\"en\";}};var localize=l10n(getLang());try{var toGo=function toGo(){var info;return _regeneratorRuntime.async(function toGo$(_context5){while(1){switch(_context5.prev=_context5.next){case 0:_context5.prev=0;_context5.next=3;return _regeneratorRuntime.awrap(getUserInfo(sessionStorage.getItem(\"username\"),sessionStorage.getItem(\"password\")));case 3:info=_context5.sent;console.log(\"INFO\");console.log(info);info.password=sessionStorage.getItem(\"password\");setUserInfo(info);_context5.next=13;break;case 10:_context5.prev=10;_context5.t0=_context5[\"catch\"](0);console.log(_context5.t0);case 13:case\"end\":return _context5.stop();}}},null,null,[[0,10]]);};if(!userInfo){toGo();}}catch(e){}return React.createElement(React.Fragment,null,React.createElement(Helmet,null,React.createElement(\"meta\",{charset:\"UTF-8\"})),React.createElement(\"section\",{className:\"whiteback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,localize(\"account-overview\"))),React.createElement(\"div\",{className:\"col-md-2\"})),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"username\")),\" \",React.createElement(\"br\",null),userInfo&&userInfo.username),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"subscription\")),\" \",React.createElement(\"br\",null),userInfo&&(userInfo.type===\"free\"?localize(\"free\"):\"Plus\")),userInfo&&userInfo.expires&&React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"expires\")),\" \",React.createElement(\"br\",null),new Date(userInfo.expires*1000).toISOString().substring(0,10)),React.createElement(\"div\",{className:\"col-md-2\"})),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"hr\",null),React.createElement(\"p\",null,userInfo&&(userInfo.subscription?localize(\"subscription-blurb\")(function _callee(_){return _regeneratorRuntime.async(function _callee$(_context6){while(1){switch(_context6.prev=_context6.next){case 0:_context6.next=2;return _regeneratorRuntime.awrap(cancelStripe(userInfo.username,userInfo.password));case 2:window.location.reload();case 3:case\"end\":return _context6.stop();}}});}):localize(\"extend-blurb\")))),React.createElement(\"div\",{className:\"col-md-2\"})))),userInfo&&!userInfo.subscription&&React.createElement(React.Fragment,null,React.createElement(\"section\",{className:\"lightback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,React.createElement(\"span\",{className:\"badge badge-secondary\"},localize(\"step1\")),\" \",\"\\xA0\",localize(\"choose-a-plan-length\")),React.createElement(\"p\",{className:\"hero-text\"},localize(\"flat-rate-blurb\")),React.createElement(Selector,{localize:localize,selected:months===1,description:\"1 \"+localize(\"month\"),months:1,onClick:function onClick(_){return setMonths(1);}}),React.createElement(Selector,{localize:localize,selected:months===3,description:\"3 \"+localize(\"months\"),months:3,onClick:function onClick(_){return setMonths(3);}}),React.createElement(Selector,{localize:localize,selected:months===12,description:\"12 \"+localize(\"months\"),months:12,onClick:function onClick(_){return setMonths(12);}})),React.createElement(\"div\",{className:\"col-md-2\"})))),React.createElement(\"section\",{className:\"lightback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,React.createElement(\"span\",{className:\"badge badge-secondary\"},localize(\"step2\")),\" \",\"\\xA0 \",localize(\"pay-for-plan\")),React.createElement(Payer,{userInfo:userInfo,localize:localize,months:months})),React.createElement(\"div\",{className:\"col-md-2\"}))))));};export default Planner;"
             },
             {
               "id": null,
@@ -2718,7 +2718,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../common/l10n",
-              "loc": "1:7510-7514"
+              "loc": "1:7464-7468"
             },
             {
               "moduleId": 133,
@@ -2860,7 +2860,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "cjs require",
               "userRequest": "../assets/visa.jpg",
-              "loc": "1:4692-4721"
+              "loc": "1:4646-4675"
             }
           ],
           "usedExports": true,
@@ -2922,7 +2922,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "cjs require",
               "userRequest": "../assets/mastercard.svg",
-              "loc": "1:4777-4812"
+              "loc": "1:4731-4766"
             }
           ],
           "usedExports": true,
@@ -2984,7 +2984,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "cjs require",
               "userRequest": "../assets/alipay.svg",
-              "loc": "1:5059-5090"
+              "loc": "1:5013-5044"
             }
           ],
           "usedExports": true,
@@ -3123,9 +3123,9 @@
         "main"
       ],
       "files": [
-        "main.ec4723f2.js"
+        "main.ad5e86cd.js"
       ],
-      "hash": "87480f923aeb2bac72ea",
+      "hash": "9d93e88136da7227db85",
       "siblings": [
         0,
         9
@@ -4592,7 +4592,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4419-4424"
+              "loc": "1:4420-4425"
             },
             {
               "moduleId": 56,
@@ -4601,7 +4601,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4466-4471"
+              "loc": "1:4473-4478"
             },
             {
               "moduleId": 56,
@@ -4610,7 +4610,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4519-4524"
+              "loc": "1:4615-4620"
             },
             {
               "moduleId": 56,
@@ -4619,7 +4619,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4661-4666"
+              "loc": "1:4700-4705"
             },
             {
               "moduleId": 56,
@@ -4628,7 +4628,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4746-4751"
+              "loc": "1:4823-4828"
             },
             {
               "moduleId": 56,
@@ -4637,7 +4637,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4869-4874"
+              "loc": "1:4982-4987"
             },
             {
               "moduleId": 56,
@@ -4646,7 +4646,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5028-5033"
+              "loc": "1:5101-5106"
             },
             {
               "moduleId": 56,
@@ -4655,7 +4655,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5147-5152"
+              "loc": "1:5193-5198"
             },
             {
               "moduleId": 56,
@@ -4664,7 +4664,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5239-5244"
+              "loc": "1:5238-5243"
             },
             {
               "moduleId": 56,
@@ -4673,7 +4673,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5284-5289"
+              "loc": "1:5288-5293"
             },
             {
               "moduleId": 56,
@@ -4682,7 +4682,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5334-5339"
+              "loc": "1:5341-5346"
             },
             {
               "moduleId": 56,
@@ -4691,7 +4691,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5387-5392"
+              "loc": "1:5436-5441"
             },
             {
               "moduleId": 56,
@@ -4700,7 +4700,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5482-5487"
+              "loc": "1:5529-5534"
             },
             {
               "moduleId": 56,
@@ -4709,7 +4709,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5575-5580"
+              "loc": "1:5560-5565"
             },
             {
               "moduleId": 56,
@@ -4718,7 +4718,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5606-5611"
+              "loc": "1:5622-5627"
             },
             {
               "moduleId": 56,
@@ -4727,7 +4727,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5668-5673"
+              "loc": "1:5730-5735"
             },
             {
               "moduleId": 56,
@@ -4736,7 +4736,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5776-5781"
+              "loc": "1:5809-5814"
             },
             {
               "moduleId": 56,
@@ -4745,7 +4745,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5855-5860"
+              "loc": "1:5840-5845"
             },
             {
               "moduleId": 56,
@@ -4754,7 +4754,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5886-5891"
+              "loc": "1:5907-5912"
             },
             {
               "moduleId": 56,
@@ -4763,7 +4763,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5953-5958"
+              "loc": "1:5967-5972"
             },
             {
               "moduleId": 56,
@@ -4772,7 +4772,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6013-6018"
+              "loc": "1:6059-6064"
             },
             {
               "moduleId": 56,
@@ -4781,7 +4781,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6105-6110"
+              "loc": "1:6192-6197"
             },
             {
               "moduleId": 56,
@@ -4790,7 +4790,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6238-6243"
+              "loc": "1:6352-6357"
             },
             {
               "moduleId": 56,
@@ -4799,7 +4799,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6398-6403"
+              "loc": "1:6451-6456"
             },
             {
               "moduleId": 56,
@@ -4808,7 +4808,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6497-6502"
+              "loc": "1:6647-6652"
             },
             {
               "moduleId": 56,
@@ -4817,7 +4817,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6693-6698"
+              "loc": "1:6778-6783"
             },
             {
               "moduleId": 56,
@@ -4826,7 +4826,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6824-6829"
+              "loc": "1:7071-7079"
             },
             {
               "moduleId": 56,
@@ -4835,7 +4835,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:7117-7125"
+              "loc": "1:7183-7191"
             },
             {
               "moduleId": 56,
@@ -4844,7 +4844,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:7229-7237"
+              "loc": "1:8133-8138"
             },
             {
               "moduleId": 56,
@@ -4853,7 +4853,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8179-8184"
+              "loc": "1:8153-8158"
             },
             {
               "moduleId": 56,
@@ -4862,7 +4862,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8199-8204"
+              "loc": "1:8173-8178"
             },
             {
               "moduleId": 56,
@@ -4871,7 +4871,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8219-8224"
+              "loc": "1:8205-8210"
             },
             {
               "moduleId": 56,
@@ -4880,7 +4880,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8273-8278"
+              "loc": "1:8252-8257"
             },
             {
               "moduleId": 56,
@@ -4889,7 +4889,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8323-8328"
+              "loc": "1:8306-8311"
             },
             {
               "moduleId": 56,
@@ -4898,7 +4898,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8367-8372"
+              "loc": "1:8356-8361"
             },
             {
               "moduleId": 56,
@@ -4907,7 +4907,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8417-8422"
+              "loc": "1:8400-8405"
             },
             {
               "moduleId": 56,
@@ -4916,7 +4916,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8461-8466"
+              "loc": "1:8450-8455"
             },
             {
               "moduleId": 56,
@@ -4925,7 +4925,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8522-8527"
+              "loc": "1:8494-8499"
             },
             {
               "moduleId": 56,
@@ -4934,7 +4934,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8573-8578"
+              "loc": "1:8555-8560"
             },
             {
               "moduleId": 56,
@@ -4943,7 +4943,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8617-8622"
+              "loc": "1:8606-8611"
             },
             {
               "moduleId": 56,
@@ -4952,7 +4952,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8667-8672"
+              "loc": "1:8650-8655"
             },
             {
               "moduleId": 56,
@@ -4961,7 +4961,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8714-8719"
+              "loc": "1:8700-8705"
             },
             {
               "moduleId": 56,
@@ -4970,7 +4970,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8769-8774"
+              "loc": "1:8747-8752"
             },
             {
               "moduleId": 56,
@@ -4979,7 +4979,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8829-8834"
+              "loc": "1:8802-8807"
             },
             {
               "moduleId": 56,
@@ -4988,7 +4988,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8876-8881"
+              "loc": "1:8862-8867"
             },
             {
               "moduleId": 56,
@@ -4997,7 +4997,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:8935-8940"
+              "loc": "1:8909-8914"
             },
             {
               "moduleId": 56,
@@ -5006,7 +5006,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9054-9059"
+              "loc": "1:8968-8973"
             },
             {
               "moduleId": 56,
@@ -5015,7 +5015,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9101-9106"
+              "loc": "1:9087-9092"
             },
             {
               "moduleId": 56,
@@ -5024,7 +5024,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9155-9160"
+              "loc": "1:9134-9139"
             },
             {
               "moduleId": 56,
@@ -5033,7 +5033,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9249-9254"
+              "loc": "1:9188-9193"
             },
             {
               "moduleId": 56,
@@ -5042,7 +5042,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9300-9305"
+              "loc": "1:9282-9287"
             },
             {
               "moduleId": 56,
@@ -5051,7 +5051,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9344-9349"
+              "loc": "1:9333-9338"
             },
             {
               "moduleId": 56,
@@ -5060,7 +5060,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9394-9399"
+              "loc": "1:9377-9382"
             },
             {
               "moduleId": 56,
@@ -5069,7 +5069,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9438-9443"
+              "loc": "1:9427-9432"
             },
             {
               "moduleId": 56,
@@ -5078,7 +5078,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9469-9474"
+              "loc": "1:9471-9476"
             },
             {
               "moduleId": 56,
@@ -5087,7 +5087,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9908-9913"
+              "loc": "1:9502-9507"
             },
             {
               "moduleId": 56,
@@ -5096,7 +5096,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:9995-10000"
+              "loc": "1:9941-9946"
             },
             {
               "moduleId": 56,
@@ -5105,7 +5105,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10015-10020"
+              "loc": "1:10028-10033"
             },
             {
               "moduleId": 56,
@@ -5114,7 +5114,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10035-10040"
+              "loc": "1:10048-10053"
             },
             {
               "moduleId": 56,
@@ -5123,7 +5123,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10089-10094"
+              "loc": "1:10068-10073"
             },
             {
               "moduleId": 56,
@@ -5132,7 +5132,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10139-10144"
+              "loc": "1:10122-10127"
             },
             {
               "moduleId": 56,
@@ -5141,7 +5141,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10183-10188"
+              "loc": "1:10172-10177"
             },
             {
               "moduleId": 56,
@@ -5150,7 +5150,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10233-10238"
+              "loc": "1:10216-10221"
             },
             {
               "moduleId": 56,
@@ -5159,7 +5159,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10277-10282"
+              "loc": "1:10266-10271"
             },
             {
               "moduleId": 56,
@@ -5168,7 +5168,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10307-10312"
+              "loc": "1:10310-10315"
             },
             {
               "moduleId": 56,
@@ -5177,7 +5177,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10434-10439"
+              "loc": "1:10340-10345"
             },
             {
               "moduleId": 56,
@@ -5186,7 +5186,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10511-10516"
+              "loc": "1:10467-10472"
             },
             {
               "moduleId": 56,
@@ -5195,7 +5195,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10675-10680"
+              "loc": "1:10544-10549"
             },
             {
               "moduleId": 56,
@@ -5204,7 +5204,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:10840-10845"
+              "loc": "1:10708-10713"
             },
             {
               "moduleId": 56,
@@ -5213,7 +5213,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:11010-11015"
+              "loc": "1:10873-10878"
             },
             {
               "moduleId": 56,
@@ -5222,7 +5222,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:11063-11068"
+              "loc": "1:11043-11048"
             },
             {
               "moduleId": 56,
@@ -5231,7 +5231,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:11117-11122"
+              "loc": "1:11096-11101"
             },
             {
               "moduleId": 56,
@@ -5240,7 +5240,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:11167-11172"
+              "loc": "1:11150-11155"
             },
             {
               "moduleId": 56,
@@ -5249,7 +5249,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:11211-11216"
+              "loc": "1:11200-11205"
             },
             {
               "moduleId": 56,
@@ -5258,7 +5258,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:11261-11266"
+              "loc": "1:11244-11249"
             },
             {
               "moduleId": 56,
@@ -5267,7 +5267,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:11305-11310"
+              "loc": "1:11294-11299"
             },
             {
               "moduleId": 56,
@@ -5276,7 +5276,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:11335-11340"
+              "loc": "1:11338-11343"
             },
             {
               "moduleId": 56,
@@ -5285,7 +5285,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:11455-11460"
+              "loc": "1:11368-11373"
             },
             {
               "moduleId": 56,
@@ -5294,7 +5294,16 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:11535-11540"
+              "loc": "1:11488-11493"
+            },
+            {
+              "moduleId": 56,
+              "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx cd7d78632707bb7e2f8299e4fbd2348e",
+              "module": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
+              "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:11568-11573"
             },
             {
               "moduleId": 88,
@@ -8856,7 +8865,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/slicedToArray",
-              "loc": "1:7140-7154"
+              "loc": "1:7094-7108"
             },
             {
               "moduleId": 56,
@@ -8865,7 +8874,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/slicedToArray",
-              "loc": "1:7256-7270"
+              "loc": "1:7210-7224"
             },
             {
               "moduleId": 108,
@@ -10254,7 +10263,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/regenerator",
-              "loc": "1:7571-7590"
+              "loc": "1:7525-7544"
             },
             {
               "moduleId": 56,
@@ -10263,7 +10272,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/regenerator",
-              "loc": "1:7718-7737"
+              "loc": "1:7672-7691"
             },
             {
               "moduleId": 56,
@@ -10272,7 +10281,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/regenerator",
-              "loc": "1:9589-9608"
+              "loc": "1:9622-9641"
             },
             {
               "moduleId": 56,
@@ -10281,7 +10290,7 @@
               "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/regenerator",
-              "loc": "1:9722-9741"
+              "loc": "1:9755-9774"
             }
           ],
           "usedExports": true,
@@ -12780,6 +12789,15 @@
               "type": "harmony import specifier",
               "userRequest": "react-helmet",
               "loc": "1:4343-4349"
+            },
+            {
+              "moduleId": 56,
+              "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx cd7d78632707bb7e2f8299e4fbd2348e",
+              "module": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
+              "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react-helmet",
+              "loc": "1:8193-8199"
             },
             {
               "moduleId": 133,
@@ -18662,7 +18680,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4419-4424"
+          "loc": "1:4420-4425"
         },
         {
           "moduleId": 56,
@@ -18671,7 +18689,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4466-4471"
+          "loc": "1:4473-4478"
         },
         {
           "moduleId": 56,
@@ -18680,7 +18698,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4519-4524"
+          "loc": "1:4615-4620"
         },
         {
           "moduleId": 56,
@@ -18689,7 +18707,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4661-4666"
+          "loc": "1:4700-4705"
         },
         {
           "moduleId": 56,
@@ -18698,7 +18716,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4746-4751"
+          "loc": "1:4823-4828"
         },
         {
           "moduleId": 56,
@@ -18707,7 +18725,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4869-4874"
+          "loc": "1:4982-4987"
         },
         {
           "moduleId": 56,
@@ -18716,7 +18734,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5028-5033"
+          "loc": "1:5101-5106"
         },
         {
           "moduleId": 56,
@@ -18725,7 +18743,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5147-5152"
+          "loc": "1:5193-5198"
         },
         {
           "moduleId": 56,
@@ -18734,7 +18752,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5239-5244"
+          "loc": "1:5238-5243"
         },
         {
           "moduleId": 56,
@@ -18743,7 +18761,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5284-5289"
+          "loc": "1:5288-5293"
         },
         {
           "moduleId": 56,
@@ -18752,7 +18770,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5334-5339"
+          "loc": "1:5341-5346"
         },
         {
           "moduleId": 56,
@@ -18761,7 +18779,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5387-5392"
+          "loc": "1:5436-5441"
         },
         {
           "moduleId": 56,
@@ -18770,7 +18788,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5482-5487"
+          "loc": "1:5529-5534"
         },
         {
           "moduleId": 56,
@@ -18779,7 +18797,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5575-5580"
+          "loc": "1:5560-5565"
         },
         {
           "moduleId": 56,
@@ -18788,7 +18806,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5606-5611"
+          "loc": "1:5622-5627"
         },
         {
           "moduleId": 56,
@@ -18797,7 +18815,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5668-5673"
+          "loc": "1:5730-5735"
         },
         {
           "moduleId": 56,
@@ -18806,7 +18824,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5776-5781"
+          "loc": "1:5809-5814"
         },
         {
           "moduleId": 56,
@@ -18815,7 +18833,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5855-5860"
+          "loc": "1:5840-5845"
         },
         {
           "moduleId": 56,
@@ -18824,7 +18842,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5886-5891"
+          "loc": "1:5907-5912"
         },
         {
           "moduleId": 56,
@@ -18833,7 +18851,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5953-5958"
+          "loc": "1:5967-5972"
         },
         {
           "moduleId": 56,
@@ -18842,7 +18860,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6013-6018"
+          "loc": "1:6059-6064"
         },
         {
           "moduleId": 56,
@@ -18851,7 +18869,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6105-6110"
+          "loc": "1:6192-6197"
         },
         {
           "moduleId": 56,
@@ -18860,7 +18878,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6238-6243"
+          "loc": "1:6352-6357"
         },
         {
           "moduleId": 56,
@@ -18869,7 +18887,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6398-6403"
+          "loc": "1:6451-6456"
         },
         {
           "moduleId": 56,
@@ -18878,7 +18896,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6497-6502"
+          "loc": "1:6647-6652"
         },
         {
           "moduleId": 56,
@@ -18887,7 +18905,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6693-6698"
+          "loc": "1:6778-6783"
         },
         {
           "moduleId": 56,
@@ -18896,7 +18914,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6824-6829"
+          "loc": "1:7071-7079"
         },
         {
           "moduleId": 56,
@@ -18905,7 +18923,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:7117-7125"
+          "loc": "1:7183-7191"
         },
         {
           "moduleId": 56,
@@ -18914,7 +18932,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:7229-7237"
+          "loc": "1:8133-8138"
         },
         {
           "moduleId": 56,
@@ -18923,7 +18941,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8179-8184"
+          "loc": "1:8153-8158"
         },
         {
           "moduleId": 56,
@@ -18932,7 +18950,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8199-8204"
+          "loc": "1:8173-8178"
         },
         {
           "moduleId": 56,
@@ -18941,7 +18959,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8219-8224"
+          "loc": "1:8205-8210"
         },
         {
           "moduleId": 56,
@@ -18950,7 +18968,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8273-8278"
+          "loc": "1:8252-8257"
         },
         {
           "moduleId": 56,
@@ -18959,7 +18977,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8323-8328"
+          "loc": "1:8306-8311"
         },
         {
           "moduleId": 56,
@@ -18968,7 +18986,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8367-8372"
+          "loc": "1:8356-8361"
         },
         {
           "moduleId": 56,
@@ -18977,7 +18995,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8417-8422"
+          "loc": "1:8400-8405"
         },
         {
           "moduleId": 56,
@@ -18986,7 +19004,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8461-8466"
+          "loc": "1:8450-8455"
         },
         {
           "moduleId": 56,
@@ -18995,7 +19013,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8522-8527"
+          "loc": "1:8494-8499"
         },
         {
           "moduleId": 56,
@@ -19004,7 +19022,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8573-8578"
+          "loc": "1:8555-8560"
         },
         {
           "moduleId": 56,
@@ -19013,7 +19031,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8617-8622"
+          "loc": "1:8606-8611"
         },
         {
           "moduleId": 56,
@@ -19022,7 +19040,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8667-8672"
+          "loc": "1:8650-8655"
         },
         {
           "moduleId": 56,
@@ -19031,7 +19049,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8714-8719"
+          "loc": "1:8700-8705"
         },
         {
           "moduleId": 56,
@@ -19040,7 +19058,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8769-8774"
+          "loc": "1:8747-8752"
         },
         {
           "moduleId": 56,
@@ -19049,7 +19067,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8829-8834"
+          "loc": "1:8802-8807"
         },
         {
           "moduleId": 56,
@@ -19058,7 +19076,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8876-8881"
+          "loc": "1:8862-8867"
         },
         {
           "moduleId": 56,
@@ -19067,7 +19085,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:8935-8940"
+          "loc": "1:8909-8914"
         },
         {
           "moduleId": 56,
@@ -19076,7 +19094,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9054-9059"
+          "loc": "1:8968-8973"
         },
         {
           "moduleId": 56,
@@ -19085,7 +19103,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9101-9106"
+          "loc": "1:9087-9092"
         },
         {
           "moduleId": 56,
@@ -19094,7 +19112,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9155-9160"
+          "loc": "1:9134-9139"
         },
         {
           "moduleId": 56,
@@ -19103,7 +19121,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9249-9254"
+          "loc": "1:9188-9193"
         },
         {
           "moduleId": 56,
@@ -19112,7 +19130,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9300-9305"
+          "loc": "1:9282-9287"
         },
         {
           "moduleId": 56,
@@ -19121,7 +19139,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9344-9349"
+          "loc": "1:9333-9338"
         },
         {
           "moduleId": 56,
@@ -19130,7 +19148,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9394-9399"
+          "loc": "1:9377-9382"
         },
         {
           "moduleId": 56,
@@ -19139,7 +19157,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9438-9443"
+          "loc": "1:9427-9432"
         },
         {
           "moduleId": 56,
@@ -19148,7 +19166,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9469-9474"
+          "loc": "1:9471-9476"
         },
         {
           "moduleId": 56,
@@ -19157,7 +19175,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9908-9913"
+          "loc": "1:9502-9507"
         },
         {
           "moduleId": 56,
@@ -19166,7 +19184,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:9995-10000"
+          "loc": "1:9941-9946"
         },
         {
           "moduleId": 56,
@@ -19175,7 +19193,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10015-10020"
+          "loc": "1:10028-10033"
         },
         {
           "moduleId": 56,
@@ -19184,7 +19202,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10035-10040"
+          "loc": "1:10048-10053"
         },
         {
           "moduleId": 56,
@@ -19193,7 +19211,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10089-10094"
+          "loc": "1:10068-10073"
         },
         {
           "moduleId": 56,
@@ -19202,7 +19220,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10139-10144"
+          "loc": "1:10122-10127"
         },
         {
           "moduleId": 56,
@@ -19211,7 +19229,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10183-10188"
+          "loc": "1:10172-10177"
         },
         {
           "moduleId": 56,
@@ -19220,7 +19238,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10233-10238"
+          "loc": "1:10216-10221"
         },
         {
           "moduleId": 56,
@@ -19229,7 +19247,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10277-10282"
+          "loc": "1:10266-10271"
         },
         {
           "moduleId": 56,
@@ -19238,7 +19256,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10307-10312"
+          "loc": "1:10310-10315"
         },
         {
           "moduleId": 56,
@@ -19247,7 +19265,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10434-10439"
+          "loc": "1:10340-10345"
         },
         {
           "moduleId": 56,
@@ -19256,7 +19274,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10511-10516"
+          "loc": "1:10467-10472"
         },
         {
           "moduleId": 56,
@@ -19265,7 +19283,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10675-10680"
+          "loc": "1:10544-10549"
         },
         {
           "moduleId": 56,
@@ -19274,7 +19292,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:10840-10845"
+          "loc": "1:10708-10713"
         },
         {
           "moduleId": 56,
@@ -19283,7 +19301,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:11010-11015"
+          "loc": "1:10873-10878"
         },
         {
           "moduleId": 56,
@@ -19292,7 +19310,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:11063-11068"
+          "loc": "1:11043-11048"
         },
         {
           "moduleId": 56,
@@ -19301,7 +19319,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:11117-11122"
+          "loc": "1:11096-11101"
         },
         {
           "moduleId": 56,
@@ -19310,7 +19328,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:11167-11172"
+          "loc": "1:11150-11155"
         },
         {
           "moduleId": 56,
@@ -19319,7 +19337,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:11211-11216"
+          "loc": "1:11200-11205"
         },
         {
           "moduleId": 56,
@@ -19328,7 +19346,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:11261-11266"
+          "loc": "1:11244-11249"
         },
         {
           "moduleId": 56,
@@ -19337,7 +19355,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:11305-11310"
+          "loc": "1:11294-11299"
         },
         {
           "moduleId": 56,
@@ -19346,7 +19364,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:11335-11340"
+          "loc": "1:11338-11343"
         },
         {
           "moduleId": 56,
@@ -19355,7 +19373,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:11455-11460"
+          "loc": "1:11368-11373"
         },
         {
           "moduleId": 56,
@@ -19364,7 +19382,16 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:11535-11540"
+          "loc": "1:11488-11493"
+        },
+        {
+          "moduleId": 56,
+          "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx cd7d78632707bb7e2f8299e4fbd2348e",
+          "module": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
+          "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:11568-11573"
         },
         {
           "moduleId": 88,
@@ -19544,7 +19571,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-35"
+          "loc": "1:0-36"
         },
         {
           "moduleId": 133,
@@ -19553,7 +19580,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-36"
+          "loc": "1:0-35"
         },
         {
           "moduleId": 133,
@@ -22926,7 +22953,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/slicedToArray",
-          "loc": "1:7140-7154"
+          "loc": "1:7094-7108"
         },
         {
           "moduleId": 56,
@@ -22935,7 +22962,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/slicedToArray",
-          "loc": "1:7256-7270"
+          "loc": "1:7210-7224"
         },
         {
           "moduleId": 108,
@@ -24410,7 +24437,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/regenerator",
-          "loc": "1:7571-7590"
+          "loc": "1:7525-7544"
         },
         {
           "moduleId": 56,
@@ -24419,7 +24446,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/regenerator",
-          "loc": "1:7718-7737"
+          "loc": "1:7672-7691"
         },
         {
           "moduleId": 56,
@@ -24428,7 +24455,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/regenerator",
-          "loc": "1:9589-9608"
+          "loc": "1:9622-9641"
         },
         {
           "moduleId": 56,
@@ -24437,7 +24464,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/regenerator",
-          "loc": "1:9722-9741"
+          "loc": "1:9755-9774"
         }
       ],
       "usedExports": true,
@@ -27065,6 +27092,15 @@
           "loc": "1:4343-4349"
         },
         {
+          "moduleId": 56,
+          "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx cd7d78632707bb7e2f8299e4fbd2348e",
+          "module": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
+          "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react-helmet",
+          "loc": "1:8193-8199"
+        },
+        {
           "moduleId": 133,
           "moduleIdentifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx c94056bffd0141a2cc92243d881cbc40",
           "module": "/home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx + 3 modules",
@@ -27135,11 +27171,11 @@
       "warnings": 0,
       "assets": [
         "static/logo-bg.02b32555.png",
-        "static/LibreFranklin-RegularItalic.1b746baa.ttf",
         "static/LibreFranklin-Regular.817fb321.ttf",
         "static/LibreFranklin-Medium.c1ed12e2.ttf",
         "static/LibreFranklin-Bold.4fe3bce8.ttf",
-        "static/LibreFranklin-BoldItalic.3453f7c2.ttf"
+        "static/LibreFranklin-BoldItalic.3453f7c2.ttf",
+        "static/LibreFranklin-RegularItalic.1b746baa.ttf"
       ],
       "reasons": [
         {
@@ -27176,7 +27212,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580220631346\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580228777622\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 51,
@@ -27522,7 +27558,7 @@
       "name": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
       "index": 148,
       "index2": 154,
-      "size": 16199,
+      "size": 16232,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27579,7 +27615,7 @@
           "name": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx",
           "index": 148,
           "index2": 154,
-          "size": 11615,
+          "size": 11648,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -27637,7 +27673,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import _defineProperty from\"@babel/runtime/helpers/defineProperty\";import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import _regeneratorRuntime from\"@babel/runtime/regenerator\";import React,{useState}from\"react\";import\"../app.css\";import\"./PlanPicker.css\";import{addl10n,l10n}from\"../common/l10n\";import\"./PlanPicker.l10n\";import\"bootstrap/dist/css/bootstrap.min.css\";import axios from\"axios\";import{Helmet}from\"react-helmet\";var STRIPEKEY=\"pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY\";var toCNY=function toCNY(eur){return 7.8*eur;};var toUSD=function toUSD(eur){return 1.1*eur;};var Selector=function Selector(props){return React.createElement(\"div\",{className:\"card\",onClick:props.onClick},React.createElement(\"div\",{className:\"card-body\",style:{display:\"flex\",alignItems:\"center\",borderStyle:props.selected?\"solid\":\"none\",borderColor:\"#007bff\",borderWidth:\"2px\"}},React.createElement(\"ion-icon\",{name:props.selected?\"radio-button-on\":\"radio-button-off\",size:\"large\",style:{verticalAlign:\"middle\",marginRight:\"12px\"}}),React.createElement(\"b\",null,props.description),React.createElement(\"span\",{className:\"text-muted\",style:{marginLeft:\"auto\"}},React.createElement(\"b\",null,\"\\u20AC\",5*props.months),\" / \",30*props.months,\" \",props.localize(\"days\"),\" \",React.createElement(\"br\",null),React.createElement(\"small\",null))));};var toQueryString=function toQueryString(params){var esc=encodeURIComponent;return Object.keys(params).map(function(k){return esc(k)+\"=\"+esc(params[k]);}).join(\"&\");};var getUserInfo=function getUserInfo(uname,pwd){var response;return _regeneratorRuntime.async(function getUserInfo$(_context){while(1){switch(_context.prev=_context.next){case 0:_context.next=2;return _regeneratorRuntime.awrap(axios.get(\"/billing/userinfo?\"+toQueryString({username:uname,password:pwd})));case 2:response=_context.sent;return _context.abrupt(\"return\",response.data);case 4:case\"end\":return _context.stop();}}});};var cancelStripe=function cancelStripe(uname,pwd){var response;return _regeneratorRuntime.async(function cancelStripe$(_context2){while(1){switch(_context2.prev=_context2.next){case 0:_context2.next=2;return _regeneratorRuntime.awrap(axios.get(\"/billing/stripe-cancel?\"+toQueryString({username:uname,password:pwd})));case 2:response=_context2.sent;return _context2.abrupt(\"return\",response.data);case 4:case\"end\":return _context2.stop();}}});};var getStripeID=function getStripeID(months,autoRenew){if(months===1){return autoRenew?\"plan_GIE5voityP0f9u\":\"sku_GIE7Nx2J7ZhXI8\";}else if(months===3){return autoRenew?\"plan_GIE5eNXYZsLlMX\":\"sku_GIE8CZ6qSEzd0t\";}else{return autoRenew?\"plan_GIE5JhURW2fFND\":\"sku_GIE8iScbw4grMT\";}};var Payer=function Payer(props){var _useState=useState(\"card\"),_useState2=_slicedToArray(_useState,2),payMethod=_useState2[0],setPayMethod=_useState2[1];var euroCents=500*props.months*(payMethod===\"alipay\"?1.05:1);var months=props.months;var renewable=!(props.userInfo&&props.userInfo.expires)&&payMethod!==\"alipay\";var _useState3=useState(renewable),_useState4=_slicedToArray(_useState3,2),autoRenew=_useState4[0],setAutoRenew=_useState4[1];var stripeCheckout=function stripeCheckout(){var _ref2;var stripe,_ref,error;return _regeneratorRuntime.async(function stripeCheckout$(_context3){while(1){switch(_context3.prev=_context3.next){case 0:stripe=window.Stripe(STRIPEKEY);_context3.next=3;return _regeneratorRuntime.awrap(stripe.redirectToCheckout({items:[(_ref2={},_defineProperty(_ref2,autoRenew?\"plan\":\"sku\",getStripeID(months,autoRenew)),_defineProperty(_ref2,\"quantity\",1),_ref2)],successUrl:window.location.href,cancelUrl:window.location.href,customerEmail:props.userInfo.username+\"@receipts.geph.io\"}));case 3:_ref=_context3.sent;error=_ref.error;if(error){alert(error);}case 6:case\"end\":return _context3.stop();}}});};var checkout=function checkout(){return _regeneratorRuntime.async(function checkout$(_context4){while(1){switch(_context4.prev=_context4.next){case 0:if(!(payMethod===\"card\")){_context4.next=5;break;}_context4.next=3;return _regeneratorRuntime.awrap(stripeCheckout());case 3:_context4.next=6;break;case 5:window.location.href=\"/billing/alipay?\"+toQueryString({username:props.userInfo.username,password:props.userInfo.password,months:months});case 6:case\"end\":return _context4.stop();}}});};return React.createElement(React.Fragment,null,React.createElement(Helmet,null,React.createElement(\"script\",{src:\"https://js.stripe.com/v3/\"}),React.createElement(\"meta\",{charset:\"UTF-8\"})),React.createElement(\"nav\",{className:\"nav nav-tabs\"},React.createElement(\"a\",{className:payMethod===\"card\"?\"nav-link active\":\"nav-link\",onClick:function onClick(_){return setPayMethod(\"card\");}},React.createElement(\"img\",{src:require(\"../assets/visa.jpg\"),className:\"cardbrand\"}),React.createElement(\"img\",{src:require(\"../assets/mastercard.svg\"),className:\"cardbrand\"}),props.localize(\"credit-debit\")),React.createElement(\"a\",{className:payMethod===\"alipay\"?\"nav-link active\":\"nav-link\",onClick:function onClick(_){setPayMethod(\"alipay\");setAutoRenew(false);}},React.createElement(\"img\",{src:require(\"../assets/alipay.svg\"),className:\"cardbrand\"}),props.localize(\"alipay\"),\"\\xA0\",React.createElement(\"span\",{className:\"badge badge-warning\"},\"5% \",props.localize(\"fee\")))),React.createElement(\"div\",{className:\"card\"},React.createElement(\"div\",{className:\"card-body\"},React.createElement(\"span\",{style:{fontSize:\"150%\"}},React.createElement(\"b\",{className:\"text-success\"},\"\\u20AC\",(euroCents/100).toFixed(2)),\"\\xA0\",React.createElement(\"span\",{className:\"text-muted\"},props.localize(\"for-X-months\")(months))),React.createElement(\"br\",null),React.createElement(\"span\",{className:\"text-muted\"},\"\\u2248 \",React.createElement(\"b\",null,\"$\",(toUSD(euroCents)/100).toFixed(1),\" \"),\"USD\\xA0\\xA0\\xB7\\xA0\\xA0\\u2248\",\" \",React.createElement(\"b\",null,\"\\xA5\",(toCNY(euroCents)/100).toFixed(0)),\" RMB\"),React.createElement(\"hr\",null),React.createElement(\"div\",{className:\"input-group input-group-sm\"},React.createElement(\"div\",{className:\"input-group-prepend\"},React.createElement(\"span\",{className:\"input-group-text\"},props.localize(\"discount-code\"))),React.createElement(\"input\",{type:\"text\",maxlength:\"10\",style:{width:\"128px\",fontFamily:\"monospace\",fontSize:\"80%\"},disabled:true})),React.createElement(\"button\",{type:\"button\",className:\"btn btn-primary mb-3 mt-2\",onClick:function onClick(_){return checkout();}},props.localize(\"check-out\")),React.createElement(\"div\",{className:\"form-check\",style:{visibility:renewable?\"visible\":\"hidden\"}},React.createElement(\"input\",{className:\"form-check-input\",type:\"checkbox\",id:\"inputAutoRenew\",checked:autoRenew,disabled:!renewable,onClick:function onClick(_){return setAutoRenew(!autoRenew);}}),React.createElement(\"label\",{className:\"form-check-label\",htmlFor:\"inputAutoRenew\"},\"\\xA0\",props.localize(\"automatically-renew\"))),React.createElement(\"small\",null,autoRenew?props.localize(\"automatically-renew-blurb\")(euroCents,months):props.localize(\"no-renew-blurb\")(months)))));};function sleep(ms){return new Promise(function(resolve){return setTimeout(resolve,ms);});}var Planner=function Planner(props){var _useState5=useState(1),_useState6=_slicedToArray(_useState5,2),months=_useState6[0],setMonths=_useState6[1];var _useState7=useState(false),_useState8=_slicedToArray(_useState7,2),userInfo=_useState8[0],setUserInfo=_useState8[1];var getLang=function getLang(){try{if(navigator.language===\"zh-CN\"){return\"zhs\";}if(/zh/.test(navigator.language)){return\"zht\";}return\"en\";}catch(e){return\"en\";}};var localize=l10n(getLang());try{var toGo=function toGo(){var info;return _regeneratorRuntime.async(function toGo$(_context5){while(1){switch(_context5.prev=_context5.next){case 0:_context5.prev=0;_context5.next=3;return _regeneratorRuntime.awrap(getUserInfo(sessionStorage.getItem(\"username\"),sessionStorage.getItem(\"password\")));case 3:info=_context5.sent;console.log(\"INFO\");console.log(info);info.password=sessionStorage.getItem(\"password\");setUserInfo(info);_context5.next=13;break;case 10:_context5.prev=10;_context5.t0=_context5[\"catch\"](0);console.log(_context5.t0);case 13:case\"end\":return _context5.stop();}}},null,null,[[0,10]]);};if(!userInfo){toGo();}}catch(e){}return React.createElement(React.Fragment,null,React.createElement(\"section\",{className:\"whiteback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,localize(\"account-overview\"))),React.createElement(\"div\",{className:\"col-md-2\"})),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"username\")),\" \",React.createElement(\"br\",null),userInfo&&userInfo.username),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"subscription\")),\" \",React.createElement(\"br\",null),userInfo&&(userInfo.type===\"free\"?localize(\"free\"):\"Plus\")),userInfo&&userInfo.expires&&React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"expires\")),\" \",React.createElement(\"br\",null),new Date(userInfo.expires*1000).toISOString().substring(0,10)),React.createElement(\"div\",{className:\"col-md-2\"})),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"hr\",null),React.createElement(\"p\",null,userInfo&&(userInfo.subscription?localize(\"subscription-blurb\")(function _callee(_){return _regeneratorRuntime.async(function _callee$(_context6){while(1){switch(_context6.prev=_context6.next){case 0:_context6.next=2;return _regeneratorRuntime.awrap(cancelStripe(userInfo.username,userInfo.password));case 2:window.location.reload();case 3:case\"end\":return _context6.stop();}}});}):localize(\"extend-blurb\")))),React.createElement(\"div\",{className:\"col-md-2\"})))),userInfo&&!userInfo.subscription&&React.createElement(React.Fragment,null,React.createElement(\"section\",{className:\"lightback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,React.createElement(\"span\",{className:\"badge badge-secondary\"},localize(\"step1\")),\" \",\"\\xA0\",localize(\"choose-a-plan-length\")),React.createElement(\"p\",{className:\"hero-text\"},localize(\"flat-rate-blurb\")),React.createElement(Selector,{localize:localize,selected:months===1,description:\"1 \"+localize(\"month\"),months:1,onClick:function onClick(_){return setMonths(1);}}),React.createElement(Selector,{localize:localize,selected:months===3,description:\"3 \"+localize(\"months\"),months:3,onClick:function onClick(_){return setMonths(3);}}),React.createElement(Selector,{localize:localize,selected:months===12,description:\"12 \"+localize(\"months\"),months:12,onClick:function onClick(_){return setMonths(12);}})),React.createElement(\"div\",{className:\"col-md-2\"})))),React.createElement(\"section\",{className:\"lightback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,React.createElement(\"span\",{className:\"badge badge-secondary\"},localize(\"step2\")),\" \",\"\\xA0 \",localize(\"pay-for-plan\")),React.createElement(Payer,{userInfo:userInfo,localize:localize,months:months})),React.createElement(\"div\",{className:\"col-md-2\"}))))));};export default Planner;"
+          "source": "import _defineProperty from\"@babel/runtime/helpers/defineProperty\";import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import _regeneratorRuntime from\"@babel/runtime/regenerator\";import React,{useState}from\"react\";import\"../app.css\";import\"./PlanPicker.css\";import{addl10n,l10n}from\"../common/l10n\";import\"./PlanPicker.l10n\";import\"bootstrap/dist/css/bootstrap.min.css\";import axios from\"axios\";import{Helmet}from\"react-helmet\";var STRIPEKEY=\"pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY\";var toCNY=function toCNY(eur){return 7.8*eur;};var toUSD=function toUSD(eur){return 1.1*eur;};var Selector=function Selector(props){return React.createElement(\"div\",{className:\"card\",onClick:props.onClick},React.createElement(\"div\",{className:\"card-body\",style:{display:\"flex\",alignItems:\"center\",borderStyle:props.selected?\"solid\":\"none\",borderColor:\"#007bff\",borderWidth:\"2px\"}},React.createElement(\"ion-icon\",{name:props.selected?\"radio-button-on\":\"radio-button-off\",size:\"large\",style:{verticalAlign:\"middle\",marginRight:\"12px\"}}),React.createElement(\"b\",null,props.description),React.createElement(\"span\",{className:\"text-muted\",style:{marginLeft:\"auto\"}},React.createElement(\"b\",null,\"\\u20AC\",5*props.months),\" / \",30*props.months,\" \",props.localize(\"days\"),\" \",React.createElement(\"br\",null),React.createElement(\"small\",null))));};var toQueryString=function toQueryString(params){var esc=encodeURIComponent;return Object.keys(params).map(function(k){return esc(k)+\"=\"+esc(params[k]);}).join(\"&\");};var getUserInfo=function getUserInfo(uname,pwd){var response;return _regeneratorRuntime.async(function getUserInfo$(_context){while(1){switch(_context.prev=_context.next){case 0:_context.next=2;return _regeneratorRuntime.awrap(axios.get(\"/billing/userinfo?\"+toQueryString({username:uname,password:pwd})));case 2:response=_context.sent;return _context.abrupt(\"return\",response.data);case 4:case\"end\":return _context.stop();}}});};var cancelStripe=function cancelStripe(uname,pwd){var response;return _regeneratorRuntime.async(function cancelStripe$(_context2){while(1){switch(_context2.prev=_context2.next){case 0:_context2.next=2;return _regeneratorRuntime.awrap(axios.get(\"/billing/stripe-cancel?\"+toQueryString({username:uname,password:pwd})));case 2:response=_context2.sent;return _context2.abrupt(\"return\",response.data);case 4:case\"end\":return _context2.stop();}}});};var getStripeID=function getStripeID(months,autoRenew){if(months===1){return autoRenew?\"plan_GIE5voityP0f9u\":\"sku_GIE7Nx2J7ZhXI8\";}else if(months===3){return autoRenew?\"plan_GIE5eNXYZsLlMX\":\"sku_GIE8CZ6qSEzd0t\";}else{return autoRenew?\"plan_GIE5JhURW2fFND\":\"sku_GIE8iScbw4grMT\";}};var Payer=function Payer(props){var _useState=useState(\"card\"),_useState2=_slicedToArray(_useState,2),payMethod=_useState2[0],setPayMethod=_useState2[1];var euroCents=500*props.months*(payMethod===\"alipay\"?1.05:1);var months=props.months;var renewable=!(props.userInfo&&props.userInfo.expires)&&payMethod!==\"alipay\";var _useState3=useState(renewable),_useState4=_slicedToArray(_useState3,2),autoRenew=_useState4[0],setAutoRenew=_useState4[1];var stripeCheckout=function stripeCheckout(){var _ref2;var stripe,_ref,error;return _regeneratorRuntime.async(function stripeCheckout$(_context3){while(1){switch(_context3.prev=_context3.next){case 0:stripe=window.Stripe(STRIPEKEY);_context3.next=3;return _regeneratorRuntime.awrap(stripe.redirectToCheckout({items:[(_ref2={},_defineProperty(_ref2,autoRenew?\"plan\":\"sku\",getStripeID(months,autoRenew)),_defineProperty(_ref2,\"quantity\",1),_ref2)],successUrl:window.location.href,cancelUrl:window.location.href,customerEmail:props.userInfo.username+\"@receipts.geph.io\"}));case 3:_ref=_context3.sent;error=_ref.error;if(error){alert(error);}case 6:case\"end\":return _context3.stop();}}});};var checkout=function checkout(){return _regeneratorRuntime.async(function checkout$(_context4){while(1){switch(_context4.prev=_context4.next){case 0:if(!(payMethod===\"card\")){_context4.next=5;break;}_context4.next=3;return _regeneratorRuntime.awrap(stripeCheckout());case 3:_context4.next=6;break;case 5:window.location.href=\"/billing/alipay?\"+toQueryString({username:props.userInfo.username,password:props.userInfo.password,months:months});case 6:case\"end\":return _context4.stop();}}});};return React.createElement(React.Fragment,null,React.createElement(Helmet,null,React.createElement(\"script\",{src:\"https://js.stripe.com/v3/\"})),React.createElement(\"nav\",{className:\"nav nav-tabs\"},React.createElement(\"a\",{className:payMethod===\"card\"?\"nav-link active\":\"nav-link\",onClick:function onClick(_){return setPayMethod(\"card\");}},React.createElement(\"img\",{src:require(\"../assets/visa.jpg\"),className:\"cardbrand\"}),React.createElement(\"img\",{src:require(\"../assets/mastercard.svg\"),className:\"cardbrand\"}),props.localize(\"credit-debit\")),React.createElement(\"a\",{className:payMethod===\"alipay\"?\"nav-link active\":\"nav-link\",onClick:function onClick(_){setPayMethod(\"alipay\");setAutoRenew(false);}},React.createElement(\"img\",{src:require(\"../assets/alipay.svg\"),className:\"cardbrand\"}),props.localize(\"alipay\"),\"\\xA0\",React.createElement(\"span\",{className:\"badge badge-warning\"},\"5% \",props.localize(\"fee\")))),React.createElement(\"div\",{className:\"card\"},React.createElement(\"div\",{className:\"card-body\"},React.createElement(\"span\",{style:{fontSize:\"150%\"}},React.createElement(\"b\",{className:\"text-success\"},\"\\u20AC\",(euroCents/100).toFixed(2)),\"\\xA0\",React.createElement(\"span\",{className:\"text-muted\"},props.localize(\"for-X-months\")(months))),React.createElement(\"br\",null),React.createElement(\"span\",{className:\"text-muted\"},\"\\u2248 \",React.createElement(\"b\",null,\"$\",(toUSD(euroCents)/100).toFixed(1),\" \"),\"USD\\xA0\\xA0\\xB7\\xA0\\xA0\\u2248\",\" \",React.createElement(\"b\",null,\"\\xA5\",(toCNY(euroCents)/100).toFixed(0)),\" RMB\"),React.createElement(\"hr\",null),React.createElement(\"div\",{className:\"input-group input-group-sm\"},React.createElement(\"div\",{className:\"input-group-prepend\"},React.createElement(\"span\",{className:\"input-group-text\"},props.localize(\"discount-code\"))),React.createElement(\"input\",{type:\"text\",maxlength:\"10\",style:{width:\"128px\",fontFamily:\"monospace\",fontSize:\"80%\"},disabled:true})),React.createElement(\"button\",{type:\"button\",className:\"btn btn-primary mb-3 mt-2\",onClick:function onClick(_){return checkout();}},props.localize(\"check-out\")),React.createElement(\"div\",{className:\"form-check\",style:{visibility:renewable?\"visible\":\"hidden\"}},React.createElement(\"input\",{className:\"form-check-input\",type:\"checkbox\",id:\"inputAutoRenew\",checked:autoRenew,disabled:!renewable,onClick:function onClick(_){return setAutoRenew(!autoRenew);}}),React.createElement(\"label\",{className:\"form-check-label\",htmlFor:\"inputAutoRenew\"},\"\\xA0\",props.localize(\"automatically-renew\"))),React.createElement(\"small\",null,autoRenew?props.localize(\"automatically-renew-blurb\")(euroCents,months):props.localize(\"no-renew-blurb\")(months)))));};function sleep(ms){return new Promise(function(resolve){return setTimeout(resolve,ms);});}var Planner=function Planner(props){var _useState5=useState(1),_useState6=_slicedToArray(_useState5,2),months=_useState6[0],setMonths=_useState6[1];var _useState7=useState(false),_useState8=_slicedToArray(_useState7,2),userInfo=_useState8[0],setUserInfo=_useState8[1];var getLang=function getLang(){try{if(navigator.language===\"zh-CN\"){return\"zhs\";}if(/zh/.test(navigator.language)){return\"zht\";}return\"en\";}catch(e){return\"en\";}};var localize=l10n(getLang());try{var toGo=function toGo(){var info;return _regeneratorRuntime.async(function toGo$(_context5){while(1){switch(_context5.prev=_context5.next){case 0:_context5.prev=0;_context5.next=3;return _regeneratorRuntime.awrap(getUserInfo(sessionStorage.getItem(\"username\"),sessionStorage.getItem(\"password\")));case 3:info=_context5.sent;console.log(\"INFO\");console.log(info);info.password=sessionStorage.getItem(\"password\");setUserInfo(info);_context5.next=13;break;case 10:_context5.prev=10;_context5.t0=_context5[\"catch\"](0);console.log(_context5.t0);case 13:case\"end\":return _context5.stop();}}},null,null,[[0,10]]);};if(!userInfo){toGo();}}catch(e){}return React.createElement(React.Fragment,null,React.createElement(Helmet,null,React.createElement(\"meta\",{charset:\"UTF-8\"})),React.createElement(\"section\",{className:\"whiteback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,localize(\"account-overview\"))),React.createElement(\"div\",{className:\"col-md-2\"})),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"username\")),\" \",React.createElement(\"br\",null),userInfo&&userInfo.username),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"subscription\")),\" \",React.createElement(\"br\",null),userInfo&&(userInfo.type===\"free\"?localize(\"free\"):\"Plus\")),userInfo&&userInfo.expires&&React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"b\",null,localize(\"expires\")),\" \",React.createElement(\"br\",null),new Date(userInfo.expires*1000).toISOString().substring(0,10)),React.createElement(\"div\",{className:\"col-md-2\"})),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"hr\",null),React.createElement(\"p\",null,userInfo&&(userInfo.subscription?localize(\"subscription-blurb\")(function _callee(_){return _regeneratorRuntime.async(function _callee$(_context6){while(1){switch(_context6.prev=_context6.next){case 0:_context6.next=2;return _regeneratorRuntime.awrap(cancelStripe(userInfo.username,userInfo.password));case 2:window.location.reload();case 3:case\"end\":return _context6.stop();}}});}):localize(\"extend-blurb\")))),React.createElement(\"div\",{className:\"col-md-2\"})))),userInfo&&!userInfo.subscription&&React.createElement(React.Fragment,null,React.createElement(\"section\",{className:\"lightback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,React.createElement(\"span\",{className:\"badge badge-secondary\"},localize(\"step1\")),\" \",\"\\xA0\",localize(\"choose-a-plan-length\")),React.createElement(\"p\",{className:\"hero-text\"},localize(\"flat-rate-blurb\")),React.createElement(Selector,{localize:localize,selected:months===1,description:\"1 \"+localize(\"month\"),months:1,onClick:function onClick(_){return setMonths(1);}}),React.createElement(Selector,{localize:localize,selected:months===3,description:\"3 \"+localize(\"months\"),months:3,onClick:function onClick(_){return setMonths(3);}}),React.createElement(Selector,{localize:localize,selected:months===12,description:\"12 \"+localize(\"months\"),months:12,onClick:function onClick(_){return setMonths(12);}})),React.createElement(\"div\",{className:\"col-md-2\"})))),React.createElement(\"section\",{className:\"lightback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md-2\"}),React.createElement(\"div\",{className:\"col\"},React.createElement(\"h3\",null,React.createElement(\"span\",{className:\"badge badge-secondary\"},localize(\"step2\")),\" \",\"\\xA0 \",localize(\"pay-for-plan\")),React.createElement(Payer,{userInfo:userInfo,localize:localize,months:months})),React.createElement(\"div\",{className:\"col-md-2\"}))))));};export default Planner;"
         },
         {
           "id": null,
@@ -32738,7 +32774,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580220631755\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580228777593\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 131,
@@ -32800,7 +32836,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580220631330\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580228777609\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 132,
@@ -32881,7 +32917,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "../common/l10n",
-          "loc": "1:7510-7514"
+          "loc": "1:7464-7468"
         },
         {
           "moduleId": 133,
@@ -33923,7 +33959,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "cjs require",
           "userRequest": "../assets/visa.jpg",
-          "loc": "1:4692-4721"
+          "loc": "1:4646-4675"
         }
       ],
       "usedExports": true,
@@ -33985,7 +34021,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "cjs require",
           "userRequest": "../assets/mastercard.svg",
-          "loc": "1:4777-4812"
+          "loc": "1:4731-4766"
         }
       ],
       "usedExports": true,
@@ -34047,7 +34083,7 @@
           "moduleName": "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx + 1 modules",
           "type": "cjs require",
           "userRequest": "../assets/alipay.svg",
-          "loc": "1:5059-5090"
+          "loc": "1:5013-5044"
         }
       ],
       "usedExports": true,

@@ -2255,8 +2255,6 @@ var PlanPicker_Payer = function Payer(props) {
 
   return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement(external_react_helmet_["Helmet"], null, external_react_default.a.createElement("script", {
     src: "https://js.stripe.com/v3/"
-  }), external_react_default.a.createElement("meta", {
-    charset: "UTF-8"
   })), external_react_default.a.createElement("nav", {
     className: "nav nav-tabs"
   }, external_react_default.a.createElement("a", {
@@ -2409,7 +2407,9 @@ var PlanPicker_Planner = function Planner(props) {
     }
   } catch (e) {}
 
-  return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("section", {
+  return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement(external_react_helmet_["Helmet"], null, external_react_default.a.createElement("meta", {
+    charset: "UTF-8"
+  })), external_react_default.a.createElement("section", {
     className: "whiteback"
   }, external_react_default.a.createElement("div", {
     className: "container"
