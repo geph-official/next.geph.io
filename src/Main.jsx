@@ -26,10 +26,10 @@ const mac64dmg = version =>
 const androidapk = version =>
   "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 
-const WINVER = "3.2.3";
-const MACVER = "3.2.3";
-const LINVER = "3.2.3";
-const ANDVER = "3.2.3";
+const WINVER = "3.2.4";
+const MACVER = "3.2.4";
+const LINVER = "3.2.4";
+const ANDVER = "3.2.4";
 
 const defaultDownload = () => {
   try {
@@ -54,7 +54,7 @@ export default props => {
   return (
     <>
       <Helmet htmlAttributes={{ lang: toLangCode(props.lang) }}>
-	<meta charset="UTF-8" />
+        <meta charset="UTF-8" />
         <title>{localize("geph")}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
