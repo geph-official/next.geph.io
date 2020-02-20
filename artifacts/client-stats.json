@@ -1,32 +1,32 @@
 {
   "errors": [],
   "warnings": [
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (393 KiB)\n      styles.2d9ce563.css\n      templates/styles.2d9ce563.js\n      templates/vendors~main.878c2aea.js\n      main.0478de95.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (393 KiB)\n      styles.419cd43c.css\n      templates/styles.419cd43c.js\n      templates/vendors~main.878c2aea.js\n      main.3a242ed9.js\n"
   ],
   "version": "4.41.2",
-  "hash": "0478de951fa2de1a26b8",
-  "time": 10012,
-  "builtAt": 1580437553502,
+  "hash": "3a242ed949d03f8712c0",
+  "time": 3553,
+  "builtAt": 1582174242907,
   "publicPath": "/",
   "outputPath": "/home/miyuruasuka/Geph2/next.geph.io/dist",
   "assetsByChunkName": {
     "styles": [
-      "styles.2d9ce563.css",
-      "templates/styles.2d9ce563.js"
+      "styles.419cd43c.css",
+      "templates/styles.419cd43c.js"
     ],
-    "home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.2118331b.js",
+    "home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.e554500f.js",
     "home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404": "templates/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404.4d917fb0.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx.278785e1.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx.f203287b.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx.54044af3.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.560c2434.js",
     "home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx": "templates/home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx.3ccfc4ee.js",
-    "main": "main.0478de95.js",
+    "main": "main.3a242ed9.js",
     "vendors~main": "templates/vendors~main.878c2aea.js"
   },
   "assets": [
     {
-      "name": "main.0478de95.js",
+      "name": "main.3a242ed9.js",
       "size": 8053,
       "chunks": [
         8
@@ -104,8 +104,8 @@
       "emitted": true
     },
     {
-      "name": "static/screenshot-en.82651771.png",
-      "size": 123654,
+      "name": "static/screenshot-en.f0d13c1f.png",
+      "size": 131446,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -128,7 +128,7 @@
       "emitted": true
     },
     {
-      "name": "styles.2d9ce563.css",
+      "name": "styles.419cd43c.css",
       "size": 146377,
       "chunks": [
         0
@@ -170,7 +170,7 @@
       "emitted": true
     },
     {
-      "name": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.2118331b.js",
+      "name": "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.e554500f.js",
       "size": 28861,
       "chunks": [
         1
@@ -240,7 +240,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.2d9ce563.js",
+      "name": "templates/styles.419cd43c.js",
       "size": 125,
       "chunks": [
         0
@@ -277,10 +277,10 @@
         8
       ],
       "assets": [
-        "styles.2d9ce563.css",
-        "templates/styles.2d9ce563.js",
+        "styles.419cd43c.css",
+        "templates/styles.419cd43c.js",
         "templates/vendors~main.878c2aea.js",
-        "main.0478de95.js"
+        "main.3a242ed9.js"
       ],
       "children": {},
       "childAssets": {},
@@ -295,10 +295,10 @@
         8
       ],
       "assets": [
-        "styles.2d9ce563.css",
-        "templates/styles.2d9ce563.js",
+        "styles.419cd43c.css",
+        "templates/styles.419cd43c.js",
         "templates/vendors~main.878c2aea.js",
-        "main.0478de95.js"
+        "main.3a242ed9.js"
       ],
       "children": {},
       "childAssets": {},
@@ -331,9 +331,9 @@
         3
       ],
       "assets": [
-        "styles.2d9ce563.css",
-        "templates/styles.2d9ce563.js",
-        "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.2118331b.js",
+        "styles.419cd43c.css",
+        "templates/styles.419cd43c.js",
+        "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.e554500f.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx.278785e1.js"
       ],
       "children": {},
@@ -346,9 +346,9 @@
         5
       ],
       "assets": [
-        "styles.2d9ce563.css",
-        "templates/styles.2d9ce563.js",
-        "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.2118331b.js",
+        "styles.419cd43c.css",
+        "templates/styles.419cd43c.js",
+        "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.e554500f.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx.54044af3.js"
       ],
       "children": {},
@@ -361,9 +361,9 @@
         4
       ],
       "assets": [
-        "styles.2d9ce563.css",
-        "templates/styles.2d9ce563.js",
-        "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.2118331b.js",
+        "styles.419cd43c.css",
+        "templates/styles.419cd43c.js",
+        "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.e554500f.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx.f203287b.js"
       ],
       "children": {},
@@ -375,8 +375,8 @@
         6
       ],
       "assets": [
-        "styles.2d9ce563.css",
-        "templates/styles.2d9ce563.js",
+        "styles.419cd43c.css",
+        "templates/styles.419cd43c.js",
         "templates/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx.560c2434.js"
       ],
       "children": {},
@@ -395,10 +395,10 @@
         "styles"
       ],
       "files": [
-        "styles.2d9ce563.css",
-        "templates/styles.2d9ce563.js"
+        "styles.419cd43c.css",
+        "templates/styles.419cd43c.js"
       ],
-      "hash": "2d9ce56356f8bafab1ae",
+      "hash": "419cd43cb0803bb32ba6",
       "siblings": [
         1,
         3,
@@ -470,8 +470,8 @@
           "assets": [
             "static/logo-bg.02b32555.png",
             "static/LibreFranklin-Regular.817fb321.ttf",
-            "static/LibreFranklin-RegularItalic.1b746baa.ttf",
             "static/LibreFranklin-Medium.c1ed12e2.ttf",
+            "static/LibreFranklin-RegularItalic.1b746baa.ttf",
             "static/LibreFranklin-Bold.4fe3bce8.ttf",
             "static/LibreFranklin-BoldItalic.3453f7c2.ttf"
           ],
@@ -510,7 +510,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580437547451\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1582174240699\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": 130,
@@ -581,7 +581,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580437547464\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1582174241093\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": 131,
@@ -643,7 +643,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580437547457\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1582174240687\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -891,9 +891,9 @@
         "home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b"
       ],
       "files": [
-        "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.2118331b.js"
+        "templates/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx~home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs~37abe51b.e554500f.js"
       ],
-      "hash": "2118331b628b2861d6ef",
+      "hash": "e554500fe2e1c744b66d",
       "siblings": [
         0,
         3,
@@ -1274,7 +1274,7 @@
               ],
               "optimizationBailout": [],
               "depth": 4,
-              "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React,{Component}from\"react\";import\"./app.css\";import\"bootstrap/dist/css/bootstrap.min.css\";import{Link}from\"@reach/router\";import{Footer}from\"./common/footer.jsx\";import{Header}from\"./common/header.jsx\";import{toLangCode,l10n}from\"./common/l10n\";import\"./Main.l10n\";import{useRouteData}from\"react-static\";import{Helmet}from\"react-helmet\";import logo from\"./logo.png\";var lin64tar=function lin64tar(version){return\"https://dl.geph.io/desktop-builds/geph-linux64-\"+version+\".tar.bz2\";};var lin32tar=function lin32tar(version){return\"https://dl.geph.io/desktop-builds/geph-linux32-\"+version+\".tar.bz2\";};var win32exe=function win32exe(version){return\"https://dl.geph.io/desktop-builds/geph-windows-\"+version+\"-setup.exe\";};var mac64dmg=function mac64dmg(version){return\"https://dl.geph.io/desktop-builds/geph-macos-\"+version+\".dmg\";};var androidapk=function androidapk(version){return\"https://dl.geph.io/android-builds/geph-android-\"+version+\".apk\";};var WINVER=\"3.2.4\";var MACVER=\"3.2.4\";var LINVER=\"3.2.4\";var ANDVER=\"3.2.4\";var defaultDownload=function defaultDownload(){try{var platform=window.navigator.userAgent;if(/Android/.test(platform)){return[\"Android APK\",androidapk,ANDVER];}else if(/Linux/.test(platform)){return[\"Linux amd64 (.tar.bz2)\",lin64tar,LINVER];}else if(/Mac/.test(platform)){return[\"macOS 10.10+ (dmg)\",mac64dmg,MACVER];}else{return[\"Windows 7+ (installer)\",win32exe,WINVER];}}catch(e){return[\"Windows 7+ (installer)\",win32exe,WINVER];}};export default(function(props){var localize=l10n(props.lang);var _defaultDownload=defaultDownload(),_defaultDownload2=_slicedToArray(_defaultDownload,3),downDesc=_defaultDownload2[0],downLinkGen=_defaultDownload2[1],downVer=_defaultDownload2[2];return React.createElement(React.Fragment,null,React.createElement(Helmet,{htmlAttributes:{lang:toLangCode(props.lang)}},React.createElement(\"meta\",{charset:\"UTF-8\"}),React.createElement(\"title\",null,localize(\"geph\")),React.createElement(\"meta\",{name:\"viewport\",content:\"width=device-width, initial-scale=1.0\"}),React.createElement(\"meta\",{\"http-equiv\":\"x-ua-compatible\",content:\"ie=edge\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"en\",href:\"https://geph.io/en/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh-TW\",href:\"https://geph.io/zht/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh-CN\",href:\"https://geph.io/zhs/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh\",href:\"https://geph.io/zht/\"}),React.createElement(\"meta\",{name:\"description\",content:localize(\"hero-text\")})),React.createElement(Header,{lang:props.lang}),React.createElement(\"section\",{className:\"hero\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md hero-left\"},React.createElement(\"h1\",null,localize(\"blast-through-censorship\")),React.createElement(\"p\",{className:\"hero-text\"},localize(\"geph-connects\")),React.createElement(\"a\",{href:downLinkGen(downVer),target:\"_blank\",rel:\"noopener\",className:\"btn btn-primary btn-lg\"},localize(\"download-now\")),React.createElement(\"br\",null),React.createElement(\"small\",null,downDesc+\" v\"+downVer,\"\\u2002\\xB7\\u2002\",React.createElement(\"a\",{href:\"#download-links\"},localize(\"other-platforms\")))),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"img\",{src:require(\"./assets/screenshot-en.png\"),className:\"hero-img\",alt:\"Screenshot\"}))))),React.createElement(\"section\",{className:\"darkback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md\"}),React.createElement(\"div\",{className:\"col-md-8\"},localize(\"hero-text\")),React.createElement(\"div\",{className:\"col-md\"})))),React.createElement(\"section\",{className:\"whiteback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md\"},localize(\"robust-privacy\")),React.createElement(\"div\",{className:\"col-md\"},localize(\"resilient-anti-censorship\")),React.createElement(\"div\",{className:\"col-md\"},localize(\"easy-to-afford\"))))),React.createElement(\"section\",{className:\"lightback\",id:\"download-links\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row mb-3\"},React.createElement(\"div\",{className:\"col\"},React.createElement(\"h2\",null,localize(\"download-links\")))),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Windows\",src:require(\"./assets/windows.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:win32exe(WINVER)},React.createElement(\"b\",null,\"Windows 7+\"),\" (installer)\")))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Mac\",src:require(\"./assets/apple.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:mac64dmg(MACVER)},React.createElement(\"b\",null,\"macOS 10.10+\"),\" (dmg)\")))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Linux\",src:require(\"./assets/tux.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:lin64tar(LINVER)},React.createElement(\"b\",null,\"Linux amd64\"),\" (.tar.bz2)\"),React.createElement(\"br\",null),React.createElement(\"a\",{href:lin32tar(LINVER)},React.createElement(\"b\",null,\"Linux i386\"),\" (.tar.bz2)\"),\" \",React.createElement(\"br\",null)))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Android\",src:require(\"./assets/android.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:androidapk(ANDVER)},React.createElement(\"b\",null,\"Android 5.0+\"),\" (APK)\"),React.createElement(\"br\",null),React.createElement(\"a\",{href:\"https://play.google.com/store/apps/details?id=io.geph.android\"},React.createElement(\"b\",null,\"Android 5.0+\"),\" (Google Play)\"))))))),React.createElement(Footer,null));});"
+              "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React,{Component}from\"react\";import\"./app.css\";import\"bootstrap/dist/css/bootstrap.min.css\";import{Link}from\"@reach/router\";import{Footer}from\"./common/footer.jsx\";import{Header}from\"./common/header.jsx\";import{toLangCode,l10n}from\"./common/l10n\";import\"./Main.l10n\";import{useRouteData}from\"react-static\";import{Helmet}from\"react-helmet\";import logo from\"./logo.png\";var lin64tar=function lin64tar(version){return\"https://dl.geph.io/desktop-builds/geph-linux64-\"+version+\".tar.bz2\";};var lin32tar=function lin32tar(version){return\"https://dl.geph.io/desktop-builds/geph-linux32-\"+version+\".tar.bz2\";};var win32exe=function win32exe(version){return\"https://dl.geph.io/desktop-builds/geph-windows-\"+version+\"-setup.exe\";};var mac64dmg=function mac64dmg(version){return\"https://dl.geph.io/desktop-builds/geph-macos-\"+version+\".dmg\";};var androidapk=function androidapk(version){return\"https://dl.geph.io/android-builds/geph-android-\"+version+\".apk\";};var WINVER=\"3.4.0\";var MACVER=\"3.4.0\";var LINVER=\"3.4.0\";var ANDVER=\"3.4.0\";var defaultDownload=function defaultDownload(){try{var platform=window.navigator.userAgent;if(/Android/.test(platform)){return[\"Android APK\",androidapk,ANDVER];}else if(/Linux/.test(platform)){return[\"Linux amd64 (.tar.bz2)\",lin64tar,LINVER];}else if(/Mac/.test(platform)){return[\"macOS 10.10+ (dmg)\",mac64dmg,MACVER];}else{return[\"Windows 7+ (installer)\",win32exe,WINVER];}}catch(e){return[\"Windows 7+ (installer)\",win32exe,WINVER];}};export default(function(props){var localize=l10n(props.lang);var _defaultDownload=defaultDownload(),_defaultDownload2=_slicedToArray(_defaultDownload,3),downDesc=_defaultDownload2[0],downLinkGen=_defaultDownload2[1],downVer=_defaultDownload2[2];return React.createElement(React.Fragment,null,React.createElement(Helmet,{htmlAttributes:{lang:toLangCode(props.lang)}},React.createElement(\"meta\",{charset:\"UTF-8\"}),React.createElement(\"title\",null,localize(\"geph\")),React.createElement(\"meta\",{name:\"viewport\",content:\"width=device-width, initial-scale=1.0\"}),React.createElement(\"meta\",{\"http-equiv\":\"x-ua-compatible\",content:\"ie=edge\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"en\",href:\"https://geph.io/en/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh-TW\",href:\"https://geph.io/zht/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh-CN\",href:\"https://geph.io/zhs/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh\",href:\"https://geph.io/zht/\"}),React.createElement(\"meta\",{name:\"description\",content:localize(\"hero-text\")})),React.createElement(Header,{lang:props.lang}),React.createElement(\"section\",{className:\"hero\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md hero-left\"},React.createElement(\"h1\",null,localize(\"blast-through-censorship\")),React.createElement(\"p\",{className:\"hero-text\"},localize(\"geph-connects\")),React.createElement(\"a\",{href:downLinkGen(downVer),target:\"_blank\",rel:\"noopener\",className:\"btn btn-primary btn-lg\"},localize(\"download-now\")),React.createElement(\"br\",null),React.createElement(\"small\",null,downDesc+\" v\"+downVer,\"\\u2002\\xB7\\u2002\",React.createElement(\"a\",{href:\"#download-links\"},localize(\"other-platforms\")))),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"img\",{src:require(\"./assets/screenshot-en.png\"),className:\"hero-img\",alt:\"Screenshot\"}))))),React.createElement(\"section\",{className:\"darkback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md\"}),React.createElement(\"div\",{className:\"col-md-8\"},localize(\"hero-text\")),React.createElement(\"div\",{className:\"col-md\"})))),React.createElement(\"section\",{className:\"whiteback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md\"},localize(\"robust-privacy\")),React.createElement(\"div\",{className:\"col-md\"},localize(\"resilient-anti-censorship\")),React.createElement(\"div\",{className:\"col-md\"},localize(\"easy-to-afford\"))))),React.createElement(\"section\",{className:\"lightback\",id:\"download-links\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row mb-3\"},React.createElement(\"div\",{className:\"col\"},React.createElement(\"h2\",null,localize(\"download-links\")))),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Windows\",src:require(\"./assets/windows.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:win32exe(WINVER)},React.createElement(\"b\",null,\"Windows 7+\"),\" (installer)\")))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Mac\",src:require(\"./assets/apple.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:mac64dmg(MACVER)},React.createElement(\"b\",null,\"macOS 10.10+\"),\" (dmg)\")))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Linux\",src:require(\"./assets/tux.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:lin64tar(LINVER)},React.createElement(\"b\",null,\"Linux amd64\"),\" (.tar.bz2)\"),React.createElement(\"br\",null),React.createElement(\"a\",{href:lin32tar(LINVER)},React.createElement(\"b\",null,\"Linux i386\"),\" (.tar.bz2)\"),\" \",React.createElement(\"br\",null)))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Android\",src:require(\"./assets/android.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:androidapk(ANDVER)},React.createElement(\"b\",null,\"Android 5.0+\"),\" (APK)\"),React.createElement(\"br\",null),React.createElement(\"a\",{href:\"https://play.google.com/store/apps/details?id=io.geph.android\"},React.createElement(\"b\",null,\"Android 5.0+\"),\" (Google Play)\"))))))),React.createElement(Footer,null));});"
             },
             {
               "id": null,
@@ -1685,7 +1685,7 @@
           "errors": 0,
           "warnings": 0,
           "assets": [
-            "static/screenshot-en.82651771.png"
+            "static/screenshot-en.f0d13c1f.png"
           ],
           "reasons": [
             {
@@ -1704,7 +1704,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5,
-          "source": "module.exports = __webpack_public_path__ + \"static/screenshot-en.82651771.png\";"
+          "source": "module.exports = __webpack_public_path__ + \"static/screenshot-en.f0d13c1f.png\";"
         },
         {
           "id": 137,
@@ -3123,9 +3123,9 @@
         "main"
       ],
       "files": [
-        "main.0478de95.js"
+        "main.3a242ed9.js"
       ],
-      "hash": "d869c10b0ba4d9e86822",
+      "hash": "11aa8d7a08f90fe2031a",
       "siblings": [
         0,
         9
@@ -7560,9 +7560,9 @@
           "chunks": [
             9
           ],
-          "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/cjs/react.production.min.js",
-          "issuerId": 86,
-          "issuerName": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-universal-component/dist/index.js",
+          "issuerId": 6,
+          "issuerName": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-universal-component/dist/index.js",
           "issuerPath": [
             {
               "id": 57,
@@ -7570,19 +7570,19 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 95,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapApp.js",
-              "name": "../lib/bootstrapApp.js"
+              "id": 84,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
-              "id": 0,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/index.js",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/index.js"
+              "id": 39,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
             },
             {
-              "id": 86,
-              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/cjs/react.production.min.js",
-              "name": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/cjs/react.production.min.js"
+              "id": 6,
+              "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-universal-component/dist/index.js",
+              "name": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-universal-component/dist/index.js"
             }
           ],
           "failed": false,
@@ -21648,9 +21648,9 @@
       "chunks": [
         9
       ],
-      "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/cjs/react.production.min.js",
-      "issuerId": 86,
-      "issuerName": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-universal-component/dist/index.js",
+      "issuerId": 6,
+      "issuerName": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-universal-component/dist/index.js",
       "issuerPath": [
         {
           "id": 57,
@@ -21658,19 +21658,19 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 95,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapApp.js",
-          "name": "../lib/bootstrapApp.js"
+          "id": 84,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
-          "id": 0,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/index.js",
-          "name": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/index.js"
+          "id": 39,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js",
+          "name": "/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js"
         },
         {
-          "id": 86,
-          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/cjs/react.production.min.js",
-          "name": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react/cjs/react.production.min.js"
+          "id": 6,
+          "identifier": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-hot-loader/webpack.js!/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-universal-component/dist/index.js",
+          "name": "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-universal-component/dist/index.js"
         }
       ],
       "failed": false,
@@ -27172,8 +27172,8 @@
       "assets": [
         "static/logo-bg.02b32555.png",
         "static/LibreFranklin-Regular.817fb321.ttf",
-        "static/LibreFranklin-RegularItalic.1b746baa.ttf",
         "static/LibreFranklin-Medium.c1ed12e2.ttf",
+        "static/LibreFranklin-RegularItalic.1b746baa.ttf",
         "static/LibreFranklin-Bold.4fe3bce8.ttf",
         "static/LibreFranklin-BoldItalic.3453f7c2.ttf"
       ],
@@ -27212,7 +27212,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580437547451\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1582174240699\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 51,
@@ -32774,7 +32774,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580437547464\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1582174241093\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 131,
@@ -32836,7 +32836,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1580437547457\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1582174240687\n      var cssReload = require(\"/home/miyuruasuka/Geph2/next.geph.io/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 132,
@@ -33204,7 +33204,7 @@
           ],
           "optimizationBailout": [],
           "depth": 4,
-          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React,{Component}from\"react\";import\"./app.css\";import\"bootstrap/dist/css/bootstrap.min.css\";import{Link}from\"@reach/router\";import{Footer}from\"./common/footer.jsx\";import{Header}from\"./common/header.jsx\";import{toLangCode,l10n}from\"./common/l10n\";import\"./Main.l10n\";import{useRouteData}from\"react-static\";import{Helmet}from\"react-helmet\";import logo from\"./logo.png\";var lin64tar=function lin64tar(version){return\"https://dl.geph.io/desktop-builds/geph-linux64-\"+version+\".tar.bz2\";};var lin32tar=function lin32tar(version){return\"https://dl.geph.io/desktop-builds/geph-linux32-\"+version+\".tar.bz2\";};var win32exe=function win32exe(version){return\"https://dl.geph.io/desktop-builds/geph-windows-\"+version+\"-setup.exe\";};var mac64dmg=function mac64dmg(version){return\"https://dl.geph.io/desktop-builds/geph-macos-\"+version+\".dmg\";};var androidapk=function androidapk(version){return\"https://dl.geph.io/android-builds/geph-android-\"+version+\".apk\";};var WINVER=\"3.2.4\";var MACVER=\"3.2.4\";var LINVER=\"3.2.4\";var ANDVER=\"3.2.4\";var defaultDownload=function defaultDownload(){try{var platform=window.navigator.userAgent;if(/Android/.test(platform)){return[\"Android APK\",androidapk,ANDVER];}else if(/Linux/.test(platform)){return[\"Linux amd64 (.tar.bz2)\",lin64tar,LINVER];}else if(/Mac/.test(platform)){return[\"macOS 10.10+ (dmg)\",mac64dmg,MACVER];}else{return[\"Windows 7+ (installer)\",win32exe,WINVER];}}catch(e){return[\"Windows 7+ (installer)\",win32exe,WINVER];}};export default(function(props){var localize=l10n(props.lang);var _defaultDownload=defaultDownload(),_defaultDownload2=_slicedToArray(_defaultDownload,3),downDesc=_defaultDownload2[0],downLinkGen=_defaultDownload2[1],downVer=_defaultDownload2[2];return React.createElement(React.Fragment,null,React.createElement(Helmet,{htmlAttributes:{lang:toLangCode(props.lang)}},React.createElement(\"meta\",{charset:\"UTF-8\"}),React.createElement(\"title\",null,localize(\"geph\")),React.createElement(\"meta\",{name:\"viewport\",content:\"width=device-width, initial-scale=1.0\"}),React.createElement(\"meta\",{\"http-equiv\":\"x-ua-compatible\",content:\"ie=edge\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"en\",href:\"https://geph.io/en/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh-TW\",href:\"https://geph.io/zht/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh-CN\",href:\"https://geph.io/zhs/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh\",href:\"https://geph.io/zht/\"}),React.createElement(\"meta\",{name:\"description\",content:localize(\"hero-text\")})),React.createElement(Header,{lang:props.lang}),React.createElement(\"section\",{className:\"hero\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md hero-left\"},React.createElement(\"h1\",null,localize(\"blast-through-censorship\")),React.createElement(\"p\",{className:\"hero-text\"},localize(\"geph-connects\")),React.createElement(\"a\",{href:downLinkGen(downVer),target:\"_blank\",rel:\"noopener\",className:\"btn btn-primary btn-lg\"},localize(\"download-now\")),React.createElement(\"br\",null),React.createElement(\"small\",null,downDesc+\" v\"+downVer,\"\\u2002\\xB7\\u2002\",React.createElement(\"a\",{href:\"#download-links\"},localize(\"other-platforms\")))),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"img\",{src:require(\"./assets/screenshot-en.png\"),className:\"hero-img\",alt:\"Screenshot\"}))))),React.createElement(\"section\",{className:\"darkback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md\"}),React.createElement(\"div\",{className:\"col-md-8\"},localize(\"hero-text\")),React.createElement(\"div\",{className:\"col-md\"})))),React.createElement(\"section\",{className:\"whiteback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md\"},localize(\"robust-privacy\")),React.createElement(\"div\",{className:\"col-md\"},localize(\"resilient-anti-censorship\")),React.createElement(\"div\",{className:\"col-md\"},localize(\"easy-to-afford\"))))),React.createElement(\"section\",{className:\"lightback\",id:\"download-links\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row mb-3\"},React.createElement(\"div\",{className:\"col\"},React.createElement(\"h2\",null,localize(\"download-links\")))),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Windows\",src:require(\"./assets/windows.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:win32exe(WINVER)},React.createElement(\"b\",null,\"Windows 7+\"),\" (installer)\")))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Mac\",src:require(\"./assets/apple.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:mac64dmg(MACVER)},React.createElement(\"b\",null,\"macOS 10.10+\"),\" (dmg)\")))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Linux\",src:require(\"./assets/tux.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:lin64tar(LINVER)},React.createElement(\"b\",null,\"Linux amd64\"),\" (.tar.bz2)\"),React.createElement(\"br\",null),React.createElement(\"a\",{href:lin32tar(LINVER)},React.createElement(\"b\",null,\"Linux i386\"),\" (.tar.bz2)\"),\" \",React.createElement(\"br\",null)))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Android\",src:require(\"./assets/android.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:androidapk(ANDVER)},React.createElement(\"b\",null,\"Android 5.0+\"),\" (APK)\"),React.createElement(\"br\",null),React.createElement(\"a\",{href:\"https://play.google.com/store/apps/details?id=io.geph.android\"},React.createElement(\"b\",null,\"Android 5.0+\"),\" (Google Play)\"))))))),React.createElement(Footer,null));});"
+          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React,{Component}from\"react\";import\"./app.css\";import\"bootstrap/dist/css/bootstrap.min.css\";import{Link}from\"@reach/router\";import{Footer}from\"./common/footer.jsx\";import{Header}from\"./common/header.jsx\";import{toLangCode,l10n}from\"./common/l10n\";import\"./Main.l10n\";import{useRouteData}from\"react-static\";import{Helmet}from\"react-helmet\";import logo from\"./logo.png\";var lin64tar=function lin64tar(version){return\"https://dl.geph.io/desktop-builds/geph-linux64-\"+version+\".tar.bz2\";};var lin32tar=function lin32tar(version){return\"https://dl.geph.io/desktop-builds/geph-linux32-\"+version+\".tar.bz2\";};var win32exe=function win32exe(version){return\"https://dl.geph.io/desktop-builds/geph-windows-\"+version+\"-setup.exe\";};var mac64dmg=function mac64dmg(version){return\"https://dl.geph.io/desktop-builds/geph-macos-\"+version+\".dmg\";};var androidapk=function androidapk(version){return\"https://dl.geph.io/android-builds/geph-android-\"+version+\".apk\";};var WINVER=\"3.4.0\";var MACVER=\"3.4.0\";var LINVER=\"3.4.0\";var ANDVER=\"3.4.0\";var defaultDownload=function defaultDownload(){try{var platform=window.navigator.userAgent;if(/Android/.test(platform)){return[\"Android APK\",androidapk,ANDVER];}else if(/Linux/.test(platform)){return[\"Linux amd64 (.tar.bz2)\",lin64tar,LINVER];}else if(/Mac/.test(platform)){return[\"macOS 10.10+ (dmg)\",mac64dmg,MACVER];}else{return[\"Windows 7+ (installer)\",win32exe,WINVER];}}catch(e){return[\"Windows 7+ (installer)\",win32exe,WINVER];}};export default(function(props){var localize=l10n(props.lang);var _defaultDownload=defaultDownload(),_defaultDownload2=_slicedToArray(_defaultDownload,3),downDesc=_defaultDownload2[0],downLinkGen=_defaultDownload2[1],downVer=_defaultDownload2[2];return React.createElement(React.Fragment,null,React.createElement(Helmet,{htmlAttributes:{lang:toLangCode(props.lang)}},React.createElement(\"meta\",{charset:\"UTF-8\"}),React.createElement(\"title\",null,localize(\"geph\")),React.createElement(\"meta\",{name:\"viewport\",content:\"width=device-width, initial-scale=1.0\"}),React.createElement(\"meta\",{\"http-equiv\":\"x-ua-compatible\",content:\"ie=edge\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"en\",href:\"https://geph.io/en/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh-TW\",href:\"https://geph.io/zht/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh-CN\",href:\"https://geph.io/zhs/\"}),React.createElement(\"link\",{rel:\"alternate\",hreflang:\"zh\",href:\"https://geph.io/zht/\"}),React.createElement(\"meta\",{name:\"description\",content:localize(\"hero-text\")})),React.createElement(Header,{lang:props.lang}),React.createElement(\"section\",{className:\"hero\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md hero-left\"},React.createElement(\"h1\",null,localize(\"blast-through-censorship\")),React.createElement(\"p\",{className:\"hero-text\"},localize(\"geph-connects\")),React.createElement(\"a\",{href:downLinkGen(downVer),target:\"_blank\",rel:\"noopener\",className:\"btn btn-primary btn-lg\"},localize(\"download-now\")),React.createElement(\"br\",null),React.createElement(\"small\",null,downDesc+\" v\"+downVer,\"\\u2002\\xB7\\u2002\",React.createElement(\"a\",{href:\"#download-links\"},localize(\"other-platforms\")))),React.createElement(\"div\",{className:\"col-md\"},React.createElement(\"img\",{src:require(\"./assets/screenshot-en.png\"),className:\"hero-img\",alt:\"Screenshot\"}))))),React.createElement(\"section\",{className:\"darkback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md\"}),React.createElement(\"div\",{className:\"col-md-8\"},localize(\"hero-text\")),React.createElement(\"div\",{className:\"col-md\"})))),React.createElement(\"section\",{className:\"whiteback\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md\"},localize(\"robust-privacy\")),React.createElement(\"div\",{className:\"col-md\"},localize(\"resilient-anti-censorship\")),React.createElement(\"div\",{className:\"col-md\"},localize(\"easy-to-afford\"))))),React.createElement(\"section\",{className:\"lightback\",id:\"download-links\"},React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row mb-3\"},React.createElement(\"div\",{className:\"col\"},React.createElement(\"h2\",null,localize(\"download-links\")))),React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Windows\",src:require(\"./assets/windows.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:win32exe(WINVER)},React.createElement(\"b\",null,\"Windows 7+\"),\" (installer)\")))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Mac\",src:require(\"./assets/apple.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:mac64dmg(MACVER)},React.createElement(\"b\",null,\"macOS 10.10+\"),\" (dmg)\")))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Linux\",src:require(\"./assets/tux.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:lin64tar(LINVER)},React.createElement(\"b\",null,\"Linux amd64\"),\" (.tar.bz2)\"),React.createElement(\"br\",null),React.createElement(\"a\",{href:lin32tar(LINVER)},React.createElement(\"b\",null,\"Linux i386\"),\" (.tar.bz2)\"),\" \",React.createElement(\"br\",null)))),React.createElement(\"div\",{className:\"col-md card text-center\"},React.createElement(\"div\",{\"class\":\"card-body\"},React.createElement(\"img\",{alt:\"Android\",src:require(\"./assets/android.svg\"),className:\"oslogo\"}),React.createElement(\"p\",{\"class\":\"card-text\"},React.createElement(\"a\",{href:androidapk(ANDVER)},React.createElement(\"b\",null,\"Android 5.0+\"),\" (APK)\"),React.createElement(\"br\",null),React.createElement(\"a\",{href:\"https://play.google.com/store/apps/details?id=io.geph.android\"},React.createElement(\"b\",null,\"Android 5.0+\"),\" (Google Play)\"))))))),React.createElement(Footer,null));});"
         },
         {
           "id": null,
@@ -33615,7 +33615,7 @@
       "errors": 0,
       "warnings": 0,
       "assets": [
-        "static/screenshot-en.82651771.png"
+        "static/screenshot-en.f0d13c1f.png"
       ],
       "reasons": [
         {
@@ -33634,7 +33634,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5,
-      "source": "module.exports = __webpack_public_path__ + \"static/screenshot-en.82651771.png\";"
+      "source": "module.exports = __webpack_public_path__ + \"static/screenshot-en.f0d13c1f.png\";"
     },
     {
       "id": 137,

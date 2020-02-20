@@ -1013,10 +1013,10 @@ var androidapk = function androidapk(version) {
   return "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 };
 
-var WINVER = "3.2.4";
-var MACVER = "3.2.4";
-var LINVER = "3.2.4";
-var ANDVER = "3.2.4";
+var WINVER = "3.4.0";
+var MACVER = "3.4.0";
+var LINVER = "3.4.0";
+var ANDVER = "3.4.0";
 
 var defaultDownload = function defaultDownload() {
   try {
@@ -3243,7 +3243,7 @@ module.exports = __webpack_require__.p + "static/logo.80dd36d9.png";
 /* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/screenshot-en.82651771.png";
+module.exports = __webpack_require__.p + "static/screenshot-en.f0d13c1f.png";
 
 /***/ }),
 /* 60 */
