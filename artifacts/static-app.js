@@ -1013,10 +1013,10 @@ var androidapk = function androidapk(version) {
   return "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 };
 
-var WINVER = "3.4.2";
-var MACVER = "3.4.2";
-var LINVER = "3.4.2";
-var ANDVER = "3.4.2";
+var WINVER = "3.4.6";
+var MACVER = "3.4.6";
+var LINVER = "3.4.6";
+var ANDVER = "3.4.6";
 
 var defaultDownload = function defaultDownload() {
   try {

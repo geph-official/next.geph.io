@@ -26,10 +26,10 @@ const mac64dmg = version =>
 const androidapk = version =>
   "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 
-const WINVER = "3.4.2";
-const MACVER = "3.4.2";
-const LINVER = "3.4.2";
-const ANDVER = "3.4.2";
+const WINVER = "3.4.6";
+const MACVER = "3.4.6";
+const LINVER = "3.4.6";
+const ANDVER = "3.4.6";
 
 const defaultDownload = () => {
   try {
