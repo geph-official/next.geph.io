@@ -2202,7 +2202,7 @@ var PlanPicker_Payer = function Payer(props) {
               items: [(_ref2 = {}, defineProperty_default()(_ref2, autoRenew ? "plan" : "sku", getStripeID(months, autoRenew)), defineProperty_default()(_ref2, "quantity", 1), _ref2)],
               successUrl: window.location.href,
               cancelUrl: window.location.href,
-              customerEmail: props.userInfo.username + "@receipts.geph.io"
+              customerEmail: props.userInfo.username + "@receipts-".concat(props.userInfo.username, ".geph.io")
             }));
 
           case 3:

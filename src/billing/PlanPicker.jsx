@@ -10,10 +10,10 @@ import { Helmet } from "react-helmet";
 
 const STRIPEKEY = "pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY";
 
-const toCNY = eur => 7.8 * eur;
-const toUSD = eur => 1.1 * eur;
+const toCNY = (eur) => 7.8 * eur;
+const toUSD = (eur) => 1.1 * eur;
 
-const Selector = props => (
+const Selector = (props) => (
   <div className="card" onClick={props.onClick}>
     <div
       className="card-body"
@@ -22,7 +22,7 @@ const Selector = props => (
         alignItems: "center",
         borderStyle: props.selected ? "solid" : "none",
         borderColor: "#007bff",
-        borderWidth: "2px"
+        borderWidth: "2px",
       }}
     >
       <ion-icon
@@ -30,7 +30,7 @@ const Selector = props => (
         size="large"
         style={{
           verticalAlign: "middle",
-          marginRight: "12px"
+          marginRight: "12px",
         }}
       />
       <b>{props.description}</b>
@@ -43,10 +43,10 @@ const Selector = props => (
   </div>
 );
 
-const toQueryString = params => {
+const toQueryString = (params) => {
   const esc = encodeURIComponent;
   return Object.keys(params)
-    .map(k => esc(k) + "=" + esc(params[k]))
+    .map((k) => esc(k) + "=" + esc(params[k]))
     .join("&");
 };
 
@@ -55,7 +55,7 @@ const getUserInfo = async (uname, pwd) => {
     "/billing/userinfo?" +
       toQueryString({
         username: uname,
-        password: pwd
+        password: pwd,
       })
   );
   return response.data;
@@ -66,7 +66,7 @@ const cancelStripe = async (uname, pwd) => {
     "/billing/stripe-cancel?" +
       toQueryString({
         username: uname,
-        password: pwd
+        password: pwd,
       })
   );
   return response.data;
@@ -82,7 +82,7 @@ const getStripeID = (months, autoRenew) => {
   }
 };
 
-const Payer = props => {
+const Payer = (props) => {
   const [payMethod, setPayMethod] = useState("card");
   const euroCents = 500 * props.months * (payMethod === "alipay" ? 1.05 : 1);
   const months = props.months;
@@ -96,12 +96,14 @@ const Payer = props => {
       items: [
         {
           [autoRenew ? "plan" : "sku"]: getStripeID(months, autoRenew),
-          quantity: 1
-        }
+          quantity: 1,
+        },
       ],
       successUrl: window.location.href,
       cancelUrl: window.location.href,
-      customerEmail: props.userInfo.username + "@receipts.geph.io"
+      customerEmail:
+        props.userInfo.username +
+        `@receipts-${props.userInfo.username}.geph.io`,
     });
     if (error) {
       alert(error);
@@ -116,7 +118,7 @@ const Payer = props => {
         toQueryString({
           username: props.userInfo.username,
           password: props.userInfo.password,
-          months: months
+          months: months,
         });
     }
   };
@@ -128,7 +130,7 @@ const Payer = props => {
       <nav className="nav nav-tabs">
         <a
           className={payMethod === "card" ? "nav-link active" : "nav-link"}
-          onClick={_ => setPayMethod("card")}
+          onClick={(_) => setPayMethod("card")}
         >
           <img src={require("../assets/visa.jpg")} className="cardbrand" />
           <img
@@ -139,7 +141,7 @@ const Payer = props => {
         </a>
         <a
           className={payMethod === "alipay" ? "nav-link active" : "nav-link"}
-          onClick={_ => {
+          onClick={(_) => {
             setPayMethod("alipay");
             setAutoRenew(false);
           }}
@@ -155,7 +157,7 @@ const Payer = props => {
         <div className="card-body">
           <span
             style={{
-              fontSize: "150%"
+              fontSize: "150%",
             }}
           >
             <b className="text-success">€{(euroCents / 100).toFixed(2)}</b>
@@ -183,7 +185,7 @@ const Payer = props => {
               style={{
                 width: "128px",
                 fontFamily: "monospace",
-                fontSize: "80%"
+                fontSize: "80%",
               }}
               disabled
             />
@@ -191,7 +193,7 @@ const Payer = props => {
           <button
             type="button"
             className="btn btn-primary mb-3 mt-2"
-            onClick={_ => checkout()}
+            onClick={(_) => checkout()}
           >
             {props.localize("check-out")}
           </button>
@@ -205,7 +207,7 @@ const Payer = props => {
               id="inputAutoRenew"
               checked={autoRenew}
               disabled={!renewable}
-              onClick={_ => setAutoRenew(!autoRenew)}
+              onClick={(_) => setAutoRenew(!autoRenew)}
             />
             <label className="form-check-label" htmlFor="inputAutoRenew">
               &nbsp;{props.localize("automatically-renew")}
@@ -223,10 +225,10 @@ const Payer = props => {
 };
 
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-const Planner = props => {
+const Planner = (props) => {
   const [months, setMonths] = useState(1);
   const [userInfo, setUserInfo] = useState(false);
   const getLang = () => {
@@ -265,7 +267,9 @@ const Planner = props => {
 
   return (
     <>
-      <Helmet><meta charset="UTF-8" /></Helmet>
+      <Helmet>
+        <meta charset="UTF-8" />
+      </Helmet>
       <section className="whiteback">
         <div className="container">
           <div className="row">
@@ -303,7 +307,7 @@ const Planner = props => {
               <p>
                 {userInfo &&
                   (userInfo.subscription
-                    ? localize("subscription-blurb")(async _ => {
+                    ? localize("subscription-blurb")(async (_) => {
                         await cancelStripe(
                           userInfo.username,
                           userInfo.password
@@ -337,21 +341,21 @@ const Planner = props => {
                     selected={months === 1}
                     description={"1 " + localize("month")}
                     months={1}
-                    onClick={_ => setMonths(1)}
+                    onClick={(_) => setMonths(1)}
                   />
                   <Selector
                     localize={localize}
                     selected={months === 3}
                     description={"3 " + localize("months")}
                     months={3}
-                    onClick={_ => setMonths(3)}
+                    onClick={(_) => setMonths(3)}
                   />
                   <Selector
                     localize={localize}
                     selected={months === 12}
                     description={"12 " + localize("months")}
                     months={12}
-                    onClick={_ => setMonths(12)}
+                    onClick={(_) => setMonths(12)}
                   />
                 </div>
                 <div className="col-md-2"></div>
