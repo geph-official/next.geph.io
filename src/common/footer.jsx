@@ -23,6 +23,9 @@ export const Footer = props => (
                 Telegram
               </a>
             </p>
+            <p>
+              +372 5486 2187
+            </p>
           </div>
         </div>
       </div>

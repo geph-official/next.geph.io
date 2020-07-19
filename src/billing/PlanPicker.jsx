@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import "../app.css";
 import "./PlanPicker.css";
@@ -7,12 +7,14 @@ import "./PlanPicker.l10n";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import { Helmet } from "react-helmet";
+import { useDebounce } from "use-debounce";
 
 const STRIPEKEY = "pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY";
 
-const toCNY = (eur) => 7.8 * eur;
+const toCNY = (eur) => 7.7 * eur;
 const toUSD = (eur) => 1.1 * eur;
 
+// Component for picking
 const Selector = (props) => (
   <div className="card" onClick={props.onClick}>
     <div
@@ -61,6 +63,19 @@ const getUserInfo = async (uname, pwd) => {
   return response.data;
 };
 
+const getNewStripeSession = async (uname, promo, months) => {
+  const response = await axios.get(
+    "/billing/stripe-newsess?" +
+      toQueryString({
+        username: uname,
+        promo: promo,
+        months: months,
+      }),
+    { responseType: "text" }
+  );
+  return response.data;
+};
+
 const cancelStripe = async (uname, pwd) => {
   const response = await axios.get(
     "/billing/stripe-cancel?" +
@@ -84,29 +99,80 @@ const getStripeID = (months, autoRenew) => {
 
 const Payer = (props) => {
   const [payMethod, setPayMethod] = useState("card");
-  const euroCents = 500 * props.months * (payMethod === "alipay" ? 1.05 : 1);
+  const [euroCents, setEuroCents] = useState(0);
   const months = props.months;
-  const renewable =
-    !(props.userInfo && props.userInfo.expires) && payMethod !== "alipay";
-  const [autoRenew, setAutoRenew] = useState(renewable);
+  const renewable = false;
+  const [autoRenew, setAutoRenew] = useState(false);
+  const [loaded, setLoaded] = useState(false);
+  const [promo, setPromo] = useState("");
+  const [debouncedPromo] = useDebounce(promo, 500);
+  const isAutoRenew = autoRenew && renewable;
+
+  const updatePrice = async () => {
+    setLoaded(false);
+    try {
+      try {
+        const eurocents = await getCost();
+        setEuroCents(eurocents);
+        return;
+      } catch (e) {
+        console.log(e);
+      }
+    } finally {
+      setLoaded(true);
+    }
+  };
+
+  useEffect(() => {
+    console.log(debouncedPromo);
+    updatePrice();
+  }, [payMethod, months, debouncedPromo]);
+
+  const getCost = async () => {
+    const response = await axios.get(
+      "/billing/calculate-price?" +
+        toQueryString({
+          promo: promo,
+          months: months,
+          method: payMethod,
+        }),
+      { responseType: "text" }
+    );
+    return response.data;
+  };
 
   const stripeCheckout = async () => {
     const stripe = window.Stripe(STRIPEKEY);
-    const { error } = await stripe.redirectToCheckout({
-      items: [
-        {
-          [autoRenew ? "plan" : "sku"]: getStripeID(months, autoRenew),
-          quantity: 1,
-        },
-      ],
-      successUrl: window.location.href,
-      cancelUrl: window.location.href,
-      customerEmail:
-        props.userInfo.username +
-        `@receipts-${props.userInfo.username}.geph.io`,
-    });
-    if (error) {
-      alert(error);
+    if (autoRenew) {
+      const { error } = await stripe.redirectToCheckout({
+        items: [
+          {
+            [autoRenew ? "plan" : "sku"]: getStripeID(months, autoRenew),
+            quantity: 1,
+          },
+        ],
+        successUrl: window.location.href,
+        cancelUrl: window.location.href,
+        customerEmail:
+          props.userInfo.username +
+          `@receipts-${props.userInfo.username}.geph.io`,
+      });
+      if (error) {
+        alert(error);
+      }
+    } else {
+      const sid = await getNewStripeSession(
+        props.userInfo.username,
+        promo,
+        months
+      );
+      console.log(sid);
+      const { error } = await stripe.redirectToCheckout({
+        sessionId: sid,
+      });
+      if (error) {
+        alert(error);
+      }
     }
   };
   const checkout = async () => {
@@ -119,6 +185,7 @@ const Payer = (props) => {
           username: props.userInfo.username,
           password: props.userInfo.password,
           months: months,
+          promo: promo,
         });
     }
   };
@@ -187,34 +254,38 @@ const Payer = (props) => {
                 fontFamily: "monospace",
                 fontSize: "80%",
               }}
-              disabled
+              onChange={(ev) => {
+                setPromo(ev.target.value.toUpperCase());
+              }}
+              value={promo}
             />
           </div>
           <button
             type="button"
             className="btn btn-primary mb-3 mt-2"
+            disabled={!loaded}
             onClick={(_) => checkout()}
           >
             {props.localize("check-out")}
           </button>
-          <div
-            className="form-check"
-            style={{ visibility: renewable ? "visible" : "hidden" }}
-          >
-            <input
-              className="form-check-input"
-              type="checkbox"
-              id="inputAutoRenew"
-              checked={autoRenew}
-              disabled={!renewable}
-              onClick={(_) => setAutoRenew(!autoRenew)}
-            />
-            <label className="form-check-label" htmlFor="inputAutoRenew">
-              &nbsp;{props.localize("automatically-renew")}
-            </label>
-          </div>
+          {false && (
+            <div className="form-check">
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="inputAutoRenew"
+                checked={autoRenew}
+                disabled={!renewable}
+                onClick={(_) => setAutoRenew(!autoRenew)}
+              />
+              <label className="form-check-label" htmlFor="inputAutoRenew">
+                &nbsp;{props.localize("automatically-renew")}
+              </label>
+            </div>
+          )}
+          <br />
           <small>
-            {autoRenew
+            {isAutoRenew
               ? props.localize("automatically-renew-blurb")(euroCents, months)
               : props.localize("no-renew-blurb")(months)}
           </small>
@@ -247,17 +318,21 @@ const Planner = (props) => {
   const localize = l10n(getLang());
   try {
     const toGo = async () => {
-      try {
-        const info = await getUserInfo(
-          sessionStorage.getItem("username"),
-          sessionStorage.getItem("password")
-        );
-        console.log("INFO");
-        console.log(info);
-        info.password = sessionStorage.getItem("password");
-        setUserInfo(info);
-      } catch (e) {
-        console.log(e);
+      if (sessionStorage) {
+        try {
+          if (sessionStorage.getItem("username")) {
+            const info = await getUserInfo(
+              sessionStorage.getItem("username"),
+              sessionStorage.getItem("password")
+            );
+            console.log("INFO");
+            console.log(info);
+            info.password = sessionStorage.getItem("password");
+            setUserInfo(info);
+          }
+        } catch (e) {
+          console.log(e);
+        }
       }
     };
     if (!userInfo) {

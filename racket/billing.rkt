@@ -4,6 +4,8 @@
          "paymentwall.rkt"
          "paymentwall-secrets.rkt"
          "stripe-secrets.rkt"
+         "promotions.rkt"
+         "stripe.rkt"
          web-server/templates
          racket/random
          racket/date
@@ -16,7 +18,18 @@
          serve-userinfo
          serve-login
          serve-stripe-cancel
+         serve-stripe-newsess
+         serve-calculate-price
          serve-stripe-webhook)
+
+(define (calculate-price
+         #:months months
+         #:method method
+         #:promotion promotion)
+  (apply-promotion promotion
+                   (* months (if (equal? method 'alipay)
+                                 525
+                                 500))))
 
 ;; db connection for postgres
 (define db-conn
@@ -56,7 +69,10 @@ subscription = excluded.subscription" username subid))))
   (let ([uid (username->uid username)])
     (in-transaction
      (lambda()
-       (pay-invoice (make-invoice uid months (* months 500) "EUR"))))))
+       (pay-invoice (make-invoice uid months (calculate-price
+                                              #:months months
+                                              #:promotion ""
+                                              #:method 'stripe) "EUR"))))))
 
 
 (define (make-invoice uid months price code)
@@ -143,6 +159,53 @@ window.location.replace('/billing');
                  (list (make-header #"Cache-Control" #"no-store"))
                  '(#"OK")))
 
+(define (serve-calculate-price req)
+  (define (b x)
+    (extract-binding/single x (request-bindings req)))
+  (define promo (b 'promo))
+  (define months (string->number (b 'months)))
+  (define method (b 'method))
+  (define price (calculate-price
+                 #:months months
+                 #:promotion promo
+                 #:method (string->symbol method)))
+  (response/full 200
+                 #"OK"
+                 (current-seconds)
+                 TEXT/HTML-MIME-TYPE
+                 (list (make-header #"Cache-Control" #"no-store"))
+                 (list (string->bytes/utf-8 (format "~a" price)))))
+
+(define (serve-stripe-newsess req)
+  (define (b x)
+    (extract-binding/single x (request-bindings req)))
+  (define username (b 'username))
+  (define promo (b 'promo))
+  (define months (string->number (b 'months)))
+  (define price (calculate-price
+                 #:months months
+                 #:promotion promo
+                 #:method 'stripe))
+  (define invoice-id (make-invoice (username->uid username)
+                                   months
+                                   price
+                                   "EUR"))
+  (define stripe-sessid (stripe-new-session #:name "Geph Plus"
+                                            #:description (format "~a d" (* months 30))
+                                            #:eurocents price
+                                            #:success-url "https://geph.io/billing"
+                                            #:cancel-url "https://geph.io/billing"
+                                            #:email (format "~a@~a-receipts.geph.io" username
+                                                            username)))
+  (register-session stripe-sessid invoice-id)
+  (response/full 200
+                 #"OK"
+                 (current-seconds)
+                 TEXT/HTML-MIME-TYPE
+                 (list (make-header #"Cache-Control" #"no-store"))
+                 (list (string->bytes/utf-8 stripe-sessid))))
+  
+
 (define (serve-stripe-webhook req secret)
   (unless (equal? secret stripe-webhook-secret)
     (error "bad secret"))
@@ -161,11 +224,12 @@ window.location.replace('/billing');
          ["subscription" (define subscription-id (hash-ref inner-data 'subscription))
                          (printf "registering subscription ~a :: ~a\n" customer subscription-id)
                          (register-subscription customer subscription-id)]
-         ["payment" (define customer (car (string-split (hash-ref inner-data 'customer_email) "@")))
-                    (define amount-paid (hash-ref (car (hash-ref inner-data 'display_items))
-                                                  'amount))
-                    (printf "extending ~a by ~a months \n" customer (exact-round (/ amount-paid 500)))
-                    (extend-subscription customer (exact-round (/ amount-paid 500)))]
+         ["payment" (let ([stripe-sessid (hash-ref inner-data 'id)])
+                      (match (fulfill-session stripe-sessid)
+                        [invoiceid
+                         (pay-invoice invoiceid)]
+                        [_ (printf "**** BAD STRIPE SESSION ~a ****"
+                                   stripe-sessid)]))]
          [_ (void)])]
       [_ (void)]))
                          
@@ -235,15 +299,19 @@ window.location.replace('/billing');
   (pretty-print bindings)
   (define cookie (extract-binding/single 'username bindings))
   (define uid (username->uid cookie))
+  (define promo (extract-binding/single 'promo bindings))
   (displayln uid)
   (define months (string->number (extract-binding/single 'months bindings)))
   (displayln months)
   (define-values (price code)
-    (values (* months 5.25) "EUR"))
-  (define invoice-id (make-invoice uid months (exact-round (* price 100)) code))
+    (values (calculate-price
+             #:months months
+             #:method 'alipay
+             #:promotion promo) "EUR"))
+  (define invoice-id (make-invoice uid months (exact-round price) code))
   (define payment-url
     (widget-url #:currency-code code
-                #:amount (* price 100)
+                #:amount price
                 #:order-name (format "~a Plus" "迷雾通")
                 #:order-id invoice-id
                 #:payment-type "all"

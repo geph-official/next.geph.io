@@ -37,6 +37,7 @@
 (define-values (page-dispatch url)
   (dispatch-rules
    [("") auto-jump]
+   [("billing" "login") serve-login]
    [("billing" "userinfo") serve-userinfo]
    [("billing" "stripe-cancel") serve-stripe-cancel]
    [("billing" "stripe-webhook" (string-arg)) #:method "post" serve-stripe-webhook]

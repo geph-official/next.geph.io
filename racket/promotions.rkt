@@ -4,6 +4,6 @@
 
 (define (apply-promotion promotion price)
   (match (sha1 (string->bytes/utf-8 promotion))
-    ["fa37413545d3b67274f8718ca3ae8ab9c6ca7c6a"
-     (quotient price 2)]
+    ["2ad8e737f489cb18758f9b547f4097889c31eec7"
+     (exact-round (* price 85/100))]
     [_ price]))

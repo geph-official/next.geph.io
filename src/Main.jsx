@@ -11,25 +11,25 @@ import { useRouteData } from "react-static";
 import { Helmet } from "react-helmet";
 import logo from "./logo.png";
 
-const lin64tar = version =>
-  "https://dl.geph.io/desktop-builds/geph-linux64-" + version + ".tar.bz2";
+const lin64tar = (version) =>
+  "https://dl.geph.io/desktop-builds/geph-linux64-" + version + ".tar.xz";
 
-const lin32tar = version =>
-  "https://dl.geph.io/desktop-builds/geph-linux32-" + version + ".tar.bz2";
+const lin32tar = (version) =>
+  "https://dl.geph.io/desktop-builds/geph-linux32-" + version + ".tar.xz";
 
-const win32exe = version =>
+const win32exe = (version) =>
   "https://dl.geph.io/desktop-builds/geph-windows-" + version + "-setup.exe";
 
-const mac64dmg = version =>
+const mac64dmg = (version) =>
   "https://dl.geph.io/desktop-builds/geph-macos-" + version + ".dmg";
 
-const androidapk = version =>
+const androidapk = (version) =>
   "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
 
-const WINVER = "3.4.6";
-const MACVER = "3.4.6";
-const LINVER = "3.4.6";
-const ANDVER = "3.4.6";
+const WINVER = "3.6.3";
+const MACVER = "3.6.3";
+const LINVER = "3.6.3";
+const ANDVER = "3.6.3";
 
 const defaultDownload = () => {
   try {
@@ -37,7 +37,7 @@ const defaultDownload = () => {
     if (/Android/.test(platform)) {
       return ["Android APK", androidapk, ANDVER];
     } else if (/Linux/.test(platform)) {
-      return ["Linux amd64 (.tar.bz2)", lin64tar, LINVER];
+      return ["Linux amd64 (.tar.xz)", lin64tar, LINVER];
     } else if (/Mac/.test(platform)) {
       return ["macOS 10.10+ (dmg)", mac64dmg, MACVER];
     } else {
@@ -48,7 +48,7 @@ const defaultDownload = () => {
   }
 };
 
-export default props => {
+export default (props) => {
   const localize = l10n(props.lang);
   const [downDesc, downLinkGen, downVer] = defaultDownload();
   return (
@@ -160,11 +160,11 @@ export default props => {
                 />
                 <p class="card-text">
                   <a href={lin64tar(LINVER)}>
-                    <b>Linux amd64</b> (.tar.bz2)
+                    <b>Linux amd64</b> (.tar.xz)
                   </a>
                   <br />
                   <a href={lin32tar(LINVER)}>
-                    <b>Linux i386</b> (.tar.bz2)
+                    <b>Linux i386</b> (.tar.xz)
                   </a>{" "}
                   <br />
                 </p>

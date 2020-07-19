@@ -42,6 +42,8 @@
    [("billing" "stripe-cancel") serve-stripe-cancel]
    [("billing" "stripe-webhook" (string-arg)) #:method "post" serve-stripe-webhook]
    [("billing" "pingback" (string-arg)) serve-paymentwall-pingback]
+   [("billing" "stripe-newsess") serve-stripe-newsess]
+   [("billing" "calculate-price") serve-calculate-price]
    [("billing" "alipay") serve-alipay]))
 
 (displayln static-path)
