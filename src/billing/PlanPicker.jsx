@@ -8,11 +8,27 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 import { useDebounce } from "use-debounce";
+import detectNearestBrowserLocale from "detect-nearest-browser-locale";
 
 const STRIPEKEY = "pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY";
 
-const toCNY = (eur) => 7.7 * eur;
-const toUSD = (eur) => 1.1 * eur;
+const getLang = () => {
+  try {
+    const lang = detectNearestBrowserLocale(["en-US", "zh-CN", "zh-TW"]);
+    if (lang === "zh-CN") {
+      return "zhs";
+    }
+    if (lang === "zhh-TW") {
+      return "zht";
+    }
+    return "en";
+  } catch (e) {
+    return "en";
+  }
+};
+
+const toCNY = (eur) => 7.67 * eur;
+const toUSD = (eur) => 1.19 * eur;
 
 // Component for picking
 const Selector = (props) => (
@@ -52,61 +68,34 @@ const toQueryString = (params) => {
     .join("&");
 };
 
-const getUserInfo = async (uname, pwd) => {
-  const response = await axios.get(
-    "/billing/userinfo?" +
-      toQueryString({
-        username: uname,
-        password: pwd,
-      })
-  );
+const getUserInfo = async (sessid) => {
+  const response = await axios.post("https://web-backend.geph.io/userinfo", {
+    sessid: sessid,
+  });
   return response.data;
 };
 
-const getNewStripeSession = async (uname, promo, months) => {
-  const response = await axios.get(
-    "/billing/stripe-newsess?" +
-      toQueryString({
-        username: uname,
-        promo: promo,
-        months: months,
-      }),
+const getNewStripeSession = async (sessid, promo, months) => {
+  const response = await axios.post(
+    "https://web-backend.geph.io/new-stripe",
+    {
+      sessid: sessid,
+      promo: promo,
+      months: months,
+    },
     { responseType: "text" }
   );
   return response.data;
-};
-
-const cancelStripe = async (uname, pwd) => {
-  const response = await axios.get(
-    "/billing/stripe-cancel?" +
-      toQueryString({
-        username: uname,
-        password: pwd,
-      })
-  );
-  return response.data;
-};
-
-const getStripeID = (months, autoRenew) => {
-  if (months === 1) {
-    return autoRenew ? "plan_GIE5voityP0f9u" : "sku_GIE7Nx2J7ZhXI8";
-  } else if (months === 3) {
-    return autoRenew ? "plan_GIE5eNXYZsLlMX" : "sku_GIE8CZ6qSEzd0t";
-  } else {
-    return autoRenew ? "plan_GIE5JhURW2fFND" : "sku_GIE8iScbw4grMT";
-  }
 };
 
 const Payer = (props) => {
   const [payMethod, setPayMethod] = useState("card");
   const [euroCents, setEuroCents] = useState(0);
   const months = props.months;
-  const renewable = false;
-  const [autoRenew, setAutoRenew] = useState(false);
   const [loaded, setLoaded] = useState(false);
+  const [cryptoCurrency, setCryptoCurrency] = useState("BTC");
   const [promo, setPromo] = useState("");
   const [debouncedPromo] = useDebounce(promo, 500);
-  const isAutoRenew = autoRenew && renewable;
 
   const updatePrice = async () => {
     setLoaded(false);
@@ -130,7 +119,7 @@ const Payer = (props) => {
 
   const getCost = async () => {
     const response = await axios.get(
-      "/billing/calculate-price?" +
+      "https://web-backend.geph.io/calculate-price?" +
         toQueryString({
           promo: promo,
           months: months,
@@ -143,50 +132,45 @@ const Payer = (props) => {
 
   const stripeCheckout = async () => {
     const stripe = window.Stripe(STRIPEKEY);
-    if (autoRenew) {
-      const { error } = await stripe.redirectToCheckout({
-        items: [
-          {
-            [autoRenew ? "plan" : "sku"]: getStripeID(months, autoRenew),
-            quantity: 1,
-          },
-        ],
-        successUrl: window.location.href,
-        cancelUrl: window.location.href,
-        customerEmail:
-          props.userInfo.username +
-          `@receipts-${props.userInfo.username}.geph.io`,
-      });
-      if (error) {
-        alert(error);
-      }
-    } else {
-      const sid = await getNewStripeSession(
-        props.userInfo.username,
-        promo,
-        months
-      );
-      console.log(sid);
-      const { error } = await stripe.redirectToCheckout({
-        sessionId: sid,
-      });
-      if (error) {
-        alert(error);
-      }
+    const sid = await getNewStripeSession(props.sessid, promo, months);
+    console.log(sid);
+    const { error } = await stripe.redirectToCheckout({
+      sessionId: sid,
+    });
+    if (error) {
+      alert(error);
     }
   };
+
+  const getAlipayUrl = async () => {
+    const response = await axios.post("https://web-backend.geph.io/alipay", {
+      sessid: props.sessid,
+      promo: promo,
+      months: months,
+    });
+    return response.data.url;
+  };
+
+  const getCryptoUrl = async (currency) => {
+    const response = await axios.post(
+      "https://web-backend.geph.io/coinpayments",
+      {
+        sessid: props.sessid,
+        promo: promo,
+        months: months,
+        currency: currency,
+      }
+    );
+    return response.data;
+  };
+
   const checkout = async () => {
     if (payMethod === "card") {
       await stripeCheckout();
-    } else {
-      window.location.href =
-        "/billing/alipay?" +
-        toQueryString({
-          username: props.userInfo.username,
-          password: props.userInfo.password,
-          months: months,
-          promo: promo,
-        });
+    } else if (payMethod == "alipay") {
+      window.location.href = await getAlipayUrl();
+    } else if (payMethod == "crypto") {
+      window.location.href = await getCryptoUrl(cryptoCurrency);
     }
   };
   return (
@@ -206,11 +190,23 @@ const Payer = (props) => {
           />
           {props.localize("credit-debit")}
         </a>
+
+        <a
+          className={payMethod === "crypto" ? "nav-link active" : "nav-link"}
+          onClick={(_) => {
+            setPayMethod("crypto");
+          }}
+        >
+          <img src={require("../assets/bitcoin.png")} className="cardbrand" />
+          {props.localize("crypto")}&nbsp;
+          <span className="badge badge-success">
+            20%&nbsp;{props.localize("discount")}
+          </span>
+        </a>
         <a
           className={payMethod === "alipay" ? "nav-link active" : "nav-link"}
           onClick={(_) => {
             setPayMethod("alipay");
-            setAutoRenew(false);
           }}
         >
           <img src={require("../assets/alipay.svg")} className="cardbrand" />
@@ -248,7 +244,7 @@ const Payer = (props) => {
             </div>
             <input
               type="text"
-              maxlength="10"
+              maxLength="10"
               style={{
                 width: "128px",
                 fontFamily: "monospace",
@@ -260,35 +256,36 @@ const Payer = (props) => {
               value={promo}
             />
           </div>
-          <button
-            type="button"
-            className="btn btn-primary mb-3 mt-2"
-            disabled={!loaded}
-            onClick={(_) => checkout()}
-          >
-            {props.localize("check-out")}
-          </button>
-          {false && (
-            <div className="form-check">
-              <input
-                className="form-check-input"
-                type="checkbox"
-                id="inputAutoRenew"
-                checked={autoRenew}
-                disabled={!renewable}
-                onClick={(_) => setAutoRenew(!autoRenew)}
-              />
-              <label className="form-check-label" htmlFor="inputAutoRenew">
-                &nbsp;{props.localize("automatically-renew")}
-              </label>
-            </div>
-          )}
-          <br />
-          <small>
-            {isAutoRenew
-              ? props.localize("automatically-renew-blurb")(euroCents, months)
-              : props.localize("no-renew-blurb")(months)}
-          </small>
+          <hr />
+          <div class="form-inline">
+            {payMethod == "crypto" ? (
+              <div class="input-group mb-2 mr-sm-2">
+                <select
+                  class="form-control"
+                  onChange={(event) => setCryptoCurrency(event.target.value)}
+                  value={cryptoCurrency}
+                >
+                  <option>BTC</option>
+                  <option>ETH</option>
+                  <option>XMR</option>
+                  <option>USDT.ERC20</option>
+                  <option>USDC</option>
+                  <option>DAI</option>
+                </select>
+              </div>
+            ) : (
+              ""
+            )}
+            <button
+              type="normal"
+              className="btn btn-primary mb-3 mt-2"
+              disabled={!loaded}
+              onClick={(_) => checkout()}
+            >
+              {props.localize("check-out")}
+            </button>
+          </div>
+          <small>{props.localize("no-renew-blurb")(months)}</small>
         </div>
       </div>
     </>
@@ -302,36 +299,27 @@ function sleep(ms) {
 const Planner = (props) => {
   const [months, setMonths] = useState(1);
   const [userInfo, setUserInfo] = useState(false);
-  const getLang = () => {
-    try {
-      if (navigator.language === "zh-CN") {
-        return "zhs";
-      }
-      if (/zh/.test(navigator.language)) {
-        return "zht";
-      }
-      return "en";
-    } catch (e) {
-      return "en";
+  const sessid = (() => {
+    if (typeof window !== "undefined") {
+      return window.sessionStorage.getItem("session-id");
+    } else {
+      return "NULL";
     }
-  };
+  })();
+  // const sessid = "sess-207633440935381486337334519777625254460";
   const localize = l10n(getLang());
   try {
     const toGo = async () => {
-      if (sessionStorage) {
+      if (typeof window !== "undefined" && window.sessionStorage) {
         try {
-          if (sessionStorage.getItem("username")) {
-            const info = await getUserInfo(
-              sessionStorage.getItem("username"),
-              sessionStorage.getItem("password")
-            );
+          if (sessid) {
+            const info = await getUserInfo(sessid);
             console.log("INFO");
             console.log(info);
-            info.password = sessionStorage.getItem("password");
             setUserInfo(info);
           }
         } catch (e) {
-          console.log(e);
+          alert(e);
         }
       }
     };
@@ -363,14 +351,12 @@ const Planner = (props) => {
             <div className="col-md">
               <b>{localize("subscription")}</b> <br />
               {userInfo &&
-                (userInfo.type === "free" ? localize("free") : "Plus")}
+                (userInfo.plan === "plus" ? "Plus" : localize("free"))}
             </div>
             {userInfo && userInfo.expires && (
               <div className="col-md">
                 <b>{localize("expires")}</b> <br />
-                {new Date(userInfo.expires * 1000)
-                  .toISOString()
-                  .substring(0, 10)}
+                {new Date(userInfo.expires).toISOString().substring(0, 10)}
               </div>
             )}
             <div className="col-md-2"></div>
@@ -379,24 +365,13 @@ const Planner = (props) => {
             <div className="col-md-2"></div>
             <div className="col">
               <hr></hr>
-              <p>
-                {userInfo &&
-                  (userInfo.subscription
-                    ? localize("subscription-blurb")(async (_) => {
-                        await cancelStripe(
-                          userInfo.username,
-                          userInfo.password
-                        );
-                        window.location.reload();
-                      })
-                    : localize("extend-blurb"))}
-              </p>
+              <p>{userInfo && localize("extend-blurb")}</p>
             </div>
             <div className="col-md-2"></div>
           </div>
         </div>
       </section>
-      {userInfo && !userInfo.subscription && (
+      {userInfo && (
         <>
           <section className="lightback">
             <div className="container">
@@ -450,6 +425,7 @@ const Planner = (props) => {
                   </h3>
                   <Payer
                     userInfo={userInfo}
+                    sessid={sessid}
                     localize={localize}
                     months={months}
                   />

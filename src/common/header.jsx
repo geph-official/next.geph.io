@@ -8,10 +8,11 @@ addl10n({
   help: { en: "Help", zht: "幫助", zhs: "帮助" },
   policies: { en: "Policies", zht: "條款", zhs: "条款" },
   contact: { en: "Contact", zht: "聯繫", zhs: "联系" },
-  mirror: { zht: "免翻牆鏡像", zhs: "免翻墙镜像" }
+  mirror: { zht: "免翻牆鏡像", zhs: "免翻墙镜像" },
+  forum: { en: "Forum", zht: "用戶論壇", zhs: "用户论坛" },
 });
 
-export const Header = props => {
+export const Header = (props) => {
   const localize = l10n(props.lang);
   return (
     <section className="nav-header">
@@ -29,11 +30,20 @@ export const Header = props => {
             <div className="nav-link">
               <a
                 target="_blank"
+                href="https://community.geph.io"
+                style={{ color: "#19448e" }}
+              >
+                {localize("forum")}
+              </a>
+            </div>
+            <div className="nav-link">
+              <a
+                target="_blank"
                 rel="noopener"
                 href={
                   props.lang === "en"
-                    ? "https://github.com/geph-official/geph2/wiki/Policies-and-terms"
-                    : "https://github.com/geph-official/geph2/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89"
+                    ? "https://github.com/geph-official/geph4/wiki/Policies-and-terms"
+                    : "https://github.com/geph-official/geph4/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89"
                 }
                 style={{ color: "#19448e" }}
               >
@@ -45,10 +55,11 @@ export const Header = props => {
                 {localize("contact")}
               </a>
             </div>
+
             {props.lang !== "en" && (
               <div className="nav-link">
                 <a
-                  href="https://is.gd/getmiwutong"
+                  href="https://is.gd/getmwt"
                   style={{ color: "#19448e" }}
                   target="_blank"
                   rel="noopener"

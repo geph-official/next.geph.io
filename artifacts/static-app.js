@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 35);
+/******/ 	return __webpack_require__(__webpack_require__.s = 44);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -145,7 +145,7 @@ module.exports = require("babel-plugin-universal-import/universalImport");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return addl10n; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return l10n; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return toLangCode; });
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(11);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(42);
 /* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__);
 
 
@@ -185,7 +185,7 @@ module.exports = require("@babel/runtime/helpers/slicedToArray");
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
-var _typeof = __webpack_require__(16);
+var _typeof = __webpack_require__(17);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -224,7 +224,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(38);
+var _requireUniversalModule = __webpack_require__(47);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -239,7 +239,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(40);
+var _reportChunks = __webpack_require__(49);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -261,13 +261,13 @@ var _hoistNonReactStatics = __webpack_require__(24);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _vm = __webpack_require__(41);
+var _vm = __webpack_require__(50);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _utils = __webpack_require__(17);
+var _utils = __webpack_require__(18);
 
-var _helpers = __webpack_require__(42);
+var _helpers = __webpack_require__(51);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -662,7 +662,7 @@ function universal(asyncModule) {
     report: _propTypes2["default"].func
   }, _temp;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(15)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(16)(module)))
 
 /***/ }),
 /* 7 */
@@ -672,6 +672,12 @@ module.exports = require("@reach/router");
 
 /***/ }),
 /* 8 */
+/***/ (function(module, exports) {
+
+module.exports = require("detect-nearest-browser-locale");
+
+/***/ }),
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -684,8 +690,8 @@ var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-// EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/app.css
-var app = __webpack_require__(18);
+// EXTERNAL MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/app.css
+var app = __webpack_require__(14);
 
 // EXTERNAL MODULE: external "bootstrap/dist/css/bootstrap.min.css"
 var bootstrap_min_css_ = __webpack_require__(29);
@@ -693,7 +699,7 @@ var bootstrap_min_css_ = __webpack_require__(29);
 // EXTERNAL MODULE: external "@reach/router"
 var router_ = __webpack_require__(7);
 
-// CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/common/footer.jsx
+// CONCATENATED MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/common/footer.jsx
 
 var footer_Footer = function Footer(props) {
   return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("section", {
@@ -709,21 +715,17 @@ var footer_Footer = function Footer(props) {
     "class": "text-muted"
   }, "\xA9 2019- Gephyra O\xDC"), external_react_default.a.createElement("p", null, "Sakala 7-2, Tallinn", external_react_default.a.createElement("br", null), "Estonia 10141"), external_react_default.a.createElement("p", null, external_react_default.a.createElement("a", {
     href: "mailto:contact@geph.io"
-  }, "contact@geph.io"), external_react_default.a.createElement("br", null), external_react_default.a.createElement("a", {
-    href: "https://t.me/joinchat/Pc6C1hMBREf-8_TZM5z6_g",
-    target: "_blank",
-    rel: "noopener"
-  }, "Telegram")), external_react_default.a.createElement("p", null, "+372 5486 2187"))))), external_react_default.a.createElement("div", {
+  }, "contact@geph.io"), external_react_default.a.createElement("br", null)))))), external_react_default.a.createElement("div", {
     className: "statcounter"
   }, external_react_default.a.createElement("img", {
     className: "statcounter",
     src: "https://c.statcounter.com/12155608/0/044606fb/1/"
   })));
 };
-// EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/common/l10n.js
+// EXTERNAL MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/common/l10n.js
 var l10n = __webpack_require__(4);
 
-// CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/common/header.jsx
+// CONCATENATED MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/common/header.jsx
 
 
 
@@ -751,6 +753,11 @@ Object(l10n["a" /* addl10n */])({
   mirror: {
     zht: "免翻牆鏡像",
     zhs: "免翻墙镜像"
+  },
+  forum: {
+    en: "Forum",
+    zht: "用戶論壇",
+    zhs: "用户论坛"
   }
 });
 var header_Header = function Header(props) {
@@ -766,7 +773,7 @@ var header_Header = function Header(props) {
   }, external_react_default.a.createElement("div", {
     className: "nav-brandwrap"
   }, external_react_default.a.createElement("img", {
-    src: __webpack_require__(58),
+    src: __webpack_require__(68),
     alt: "Geph logo"
   }), external_react_default.a.createElement("span", {
     className: "nav-brand"
@@ -776,8 +783,16 @@ var header_Header = function Header(props) {
     className: "nav-link"
   }, external_react_default.a.createElement("a", {
     target: "_blank",
+    href: "https://community.geph.io",
+    style: {
+      color: "#19448e"
+    }
+  }, localize("forum"))), external_react_default.a.createElement("div", {
+    className: "nav-link"
+  }, external_react_default.a.createElement("a", {
+    target: "_blank",
     rel: "noopener",
-    href: props.lang === "en" ? "https://github.com/geph-official/geph2/wiki/Policies-and-terms" : "https://github.com/geph-official/geph2/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89",
+    href: props.lang === "en" ? "https://github.com/geph-official/geph4/wiki/Policies-and-terms" : "https://github.com/geph-official/geph4/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89",
     style: {
       color: "#19448e"
     }
@@ -791,7 +806,7 @@ var header_Header = function Header(props) {
   }, localize("contact"))), props.lang !== "en" && external_react_default.a.createElement("div", {
     className: "nav-link"
   }, external_react_default.a.createElement("a", {
-    href: "https://is.gd/getmiwutong",
+    href: "https://is.gd/getmwt",
     style: {
       color: "#19448e"
     },
@@ -816,13 +831,13 @@ var header_Header = function Header(props) {
     }
   }, "\u7E41"))))));
 };
-// CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/Main.l10n.jsx
+// CONCATENATED MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.l10n.jsx
 
 
-var mizaruURL = "https://github.com/geph-official/geph2/wiki/Mizaru";
-var slaURL = "https://github.com/geph-official/geph2/wiki/Service-SLA-(%E5%B0%81%E4%B8%80%E5%A4%A9%E8%B3%A0%E4%B8%80%E5%A4%A9%E6%94%BF%E7%AD%96)";
-var policyEnURL = "https://github.com/geph-official/geph2/wiki/Policies-and-terms";
-var policyZhURL = "https://github.com/geph-official/geph2/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89";
+var mizaruURL = "https://github.com/geph-official/geph4/wiki/Mizaru";
+var slaURL = "https://github.com/geph-official/geph4/wiki/Service-SLA-(%E5%B0%81%E4%B8%80%E5%A4%A9%E8%B3%A0%E4%B8%80%E5%A4%A9%E6%94%BF%E7%AD%96)";
+var policyEnURL = "https://github.com/geph-official/geph4/wiki/Policies-and-terms";
+var policyZhURL = "https://github.com/geph-official/geph4/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89";
 var githubURL = "https://github.com/geph-official/";
 Object(l10n["a" /* addl10n */])({
   "blast-through-censorship": {
@@ -850,7 +865,7 @@ Object(l10n["a" /* addl10n */])({
   "hero-text": {
     en: external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("h2", {
       className: "center"
-    }, "Far surpassing VPNs"), external_react_default.a.createElement("p", {
+    }, "Resilient, secure, and private"), external_react_default.a.createElement("p", {
       className: "hero-text"
     }, "Most VPNs and anti-censorship tools only rely on keeping a low profile to avoid blocking. Even worse, you never know which providers you can trust."), external_react_default.a.createElement("p", {
       className: "hero-text"
@@ -867,7 +882,7 @@ Object(l10n["a" /* addl10n */])({
     }, "open source"), ".")),
     zht: external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("h2", {
       className: "center"
-    }, "\u5B8C\u52DDVPN"), external_react_default.a.createElement("p", {
+    }, "\u7A69\u5B9A\u3001\u5B89\u5168\u3001\u79C1\u5BC6"), external_react_default.a.createElement("p", {
       className: "hero-text"
     }, "\u5927\u591A\u6578VPN\u548C\u7FFB\u7246\u5DE5\u5177\u514D\u88AB\u5C01\u6BBA\u53EA\u9760\u4FDD\u6301\u4F4E\u8ABF\u3002 \u66F4\u7CDF\u7CD5\u7684\u662F\uFF0C\u8AB0\u4E5F\u4E0D\u77E5\u9053\u54EA\u4E9B\u63D0\u4F9B\u5546\u503C\u5F97\u4FE1\u4EFB\u3002"), external_react_default.a.createElement("p", {
       className: "hero-text"
@@ -884,7 +899,7 @@ Object(l10n["a" /* addl10n */])({
     }, "\u958B\u6E90"), "\u7684\u3002")),
     zhs: external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("h2", {
       className: "center"
-    }, "\u5B8C\u80DCVPN"), external_react_default.a.createElement("p", {
+    }, "\u7A33\u5B9A\u3001\u5B89\u5168\u3001\u79C1\u5BC6"), external_react_default.a.createElement("p", {
       className: "hero-text"
     }, "\u5927\u591A\u6570VPN\u548C\u7FFB\u5899\u5DE5\u5177\u514D\u88AB\u5C01\u6740\u53EA\u9760\u4FDD\u6301\u4F4E\u8C03\u3002 \u66F4\u7CDF\u7CD5\u7684\u662F\uFF0C\u8C01\u4E5F\u4E0D\u77E5\u9053\u54EA\u4E9B\u63D0\u4F9B\u5546\u503C\u5F97\u4FE1\u4EFB\u3002"), external_react_default.a.createElement("p", {
       className: "hero-text"
@@ -971,15 +986,15 @@ Object(l10n["a" /* addl10n */])({
   }
 });
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(10);
+var external_react_static_ = __webpack_require__(12);
 
 // EXTERNAL MODULE: external "react-helmet"
-var external_react_helmet_ = __webpack_require__(12);
+var external_react_helmet_ = __webpack_require__(13);
 
-// EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/logo.png
-var logo = __webpack_require__(59);
+// EXTERNAL MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/logo.png
+var logo = __webpack_require__(69);
 
-// CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/Main.jsx
+// CONCATENATED MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.jsx
 
 
 
@@ -994,29 +1009,27 @@ var logo = __webpack_require__(59);
 
 
 var lin64tar = function lin64tar(version) {
-  return "https://dl.geph.io/desktop-builds/geph-linux64-" + version + ".tar.xz";
-};
-
-var lin32tar = function lin32tar(version) {
-  return "https://dl.geph.io/desktop-builds/geph-linux32-" + version + ".tar.xz";
+  return "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" + version + "/geph-linux64-" + version + ".tar.xz";
 };
 
 var win32exe = function win32exe(version) {
-  return "https://dl.geph.io/desktop-builds/geph-windows-" + version + "-setup.exe";
+  return "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" + version + "/geph-windows-" + version + "-setup.exe";
 };
 
 var mac64dmg = function mac64dmg(version) {
-  return "https://dl.geph.io/desktop-builds/geph-macos-" + version + ".dmg";
+  return "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" + version + "/geph-macos-" + version + ".dmg";
 };
 
 var androidapk = function androidapk(version) {
-  return "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
+  return "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" + version + "/geph-android-" + version + ".apk";
 };
 
-var WINVER = "3.6.3";
-var MACVER = "3.6.3";
-var LINVER = "3.6.3";
-var ANDVER = "3.6.3";
+var VERSIONS = __webpack_require__(70);
+
+var WINVER = VERSIONS.Windows.Latest;
+var MACVER = VERSIONS.MacOS.Latest;
+var LINVER = VERSIONS.Linux64.Latest;
+var ANDVER = VERSIONS.Android.Latest;
 
 var defaultDownload = function defaultDownload() {
   try {
@@ -1098,7 +1111,7 @@ var defaultDownload = function defaultDownload() {
   }, localize("other-platforms")))), external_react_default.a.createElement("div", {
     className: "col-md"
   }, external_react_default.a.createElement("img", {
-    src: __webpack_require__(60),
+    src: __webpack_require__(71),
     className: "hero-img",
     alt: "Screenshot"
   }))))), external_react_default.a.createElement("section", {
@@ -1142,7 +1155,7 @@ var defaultDownload = function defaultDownload() {
     "class": "card-body"
   }, external_react_default.a.createElement("img", {
     alt: "Windows",
-    src: __webpack_require__(61),
+    src: __webpack_require__(72),
     className: "oslogo"
   }), external_react_default.a.createElement("p", {
     "class": "card-text"
@@ -1154,7 +1167,7 @@ var defaultDownload = function defaultDownload() {
     "class": "card-body"
   }, external_react_default.a.createElement("img", {
     alt: "Mac",
-    src: __webpack_require__(62),
+    src: __webpack_require__(73),
     className: "oslogo"
   }), external_react_default.a.createElement("p", {
     "class": "card-text"
@@ -1166,21 +1179,19 @@ var defaultDownload = function defaultDownload() {
     "class": "card-body"
   }, external_react_default.a.createElement("img", {
     alt: "Linux",
-    src: __webpack_require__(63),
+    src: __webpack_require__(74),
     className: "oslogo"
   }), external_react_default.a.createElement("p", {
     "class": "card-text"
   }, external_react_default.a.createElement("a", {
     href: lin64tar(LINVER)
-  }, external_react_default.a.createElement("b", null, "Linux amd64"), " (.tar.xz)"), external_react_default.a.createElement("br", null), external_react_default.a.createElement("a", {
-    href: lin32tar(LINVER)
-  }, external_react_default.a.createElement("b", null, "Linux i386"), " (.tar.xz)"), " ", external_react_default.a.createElement("br", null)))), external_react_default.a.createElement("div", {
+  }, external_react_default.a.createElement("b", null, "Linux amd64"), " (.tar.xz)"), external_react_default.a.createElement("br", null)))), external_react_default.a.createElement("div", {
     className: "col-md card text-center"
   }, external_react_default.a.createElement("div", {
     "class": "card-body"
   }, external_react_default.a.createElement("img", {
     alt: "Android",
-    src: __webpack_require__(64),
+    src: __webpack_require__(75),
     className: "oslogo"
   }), external_react_default.a.createElement("p", {
     "class": "card-text"
@@ -1192,7 +1203,13 @@ var defaultDownload = function defaultDownload() {
 });
 
 /***/ }),
-/* 9 */
+/* 10 */
+/***/ (function(module, exports) {
+
+module.exports = require("axios");
+
+/***/ }),
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1202,11 +1219,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = __webpack_require__(17);
+var _utils = __webpack_require__(18);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(39)("" + id);
+    return __webpack_require__(48)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -1215,41 +1232,48 @@ var requireById = function requireById(id) {
 exports["default"] = requireById;
 
 /***/ }),
-/* 10 */
+/* 12 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-static");
 
 /***/ }),
-/* 11 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/defineProperty");
-
-/***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-helmet");
 
 /***/ }),
-/* 13 */
-/***/ (function(module, exports) {
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = require("axios");
+exports = module.exports = __webpack_require__(25)(false);
+// Imports
+var urlEscape = __webpack_require__(60);
+var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(61));
+var ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(62));
+var ___CSS_LOADER_URL___2___ = urlEscape(__webpack_require__(63));
+var ___CSS_LOADER_URL___3___ = urlEscape(__webpack_require__(64));
+var ___CSS_LOADER_URL___4___ = urlEscape(__webpack_require__(65));
+var ___CSS_LOADER_URL___5___ = urlEscape(__webpack_require__(66));
+
+// Module
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box !important;\n  color: #000b00 !important;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n\n  background-repeat: no-repeat;\n  background-position: top center;\n  background-size: cover;\n}\n\n* {\n  font-family: \"LFR\", sans-serif;\n}\n\n:lang(zh-CN) {\n  font-family: \"LFR\", \"Noto Sans CJK SC\", \"Microsoft YaHei\", sans-serif;\n}\n\n:lang(zh-TW) {\n  font-family: \"LFR\", \"Noto Sans CJK TC\", \"Microsoft JhengHei\", sans-serif;\n}\n\nsection {\n  width: 100%;\n  max-width: 100%;\n  padding-top: 40px !important;\n  padding-bottom: 40px !important;\n  box-sizing: border-box !important;\n}\n\n.darken {\n  background-color: #ccc;\n}\n\n.darkback {\n  background-color: #000b00;\n  color: white;\n}\n\n.shade {\n  opacity: 0.6;\n}\n\n.lightback {\n  background-color: #f7f9fc;\n}\n\n.whiteback {\n  background-color: white;\n}\n\n.color-primary {\n  color: #007bbb;\n}\n\n.big-button {\n  font-size: 130%;\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 16px;\n  padding-right: 16px;\n  text-transform: none !important;\n  box-sizing: content-box !important;\n}\n\n.center {\n  text-align: center;\n}\n\n.right {\n  text-align: right;\n}\n\na {\n  font-weight: 500;\n}\n\n.cardbrand {\n  height: 24px;\n  padding-right: 10px;\n}\n\n/* NAV */\n\n.nav-header {\n  padding-top: 20px;\n}\n\n.nav-brandwrap {\n  display: flex;\n  align-items: center;\n}\n\n.nav-linkwrap {\n  justify-content: right;\n  align-items: center;\n  display: flex;\n}\n\n.nav-link {\n  font-weight: 500;\n  padding-left: 10px;\n  padding-right: 16px;\n}\n\n.nav-header img {\n  height: 64px;\n  vertical-align: middle;\n  margin-right: 16px;\n}\n\n.nav-brand {\n  font-size: 42px;\n}\n\n/* HERO */\n\n.hero .row {\n  display: flex;\n  align-items: center;\n  text-align: center;\n}\n\n@media (min-width: 768px) {\n  .hero-left {\n    text-align: right;\n  }\n}\n\n.hero-left > h2 {\n  font-weight: 500;\n}\n\n.hero-text {\n  font-size: 105%;\n  padding-top: 8px;\n}\n\n.hero-text > a {\n  font-weight: 500;\n  color: #a0d8ef;\n}\n\n@media (min-width: 768px) {\n  .hero-text {\n    font-size: 120%;\n  }\n}\n\n.hero-img {\n  height: 500px;\n  box-shadow: 0px 0px 30px #ccc;\n  margin-top: 40px;\n}\n\n/* others */\n\n.oslogo {\n  width: 48px;\n  height: 48px;\n  margin-bottom: 16px;\n  margin-top: 16px;\n}\n\n/* fonts */\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___1___ + ") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___2___ + ") format(\"truetype\");\n  font-weight: normal;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___3___ + ") format(\"truetype\");\n  font-weight: 500;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___4___ + ") format(\"truetype\");\n  font-weight: bold;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___5___ + ") format(\"truetype\");\n  font-weight: bold;\n  font-style: italic;\n}\n", ""]);
+
+
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(12);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(18);
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(14);
 /* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_3__);
 
  //
@@ -1270,7 +1294,7 @@ function App() {
 /* harmony default export */ __webpack_exports__["a"] = (App);
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = function (module) {
@@ -1299,19 +1323,19 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/typeof");
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof2 = __webpack_require__(16);
+var _typeof2 = __webpack_require__(17);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1342,7 +1366,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _requireById = __webpack_require__(9);
+var _requireById = __webpack_require__(11);
 
 var _requireById2 = _interopRequireDefault(_requireById);
 
@@ -1471,25 +1495,6 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 };
 
 /***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(25)(false);
-// Imports
-var urlEscape = __webpack_require__(51);
-var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(52));
-var ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(53));
-var ___CSS_LOADER_URL___2___ = urlEscape(__webpack_require__(54));
-var ___CSS_LOADER_URL___3___ = urlEscape(__webpack_require__(55));
-var ___CSS_LOADER_URL___4___ = urlEscape(__webpack_require__(56));
-var ___CSS_LOADER_URL___5___ = urlEscape(__webpack_require__(57));
-
-// Module
-exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box !important;\n  color: #000b00 !important;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n\n  background-repeat: no-repeat;\n  background-position: top center;\n  background-size: cover;\n}\n\n* {\n  font-family: \"LFR\", sans-serif;\n}\n\n:lang(zh-CN) {\n  font-family: \"LFR\", \"Noto Sans CJK SC\", \"Microsoft YaHei\", sans-serif;\n}\n\n:lang(zh-TW) {\n  font-family: \"LFR\", \"Noto Sans CJK TC\", \"Microsoft JhengHei\", sans-serif;\n}\n\nsection {\n  width: 100%;\n  max-width: 100%;\n  padding-top: 40px !important;\n  padding-bottom: 40px !important;\n  box-sizing: border-box !important;\n}\n\n.darken {\n  background-color: #ccc;\n}\n\n.darkback {\n  background-color: #000b00;\n  color: white;\n}\n\n.shade {\n  opacity: 0.6;\n}\n\n.lightback {\n  background-color: #f7f9fc;\n}\n\n.whiteback {\n  background-color: white;\n}\n\n.color-primary {\n  color: #007bbb;\n}\n\n.big-button {\n  font-size: 130%;\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 16px;\n  padding-right: 16px;\n  text-transform: none !important;\n  box-sizing: content-box !important;\n}\n\n.center {\n  text-align: center;\n}\n\n.right {\n  text-align: right;\n}\n\na {\n  font-weight: 500;\n}\n\n.cardbrand {\n  height: 24px;\n  padding-right: 10px;\n}\n\n/* NAV */\n\n.nav-header {\n  padding-top: 20px;\n}\n\n.nav-brandwrap {\n  display: flex;\n  align-items: center;\n}\n\n.nav-linkwrap {\n  justify-content: right;\n  align-items: center;\n  display: flex;\n}\n\n.nav-link {\n  font-weight: 500;\n  padding-left: 10px;\n  padding-right: 16px;\n}\n\n.nav-header img {\n  height: 64px;\n  vertical-align: middle;\n  margin-right: 16px;\n}\n\n.nav-brand {\n  font-size: 42px;\n}\n\n/* HERO */\n\n.hero .row {\n  display: flex;\n  align-items: center;\n  text-align: center;\n}\n\n@media (min-width: 768px) {\n  .hero-left {\n    text-align: right;\n  }\n}\n\n.hero-left > h2 {\n  font-weight: 500;\n}\n\n.hero-text {\n  font-size: 105%;\n  padding-top: 8px;\n}\n\n.hero-text > a {\n  font-weight: 500;\n  color: #a0d8ef;\n}\n\n@media (min-width: 768px) {\n  .hero-text {\n    font-size: 120%;\n  }\n}\n\n.hero-img {\n  height: 500px;\n  box-shadow: 0px 0px 30px #ccc;\n  margin-top: 40px;\n}\n\n/* others */\n\n.oslogo {\n  width: 48px;\n  height: 48px;\n  margin-bottom: 16px;\n  margin-top: 16px;\n}\n\n/* fonts */\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___1___ + ") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___2___ + ") format(\"truetype\");\n  font-weight: normal;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___3___ + ") format(\"truetype\");\n  font-weight: 500;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___4___ + ") format(\"truetype\");\n  font-weight: bold;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"LFR\";\n  src: url(" + ___CSS_LOADER_URL___5___ + ") format(\"truetype\");\n  font-weight: bold;\n  font-style: italic;\n}\n", ""]);
-
-
-
-/***/ }),
 /* 19 */
 /***/ (function(module, exports) {
 
@@ -1504,7 +1509,7 @@ __webpack_require__.r(__webpack_exports__);
 // Imports
 // Plugins
 var plugins = [{
-  location: "/home/miyuruasuka/Geph2/next.geph.io",
+  location: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io",
   plugins: [],
   hooks: {}
 }]; // Export em!
@@ -1515,7 +1520,7 @@ var plugins = [{
 /* 21 */
 /***/ (function(module, exports) {
 
-module.exports = require("/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser");
+module.exports = require("/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser");
 
 /***/ }),
 /* 22 */
@@ -1530,8 +1535,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6);
-/* harmony import */ var _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6);
+/* harmony import */ var _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -1546,7 +1551,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-Object(_home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
+
+
+Object(_tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
 var universalOptions = {
   loading: function loading() {
     return null;
@@ -1557,125 +1564,144 @@ var universalOptions = {
   },
   ignoreBabelRename: true
 };
-var t_0 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404",
+var t_0 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 26, 7))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404');
   },
   resolve: function resolve() {
     return /*require.resolve*/(26);
   },
   chunkName: function chunkName() {
-    return "home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404";
+    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404";
   }
 }), universalOptions);
-t_0.template = '/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404';
-var t_1 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx",
+t_0.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404';
+var t_1 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx */).then(__webpack_require__.bind(null, 27))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx */).then(__webpack_require__.bind(null, 27))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(27);
   },
   chunkName: function chunkName() {
-    return "home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx";
+    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx";
   }
 }), universalOptions);
-t_1.template = '/home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx';
-var t_2 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx",
+t_1.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx';
+var t_2 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(28);
   },
   chunkName: function chunkName() {
-    return "home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx";
+    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx";
   }
 }), universalOptions);
-t_2.template = '/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx';
-var t_3 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx",
+t_2.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx';
+var t_3 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(30);
   },
   chunkName: function chunkName() {
-    return "home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx";
+    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx";
   }
 }), universalOptions);
-t_3.template = '/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx';
-var t_4 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx",
+t_3.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx';
+var t_4 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(31);
   },
   chunkName: function chunkName() {
-    return "home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx";
+    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx";
   }
 }), universalOptions);
-t_4.template = '/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx';
-var t_5 = _home_miyuruasuka_Geph2_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx",
+t_4.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx';
+var t_5 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(32);
   },
   chunkName: function chunkName() {
-    return "home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx";
+    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx";
   }
 }), universalOptions);
-t_5.template = '/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx'; // Template Map
+t_5.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx';
+var t_6 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx",
+  load: function load() {
+    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx */).then(__webpack_require__.bind(null, 35))]).then(function (proms) {
+      return proms[0];
+    });
+  },
+  path: function path() {
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx');
+  },
+  resolve: function resolve() {
+    return /*require.resolve*/(35);
+  },
+  chunkName: function chunkName() {
+    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx";
+  }
+}), universalOptions);
+t_6.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  '/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404': t_0,
-  '/home/miyuruasuka/Geph2/next.geph.io/src/lel.jsx': t_1,
-  '/home/miyuruasuka/Geph2/next.geph.io/src/Main.en.jsx': t_2,
-  '/home/miyuruasuka/Geph2/next.geph.io/src/Main.zht.jsx': t_3,
-  '/home/miyuruasuka/Geph2/next.geph.io/src/Main.zhs.jsx': t_4,
-  '/home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx': t_5
+  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404': t_0,
+  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx': t_1,
+  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx': t_2,
+  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx': t_3,
+  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx': t_4,
+  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx': t_5,
+  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx': t_6
 }); // Not Found Template
 
-var notFoundTemplate = "/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404";
+var notFoundTemplate = "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
@@ -1785,7 +1811,7 @@ function toComment(sourceMap) {
 /* 26 */
 /***/ (function(module, exports) {
 
-module.exports = require("/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/components/Default404");
+module.exports = require("/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404");
 
 /***/ }),
 /* 27 */
@@ -1793,12 +1819,76 @@ module.exports = require("/home/miyuruasuka/Geph2/next.geph.io/node_modules/reac
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Component; });
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(37);
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(38);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(39);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(40);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(41);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(8);
+/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(67);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_router__WEBPACK_IMPORTED_MODULE_7__);
 
-/* harmony default export */ __webpack_exports__["default"] = (function (props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "404");
-});
+
+
+
+
+
+
+
+
+var Component =
+/*#__PURE__*/
+function (_React$Component) {
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(Component, _React$Component);
+
+  function Component() {
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Component);
+
+    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default()(Component).apply(this, arguments));
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Component, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var locale = detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_6___default()(["en", "zh-TW", "zh-CN"]);
+      this.setState({
+        userLanguage: locale
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      if (this.state) {
+        var userLanguage = this.state.userLanguage;
+
+        if (userLanguage === "en") {
+          window.location.href = "/en";
+        } else if (userLanguage == "zh-TW") {
+          window.location.href = "/zht";
+        } else if (userLanguage == "zh-CN") {
+          window.location.href = "/zhs";
+        }
+
+        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", null);
+      } else {
+        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", null);
+      }
+    }
+  }]);
+
+  return Component;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+
 
 /***/ }),
 /* 28 */
@@ -1808,7 +1898,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8);
+/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
@@ -1831,7 +1921,7 @@ module.exports = require("bootstrap/dist/css/bootstrap.min.css");
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8);
+/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
@@ -1848,7 +1938,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8);
+/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
@@ -1863,36 +1953,684 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "@babel/runtime/helpers/defineProperty"
-var defineProperty_ = __webpack_require__(11);
-var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
-
-// EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(5);
-var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
-
-// EXTERNAL MODULE: external "@babel/runtime/regenerator"
-var regenerator_ = __webpack_require__(1);
-var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator_);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/app.css
-var app = __webpack_require__(18);
-
-// EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.css
-var PlanPicker = __webpack_require__(65);
-
-// EXTERNAL MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/common/l10n.js
-var l10n = __webpack_require__(4);
-
-// CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.l10n.jsx
+/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5);
+/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(14);
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _PlanPicker_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(33);
+/* harmony import */ var _PlanPicker_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_PlanPicker_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _common_l10n__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4);
+/* harmony import */ var _PlanPicker_l10n__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(34);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(29);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(10);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(13);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var use_debounce__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(43);
+/* harmony import */ var use_debounce__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(use_debounce__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(8);
+/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_11__);
 
 
-Object(l10n["a" /* addl10n */])({
+
+
+
+
+
+
+
+
+
+
+var STRIPEKEY = "pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY";
+
+var getLang = function getLang() {
+  try {
+    var lang = detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_11___default()(["en-US", "zh-CN", "zh-TW"]);
+
+    if (lang === "zh-CN") {
+      return "zhs";
+    }
+
+    if (lang === "zhh-TW") {
+      return "zht";
+    }
+
+    return "en";
+  } catch (e) {
+    return "en";
+  }
+};
+
+var toCNY = function toCNY(eur) {
+  return 7.67 * eur;
+};
+
+var toUSD = function toUSD(eur) {
+  return 1.19 * eur;
+}; // Component for picking
+
+
+var Selector = function Selector(props) {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "card",
+    onClick: props.onClick
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "card-body",
+    style: {
+      display: "flex",
+      alignItems: "center",
+      borderStyle: props.selected ? "solid" : "none",
+      borderColor: "#007bff",
+      borderWidth: "2px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ion-icon", {
+    name: props.selected ? "radio-button-on" : "radio-button-off",
+    size: "large",
+    style: {
+      verticalAlign: "middle",
+      marginRight: "12px"
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, props.description), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: "text-muted",
+    style: {
+      marginLeft: "auto"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "\u20AC", 5 * props.months), " / ", 30 * props.months, " ", props.localize("days"), " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("small", null))));
+};
+
+var toQueryString = function toQueryString(params) {
+  var esc = encodeURIComponent;
+  return Object.keys(params).map(function (k) {
+    return esc(k) + "=" + esc(params[k]);
+  }).join("&");
+};
+
+var getUserInfo = function getUserInfo(sessid) {
+  var response;
+  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function getUserInfo$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          _context.next = 2;
+          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_8___default.a.post("https://web-backend.geph.io/userinfo", {
+            sessid: sessid
+          }));
+
+        case 2:
+          response = _context.sent;
+          return _context.abrupt("return", response.data);
+
+        case 4:
+        case "end":
+          return _context.stop();
+      }
+    }
+  });
+};
+
+var getNewStripeSession = function getNewStripeSession(sessid, promo, months) {
+  var response;
+  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function getNewStripeSession$(_context2) {
+    while (1) {
+      switch (_context2.prev = _context2.next) {
+        case 0:
+          _context2.next = 2;
+          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_8___default.a.post("https://web-backend.geph.io/new-stripe", {
+            sessid: sessid,
+            promo: promo,
+            months: months
+          }, {
+            responseType: "text"
+          }));
+
+        case 2:
+          response = _context2.sent;
+          return _context2.abrupt("return", response.data);
+
+        case 4:
+        case "end":
+          return _context2.stop();
+      }
+    }
+  });
+};
+
+var Payer = function Payer(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])("card"),
+      _useState2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState, 2),
+      payMethod = _useState2[0],
+      setPayMethod = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(0),
+      _useState4 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState3, 2),
+      euroCents = _useState4[0],
+      setEuroCents = _useState4[1];
+
+  var months = props.months;
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),
+      _useState6 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState5, 2),
+      loaded = _useState6[0],
+      setLoaded = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])("BTC"),
+      _useState8 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState7, 2),
+      cryptoCurrency = _useState8[0],
+      setCryptoCurrency = _useState8[1];
+
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(""),
+      _useState10 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState9, 2),
+      promo = _useState10[0],
+      setPromo = _useState10[1];
+
+  var _useDebounce = Object(use_debounce__WEBPACK_IMPORTED_MODULE_10__["useDebounce"])(promo, 500),
+      _useDebounce2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useDebounce, 1),
+      debouncedPromo = _useDebounce2[0];
+
+  var updatePrice = function updatePrice() {
+    var eurocents;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function updatePrice$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            setLoaded(false);
+            _context3.prev = 1;
+            _context3.prev = 2;
+            _context3.next = 5;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getCost());
+
+          case 5:
+            eurocents = _context3.sent;
+            setEuroCents(eurocents);
+            return _context3.abrupt("return");
+
+          case 10:
+            _context3.prev = 10;
+            _context3.t0 = _context3["catch"](2);
+            console.log(_context3.t0);
+
+          case 13:
+            _context3.prev = 13;
+            setLoaded(true);
+            return _context3.finish(13);
+
+          case 16:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    }, null, null, [[1,, 13, 16], [2, 10]]);
+  };
+
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
+    console.log(debouncedPromo);
+    updatePrice();
+  }, [payMethod, months, debouncedPromo]);
+
+  var getCost = function getCost() {
+    var response;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function getCost$(_context4) {
+      while (1) {
+        switch (_context4.prev = _context4.next) {
+          case 0:
+            _context4.next = 2;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_8___default.a.get("https://web-backend.geph.io/calculate-price?" + toQueryString({
+              promo: promo,
+              months: months,
+              method: payMethod
+            }), {
+              responseType: "text"
+            }));
+
+          case 2:
+            response = _context4.sent;
+            return _context4.abrupt("return", response.data);
+
+          case 4:
+          case "end":
+            return _context4.stop();
+        }
+      }
+    });
+  };
+
+  var stripeCheckout = function stripeCheckout() {
+    var stripe, sid, _ref, error;
+
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function stripeCheckout$(_context5) {
+      while (1) {
+        switch (_context5.prev = _context5.next) {
+          case 0:
+            stripe = window.Stripe(STRIPEKEY);
+            _context5.next = 3;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getNewStripeSession(props.sessid, promo, months));
+
+          case 3:
+            sid = _context5.sent;
+            console.log(sid);
+            _context5.next = 7;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(stripe.redirectToCheckout({
+              sessionId: sid
+            }));
+
+          case 7:
+            _ref = _context5.sent;
+            error = _ref.error;
+
+            if (error) {
+              alert(error);
+            }
+
+          case 10:
+          case "end":
+            return _context5.stop();
+        }
+      }
+    });
+  };
+
+  var getAlipayUrl = function getAlipayUrl() {
+    var response;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function getAlipayUrl$(_context6) {
+      while (1) {
+        switch (_context6.prev = _context6.next) {
+          case 0:
+            _context6.next = 2;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_8___default.a.post("https://web-backend.geph.io/alipay", {
+              sessid: props.sessid,
+              promo: promo,
+              months: months
+            }));
+
+          case 2:
+            response = _context6.sent;
+            return _context6.abrupt("return", response.data.url);
+
+          case 4:
+          case "end":
+            return _context6.stop();
+        }
+      }
+    });
+  };
+
+  var getCryptoUrl = function getCryptoUrl(currency) {
+    var response;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function getCryptoUrl$(_context7) {
+      while (1) {
+        switch (_context7.prev = _context7.next) {
+          case 0:
+            _context7.next = 2;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_8___default.a.post("https://web-backend.geph.io/coinpayments", {
+              sessid: props.sessid,
+              promo: promo,
+              months: months,
+              currency: currency
+            }));
+
+          case 2:
+            response = _context7.sent;
+            return _context7.abrupt("return", response.data);
+
+          case 4:
+          case "end":
+            return _context7.stop();
+        }
+      }
+    });
+  };
+
+  var checkout = function checkout() {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function checkout$(_context8) {
+      while (1) {
+        switch (_context8.prev = _context8.next) {
+          case 0:
+            if (!(payMethod === "card")) {
+              _context8.next = 5;
+              break;
+            }
+
+            _context8.next = 3;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(stripeCheckout());
+
+          case 3:
+            _context8.next = 15;
+            break;
+
+          case 5:
+            if (!(payMethod == "alipay")) {
+              _context8.next = 11;
+              break;
+            }
+
+            _context8.next = 8;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getAlipayUrl());
+
+          case 8:
+            window.location.href = _context8.sent;
+            _context8.next = 15;
+            break;
+
+          case 11:
+            if (!(payMethod == "crypto")) {
+              _context8.next = 15;
+              break;
+            }
+
+            _context8.next = 14;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getCryptoUrl(cryptoCurrency));
+
+          case 14:
+            window.location.href = _context8.sent;
+
+          case 15:
+          case "end":
+            return _context8.stop();
+        }
+      }
+    });
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_9__["Helmet"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("script", {
+    src: "https://js.stripe.com/v3/"
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("nav", {
+    className: "nav nav-tabs"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    className: payMethod === "card" ? "nav-link active" : "nav-link",
+    onClick: function onClick(_) {
+      return setPayMethod("card");
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    src: __webpack_require__(76),
+    className: "cardbrand"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    src: __webpack_require__(77),
+    className: "cardbrand"
+  }), props.localize("credit-debit")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    className: payMethod === "crypto" ? "nav-link active" : "nav-link",
+    onClick: function onClick(_) {
+      setPayMethod("crypto");
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    src: __webpack_require__(78),
+    className: "cardbrand"
+  }), props.localize("crypto"), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: "badge badge-success"
+  }, "20%\xA0", props.localize("discount"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    className: payMethod === "alipay" ? "nav-link active" : "nav-link",
+    onClick: function onClick(_) {
+      setPayMethod("alipay");
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    src: __webpack_require__(79),
+    className: "cardbrand"
+  }), props.localize("alipay"), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: "badge badge-warning"
+  }, "5% ", props.localize("fee")))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "card"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "card-body"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    style: {
+      fontSize: "150%"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", {
+    className: "text-success"
+  }, "\u20AC", (euroCents / 100).toFixed(2)), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: "text-muted"
+  }, props.localize("for-X-months")(months))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: "text-muted"
+  }, "\u2248 ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "$", (toUSD(euroCents) / 100).toFixed(1), " "), "USD\xA0\xA0\xB7\xA0\xA0\u2248", " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, "\xA5", (toCNY(euroCents) / 100).toFixed(0)), " RMB"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "input-group input-group-sm"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "input-group-prepend"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: "input-group-text"
+  }, props.localize("discount-code"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
+    type: "text",
+    maxLength: "10",
+    style: {
+      width: "128px",
+      fontFamily: "monospace",
+      fontSize: "80%"
+    },
+    onChange: function onChange(ev) {
+      setPromo(ev.target.value.toUpperCase());
+    },
+    value: promo
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    "class": "form-inline"
+  }, payMethod == "crypto" ? react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    "class": "input-group mb-2 mr-sm-2"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("select", {
+    "class": "form-control",
+    onChange: function onChange(event) {
+      return setCryptoCurrency(event.target.value);
+    },
+    value: cryptoCurrency
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "BTC"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "ETH"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "XMR"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "USDT.ERC20"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "USDC"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "DAI"))) : "", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
+    type: "normal",
+    className: "btn btn-primary mb-3 mt-2",
+    disabled: !loaded,
+    onClick: function onClick(_) {
+      return checkout();
+    }
+  }, props.localize("check-out"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("small", null, props.localize("no-renew-blurb")(months)))));
+};
+
+function sleep(ms) {
+  return new Promise(function (resolve) {
+    return setTimeout(resolve, ms);
+  });
+}
+
+var Planner = function Planner(props) {
+  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(1),
+      _useState12 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState11, 2),
+      months = _useState12[0],
+      setMonths = _useState12[1];
+
+  var _useState13 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),
+      _useState14 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState13, 2),
+      userInfo = _useState14[0],
+      setUserInfo = _useState14[1];
+
+  var sessid = function () {
+    if (typeof window !== "undefined") {
+      return window.sessionStorage.getItem("session-id");
+    } else {
+      return "NULL";
+    }
+  }(); // const sessid = "sess-207633440935381486337334519777625254460";
+
+
+  var localize = Object(_common_l10n__WEBPACK_IMPORTED_MODULE_5__[/* l10n */ "b"])(getLang());
+
+  try {
+    var toGo = function toGo() {
+      var info;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function toGo$(_context9) {
+        while (1) {
+          switch (_context9.prev = _context9.next) {
+            case 0:
+              if (!(typeof window !== "undefined" && window.sessionStorage)) {
+                _context9.next = 14;
+                break;
+              }
+
+              _context9.prev = 1;
+
+              if (!sessid) {
+                _context9.next = 9;
+                break;
+              }
+
+              _context9.next = 5;
+              return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getUserInfo(sessid));
+
+            case 5:
+              info = _context9.sent;
+              console.log("INFO");
+              console.log(info);
+              setUserInfo(info);
+
+            case 9:
+              _context9.next = 14;
+              break;
+
+            case 11:
+              _context9.prev = 11;
+              _context9.t0 = _context9["catch"](1);
+              alert(_context9.t0);
+
+            case 14:
+            case "end":
+              return _context9.stop();
+          }
+        }
+      }, null, null, [[1, 11]]);
+    };
+
+    if (!userInfo) {
+      toGo();
+    }
+  } catch (e) {}
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_9__["Helmet"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
+    charset: "UTF-8"
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("section", {
+    className: "whiteback"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "row"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-2"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3", null, localize("account-overview"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-2"
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "row"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-2"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, localize("username")), " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), userInfo && userInfo.username), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, localize("subscription")), " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), userInfo && (userInfo.plan === "plus" ? "Plus" : localize("free"))), userInfo && userInfo.expires && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, localize("expires")), " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), new Date(userInfo.expires).toISOString().substring(0, 10)), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-2"
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "row"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-2"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, userInfo && localize("extend-blurb"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-2"
+  })))), userInfo && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("section", {
+    className: "lightback"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "row"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-2"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: "badge badge-secondary"
+  }, localize("step1")), " ", "\xA0", localize("choose-a-plan-length")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
+    className: "hero-text"
+  }, localize("flat-rate-blurb")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Selector, {
+    localize: localize,
+    selected: months === 1,
+    description: "1 " + localize("month"),
+    months: 1,
+    onClick: function onClick(_) {
+      return setMonths(1);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Selector, {
+    localize: localize,
+    selected: months === 3,
+    description: "3 " + localize("months"),
+    months: 3,
+    onClick: function onClick(_) {
+      return setMonths(3);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Selector, {
+    localize: localize,
+    selected: months === 12,
+    description: "12 " + localize("months"),
+    months: 12,
+    onClick: function onClick(_) {
+      return setMonths(12);
+    }
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-2"
+  })))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("section", {
+    className: "lightback"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "row"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-2"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: "badge badge-secondary"
+  }, localize("step2")), " ", "\xA0 ", localize("pay-for-plan")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Payer, {
+    userInfo: userInfo,
+    sessid: sessid,
+    localize: localize,
+    months: months
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-2"
+  }))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Planner);
+
+/***/ }),
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(25)(false);
+// Module
+exports.push([module.i, "h3 {\n  padding-bottom: 20px;\n}\n", ""]);
+
+
+
+/***/ }),
+/* 34 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _common_l10n_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
+
+
+Object(_common_l10n_js__WEBPACK_IMPORTED_MODULE_1__[/* addl10n */ "a"])({
+  "payment-successful": {
+    en: "Payment successful",
+    zht: "支付成功",
+    zhs: "支付成功"
+  },
+  "payment-successful-blurb": {
+    en: "You may need to manually refresh user status on newer versions of Geph.",
+    zht: "較新版本的迷霧通可能需要手動刷新用戶狀態",
+    zhs: "较新版本的迷雾通可能需要手动刷新用户状态"
+  },
   "account-overview": {
     en: "Account overview",
     zht: "用戶信息",
@@ -1925,28 +2663,28 @@ Object(l10n["a" /* addl10n */])({
   },
   "subscription-blurb": {
     en: function en(onClick) {
-      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "Your subscription automatically renews when it expires.", " ", external_react_default.a.createElement("button", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Your subscription automatically renews when it expires.", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         onClick: onClick,
         className: "btn btn-secondary btn-sm"
       }, "Cancel"));
     },
     zht: function zht(onClick) {
-      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u5C07\u5728\u904E\u671F\u6642\u81EA\u52D5\u7E8C\u8A02\u8FF7\u9727\u901APlus\u3002", " ", external_react_default.a.createElement("button", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\u5C07\u5728\u904E\u671F\u6642\u81EA\u52D5\u7E8C\u8A02\u8FF7\u9727\u901APlus\u3002", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         onClick: onClick,
         className: "btn btn-secondary btn-sm"
       }, "\u53D6\u6D88"));
     },
     zhs: function zhs(onClick) {
-      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u5C06\u5728\u8FC7\u671F\u65F6\u81EA\u52A8\u7EED\u8BA2\u8FF7\u96FE\u901APlus\u3002", " ", external_react_default.a.createElement("button", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\u5C06\u5728\u8FC7\u671F\u65F6\u81EA\u52A8\u7EED\u8BA2\u8FF7\u96FE\u901APlus\u3002", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         onClick: onClick,
         className: "btn btn-secondary btn-sm"
       }, "\u53D6\u6D88"));
     }
   },
   "flat-rate-blurb": {
-    en: external_react_default.a.createElement(external_react_default.a.Fragment, null, "We offer a flat rate of", " ", external_react_default.a.createElement("b", null, "\u20AC5/month regardless of subscription length"), ". ", external_react_default.a.createElement("br", null), "Please choose the length most convenient for you."),
-    zht: external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u7121\u8AD6\u8A02\u95B1\u6642\u9593\u9577\u77ED\uFF0C", external_react_default.a.createElement("b", null, "\u6BCF\u6708\u7684\u8CBB\u7387\u56FA\u5B9A\u70BA\u20AC5\u3002"), external_react_default.a.createElement("br", null), "\u8ACB\u9078\u64C7\u5C0D\u60A8\u6700\u65B9\u4FBF\u7684\u6642\u9577\u3002"),
-    zhs: external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u65E0\u8BBA\u8BA2\u9605\u65F6\u95F4\u957F\u77ED\uFF0C", external_react_default.a.createElement("b", null, "\u6BCF\u6708\u7684\u8D39\u7387\u56FA\u5B9A\u4E3A\u20AC5\u3002 "), external_react_default.a.createElement("br", null), "\u8BF7\u9009\u62E9\u5BF9\u60A8\u6700\u65B9\u4FBF\u7684\u65F6\u957F\u3002")
+    en: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "We offer a flat rate of", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "\u20AC5/month regardless of subscription length"), ". ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Please choose the length most convenient for you."),
+    zht: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\u7121\u8AD6\u8A02\u95B1\u6642\u9593\u9577\u77ED\uFF0C", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "\u6BCF\u6708\u7684\u8CBB\u7387\u56FA\u5B9A\u70BA\u20AC5\u3002"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\u8ACB\u9078\u64C7\u5C0D\u60A8\u6700\u65B9\u4FBF\u7684\u6642\u9577\u3002"),
+    zhs: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\u65E0\u8BBA\u8BA2\u9605\u65F6\u95F4\u957F\u77ED\uFF0C", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "\u6BCF\u6708\u7684\u8D39\u7387\u56FA\u5B9A\u4E3A\u20AC5\u3002 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\u8BF7\u9009\u62E9\u5BF9\u60A8\u6700\u65B9\u4FBF\u7684\u65F6\u957F\u3002")
   },
   days: {
     en: "days",
@@ -1957,6 +2695,16 @@ Object(l10n["a" /* addl10n */])({
     en: "fee",
     zht: "手續費",
     zhs: "手续费"
+  },
+  discount: {
+    en: "discount",
+    zht: "優惠",
+    zhs: "优惠"
+  },
+  crypto: {
+    en: "Crypto",
+    zht: "加密貨幣",
+    zhs: "加密货币"
   },
   step1: {
     en: "Step 1",
@@ -2026,46 +2774,44 @@ Object(l10n["a" /* addl10n */])({
   },
   "automatically-renew-blurb": {
     en: function en(euroCents, months) {
-      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "You'll be charged\xA0", external_react_default.a.createElement("b", null, "\u20AC", (euroCents / 100).toFixed(2), " every ", months * 30, " days"), " ", "until you cancel");
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "You'll be charged\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "\u20AC", (euroCents / 100).toFixed(2), " every ", months * 30, " days"), " ", "until you cancel");
     },
     zht: function zht(euroCents, months) {
-      return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("b", null, "\u6BCF", months * 30, "\u5929\u81EA\u52D5\u6263\u8CBB\u20AC", (euroCents / 100).toFixed(2)), "\uFF0C\u76F4\u5230\u60A8\u53D6\u6D88");
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "\u6BCF", months * 30, "\u5929\u81EA\u52D5\u6263\u8CBB\u20AC", (euroCents / 100).toFixed(2)), "\uFF0C\u76F4\u5230\u60A8\u53D6\u6D88");
     },
     zhs: function zhs(euroCents, months) {
-      return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("b", null, "\u6BCF", months * 30, "\u5929\u81EA\u52A8\u6263\u8D39\u20AC", (euroCents / 100).toFixed(2)), "\uFF0C\u76F4\u5230\u60A8\u53D6\u6D88");
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "\u6BCF", months * 30, "\u5929\u81EA\u52A8\u6263\u8D39\u20AC", (euroCents / 100).toFixed(2)), "\uFF0C\u76F4\u5230\u60A8\u53D6\u6D88");
     }
   },
   "no-renew-blurb": {
     en: function en(months) {
-      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "Your subscription will ", external_react_default.a.createElement("b", null, "expire in ", months * 30, " days"), " unless manually renewed");
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Your subscription will ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "expire in ", months * 30, " days"), " unless manually renewed");
     },
     zht: function zht(months) {
-      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u82E5\u4E0D\u624B\u52D5\u7E8C\u8CBB\uFF0C\u5C07\u65BC", external_react_default.a.createElement("b", null, months * 30, "\u5929"), "\u5F8C\u81EA\u52D5\u53D6\u6D88");
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\u82E5\u4E0D\u624B\u52D5\u7E8C\u8CBB\uFF0C\u5C07\u65BC", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, months * 30, "\u5929"), "\u5F8C\u81EA\u52D5\u53D6\u6D88");
     },
     zhs: function zhs(months) {
-      return external_react_default.a.createElement(external_react_default.a.Fragment, null, "\u82E5\u4E0D\u624B\u52A8\u7EED\u8D39\uFF0C\u5C06\u4E8E", external_react_default.a.createElement("b", null, months * 30, "\u5929"), "\u540E\u81EA\u52A8\u53D6\u6D88");
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "\u82E5\u4E0D\u624B\u52A8\u7EED\u8D39\uFF0C\u5C06\u4E8E", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, months * 30, "\u5929"), "\u540E\u81EA\u52A8\u53D6\u6D88");
     }
   }
 });
-// EXTERNAL MODULE: external "bootstrap/dist/css/bootstrap.min.css"
-var bootstrap_min_css_ = __webpack_require__(29);
 
-// EXTERNAL MODULE: external "axios"
-var external_axios_ = __webpack_require__(13);
-var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
+/***/ }),
+/* 35 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// EXTERNAL MODULE: external "react-helmet"
-var external_react_helmet_ = __webpack_require__(12);
-
-// EXTERNAL MODULE: external "use-debounce"
-var external_use_debounce_ = __webpack_require__(34);
-
-// CONCATENATED MODULE: /home/miyuruasuka/Geph2/next.geph.io/src/billing/PlanPicker.jsx
-
-
-
-
-
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _common_l10n__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(14);
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _PlanPicker_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(33);
+/* harmony import */ var _PlanPicker_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_PlanPicker_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _PlanPicker_l10n__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(34);
+/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8);
+/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_5__);
 
 
 
@@ -2073,624 +2819,107 @@ var external_use_debounce_ = __webpack_require__(34);
 
 
 
-var STRIPEKEY = "pk_live_Wk781YzANKGuLBl2NzFkRu5n00YdYjObFY";
+var getLang = function getLang() {
+  try {
+    var lang = detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_5___default()(["en-US", "zh-CN", "zh-TW"]);
 
-var toCNY = function toCNY(eur) {
-  return 7.7 * eur;
-};
-
-var toUSD = function toUSD(eur) {
-  return 1.1 * eur;
-}; // Component for picking
-
-
-var PlanPicker_Selector = function Selector(props) {
-  return external_react_default.a.createElement("div", {
-    className: "card",
-    onClick: props.onClick
-  }, external_react_default.a.createElement("div", {
-    className: "card-body",
-    style: {
-      display: "flex",
-      alignItems: "center",
-      borderStyle: props.selected ? "solid" : "none",
-      borderColor: "#007bff",
-      borderWidth: "2px"
+    if (lang === "zh-CN") {
+      return "zhs";
     }
-  }, external_react_default.a.createElement("ion-icon", {
-    name: props.selected ? "radio-button-on" : "radio-button-off",
-    size: "large",
-    style: {
-      verticalAlign: "middle",
-      marginRight: "12px"
+
+    if (/zh/.test(navigator.language)) {
+      return "zht";
     }
-  }), external_react_default.a.createElement("b", null, props.description), external_react_default.a.createElement("span", {
-    className: "text-muted",
-    style: {
-      marginLeft: "auto"
-    }
-  }, external_react_default.a.createElement("b", null, "\u20AC", 5 * props.months), " / ", 30 * props.months, " ", props.localize("days"), " ", external_react_default.a.createElement("br", null), external_react_default.a.createElement("small", null))));
-};
 
-var toQueryString = function toQueryString(params) {
-  var esc = encodeURIComponent;
-  return Object.keys(params).map(function (k) {
-    return esc(k) + "=" + esc(params[k]);
-  }).join("&");
-};
-
-var PlanPicker_getUserInfo = function getUserInfo(uname, pwd) {
-  var response;
-  return regenerator_default.a.async(function getUserInfo$(_context) {
-    while (1) {
-      switch (_context.prev = _context.next) {
-        case 0:
-          _context.next = 2;
-          return regenerator_default.a.awrap(external_axios_default.a.get("/billing/userinfo?" + toQueryString({
-            username: uname,
-            password: pwd
-          })));
-
-        case 2:
-          response = _context.sent;
-          return _context.abrupt("return", response.data);
-
-        case 4:
-        case "end":
-          return _context.stop();
-      }
-    }
-  });
-};
-
-var PlanPicker_getNewStripeSession = function getNewStripeSession(uname, promo, months) {
-  var response;
-  return regenerator_default.a.async(function getNewStripeSession$(_context2) {
-    while (1) {
-      switch (_context2.prev = _context2.next) {
-        case 0:
-          _context2.next = 2;
-          return regenerator_default.a.awrap(external_axios_default.a.get("/billing/stripe-newsess?" + toQueryString({
-            username: uname,
-            promo: promo,
-            months: months
-          }), {
-            responseType: "text"
-          }));
-
-        case 2:
-          response = _context2.sent;
-          return _context2.abrupt("return", response.data);
-
-        case 4:
-        case "end":
-          return _context2.stop();
-      }
-    }
-  });
-};
-
-var PlanPicker_cancelStripe = function cancelStripe(uname, pwd) {
-  var response;
-  return regenerator_default.a.async(function cancelStripe$(_context3) {
-    while (1) {
-      switch (_context3.prev = _context3.next) {
-        case 0:
-          _context3.next = 2;
-          return regenerator_default.a.awrap(external_axios_default.a.get("/billing/stripe-cancel?" + toQueryString({
-            username: uname,
-            password: pwd
-          })));
-
-        case 2:
-          response = _context3.sent;
-          return _context3.abrupt("return", response.data);
-
-        case 4:
-        case "end":
-          return _context3.stop();
-      }
-    }
-  });
-};
-
-var getStripeID = function getStripeID(months, autoRenew) {
-  if (months === 1) {
-    return autoRenew ? "plan_GIE5voityP0f9u" : "sku_GIE7Nx2J7ZhXI8";
-  } else if (months === 3) {
-    return autoRenew ? "plan_GIE5eNXYZsLlMX" : "sku_GIE8CZ6qSEzd0t";
-  } else {
-    return autoRenew ? "plan_GIE5JhURW2fFND" : "sku_GIE8iScbw4grMT";
+    return "en";
+  } catch (e) {
+    return "en";
   }
 };
 
-var PlanPicker_Payer = function Payer(props) {
-  var _useState = Object(external_react_["useState"])("card"),
-      _useState2 = slicedToArray_default()(_useState, 2),
-      payMethod = _useState2[0],
-      setPayMethod = _useState2[1];
-
-  var _useState3 = Object(external_react_["useState"])(0),
-      _useState4 = slicedToArray_default()(_useState3, 2),
-      euroCents = _useState4[0],
-      setEuroCents = _useState4[1];
-
-  var months = props.months;
-  var renewable = false;
-
-  var _useState5 = Object(external_react_["useState"])(false),
-      _useState6 = slicedToArray_default()(_useState5, 2),
-      autoRenew = _useState6[0],
-      setAutoRenew = _useState6[1];
-
-  var _useState7 = Object(external_react_["useState"])(false),
-      _useState8 = slicedToArray_default()(_useState7, 2),
-      loaded = _useState8[0],
-      setLoaded = _useState8[1];
-
-  var _useState9 = Object(external_react_["useState"])(""),
-      _useState10 = slicedToArray_default()(_useState9, 2),
-      promo = _useState10[0],
-      setPromo = _useState10[1];
-
-  var _useDebounce = Object(external_use_debounce_["useDebounce"])(promo, 500),
-      _useDebounce2 = slicedToArray_default()(_useDebounce, 1),
-      debouncedPromo = _useDebounce2[0];
-
-  var isAutoRenew = autoRenew && renewable;
-
-  var updatePrice = function updatePrice() {
-    var eurocents;
-    return regenerator_default.a.async(function updatePrice$(_context4) {
-      while (1) {
-        switch (_context4.prev = _context4.next) {
-          case 0:
-            setLoaded(false);
-            _context4.prev = 1;
-            _context4.prev = 2;
-            _context4.next = 5;
-            return regenerator_default.a.awrap(getCost());
-
-          case 5:
-            eurocents = _context4.sent;
-            setEuroCents(eurocents);
-            return _context4.abrupt("return");
-
-          case 10:
-            _context4.prev = 10;
-            _context4.t0 = _context4["catch"](2);
-            console.log(_context4.t0);
-
-          case 13:
-            _context4.prev = 13;
-            setLoaded(true);
-            return _context4.finish(13);
-
-          case 16:
-          case "end":
-            return _context4.stop();
-        }
-      }
-    }, null, null, [[1,, 13, 16], [2, 10]]);
-  };
-
-  Object(external_react_["useEffect"])(function () {
-    console.log(debouncedPromo);
-    updatePrice();
-  }, [payMethod, months, debouncedPromo]);
-
-  var getCost = function getCost() {
-    var response;
-    return regenerator_default.a.async(function getCost$(_context5) {
-      while (1) {
-        switch (_context5.prev = _context5.next) {
-          case 0:
-            _context5.next = 2;
-            return regenerator_default.a.awrap(external_axios_default.a.get("/billing/calculate-price?" + toQueryString({
-              promo: promo,
-              months: months,
-              method: payMethod
-            }), {
-              responseType: "text"
-            }));
-
-          case 2:
-            response = _context5.sent;
-            return _context5.abrupt("return", response.data);
-
-          case 4:
-          case "end":
-            return _context5.stop();
-        }
-      }
-    });
-  };
-
-  var stripeCheckout = function stripeCheckout() {
-    var stripe, _ref2, _ref, error, sid, _ref3, _error;
-
-    return regenerator_default.a.async(function stripeCheckout$(_context6) {
-      while (1) {
-        switch (_context6.prev = _context6.next) {
-          case 0:
-            stripe = window.Stripe(STRIPEKEY);
-
-            if (!autoRenew) {
-              _context6.next = 9;
-              break;
-            }
-
-            _context6.next = 4;
-            return regenerator_default.a.awrap(stripe.redirectToCheckout({
-              items: [(_ref2 = {}, defineProperty_default()(_ref2, autoRenew ? "plan" : "sku", getStripeID(months, autoRenew)), defineProperty_default()(_ref2, "quantity", 1), _ref2)],
-              successUrl: window.location.href,
-              cancelUrl: window.location.href,
-              customerEmail: props.userInfo.username + "@receipts-".concat(props.userInfo.username, ".geph.io")
-            }));
-
-          case 4:
-            _ref = _context6.sent;
-            error = _ref.error;
-
-            if (error) {
-              alert(error);
-            }
-
-            _context6.next = 18;
-            break;
-
-          case 9:
-            _context6.next = 11;
-            return regenerator_default.a.awrap(PlanPicker_getNewStripeSession(props.userInfo.username, promo, months));
-
-          case 11:
-            sid = _context6.sent;
-            console.log(sid);
-            _context6.next = 15;
-            return regenerator_default.a.awrap(stripe.redirectToCheckout({
-              sessionId: sid
-            }));
-
-          case 15:
-            _ref3 = _context6.sent;
-            _error = _ref3.error;
-
-            if (_error) {
-              alert(_error);
-            }
-
-          case 18:
-          case "end":
-            return _context6.stop();
-        }
-      }
-    });
-  };
-
-  var checkout = function checkout() {
-    return regenerator_default.a.async(function checkout$(_context7) {
-      while (1) {
-        switch (_context7.prev = _context7.next) {
-          case 0:
-            if (!(payMethod === "card")) {
-              _context7.next = 5;
-              break;
-            }
-
-            _context7.next = 3;
-            return regenerator_default.a.awrap(stripeCheckout());
-
-          case 3:
-            _context7.next = 6;
-            break;
-
-          case 5:
-            window.location.href = "/billing/alipay?" + toQueryString({
-              username: props.userInfo.username,
-              password: props.userInfo.password,
-              months: months,
-              promo: promo
-            });
-
-          case 6:
-          case "end":
-            return _context7.stop();
-        }
-      }
-    });
-  };
-
-  return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement(external_react_helmet_["Helmet"], null, external_react_default.a.createElement("script", {
-    src: "https://js.stripe.com/v3/"
-  })), external_react_default.a.createElement("nav", {
-    className: "nav nav-tabs"
-  }, external_react_default.a.createElement("a", {
-    className: payMethod === "card" ? "nav-link active" : "nav-link",
-    onClick: function onClick(_) {
-      return setPayMethod("card");
-    }
-  }, external_react_default.a.createElement("img", {
-    src: __webpack_require__(66),
-    className: "cardbrand"
-  }), external_react_default.a.createElement("img", {
-    src: __webpack_require__(67),
-    className: "cardbrand"
-  }), props.localize("credit-debit")), external_react_default.a.createElement("a", {
-    className: payMethod === "alipay" ? "nav-link active" : "nav-link",
-    onClick: function onClick(_) {
-      setPayMethod("alipay");
-      setAutoRenew(false);
-    }
-  }, external_react_default.a.createElement("img", {
-    src: __webpack_require__(68),
-    className: "cardbrand"
-  }), props.localize("alipay"), "\xA0", external_react_default.a.createElement("span", {
-    className: "badge badge-warning"
-  }, "5% ", props.localize("fee")))), external_react_default.a.createElement("div", {
-    className: "card"
-  }, external_react_default.a.createElement("div", {
-    className: "card-body"
-  }, external_react_default.a.createElement("span", {
-    style: {
-      fontSize: "150%"
-    }
-  }, external_react_default.a.createElement("b", {
-    className: "text-success"
-  }, "\u20AC", (euroCents / 100).toFixed(2)), "\xA0", external_react_default.a.createElement("span", {
-    className: "text-muted"
-  }, props.localize("for-X-months")(months))), external_react_default.a.createElement("br", null), external_react_default.a.createElement("span", {
-    className: "text-muted"
-  }, "\u2248 ", external_react_default.a.createElement("b", null, "$", (toUSD(euroCents) / 100).toFixed(1), " "), "USD\xA0\xA0\xB7\xA0\xA0\u2248", " ", external_react_default.a.createElement("b", null, "\xA5", (toCNY(euroCents) / 100).toFixed(0)), " RMB"), external_react_default.a.createElement("hr", null), external_react_default.a.createElement("div", {
-    className: "input-group input-group-sm"
-  }, external_react_default.a.createElement("div", {
-    className: "input-group-prepend"
-  }, external_react_default.a.createElement("span", {
-    className: "input-group-text"
-  }, props.localize("discount-code"))), external_react_default.a.createElement("input", {
-    type: "text",
-    maxlength: "10",
-    style: {
-      width: "128px",
-      fontFamily: "monospace",
-      fontSize: "80%"
-    },
-    onChange: function onChange(ev) {
-      setPromo(ev.target.value.toUpperCase());
-    },
-    value: promo
-  })), external_react_default.a.createElement("button", {
-    type: "button",
-    className: "btn btn-primary mb-3 mt-2",
-    disabled: !loaded,
-    onClick: function onClick(_) {
-      return checkout();
-    }
-  }, props.localize("check-out")),  false && false, external_react_default.a.createElement("br", null), external_react_default.a.createElement("small", null, isAutoRenew ? props.localize("automatically-renew-blurb")(euroCents, months) : props.localize("no-renew-blurb")(months)))));
-};
-
-function sleep(ms) {
-  return new Promise(function (resolve) {
-    return setTimeout(resolve, ms);
-  });
-}
-
-var PlanPicker_Planner = function Planner(props) {
-  var _useState11 = Object(external_react_["useState"])(1),
-      _useState12 = slicedToArray_default()(_useState11, 2),
-      months = _useState12[0],
-      setMonths = _useState12[1];
-
-  var _useState13 = Object(external_react_["useState"])(false),
-      _useState14 = slicedToArray_default()(_useState13, 2),
-      userInfo = _useState14[0],
-      setUserInfo = _useState14[1];
-
-  var getLang = function getLang() {
-    try {
-      if (navigator.language === "zh-CN") {
-        return "zhs";
-      }
-
-      if (/zh/.test(navigator.language)) {
-        return "zht";
-      }
-
-      return "en";
-    } catch (e) {
-      return "en";
-    }
-  };
-
-  var localize = Object(l10n["b" /* l10n */])(getLang());
-
-  try {
-    var toGo = function toGo() {
-      var info;
-      return regenerator_default.a.async(function toGo$(_context8) {
-        while (1) {
-          switch (_context8.prev = _context8.next) {
-            case 0:
-              if (!sessionStorage) {
-                _context8.next = 15;
-                break;
-              }
-
-              _context8.prev = 1;
-
-              if (!sessionStorage.getItem("username")) {
-                _context8.next = 10;
-                break;
-              }
-
-              _context8.next = 5;
-              return regenerator_default.a.awrap(PlanPicker_getUserInfo(sessionStorage.getItem("username"), sessionStorage.getItem("password")));
-
-            case 5:
-              info = _context8.sent;
-              console.log("INFO");
-              console.log(info);
-              info.password = sessionStorage.getItem("password");
-              setUserInfo(info);
-
-            case 10:
-              _context8.next = 15;
-              break;
-
-            case 12:
-              _context8.prev = 12;
-              _context8.t0 = _context8["catch"](1);
-              console.log(_context8.t0);
-
-            case 15:
-            case "end":
-              return _context8.stop();
-          }
-        }
-      }, null, null, [[1, 12]]);
-    };
-
-    if (!userInfo) {
-      toGo();
-    }
-  } catch (e) {}
-
-  return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement(external_react_helmet_["Helmet"], null, external_react_default.a.createElement("meta", {
-    charset: "UTF-8"
-  })), external_react_default.a.createElement("section", {
+var Success = function Success(props) {
+  var localize = Object(_common_l10n__WEBPACK_IMPORTED_MODULE_1__[/* l10n */ "b"])(getLang());
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "whiteback"
-  }, external_react_default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
-  }, external_react_default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
-  }, external_react_default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-2"
-  }), external_react_default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col"
-  }, external_react_default.a.createElement("h3", null, localize("account-overview"))), external_react_default.a.createElement("div", {
-    className: "col-md-2"
-  })), external_react_default.a.createElement("div", {
-    className: "row"
-  }, external_react_default.a.createElement("div", {
-    className: "col-md-2"
-  }), external_react_default.a.createElement("div", {
-    className: "col-md"
-  }, external_react_default.a.createElement("b", null, localize("username")), " ", external_react_default.a.createElement("br", null), userInfo && userInfo.username), external_react_default.a.createElement("div", {
-    className: "col-md"
-  }, external_react_default.a.createElement("b", null, localize("subscription")), " ", external_react_default.a.createElement("br", null), userInfo && (userInfo.type === "free" ? localize("free") : "Plus")), userInfo && userInfo.expires && external_react_default.a.createElement("div", {
-    className: "col-md"
-  }, external_react_default.a.createElement("b", null, localize("expires")), " ", external_react_default.a.createElement("br", null), new Date(userInfo.expires * 1000).toISOString().substring(0, 10)), external_react_default.a.createElement("div", {
-    className: "col-md-2"
-  })), external_react_default.a.createElement("div", {
-    className: "row"
-  }, external_react_default.a.createElement("div", {
-    className: "col-md-2"
-  }), external_react_default.a.createElement("div", {
-    className: "col"
-  }, external_react_default.a.createElement("hr", null), external_react_default.a.createElement("p", null, userInfo && (userInfo.subscription ? localize("subscription-blurb")(function _callee(_) {
-    return regenerator_default.a.async(function _callee$(_context9) {
-      while (1) {
-        switch (_context9.prev = _context9.next) {
-          case 0:
-            _context9.next = 2;
-            return regenerator_default.a.awrap(PlanPicker_cancelStripe(userInfo.username, userInfo.password));
-
-          case 2:
-            window.location.reload();
-
-          case 3:
-          case "end":
-            return _context9.stop();
-        }
-      }
-    });
-  }) : localize("extend-blurb")))), external_react_default.a.createElement("div", {
-    className: "col-md-2"
-  })))), userInfo && !userInfo.subscription && external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("section", {
-    className: "lightback"
-  }, external_react_default.a.createElement("div", {
-    className: "container"
-  }, external_react_default.a.createElement("div", {
-    className: "row"
-  }, external_react_default.a.createElement("div", {
-    className: "col-md-2"
-  }), external_react_default.a.createElement("div", {
-    className: "col"
-  }, external_react_default.a.createElement("h3", null, external_react_default.a.createElement("span", {
-    className: "badge badge-secondary"
-  }, localize("step1")), " ", "\xA0", localize("choose-a-plan-length")), external_react_default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, localize("payment-successful"), "!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "hero-text"
-  }, localize("flat-rate-blurb")), external_react_default.a.createElement(PlanPicker_Selector, {
-    localize: localize,
-    selected: months === 1,
-    description: "1 " + localize("month"),
-    months: 1,
-    onClick: function onClick(_) {
-      return setMonths(1);
-    }
-  }), external_react_default.a.createElement(PlanPicker_Selector, {
-    localize: localize,
-    selected: months === 3,
-    description: "3 " + localize("months"),
-    months: 3,
-    onClick: function onClick(_) {
-      return setMonths(3);
-    }
-  }), external_react_default.a.createElement(PlanPicker_Selector, {
-    localize: localize,
-    selected: months === 12,
-    description: "12 " + localize("months"),
-    months: 12,
-    onClick: function onClick(_) {
-      return setMonths(12);
-    }
-  })), external_react_default.a.createElement("div", {
+  }, localize("payment-successful-blurb")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    "class": "img-fluid",
+    src: __webpack_require__(80)
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-2"
-  })))), external_react_default.a.createElement("section", {
-    className: "lightback"
-  }, external_react_default.a.createElement("div", {
-    className: "container"
-  }, external_react_default.a.createElement("div", {
-    className: "row"
-  }, external_react_default.a.createElement("div", {
-    className: "col-md-2"
-  }), external_react_default.a.createElement("div", {
-    className: "col"
-  }, external_react_default.a.createElement("h3", null, external_react_default.a.createElement("span", {
-    className: "badge badge-secondary"
-  }, localize("step2")), " ", "\xA0 ", localize("pay-for-plan")), external_react_default.a.createElement(PlanPicker_Payer, {
-    userInfo: userInfo,
-    localize: localize,
-    months: months
-  })), external_react_default.a.createElement("div", {
-    className: "col-md-2"
-  }))))));
+  })))));
 };
 
-/* harmony default export */ var billing_PlanPicker = __webpack_exports__["default"] = (PlanPicker_Planner);
+/* harmony default export */ __webpack_exports__["default"] = (Success);
 
 /***/ }),
-/* 33 */
+/* 36 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 34 */
+/* 37 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/classCallCheck");
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/createClass");
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/possibleConstructorReturn");
+
+/***/ }),
+/* 40 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/getPrototypeOf");
+
+/***/ }),
+/* 41 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/inherits");
+
+/***/ }),
+/* 42 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/defineProperty");
+
+/***/ }),
+/* 43 */
 /***/ (function(module, exports) {
 
 module.exports = require("use-debounce");
 
 /***/ }),
-/* 35 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(36);
-__webpack_require__(37);
-module.exports = __webpack_require__(43);
+__webpack_require__(45);
+__webpack_require__(46);
+module.exports = __webpack_require__(52);
 
 
 /***/ }),
-/* 36 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2705,14 +2934,14 @@ var _require = __webpack_require__(21),
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-browser-plugins.js", function () {
+  module.hot.accept("/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/artifacts/react-static-browser-plugins.js", function () {
     registerPlugins(__webpack_require__(20)["default"]);
   });
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(15)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(16)(module)))
 
 /***/ }),
-/* 37 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2729,7 +2958,7 @@ var _require2 = __webpack_require__(22),
 registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/home/miyuruasuka/Geph2/next.geph.io/artifacts/react-static-templates.js", function () {
+  module.hot.accept("/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/artifacts/react-static-templates.js", function () {
     var _require3 = __webpack_require__(22),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
@@ -2737,10 +2966,10 @@ if (typeof document !== 'undefined' && module && module.hot) {
     registerTemplates(templates, notFoundTemplate);
   });
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(15)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(16)(module)))
 
 /***/ }),
-/* 38 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2767,7 +2996,7 @@ var _extends = Object.assign || function (target) {
 
 exports["default"] = requireUniversalModule;
 
-var _utils = __webpack_require__(17);
+var _utils = __webpack_require__(18);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -2951,14 +3180,14 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 39 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	".": 9,
-	"./": 9,
-	"./index": 9,
-	"./index.js": 9
+	".": 11,
+	"./": 11,
+	"./index": 11,
+	"./index.js": 11
 };
 
 
@@ -2979,16 +3208,16 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 39;
+webpackContext.id = 48;
 
 /***/ }),
-/* 40 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof = __webpack_require__(16);
+var _typeof = __webpack_require__(17);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -3091,13 +3320,13 @@ ReportChunks.childContextTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 41 */
+/* 50 */
 /***/ (function(module, exports) {
 
 module.exports = require("vm");
 
 /***/ }),
-/* 42 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3164,28 +3393,28 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 43 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(44);
+var _interopRequireWildcard = __webpack_require__(53);
 
-var _interopRequireDefault = __webpack_require__(45);
+var _interopRequireDefault = __webpack_require__(54);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(46));
+var _extends2 = _interopRequireDefault(__webpack_require__(55));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(47));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(56));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(48);
+var _useStaticInfo = __webpack_require__(57);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -3206,7 +3435,7 @@ function Suspense(_ref) {
 React.Suspense = Suspense;
 React["default"].Suspense = Suspense;
 
-var App = __webpack_require__(49)["default"];
+var App = __webpack_require__(58)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -3219,37 +3448,37 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 44 */
+/* 53 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 45 */
+/* 54 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 46 */
+/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 47 */
+/* 56 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 48 */
+/* 57 */
 /***/ (function(module, exports) {
 
-module.exports = require("/home/miyuruasuka/Geph2/next.geph.io/node_modules/react-static/lib/browser/hooks/useStaticInfo");
+module.exports = require("/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 49 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3258,9 +3487,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(19);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(33);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(36);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(14);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(15);
 
 
  // Your top level component
@@ -3286,10 +3515,10 @@ if (typeof document !== "undefined") {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(50)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(59)(module)))
 
 /***/ }),
-/* 50 */
+/* 59 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -3319,7 +3548,7 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 51 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3345,110 +3574,124 @@ module.exports = function escape(url, needQuotes) {
 };
 
 /***/ }),
-/* 52 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/logo-bg.02b32555.png";
 
 /***/ }),
-/* 53 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/LibreFranklin-Regular.817fb321.ttf";
 
 /***/ }),
-/* 54 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/LibreFranklin-RegularItalic.1b746baa.ttf";
 
 /***/ }),
-/* 55 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/LibreFranklin-Medium.c1ed12e2.ttf";
 
 /***/ }),
-/* 56 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/LibreFranklin-Bold.4fe3bce8.ttf";
 
 /***/ }),
-/* 57 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/LibreFranklin-BoldItalic.3453f7c2.ttf";
 
 /***/ }),
-/* 58 */
+/* 67 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-router");
+
+/***/ }),
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/logo-naked.4655e64a.png";
 
 /***/ }),
-/* 59 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/logo.80dd36d9.png";
 
 /***/ }),
-/* 60 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 70 */
+/***/ (function(module) {
 
-module.exports = __webpack_require__.p + "static/screenshot-en.f0d13c1f.png";
+module.exports = JSON.parse("{\"Date\":\"2020-02-02\",\"Android\":{\"Latest\":\"4.4.12\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-android-4.4.12.apk\"]},\"Windows\":{\"Latest\":\"4.4.12\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-windows-4.4.12-setup.exe\"]},\"MacOS\":{\"Latest\":\"4.4.12\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-macos-4.4.12.dmg\"]},\"Linux32\":{\"Latest\":\"3.6.7\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-linux32-3.6.7.tar.xz\"]},\"Linux64\":{\"Latest\":\"4.4.12\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-linux64-4.4.12.tar.xz\"]}}");
 
 /***/ }),
-/* 61 */
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/screenshot-en.53229e66.png";
+
+/***/ }),
+/* 72 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIGJ5IE1hcnN1cGlsYW1pIC0tPgo8c3ZnCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgdmVyc2lvbj0iMS4xIgogICB3aWR0aD0iNzY2IgogICBoZWlnaHQ9Ijc2OCIKICAgdmlld0JveD0iLTIuNjE5NzcwMDQgLTIuNjE5NzcwMDQgOTIuNTY1MjA4MDggOTIuODM0MTY3MDgiCiAgIGlkPSJzdmc4Mzc1Ij4KICA8ZGVmcwogICAgIGlkPSJkZWZzODM3NyIgLz4KICA8cGF0aAogICAgIGQ9Ik0gMCwxMi40MDE4MyAzNS42ODczNyw3LjU0MTYgMzUuNzAyOTcsNDEuOTY0MzUgMC4wMzMyMSw0Mi4xNjc0OCB6IG0gMzUuNjcwMzcsMzMuNTI5MDYgMC4wMjc3LDM0LjQ1MzMyIC0zNS42Njk4OSwtNC45MDQxIC0wLjAwMiwtMjkuNzc5NzIgeiBNIDM5Ljk5NjQ0LDYuOTA1OTUgODcuMzE0NjIsMCBsIDAsNDEuNTI3IC00Ny4zMTgxOCwwLjM3NTY1IHogTSA4Ny4zMjU2Nyw0Ni4yNTQ3MSA4Ny4zMTQ1Nyw4Ny41OTQ2MyAzOS45OTY0LDgwLjkxNjI1IDM5LjkzMDEsNDYuMTc3NjcgeiIKICAgICBpZD0icGF0aDEzIiAvPgo8L3N2Zz4KPCEtLSB2ZXJzaW9uOiAyMDExMDMxMSwgb3JpZ2luYWwgc2l6ZTogODcuMzI1NjY4IDg3LjU5NDYyNywgYm9yZGVyOiAzJSAtLT4K"
 
 /***/ }),
-/* 62 */
+/* 73 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgd2lkdGg9IjEwMDAiCiAgIHZpZXdCb3g9IjAgMCAxMDAwIDExODcuMTk4IgogICB2ZXJzaW9uPSIxLjEiCiAgIGhlaWdodD0iMTE4Ny4xOTgiCiAgIGlkPSJzdmcyIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIwLjkxIHIxMzcyNSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iQXBwbGVfMTk5OC5zdmciPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTEwIj4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZGVmcwogICAgIGlkPSJkZWZzOCIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgb2JqZWN0dG9sZXJhbmNlPSIxMCIKICAgICBncmlkdG9sZXJhbmNlPSIxMCIKICAgICBndWlkZXRvbGVyYW5jZT0iMTAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjEzNjYiCiAgICAgaW5rc2NhcGU6d2luZG93LWhlaWdodD0iNzA1IgogICAgIGlkPSJuYW1lZHZpZXc2IgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTp6b29tPSIwLjE3Njc3NjciCiAgICAgaW5rc2NhcGU6Y3g9Ii0xMDY2LjUwNDUiCiAgICAgaW5rc2NhcGU6Y3k9Ijk2NC45NDY2OSIKICAgICBpbmtzY2FwZTp3aW5kb3cteD0iLTgiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9Ii04IgogICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjEiCiAgICAgaW5rc2NhcGU6Y3VycmVudC1sYXllcj0ic3ZnMiIgLz4KICA8cGF0aAogICAgIGQ9Im0gOTc5LjA0MTg0LDkyNS4xODc4NSBjIC0xNy45NTM5Nyw0MS40NzczNyAtMzkuMjA1NjMsNzkuNjU3MDUgLTYzLjgyODI0LDExNC43NTg5NSAtMzMuNTYyOTgsNDcuODUyOCAtNjEuMDQzNTYsODAuOTc2MSAtODIuMjIxOTQsOTkuMzY5OCAtMzIuODMwMTMsMzAuMTkyIC02OC4wMDUyOSw0NS42NTQ0IC0xMDUuNjcyMDMsNDYuNTMzOCAtMjcuMDQwODksMCAtNTkuNjUxMiwtNy42OTQ2IC05Ny42MTEwNSwtMjMuMzAzNSAtMzguMDg0NDIsLTE1LjUzNTggLTczLjA4MzcxLC0yMy4yMzAzIC0xMDUuMDg1NzgsLTIzLjIzMDMgLTMzLjU2Mjk2LDAgLTY5LjU1ODg4LDcuNjk0NSAtMTA4LjA2MTAxLDIzLjIzMDMgLTM4LjU2MDgsMTUuNjA4OSAtNjkuNjI0ODQsMjMuNzQzMiAtOTMuMzc1NDEsMjQuNTQ5MyAtMzYuMTIwNDksMS41Mzg5IC03Mi4xMjM3LC0xNC4zNjMyIC0xMDguMDYxMDEsLTQ3Ljc3OTYgLTIyLjkzNzExLC0yMC4wMDU5IC01MS42MjY4NCwtNTQuMzAxNyAtODUuOTk1OTIsLTEwMi44ODc0IEMgOTIuMjU0MTc2LDk4NC41NDU5MiA2MS45Mzc1ODgsOTI0LjM4MTc1IDM4LjE4NzAyOCw4NTUuNzkwMiAxMi43NTA5OTUsNzgxLjcwMjUyIDAsNzA5Ljk1OTg2IDAsNjQwLjUwMzYxIDAsNTYwLjk0MTgxIDE3LjE5MTg1OSw0OTIuMzIwOTQgNTEuNjI2ODY5LDQzNC44MTY4OCA3OC42ODk3NTQsMzg4LjYyNzUzIDExNC42OTI5OSwzNTIuMTkxOTIgMTU5Ljc1MzgxLDMyNS40NDQxMyBjIDQ1LjA2MDg2LC0yNi43NDc3NSA5My43NDkxNCwtNDAuMzc4MTIgMTQ2LjE4MjEyLC00MS4yNTAxOSAyOC42ODk3MSwwIDY2LjMxMjUsOC44NzQ0IDExMy4wNjYxMywyNi4zMTU0MiA0Ni42MjE3NCwxNy40OTk2NCA3Ni41NTcyNywyNi4zNzQwNCA4OS42ODE5OCwyNi4zNzQwNCA5LjgxMjQsMCA0My4wNjc1OCwtMTAuMzc2NjkgOTkuNDQzMSwtMzEuMDY0MDUgNTMuMzEyMzcsLTE5LjE4NTEyIDk4LjMwNzI0LC0yNy4xMjg4NyAxMzUuMTY3ODcsLTIzLjk5OTc1IDk5Ljg4MjgsOC4wNjA5OCAxNzQuOTIzMTMsNDcuNDM1MTggMjI0LjgyNzg5LDExOC4zNzE3NCAtODkuMzMwMjMsNTQuMTI1NzggLTEzMy41MTkwMywxMjkuOTM1NTYgLTEzMi42Mzk2NiwyMjcuMTg3NTMgMC44MDYxLDc1Ljc1MTE1IDI4LjI4NjY4LDEzOC43ODc5NSA4Mi4yOTUyLDE4OC44MzkzIDI0LjQ3NjAzLDIzLjIzMDIyIDUxLjgxMDA4LDQxLjE4NDIxIDgyLjIyMTg2LDUzLjkzNTIyIC02LjU5NTI1LDE5LjEyNjQ4IC0xMy41NTcsMzcuNDQ2ODggLTIwLjk1ODQ2LDU1LjAzNDQ2IHogTSA3NDkuOTYzNjYsMjMuNzUxMjM3IGMgMCw1OS4zNzM0MyAtMjEuNjkxMzgsMTE0LjgxMDIzMyAtNjQuOTI3NDgsMTY2LjEyMTk2MyAtNTIuMTc2NTIsNjAuOTk5NjEgLTExNS4yODY1OCw5Ni4yNDgwMyAtMTgzLjcyNDI2LDkwLjY4NTk3IC0wLjg3MjA0LC03LjEyMjk4IC0xLjM3NzY5LC0xNC42MTk2NyAtMS4zNzc2OSwtMjIuNDk3NDMgMCwtNTYuOTk4NDMgMjQuODEzMTUsLTExNy45OTgwMSA2OC44NzczOCwtMTY3Ljg3MzQ1MyAyMS45OTkwOSwtMjUuMjUyODEgNDkuOTc4LC00Ni4yNTAxOCA4My45MDczOCwtNjMuMDAwMTggQyA2ODYuNTc1MDcsMTAuNjg4MDI3IDcxOC41OTkxMywxLjU2MzEyNzQgNzQ4LjcxNzgzLDUuMjczNDM3NmUtNCA3NDkuNTk3MjcsNy45Mzc4Mjc0IDc0OS45NjM2NiwxNS44NzU2MjcgNzQ5Ljk2MzY2LDIzLjc1MDQ2NyBaIgogICAgIGlkPSJwYXRoNCIKICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAvPgo8L3N2Zz4K"
 
 /***/ }),
-/* 63 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/tux.16e23531.svg";
 
 /***/ }),
-/* 64 */
+/* 75 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiCiAgIHhtbG5zOnNvZGlwb2RpPSJodHRwOi8vc29kaXBvZGkuc291cmNlZm9yZ2UubmV0L0RURC9zb2RpcG9kaS0wLmR0ZCIKICAgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiCiAgIHZpZXdCb3g9Ii0xNDcgLTcwIDI5NCAzNDUiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzI3IgogICBzb2RpcG9kaTpkb2NuYW1lPSJhbmRyb2lkLnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMC45Mi40ICh1bmtub3duKSI+CiAgPG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhMzMiPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlPjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxkZWZzCiAgICAgaWQ9ImRlZnMzMSIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgb2JqZWN0dG9sZXJhbmNlPSIxMCIKICAgICBncmlkdG9sZXJhbmNlPSIxMCIKICAgICBndWlkZXRvbGVyYW5jZT0iMTAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjE5MjAiCiAgICAgaW5rc2NhcGU6d2luZG93LWhlaWdodD0iOTg5IgogICAgIGlkPSJuYW1lZHZpZXcyOSIKICAgICBzaG93Z3JpZD0iZmFsc2UiCiAgICAgaW5rc2NhcGU6em9vbT0iMS4zNjgxMTU5IgogICAgIGlua3NjYXBlOmN4PSItMTE3LjA3MzIyIgogICAgIGlua3NjYXBlOmN5PSIyMTcuNjQ4NzIiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LW1heGltaXplZD0iMSIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJzdmcyNyIgLz4KICA8ZwogICAgIGZpbGw9IiNhNGM2MzkiCiAgICAgaWQ9ImcxNyIKICAgICBzdHlsZT0iZmlsbDojMDQwNDA0O2ZpbGwtb3BhY2l0eToxIj4KICAgIDx1c2UKICAgICAgIHN0cm9rZS13aWR0aD0iMTQuNCIKICAgICAgIHhsaW5rOmhyZWY9IiNiIgogICAgICAgc3Ryb2tlPSIjRkZGIgogICAgICAgaWQ9InVzZTIiCiAgICAgICBzdHlsZT0iZmlsbDojMDQwNDA0O2ZpbGwtb3BhY2l0eToxIiAvPgogICAgPHVzZQogICAgICAgeGxpbms6aHJlZj0iI2EiCiAgICAgICB0cmFuc2Zvcm09InNjYWxlKC0xLDEpIgogICAgICAgaWQ9InVzZTQiCiAgICAgICBzdHlsZT0iZmlsbDojMDQwNDA0O2ZpbGwtb3BhY2l0eToxIiAvPgogICAgPGcKICAgICAgIGlkPSJhIgogICAgICAgc3Ryb2tlPSIjRkZGIgogICAgICAgc3Ryb2tlLXdpZHRoPSI3LjIiCiAgICAgICBzdHlsZT0iZmlsbDojMDQwNDA0O2ZpbGwtb3BhY2l0eToxIj4KICAgICAgPHJlY3QKICAgICAgICAgcng9IjYuNSIKICAgICAgICAgdHJhbnNmb3JtPSJyb3RhdGUoMjkpIgogICAgICAgICBoZWlnaHQ9Ijg2IgogICAgICAgICB3aWR0aD0iMTMiCiAgICAgICAgIHk9Ii04NiIKICAgICAgICAgeD0iMTQiCiAgICAgICAgIGlkPSJyZWN0NiIKICAgICAgICAgc3R5bGU9ImZpbGw6IzA0MDQwNDtmaWxsLW9wYWNpdHk6MSIgLz4KICAgICAgPHJlY3QKICAgICAgICAgaWQ9ImMiCiAgICAgICAgIHJ4PSIyNCIKICAgICAgICAgaGVpZ2h0PSIxMzMiCiAgICAgICAgIHdpZHRoPSI0OCIKICAgICAgICAgeT0iNDEiCiAgICAgICAgIHg9Ii0xNDMiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMwNDA0MDQ7ZmlsbC1vcGFjaXR5OjEiIC8+CiAgICAgIDx1c2UKICAgICAgICAgeT0iOTciCiAgICAgICAgIHg9Ijg1IgogICAgICAgICB4bGluazpocmVmPSIjYyIKICAgICAgICAgaWQ9InVzZTkiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMwNDA0MDQ7ZmlsbC1vcGFjaXR5OjEiIC8+CiAgICA8L2c+CiAgICA8ZwogICAgICAgaWQ9ImIiCiAgICAgICBzdHlsZT0iZmlsbDojMDQwNDA0O2ZpbGwtb3BhY2l0eToxIj4KICAgICAgPGVsbGlwc2UKICAgICAgICAgY3k9IjQxIgogICAgICAgICByeD0iOTEiCiAgICAgICAgIHJ5PSI4NCIKICAgICAgICAgaWQ9ImVsbGlwc2UxMiIKICAgICAgICAgc3R5bGU9ImZpbGw6IzA0MDQwNDtmaWxsLW9wYWNpdHk6MSIgLz4KICAgICAgPHJlY3QKICAgICAgICAgcng9IjIyIgogICAgICAgICBoZWlnaHQ9IjE4MiIKICAgICAgICAgd2lkdGg9IjE4MiIKICAgICAgICAgeT0iMjAiCiAgICAgICAgIHg9Ii05MSIKICAgICAgICAgaWQ9InJlY3QxNCIKICAgICAgICAgc3R5bGU9ImZpbGw6IzA0MDQwNDtmaWxsLW9wYWNpdHk6MSIgLz4KICAgIDwvZz4KICA8L2c+CiAgPGcKICAgICBzdHJva2U9IiNGRkYiCiAgICAgc3Ryb2tlLXdpZHRoPSI3LjIiCiAgICAgZmlsbD0iI0ZGRiIKICAgICBpZD0iZzI1Ij4KICAgIDxwYXRoCiAgICAgICBkPSJtLTk1IDQ0LjVoMTkwIgogICAgICAgaWQ9InBhdGgxOSIgLz4KICAgIDxjaXJjbGUKICAgICAgIGN4PSItNDIiCiAgICAgICByPSI0IgogICAgICAgaWQ9ImNpcmNsZTIxIiAvPgogICAgPGNpcmNsZQogICAgICAgY3g9IjQyIgogICAgICAgcj0iNCIKICAgICAgIGlkPSJjaXJjbGUyMyIgLz4KICA8L2c+Cjwvc3ZnPgo="
 
 /***/ }),
-/* 65 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(25)(false);
-// Module
-exports.push([module.i, "h3 {\n  padding-bottom: 20px;\n}\n", ""]);
-
-
-
-/***/ }),
-/* 66 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/visa.e0ebaf2c.jpg";
 
 /***/ }),
-/* 67 */
+/* 77 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgaGVpZ2h0PSI0MDUuNjMyMjYiCiAgIHdpZHRoPSI2NTAiCiAgIHZpZXdCb3g9IjAgMCA2NDkuOTk5OTggNDA1LjYzMjI2IgogICB2ZXJzaW9uPSIxLjEiCiAgIGlkPSJzdmc4OTUiPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTg5OSI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PgogICAgICAgIDxkYzp0eXBlCiAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz4KICAgICAgICA8ZGM6dGl0bGU+QXNzZXQgMTwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM4NzkiPgogICAgPHN0eWxlCiAgICAgICB0eXBlPSJ0ZXh0L2NzcyIKICAgICAgIGlkPSJzdHlsZTg3NyI+LmF7b3BhY2l0eTowO30uYntmaWxsOiNmZmY7fS5je2ZpbGw6I2ZmNWYwMDt9LmR7ZmlsbDojZWIwMDFiO30uZXtmaWxsOiNmNzllMWI7fTwvc3R5bGU+CiAgPC9kZWZzPgogIDx0aXRsZQogICAgIGlkPSJ0aXRsZTg4MSI+QXNzZXQgMTwvdGl0bGU+CiAgPHJlY3QKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmU7ZmlsbDojZmY1ZjAwO3N0cm9rZS13aWR0aDo1LjQ5MzgxMTYxIgogICAgIGNsYXNzPSJjIgogICAgIHg9IjIyOS44MzI2MyIKICAgICB5PSI0Ny4yOTc3MzciCiAgICAgd2lkdGg9IjE5MC40MTU1MSIKICAgICBoZWlnaHQ9IjMxMS4wMDQ3IgogICAgIGlkPSJyZWN0ODg3IiAvPgogIDxwYXRoCiAgICAgc3R5bGU9ImZpbGw6I2ViMDAxYjtzdHJva2Utd2lkdGg6NS40OTM4MTE2MSIKICAgICBjbGFzcz0iZCIKICAgICBkPSJtIDI0OS40NDU1NCwyMDIuODI3NTYgYSAxOTcuNDQ3NTksMTk3LjQ0NzU5IDAgMCAxIDc1LjUzOTkxLC0xNTUuNDc0ODY3IDE5Ny43NzcyMiwxOTcuNzc3MjIgMCAxIDAgMCwzMTEuMDA0Njc3IDE5Ny40NDc1OSwxOTcuNDQ3NTkgMCAwIDEgLTc1LjUzOTkxLC0xNTUuNTI5ODEgeiIKICAgICBpZD0icGF0aDg4OSIgLz4KICA8cGF0aAogICAgIHN0eWxlPSJmaWxsOiNmNzllMWI7c3Ryb2tlLXdpZHRoOjUuNDkzODExNjEiCiAgICAgY2xhc3M9ImUiCiAgICAgZD0ibSA2MjYuMTAxMywzMjUuMzk0NSB2IC02LjM3MjgyIGggMi43NDY5IHYgLTEuMzE4NTIgaCAtNi41Mzc2NCB2IDEuMzE4NTIgaCAyLjU4MjEgdiA2LjM3MjgyIHogbSAxMi42OTA3LDAgdiAtNy42OTEzNCBoIC0xLjk3Nzc4IGwgLTIuMzA3NCw1LjQ5MzgxIC0yLjMwNzQsLTUuNDkzODEgaCAtMS45Nzc3NyB2IDcuNjkxMzQgaCAxLjQyODM5IHYgLTUuODIzNDQgbCAyLjE0MjU5LDQuOTk5MzcgaCAxLjQ4MzMzIGwgMi4xNDI1OCwtNC45OTkzNyB2IDUuODIzNDQgeiIKICAgICBpZD0icGF0aDg5MSIgLz4KICA8cGF0aAogICAgIHN0eWxlPSJmaWxsOiNmNzllMWI7c3Ryb2tlLXdpZHRoOjUuNDkzODExNjEiCiAgICAgY2xhc3M9ImUiCiAgICAgZD0ibSA2NDUsMjAyLjgyNzU2IGEgMTk3Ljc3NzIyLDE5Ny43NzcyMiAwIDAgMSAtMzIwLjAxNDU1LDE1NS40NzQ4NyAxOTcuNzc3MjIsMTk3Ljc3NzIyIDAgMCAwIDAsLTMxMS4wMDQ2NzUgQSAxOTcuNzc3MjIsMTk3Ljc3NzIyIDAgMCAxIDY0NSwyMDIuNzcyNjIgWiIKICAgICBpZD0icGF0aDg5MyIgLz4KPC9zdmc+Cg=="
 
 /***/ }),
-/* 68 */
+/* 78 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/bitcoin.ea6d0c84.png";
+
+/***/ }),
+/* 79 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgdmVyc2lvbj0iMS4xIgogICBpZD0iTGF5ZXJfMSIKICAgeD0iMHB4IgogICB5PSIwcHgiCiAgIHZpZXdCb3g9IjAgMCAzNiAzNiIKICAgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iQWxpcGF5LnN2ZyIKICAgd2lkdGg9IjM2IgogICBoZWlnaHQ9IjM2IgogICBpbmtzY2FwZTp2ZXJzaW9uPSIwLjkyLjQgKHVua25vd24pIj48ZGVmcwogICAgIGlkPSJkZWZzMTEiIC8+PHNvZGlwb2RpOm5hbWVkdmlldwogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzY2NjY2NiIKICAgICBib3JkZXJvcGFjaXR5PSIxIgogICAgIG9iamVjdHRvbGVyYW5jZT0iMTAiCiAgICAgZ3JpZHRvbGVyYW5jZT0iMTAiCiAgICAgZ3VpZGV0b2xlcmFuY2U9IjEwIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIgogICAgIGlua3NjYXBlOnBhZ2VzaGFkb3c9IjIiCiAgICAgaW5rc2NhcGU6d2luZG93LXdpZHRoPSIxOTIwIgogICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9Ijk4OSIKICAgICBpZD0ibmFtZWR2aWV3OSIKICAgICBzaG93Z3JpZD0iZmFsc2UiCiAgICAgZml0LW1hcmdpbi10b3A9IjAiCiAgICAgZml0LW1hcmdpbi1sZWZ0PSIwIgogICAgIGZpdC1tYXJnaW4tcmlnaHQ9IjAiCiAgICAgZml0LW1hcmdpbi1ib3R0b209IjAiCiAgICAgaW5rc2NhcGU6em9vbT0iNC45MTY2NjY3IgogICAgIGlua3NjYXBlOmN4PSIxOCIKICAgICBpbmtzY2FwZTpjeT0iMTgiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LW1heGltaXplZD0iMSIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJMYXllcl8xIiAvPjxwYXRoCiAgICAgZD0ibSAzNiw1IHYgMjcgYSA0LDQgMCAwIDEgLTQsNCBIIDUgQSA1LDUgMCAwIDEgMCwzMSBWIDUgQSA1LDUgMCAwIDEgNSwwIGggMjYgYSA1LDUgMCAwIDEgNSw1IHoiCiAgICAgaWQ9InBhdGgyIgogICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgc3R5bGU9ImZpbGw6IzViOWVkZCIgLz48cGF0aAogICAgIGQ9Ik0gMjMuOTEsMjEuMTcgQyAyNiwxNy42NDEgMjcsMTMgMjcsMTMgaCAtNyB2IC0yIGggOSBWIDkgSCAyMCBWIDUuMDIgTCAxNiw1IFYgOSBIIDcgdiAyIGggOSB2IDIgSCA4IHYgMiBjIDAsMCAxMy4xMjUsMCAxNC41LC0wLjAxIC0wLjI4MSwwLjc5MyAtMC45OSwzLjE4OSAtMi4wMTUsNS4wNTUgQyAxNi42MDIsMTguODQgMTMuMDE5LDE4IDEwLjE0MywxOCBjIC02Ljg5OCwwIC04LjQyOCwzLjQ4MSAtOC4xMDIsNi42NjQgMC4yNjMsMi41NCAyLjE0NSw2LjI0OCA3Ljg5Myw2LjI0OCA1LjI1MSwwIDkuNDksLTMuMDIzIDEyLjA5OSwtNi42MjIgQyAyNy4wMDgsMjYuNTkxIDMyLjI2MywyOC45MDkgMzYsMzEgViAyNC45NjIgQyAzMi4wNDksMjMuNjAxIDI3Ljg5LDIyLjUzMSAyMy45MSwyMS4xNyBaIE0gOS4wOTgsMjguNzYyIGMgLTQuODU4LDAgLTUuNjEsLTIuNzUgLTUuNjk0LC00LjM5MiAtMC4wNzksLTEuNDM2IDAuODg2LC00LjEzMiA2LjM3MSwtNC4xMzIgMi4wNCwwIDUuMjc2LDEuMDQ2IDguOTA5LDIuNTcgLTIuMDUzLDIuNzA4IC01LjM0Myw1Ljk1NCAtOS41ODYsNS45NTQgeiIKICAgICBpZD0icGF0aDQiCiAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIKICAgICBzdHlsZT0iZmlsbDojZmZmZmZmIiAvPjxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTYiPjxyZGY6UkRGPjxyZGY6RGVzY3JpcHRpb24KICAgICAgICAgYWJvdXQ9Imh0dHBzOi8vaWNvbnNjb3V0LmNvbS9sZWdhbCNsaWNlbnNlcyIKICAgICAgICAgZGM6dGl0bGU9ImFsaXBheSIKICAgICAgICAgZGM6ZGVzY3JpcHRpb249ImFsaXBheSIKICAgICAgICAgZGM6cHVibGlzaGVyPSJJY29uc2NvdXQiCiAgICAgICAgIGRjOmRhdGU9IjIwMTctMTItMTUiCiAgICAgICAgIGRjOmZvcm1hdD0iaW1hZ2Uvc3ZnK3htbCIKICAgICAgICAgZGM6bGFuZ3VhZ2U9ImVuIj48ZGM6Y3JlYXRvcj48cmRmOkJhZz48cmRmOmxpPkljb25zODwvcmRmOmxpPjwvcmRmOkJhZz48L2RjOmNyZWF0b3I+PC9yZGY6RGVzY3JpcHRpb24+PGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPjxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PjxkYzp0eXBlCiAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz48ZGM6dGl0bGU+PC9kYzp0aXRsZT48L2NjOldvcms+PC9yZGY6UkRGPjwvbWV0YWRhdGE+PC9zdmc+"
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/refresh.3c7ebf1d.png";
 
 /***/ })
 /******/ ]);

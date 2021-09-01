@@ -37,9 +37,12 @@
    (connection-pool
     (lambda ()
       (postgresql-connect
-       #:user "postgres"
-       #:password "postgres"
-       #:database "postgres")))))
+       #:user "avnadmin"
+       #:password "gnf65spgr2v07utg"
+       #:database "defaultdb"
+       #:server "geph-binder-postgresql-eesti-53f9.aivencloud.com"
+#:port 26137
+#:ssl 'yes )))))
 
 (define (in-transaction tx)
   (query-exec db-conn "BEGIN TRANSACTION ISOLATION LEVEL SERIALIZABLE")

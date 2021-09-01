@@ -12,24 +12,38 @@ import { Helmet } from "react-helmet";
 import logo from "./logo.png";
 
 const lin64tar = (version) =>
-  "https://dl.geph.io/desktop-builds/geph-linux64-" + version + ".tar.xz";
-
-const lin32tar = (version) =>
-  "https://dl.geph.io/desktop-builds/geph-linux32-" + version + ".tar.xz";
+  "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" +
+  version +
+  "/geph-linux64-" +
+  version +
+  ".tar.xz";
 
 const win32exe = (version) =>
-  "https://dl.geph.io/desktop-builds/geph-windows-" + version + "-setup.exe";
+  "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" +
+  version +
+  "/geph-windows-" +
+  version +
+  "-setup.exe";
 
 const mac64dmg = (version) =>
-  "https://dl.geph.io/desktop-builds/geph-macos-" + version + ".dmg";
-
+  "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" +
+  version +
+  "/geph-macos-" +
+  version +
+  ".dmg";
 const androidapk = (version) =>
-  "https://dl.geph.io/android-builds/geph-android-" + version + ".apk";
+  "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" +
+  version +
+  "/geph-android-" +
+  version +
+  ".apk";
 
-const WINVER = "3.6.3";
-const MACVER = "3.6.3";
-const LINVER = "3.6.3";
-const ANDVER = "3.6.3";
+const VERSIONS = require("versions.json");
+
+const WINVER = VERSIONS.Windows.Latest;
+const MACVER = VERSIONS.MacOS.Latest;
+const LINVER = VERSIONS.Linux64.Latest;
+const ANDVER = VERSIONS.Android.Latest;
 
 const defaultDownload = () => {
   try {
@@ -162,10 +176,6 @@ export default (props) => {
                   <a href={lin64tar(LINVER)}>
                     <b>Linux amd64</b> (.tar.xz)
                   </a>
-                  <br />
-                  <a href={lin32tar(LINVER)}>
-                    <b>Linux i386</b> (.tar.xz)
-                  </a>{" "}
                   <br />
                 </p>
               </div>

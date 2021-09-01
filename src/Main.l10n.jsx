@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { addl10n, l10n } from "./common/l10n.js";
 
-const mizaruURL = "https://github.com/geph-official/geph2/wiki/Mizaru";
+const mizaruURL = "https://github.com/geph-official/geph4/wiki/Mizaru";
 const slaURL =
-  "https://github.com/geph-official/geph2/wiki/Service-SLA-(%E5%B0%81%E4%B8%80%E5%A4%A9%E8%B3%A0%E4%B8%80%E5%A4%A9%E6%94%BF%E7%AD%96)";
+  "https://github.com/geph-official/geph4/wiki/Service-SLA-(%E5%B0%81%E4%B8%80%E5%A4%A9%E8%B3%A0%E4%B8%80%E5%A4%A9%E6%94%BF%E7%AD%96)";
 
 const policyEnURL =
-  "https://github.com/geph-official/geph2/wiki/Policies-and-terms";
+  "https://github.com/geph-official/geph4/wiki/Policies-and-terms";
 const policyZhURL =
-  "https://github.com/geph-official/geph2/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89";
+  "https://github.com/geph-official/geph4/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89";
 
 const githubURL = "https://github.com/geph-official/";
 
@@ -28,7 +28,7 @@ addl10n({
       <>
         <b>冲破</b>网络封锁
       </>
-    )
+    ),
   },
   "geph-connects": {
     en: (
@@ -38,22 +38,22 @@ addl10n({
       </>
     ),
     zht: "其它軟件都失靈時，用迷霧通連接自由的網絡！",
-    zhs: "其它软件都失灵时，用迷雾通连接自由的网络！"
+    zhs: "其它软件都失灵时，用迷雾通连接自由的网络！",
   },
   "download-now": {
     en: "Download now",
     zht: "現在下載",
-    zhs: "现在下载"
+    zhs: "现在下载",
   },
   "other-platforms": {
     en: "Other platforms",
     zht: "其他平台",
-    zhs: "其他平台"
+    zhs: "其他平台",
   },
   "hero-text": {
     en: (
       <>
-        <h2 className="center">Far surpassing VPNs</h2>
+        <h2 className="center">Resilient, secure, and private</h2>
         <p className="hero-text">
           Most VPNs and anti-censorship tools only rely on keeping a low profile
           to avoid blocking. Even worse, you never know which providers you can
@@ -76,7 +76,7 @@ addl10n({
     ),
     zht: (
       <>
-        <h2 className="center">完勝VPN</h2>
+        <h2 className="center">穩定、安全、私密</h2>
         <p className="hero-text">
           大多數VPN和翻牆工具免被封殺只靠保持低調。
           更糟糕的是，誰也不知道哪些提供商值得信任。
@@ -95,7 +95,7 @@ addl10n({
     ),
     zhs: (
       <>
-        <h2 className="center">完胜VPN</h2>
+        <h2 className="center">稳定、安全、私密</h2>
         <p className="hero-text">
           大多数VPN和翻墙工具免被封杀只靠保持低调。
           更糟糕的是，谁也不知道哪些提供商值得信任。
@@ -111,7 +111,7 @@ addl10n({
           <a href={githubURL}>开源</a>的。
         </p>
       </>
-    )
+    ),
   },
   "robust-privacy": {
     en: (
@@ -173,7 +173,7 @@ addl10n({
           <b>市场上没有任何其他翻墙软件提供迷雾通给您的私密性。 </b>
         </p>
       </>
-    )
+    ),
   },
   "resilient-anti-censorship": {
     en: (
@@ -225,7 +225,7 @@ addl10n({
           的翻墙软件。迷雾通被封杀几天，我们就赔款几天！
         </p>
       </>
-    )
+    ),
   },
   "easy-to-afford": {
     en: (
@@ -269,16 +269,16 @@ addl10n({
           不管您用Windows、Mac、Linux、还是Android，安装使用迷雾通并不繁琐。一键就可连接自由的互联网。
         </p>
       </>
-    )
+    ),
   },
   "download-links": {
     en: "Download links",
     zht: "下載鏈接",
-    zhs: "下载链接"
+    zhs: "下载链接",
   },
   geph: {
     en: "Geph",
     zhs: "迷雾通",
-    zht: "迷霧通"
-  }
+    zht: "迷霧通",
+  },
 });

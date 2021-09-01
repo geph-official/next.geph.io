@@ -14,22 +14,22 @@
   "productionSourceMaps": false,
   "entry": "index.js",
   "paths": {
-    "ROOT": "/home/miyuruasuka/Geph2/next.geph.io",
-    "SRC": "/home/miyuruasuka/Geph2/next.geph.io/src",
-    "DIST": "/home/miyuruasuka/Geph2/next.geph.io/dist",
-    "ASSETS": "/home/miyuruasuka/Geph2/next.geph.io/dist",
-    "PLUGINS": "/home/miyuruasuka/Geph2/next.geph.io/plugins",
-    "TEMP": "/home/miyuruasuka/Geph2/next.geph.io/tmp",
-    "ARTIFACTS": "/home/miyuruasuka/Geph2/next.geph.io/artifacts",
-    "PUBLIC": "/home/miyuruasuka/Geph2/next.geph.io/public",
-    "NODE_MODULES": "/home/miyuruasuka/Geph2/next.geph.io/node_modules",
-    "EXCLUDE_MODULES": "/home/miyuruasuka/Geph2/next.geph.io/node_modules",
-    "PACKAGE": "/home/miyuruasuka/Geph2/next.geph.io/package.json",
-    "HTML_TEMPLATE": "/home/miyuruasuka/Geph2/next.geph.io/dist/index.html",
-    "STATIC_DATA": "/home/miyuruasuka/Geph2/next.geph.io/dist/staticData"
+    "ROOT": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io",
+    "SRC": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src",
+    "DIST": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/dist",
+    "ASSETS": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/dist",
+    "PLUGINS": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/plugins",
+    "TEMP": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/tmp",
+    "ARTIFACTS": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/artifacts",
+    "PUBLIC": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/public",
+    "NODE_MODULES": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules",
+    "EXCLUDE_MODULES": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules",
+    "PACKAGE": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/package.json",
+    "HTML_TEMPLATE": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/dist/index.html",
+    "STATIC_DATA": "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/dist/staticData"
   },
   "plugins": [
-    "/home/miyuruasuka/Geph2/next.geph.io"
+    "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io"
   ],
   "siteRoot": "/",
   "basePath": "",

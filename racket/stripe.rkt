@@ -29,7 +29,7 @@
    (hash-ref
     (post-with-form
      (string->url "https://api.stripe.com/v1/checkout/sessions")
-     (hash '|payment_method_types[]| "card"
+     (hash '|payment_method_types[0]| "card"
            '|line_items[][name]| name
            '|line_items[][description]| description
            '|line_items[][images][]| "https://geph.io/static/logo-naked.4655e64a.png"
