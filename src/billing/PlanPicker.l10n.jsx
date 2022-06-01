@@ -111,9 +111,9 @@ addl10n({
   months: { en: "months", zht: "個月", zhs: "个月" },
   "pay-for-plan": { en: "Pay for plan", zht: "付款", zhs: "付款" },
   "credit-debit": {
-    en: "Credit/debit cards",
-    zht: "國際信用卡/借記卡",
-    zhs: "国际信用卡/借记卡",
+    en: "Bank cards",
+    zht: "信用/借記卡",
+    zhs: "信用/借记卡",
   },
   alipay: { en: "Alipay", zht: "支付寶", zhs: "支付宝" },
   "for-X-months": {

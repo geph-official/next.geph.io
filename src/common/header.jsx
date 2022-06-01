@@ -40,11 +40,7 @@ export const Header = (props) => {
               <a
                 target="_blank"
                 rel="noopener"
-                href={
-                  props.lang === "en"
-                    ? "https://github.com/geph-official/geph4/wiki/Policies-and-terms"
-                    : "https://github.com/geph-official/geph4/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89"
-                }
+                href={props.lang === "en" ? "/policies.html" : "/policies.html"}
                 style={{ color: "#19448e" }}
               >
                 {localize("policies")}

@@ -792,7 +792,7 @@ var header_Header = function Header(props) {
   }, external_react_default.a.createElement("a", {
     target: "_blank",
     rel: "noopener",
-    href: props.lang === "en" ? "https://github.com/geph-official/geph4/wiki/Policies-and-terms" : "https://github.com/geph-official/geph4/wiki/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE%EF%BC%88%E5%8F%83%E8%80%83%E7%BF%BB%E8%AD%AF%EF%BC%89",
+    href: props.lang === "en" ? "/policies.html" : "/policies.html",
     style: {
       color: "#19448e"
     }
@@ -2352,27 +2352,20 @@ var Payer = function Payer(props) {
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
     src: __webpack_require__(77),
     className: "cardbrand"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    src: __webpack_require__(78),
+    className: "cardbrand"
   }), props.localize("credit-debit")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
     className: payMethod === "crypto" ? "nav-link active" : "nav-link",
     onClick: function onClick(_) {
       setPayMethod("crypto");
     }
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
-    src: __webpack_require__(78),
+    src: __webpack_require__(79),
     className: "cardbrand"
   }), props.localize("crypto"), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
     className: "badge badge-success"
-  }, "20%\xA0", props.localize("discount"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-    className: payMethod === "alipay" ? "nav-link active" : "nav-link",
-    onClick: function onClick(_) {
-      setPayMethod("alipay");
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
-    src: __webpack_require__(79),
-    className: "cardbrand"
-  }), props.localize("alipay"), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-    className: "badge badge-warning"
-  }, "5% ", props.localize("fee")))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, "20%\xA0", props.localize("discount")))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "card"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "card-body"
@@ -2738,8 +2731,8 @@ Object(_common_l10n_js__WEBPACK_IMPORTED_MODULE_1__[/* addl10n */ "a"])({
   },
   "credit-debit": {
     en: "Credit/debit cards",
-    zht: "國際信用卡/借記卡",
-    zhs: "国际信用卡/借记卡"
+    zht: "信用卡/借記卡",
+    zhs: "信用卡/借记卡"
   },
   alipay: {
     en: "Alipay",
@@ -3631,7 +3624,7 @@ module.exports = __webpack_require__.p + "static/logo.80dd36d9.png";
 /* 70 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"Date\":\"2020-02-02\",\"Android\":{\"Latest\":\"4.4.12\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-android-4.4.12.apk\"]},\"Windows\":{\"Latest\":\"4.4.12\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-windows-4.4.12-setup.exe\"]},\"MacOS\":{\"Latest\":\"4.4.12\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-macos-4.4.12.dmg\"]},\"Linux32\":{\"Latest\":\"3.6.7\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-linux32-3.6.7.tar.xz\"]},\"Linux64\":{\"Latest\":\"4.4.12\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-linux64-4.4.12.tar.xz\"]}}");
+module.exports = JSON.parse("{\"Date\":\"2020-02-02\",\"Android\":{\"Latest\":\"4.4.20\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-android-4.4.20.apk\"]},\"Windows\":{\"Latest\":\"4.4.20\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-windows-4.4.20-setup.exe\"]},\"MacOS\":{\"Latest\":\"4.4.20\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-macos-4.4.20.dmg\"]},\"Linux32\":{\"Latest\":\"3.6.7\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-linux32-3.6.7.tar.xz\"]},\"Linux64\":{\"Latest\":\"4.4.20\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-linux64-4.4.20.tar.xz\"]}}");
 
 /***/ }),
 /* 71 */
@@ -3679,13 +3672,13 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/bitcoin.ea6d0c84.png";
+module.exports = __webpack_require__.p + "static/unionpay.43d7a971.svg";
 
 /***/ }),
 /* 79 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgdmVyc2lvbj0iMS4xIgogICBpZD0iTGF5ZXJfMSIKICAgeD0iMHB4IgogICB5PSIwcHgiCiAgIHZpZXdCb3g9IjAgMCAzNiAzNiIKICAgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iQWxpcGF5LnN2ZyIKICAgd2lkdGg9IjM2IgogICBoZWlnaHQ9IjM2IgogICBpbmtzY2FwZTp2ZXJzaW9uPSIwLjkyLjQgKHVua25vd24pIj48ZGVmcwogICAgIGlkPSJkZWZzMTEiIC8+PHNvZGlwb2RpOm5hbWVkdmlldwogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzY2NjY2NiIKICAgICBib3JkZXJvcGFjaXR5PSIxIgogICAgIG9iamVjdHRvbGVyYW5jZT0iMTAiCiAgICAgZ3JpZHRvbGVyYW5jZT0iMTAiCiAgICAgZ3VpZGV0b2xlcmFuY2U9IjEwIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIgogICAgIGlua3NjYXBlOnBhZ2VzaGFkb3c9IjIiCiAgICAgaW5rc2NhcGU6d2luZG93LXdpZHRoPSIxOTIwIgogICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9Ijk4OSIKICAgICBpZD0ibmFtZWR2aWV3OSIKICAgICBzaG93Z3JpZD0iZmFsc2UiCiAgICAgZml0LW1hcmdpbi10b3A9IjAiCiAgICAgZml0LW1hcmdpbi1sZWZ0PSIwIgogICAgIGZpdC1tYXJnaW4tcmlnaHQ9IjAiCiAgICAgZml0LW1hcmdpbi1ib3R0b209IjAiCiAgICAgaW5rc2NhcGU6em9vbT0iNC45MTY2NjY3IgogICAgIGlua3NjYXBlOmN4PSIxOCIKICAgICBpbmtzY2FwZTpjeT0iMTgiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LW1heGltaXplZD0iMSIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJMYXllcl8xIiAvPjxwYXRoCiAgICAgZD0ibSAzNiw1IHYgMjcgYSA0LDQgMCAwIDEgLTQsNCBIIDUgQSA1LDUgMCAwIDEgMCwzMSBWIDUgQSA1LDUgMCAwIDEgNSwwIGggMjYgYSA1LDUgMCAwIDEgNSw1IHoiCiAgICAgaWQ9InBhdGgyIgogICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgc3R5bGU9ImZpbGw6IzViOWVkZCIgLz48cGF0aAogICAgIGQ9Ik0gMjMuOTEsMjEuMTcgQyAyNiwxNy42NDEgMjcsMTMgMjcsMTMgaCAtNyB2IC0yIGggOSBWIDkgSCAyMCBWIDUuMDIgTCAxNiw1IFYgOSBIIDcgdiAyIGggOSB2IDIgSCA4IHYgMiBjIDAsMCAxMy4xMjUsMCAxNC41LC0wLjAxIC0wLjI4MSwwLjc5MyAtMC45OSwzLjE4OSAtMi4wMTUsNS4wNTUgQyAxNi42MDIsMTguODQgMTMuMDE5LDE4IDEwLjE0MywxOCBjIC02Ljg5OCwwIC04LjQyOCwzLjQ4MSAtOC4xMDIsNi42NjQgMC4yNjMsMi41NCAyLjE0NSw2LjI0OCA3Ljg5Myw2LjI0OCA1LjI1MSwwIDkuNDksLTMuMDIzIDEyLjA5OSwtNi42MjIgQyAyNy4wMDgsMjYuNTkxIDMyLjI2MywyOC45MDkgMzYsMzEgViAyNC45NjIgQyAzMi4wNDksMjMuNjAxIDI3Ljg5LDIyLjUzMSAyMy45MSwyMS4xNyBaIE0gOS4wOTgsMjguNzYyIGMgLTQuODU4LDAgLTUuNjEsLTIuNzUgLTUuNjk0LC00LjM5MiAtMC4wNzksLTEuNDM2IDAuODg2LC00LjEzMiA2LjM3MSwtNC4xMzIgMi4wNCwwIDUuMjc2LDEuMDQ2IDguOTA5LDIuNTcgLTIuMDUzLDIuNzA4IC01LjM0Myw1Ljk1NCAtOS41ODYsNS45NTQgeiIKICAgICBpZD0icGF0aDQiCiAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIKICAgICBzdHlsZT0iZmlsbDojZmZmZmZmIiAvPjxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTYiPjxyZGY6UkRGPjxyZGY6RGVzY3JpcHRpb24KICAgICAgICAgYWJvdXQ9Imh0dHBzOi8vaWNvbnNjb3V0LmNvbS9sZWdhbCNsaWNlbnNlcyIKICAgICAgICAgZGM6dGl0bGU9ImFsaXBheSIKICAgICAgICAgZGM6ZGVzY3JpcHRpb249ImFsaXBheSIKICAgICAgICAgZGM6cHVibGlzaGVyPSJJY29uc2NvdXQiCiAgICAgICAgIGRjOmRhdGU9IjIwMTctMTItMTUiCiAgICAgICAgIGRjOmZvcm1hdD0iaW1hZ2Uvc3ZnK3htbCIKICAgICAgICAgZGM6bGFuZ3VhZ2U9ImVuIj48ZGM6Y3JlYXRvcj48cmRmOkJhZz48cmRmOmxpPkljb25zODwvcmRmOmxpPjwvcmRmOkJhZz48L2RjOmNyZWF0b3I+PC9yZGY6RGVzY3JpcHRpb24+PGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPjxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PjxkYzp0eXBlCiAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz48ZGM6dGl0bGU+PC9kYzp0aXRsZT48L2NjOldvcms+PC9yZGY6UkRGPjwvbWV0YWRhdGE+PC9zdmc+"
+module.exports = __webpack_require__.p + "static/bitcoin.ea6d0c84.png";
 
 /***/ }),
 /* 80 */

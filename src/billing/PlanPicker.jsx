@@ -27,8 +27,8 @@ const getLang = () => {
   }
 };
 
-const toCNY = (eur) => 7.67 * eur;
-const toUSD = (eur) => 1.19 * eur;
+const toCNY = (eur) => 7.12 * eur;
+const toUSD = (eur) => 1.07 * eur;
 
 // Component for picking
 const Selector = (props) => (
@@ -143,12 +143,14 @@ const Payer = (props) => {
   };
 
   const getAlipayUrl = async () => {
-    const response = await axios.post("https://web-backend.geph.io/alipay", {
+    const response = await axios.post("https://web-backend.geph.io/aliwechat", {
       sessid: props.sessid,
       promo: promo,
       months: months,
+      method: "alipay",
     });
-    return response.data.url;
+    console.log("ALIPAY RESPONSE", response);
+    return response.data.data.pay_url;
   };
 
   const getCryptoUrl = async (currency) => {
@@ -188,7 +190,21 @@ const Payer = (props) => {
             src={require("../assets/mastercard.svg")}
             className="cardbrand"
           />
+          <img src={require("../assets/unionpay.svg")} className="cardbrand" />
           {props.localize("credit-debit")}
+        </a>
+
+        <a
+          className={payMethod === "alipay" ? "nav-link active" : "nav-link"}
+          onClick={(_) => {
+            setPayMethod("alipay");
+          }}
+        >
+          <img src={require("../assets/alipay.svg")} className="cardbrand" />
+          {props.localize("alipay")}&nbsp;
+          <span className="badge badge-danger">
+            5%&nbsp;{props.localize("fee")}
+          </span>
         </a>
 
         <a
@@ -201,18 +217,6 @@ const Payer = (props) => {
           {props.localize("crypto")}&nbsp;
           <span className="badge badge-success">
             20%&nbsp;{props.localize("discount")}
-          </span>
-        </a>
-        <a
-          className={payMethod === "alipay" ? "nav-link active" : "nav-link"}
-          onClick={(_) => {
-            setPayMethod("alipay");
-          }}
-        >
-          <img src={require("../assets/alipay.svg")} className="cardbrand" />
-          {props.localize("alipay")}&nbsp;
-          <span className="badge badge-warning">
-            5% {props.localize("fee")}
           </span>
         </a>
       </nav>
@@ -301,7 +305,10 @@ const Planner = (props) => {
   const [userInfo, setUserInfo] = useState(false);
   const sessid = (() => {
     if (typeof window !== "undefined") {
-      return window.sessionStorage.getItem("session-id");
+      return (
+        window.sessionStorage.getItem("session-id") ||
+        "sess-38076985229524618203512498811228213434"
+      );
     } else {
       return "NULL";
     }
@@ -336,14 +343,14 @@ const Planner = (props) => {
       <section className="whiteback">
         <div className="container">
           <div className="row">
-            <div className="col-md-2"></div>
+            <div className="col-md-1"></div>
             <div className="col">
               <h3>{localize("account-overview")}</h3>
             </div>
-            <div className="col-md-2"></div>
+            <div className="col-md-1"></div>
           </div>
           <div className="row">
-            <div className="col-md-2"></div>
+            <div className="col-md-1"></div>
             <div className="col-md">
               <b>{localize("username")}</b> <br />
               {userInfo && userInfo.username}
@@ -359,15 +366,15 @@ const Planner = (props) => {
                 {new Date(userInfo.expires).toISOString().substring(0, 10)}
               </div>
             )}
-            <div className="col-md-2"></div>
+            <div className="col-md-1"></div>
           </div>
           <div className="row">
-            <div className="col-md-2"></div>
+            <div className="col-md-1"></div>
             <div className="col">
               <hr></hr>
               <p>{userInfo && localize("extend-blurb")}</p>
             </div>
-            <div className="col-md-2"></div>
+            <div className="col-md-1"></div>
           </div>
         </div>
       </section>
@@ -376,7 +383,7 @@ const Planner = (props) => {
           <section className="lightback">
             <div className="container">
               <div className="row">
-                <div className="col-md-2"></div>
+                <div className="col-md-1"></div>
                 <div className="col">
                   <h3>
                     <span className="badge badge-secondary">
@@ -408,14 +415,14 @@ const Planner = (props) => {
                     onClick={(_) => setMonths(12)}
                   />
                 </div>
-                <div className="col-md-2"></div>
+                <div className="col-md-1"></div>
               </div>
             </div>
           </section>
           <section className="lightback">
             <div className="container">
               <div className="row">
-                <div className="col-md-2"></div>
+                <div className="col-md-1"></div>
                 <div className="col">
                   <h3>
                     <span className="badge badge-secondary">
@@ -430,7 +437,7 @@ const Planner = (props) => {
                     months={months}
                   />
                 </div>
-                <div className="col-md-2"></div>
+                <div className="col-md-1"></div>
               </div>
             </div>
           </section>

@@ -1,24 +1,24 @@
 {
     "Date": "2020-02-02",
     "Android": {
-        "Latest": "4.4.12",
+        "Latest": "4.4.20",
         "SHA256": "",
         "Mirrors": [
-            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-android-4.4.12.apk"
+            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-android-4.4.20.apk"
         ]
     },
     "Windows": {
-        "Latest": "4.4.12",
+        "Latest": "4.4.20",
         "SHA256": "",
         "Mirrors": [
-            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-windows-4.4.12-setup.exe"
+            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-windows-4.4.20-setup.exe"
         ]
     },
     "MacOS": {
-        "Latest": "4.4.12",
+        "Latest": "4.4.20",
         "SHA256": "",
         "Mirrors": [
-            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-macos-4.4.12.dmg"
+            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-macos-4.4.20.dmg"
         ]
     },
     "Linux32": {
@@ -29,10 +29,10 @@
         ]
     },
     "Linux64": {
-        "Latest": "4.4.12",
+        "Latest": "4.4.20",
         "SHA256": "",
         "Mirrors": [
-            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.12/geph-linux64-4.4.12.tar.xz"
+            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-linux64-4.4.20.tar.xz"
         ]
     }
 }
