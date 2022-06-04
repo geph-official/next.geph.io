@@ -3,7 +3,7 @@
 
 // Plugins
 const plugins = [{
-        location: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io",
+        location: "/home/miyuruasuka/GEPH4/next.geph.io",
         plugins: [],
         hooks: {}
       }]

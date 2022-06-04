@@ -690,7 +690,7 @@ var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-// EXTERNAL MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/app.css
+// EXTERNAL MODULE: /home/miyuruasuka/GEPH4/next.geph.io/src/app.css
 var app = __webpack_require__(14);
 
 // EXTERNAL MODULE: external "bootstrap/dist/css/bootstrap.min.css"
@@ -699,7 +699,7 @@ var bootstrap_min_css_ = __webpack_require__(29);
 // EXTERNAL MODULE: external "@reach/router"
 var router_ = __webpack_require__(7);
 
-// CONCATENATED MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/common/footer.jsx
+// CONCATENATED MODULE: /home/miyuruasuka/GEPH4/next.geph.io/src/common/footer.jsx
 
 var footer_Footer = function Footer(props) {
   return external_react_default.a.createElement(external_react_default.a.Fragment, null, external_react_default.a.createElement("section", {
@@ -722,10 +722,10 @@ var footer_Footer = function Footer(props) {
     src: "https://c.statcounter.com/12155608/0/044606fb/1/"
   })));
 };
-// EXTERNAL MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/common/l10n.js
+// EXTERNAL MODULE: /home/miyuruasuka/GEPH4/next.geph.io/src/common/l10n.js
 var l10n = __webpack_require__(4);
 
-// CONCATENATED MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/common/header.jsx
+// CONCATENATED MODULE: /home/miyuruasuka/GEPH4/next.geph.io/src/common/header.jsx
 
 
 
@@ -831,7 +831,7 @@ var header_Header = function Header(props) {
     }
   }, "\u7E41"))))));
 };
-// CONCATENATED MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.l10n.jsx
+// CONCATENATED MODULE: /home/miyuruasuka/GEPH4/next.geph.io/src/Main.l10n.jsx
 
 
 var mizaruURL = "https://github.com/geph-official/geph4/wiki/Mizaru";
@@ -991,10 +991,10 @@ var external_react_static_ = __webpack_require__(12);
 // EXTERNAL MODULE: external "react-helmet"
 var external_react_helmet_ = __webpack_require__(13);
 
-// EXTERNAL MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/logo.png
+// EXTERNAL MODULE: /home/miyuruasuka/GEPH4/next.geph.io/src/logo.png
 var logo = __webpack_require__(69);
 
-// CONCATENATED MODULE: /tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.jsx
+// CONCATENATED MODULE: /home/miyuruasuka/GEPH4/next.geph.io/src/Main.jsx
 
 
 
@@ -1509,7 +1509,7 @@ __webpack_require__.r(__webpack_exports__);
 // Imports
 // Plugins
 var plugins = [{
-  location: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io",
+  location: "/home/miyuruasuka/GEPH4/next.geph.io",
   plugins: [],
   hooks: {}
 }]; // Export em!
@@ -1520,7 +1520,7 @@ var plugins = [{
 /* 21 */
 /***/ (function(module, exports) {
 
-module.exports = require("/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser");
+module.exports = require("/home/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser");
 
 /***/ }),
 /* 22 */
@@ -1535,8 +1535,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6);
-/* harmony import */ var _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6);
+/* harmony import */ var _home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -1553,7 +1553,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-Object(_tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
+Object(_home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__["setHasBabelPlugin"])();
 var universalOptions = {
   loading: function loading() {
     return null;
@@ -1564,144 +1564,144 @@ var universalOptions = {
   },
   ignoreBabelRename: true
 };
-var t_0 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404",
+var t_0 = _home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/home/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 26, 7))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404');
   },
   resolve: function resolve() {
     return /*require.resolve*/(26);
   },
   chunkName: function chunkName() {
-    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404";
+    return "home/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404";
   }
 }), universalOptions);
-t_0.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404';
-var t_1 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx",
+t_0.template = '/home/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404';
+var t_1 = _home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/home/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx */).then(__webpack_require__.bind(null, 27))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx */).then(__webpack_require__.bind(null, 27))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(27);
   },
   chunkName: function chunkName() {
-    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx";
+    return "home/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx";
   }
 }), universalOptions);
-t_1.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx';
-var t_2 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx",
+t_1.template = '/home/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx';
+var t_2 = _home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/home/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(28);
   },
   chunkName: function chunkName() {
-    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx";
+    return "home/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx";
   }
 }), universalOptions);
-t_2.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx';
-var t_3 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx",
+t_2.template = '/home/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx';
+var t_3 = _home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/home/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(30);
   },
   chunkName: function chunkName() {
-    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx";
+    return "home/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx";
   }
 }), universalOptions);
-t_3.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx';
-var t_4 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx",
+t_3.template = '/home/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx';
+var t_4 = _home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/home/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(31);
   },
   chunkName: function chunkName() {
-    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx";
+    return "home/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx";
   }
 }), universalOptions);
-t_4.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx';
-var t_5 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx",
+t_4.template = '/home/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx';
+var t_5 = _home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/home/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(32);
   },
   chunkName: function chunkName() {
-    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx";
+    return "home/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx";
   }
 }), universalOptions);
-t_5.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx';
-var t_6 = _tank_encrypted_homedirs_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx",
+t_5.template = '/home/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx';
+var t_6 = _home_miyuruasuka_GEPH4_next_geph_io_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/home/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx */).then(__webpack_require__.bind(null, 35))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | home/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx */).then(__webpack_require__.bind(null, 35))]).then(function (proms) {
       return proms[0];
     });
   },
   path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx');
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/home/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx');
   },
   resolve: function resolve() {
     return /*require.resolve*/(35);
   },
   chunkName: function chunkName() {
-    return "tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx";
+    return "home/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx";
   }
 }), universalOptions);
-t_6.template = '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx'; // Template Map
+t_6.template = '/home/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404': t_0,
-  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx': t_1,
-  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx': t_2,
-  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx': t_3,
-  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx': t_4,
-  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx': t_5,
-  '/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx': t_6
+  '/home/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404': t_0,
+  '/home/miyuruasuka/GEPH4/next.geph.io/src/lel.jsx': t_1,
+  '/home/miyuruasuka/GEPH4/next.geph.io/src/Main.en.jsx': t_2,
+  '/home/miyuruasuka/GEPH4/next.geph.io/src/Main.zht.jsx': t_3,
+  '/home/miyuruasuka/GEPH4/next.geph.io/src/Main.zhs.jsx': t_4,
+  '/home/miyuruasuka/GEPH4/next.geph.io/src/billing/PlanPicker.jsx': t_5,
+  '/home/miyuruasuka/GEPH4/next.geph.io/src/billing/Success.jsx': t_6
 }); // Not Found Template
 
-var notFoundTemplate = "/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404";
+var notFoundTemplate = "/home/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
@@ -1811,7 +1811,7 @@ function toComment(sourceMap) {
 /* 26 */
 /***/ (function(module, exports) {
 
-module.exports = require("/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404");
+module.exports = require("/home/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/components/Default404");
 
 /***/ }),
 /* 27 */
@@ -2008,11 +2008,11 @@ var getLang = function getLang() {
 };
 
 var toCNY = function toCNY(eur) {
-  return 7.67 * eur;
+  return 7.12 * eur;
 };
 
 var toUSD = function toUSD(eur) {
-  return 1.19 * eur;
+  return 1.07 * eur;
 }; // Component for picking
 
 
@@ -2133,6 +2133,11 @@ var Payer = function Payer(props) {
       _useDebounce2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useDebounce, 1),
       debouncedPromo = _useDebounce2[0];
 
+  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),
+      _useState12 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState11, 2),
+      jumping = _useState12[0],
+      setJumping = _useState12[1];
+
   var updatePrice = function updatePrice() {
     var eurocents;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function updatePrice$(_context3) {
@@ -2242,17 +2247,19 @@ var Payer = function Payer(props) {
         switch (_context6.prev = _context6.next) {
           case 0:
             _context6.next = 2;
-            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_8___default.a.post("https://web-backend.geph.io/alipay", {
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_8___default.a.post("https://web-backend.geph.io/aliwechat", {
               sessid: props.sessid,
               promo: promo,
-              months: months
+              months: months,
+              method: "alipay"
             }));
 
           case 2:
             response = _context6.sent;
-            return _context6.abrupt("return", response.data.url);
+            console.log("ALIPAY RESPONSE", response);
+            return _context6.abrupt("return", response.data.data.pay_url);
 
-          case 4:
+          case 5:
           case "end":
             return _context6.stop();
         }
@@ -2291,50 +2298,63 @@ var Payer = function Payer(props) {
       while (1) {
         switch (_context8.prev = _context8.next) {
           case 0:
+            _context8.prev = 0;
+            setJumping(true);
+
             if (!(payMethod === "card")) {
-              _context8.next = 5;
+              _context8.next = 7;
               break;
             }
 
-            _context8.next = 3;
+            _context8.next = 5;
             return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(stripeCheckout());
 
-          case 3:
-            _context8.next = 15;
+          case 5:
+            _context8.next = 17;
             break;
 
-          case 5:
+          case 7:
             if (!(payMethod == "alipay")) {
-              _context8.next = 11;
+              _context8.next = 13;
               break;
             }
 
-            _context8.next = 8;
+            _context8.next = 10;
             return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getAlipayUrl());
 
-          case 8:
+          case 10:
             window.location.href = _context8.sent;
-            _context8.next = 15;
+            _context8.next = 17;
             break;
 
-          case 11:
+          case 13:
             if (!(payMethod == "crypto")) {
-              _context8.next = 15;
+              _context8.next = 17;
               break;
             }
 
-            _context8.next = 14;
+            _context8.next = 16;
             return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getCryptoUrl(cryptoCurrency));
 
-          case 14:
+          case 16:
             window.location.href = _context8.sent;
 
-          case 15:
+          case 17:
+            _context8.next = 23;
+            break;
+
+          case 19:
+            _context8.prev = 19;
+            _context8.t0 = _context8["catch"](0);
+            alert(_context8.t0.toString());
+            setJumping(false);
+
+          case 23:
           case "end":
             return _context8.stop();
         }
       }
-    });
+    }, null, null, [[0, 19]]);
   };
 
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_9__["Helmet"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("script", {
@@ -2356,12 +2376,22 @@ var Payer = function Payer(props) {
     src: __webpack_require__(78),
     className: "cardbrand"
   }), props.localize("credit-debit")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+    className: payMethod === "alipay" ? "nav-link active" : "nav-link",
+    onClick: function onClick(_) {
+      setPayMethod("alipay");
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    src: __webpack_require__(79),
+    className: "cardbrand"
+  }), props.localize("alipay"), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: "badge badge-danger"
+  }, "5%\xA0", props.localize("fee"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
     className: payMethod === "crypto" ? "nav-link active" : "nav-link",
     onClick: function onClick(_) {
       setPayMethod("crypto");
     }
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
-    src: __webpack_require__(79),
+    src: __webpack_require__(80),
     className: "cardbrand"
   }), props.localize("crypto"), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
     className: "badge badge-success"
@@ -2387,7 +2417,7 @@ var Payer = function Payer(props) {
     className: "input-group-text"
   }, props.localize("discount-code"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
     type: "text",
-    maxLength: "10",
+    maxLength: "20",
     style: {
       width: "128px",
       fontFamily: "monospace",
@@ -2410,7 +2440,7 @@ var Payer = function Payer(props) {
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "BTC"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "ETH"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "XMR"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "USDT.ERC20"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "USDC"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", null, "DAI"))) : "", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
     type: "normal",
     className: "btn btn-primary mb-3 mt-2",
-    disabled: !loaded,
+    disabled: !loaded || jumping,
     onClick: function onClick(_) {
       return checkout();
     }
@@ -2424,15 +2454,15 @@ function sleep(ms) {
 }
 
 var Planner = function Planner(props) {
-  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(1),
-      _useState12 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState11, 2),
-      months = _useState12[0],
-      setMonths = _useState12[1];
-
-  var _useState13 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),
+  var _useState13 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(1),
       _useState14 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState13, 2),
-      userInfo = _useState14[0],
-      setUserInfo = _useState14[1];
+      months = _useState14[0],
+      setMonths = _useState14[1];
+
+  var _useState15 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),
+      _useState16 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState15, 2),
+      userInfo = _useState16[0],
+      setUserInfo = _useState16[1];
 
   var sessid = function () {
     if (typeof window !== "undefined") {
@@ -2504,15 +2534,15 @@ var Planner = function Planner(props) {
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "row"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-2"
+    className: "col-md-1"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3", null, localize("account-overview"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-2"
+    className: "col-md-1"
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "row"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-2"
+    className: "col-md-1"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col-md"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, localize("username")), " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), userInfo && userInfo.username), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
@@ -2520,15 +2550,15 @@ var Planner = function Planner(props) {
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, localize("subscription")), " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), userInfo && (userInfo.plan === "plus" ? "Plus" : localize("free"))), userInfo && userInfo.expires && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col-md"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", null, localize("expires")), " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("br", null), new Date(userInfo.expires).toISOString().substring(0, 10)), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-2"
+    className: "col-md-1"
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "row"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-2"
+    className: "col-md-1"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, userInfo && localize("extend-blurb"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-2"
+    className: "col-md-1"
   })))), userInfo && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("section", {
     className: "lightback"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
@@ -2536,7 +2566,7 @@ var Planner = function Planner(props) {
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "row"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-2"
+    className: "col-md-1"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
@@ -2568,7 +2598,7 @@ var Planner = function Planner(props) {
       return setMonths(12);
     }
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-2"
+    className: "col-md-1"
   })))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("section", {
     className: "lightback"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
@@ -2576,7 +2606,7 @@ var Planner = function Planner(props) {
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "row"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-2"
+    className: "col-md-1"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
@@ -2587,7 +2617,7 @@ var Planner = function Planner(props) {
     localize: localize,
     months: months
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-2"
+    className: "col-md-1"
   }))))));
 };
 
@@ -2730,9 +2760,9 @@ Object(_common_l10n_js__WEBPACK_IMPORTED_MODULE_1__[/* addl10n */ "a"])({
     zhs: "付款"
   },
   "credit-debit": {
-    en: "Credit/debit cards",
-    zht: "信用卡/借記卡",
-    zhs: "信用卡/借记卡"
+    en: "Bank cards",
+    zht: "信用/借記卡",
+    zhs: "信用/借记卡"
   },
   alipay: {
     en: "Alipay",
@@ -2846,7 +2876,7 @@ var Success = function Success(props) {
     className: "hero-text"
   }, localize("payment-successful-blurb")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     "class": "img-fluid",
-    src: __webpack_require__(80)
+    src: __webpack_require__(81)
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-2"
   })))));
@@ -2927,7 +2957,7 @@ var _require = __webpack_require__(21),
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/artifacts/react-static-browser-plugins.js", function () {
+  module.hot.accept("/home/miyuruasuka/GEPH4/next.geph.io/artifacts/react-static-browser-plugins.js", function () {
     registerPlugins(__webpack_require__(20)["default"]);
   });
 }
@@ -2951,7 +2981,7 @@ var _require2 = __webpack_require__(22),
 registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/artifacts/react-static-templates.js", function () {
+  module.hot.accept("/home/miyuruasuka/GEPH4/next.geph.io/artifacts/react-static-templates.js", function () {
     var _require3 = __webpack_require__(22),
         templates = _require3["default"],
         notFoundTemplate = _require3.notFoundTemplate;
@@ -3468,7 +3498,7 @@ module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 /* 57 */
 /***/ (function(module, exports) {
 
-module.exports = require("/tank/encrypted/homedirs/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/hooks/useStaticInfo");
+module.exports = require("/home/miyuruasuka/GEPH4/next.geph.io/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
 /* 58 */
@@ -3676,12 +3706,18 @@ module.exports = __webpack_require__.p + "static/unionpay.43d7a971.svg";
 
 /***/ }),
 /* 79 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgdmVyc2lvbj0iMS4xIgogICBpZD0iTGF5ZXJfMSIKICAgeD0iMHB4IgogICB5PSIwcHgiCiAgIHZpZXdCb3g9IjAgMCAzNiAzNiIKICAgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iQWxpcGF5LnN2ZyIKICAgd2lkdGg9IjM2IgogICBoZWlnaHQ9IjM2IgogICBpbmtzY2FwZTp2ZXJzaW9uPSIwLjkyLjQgKHVua25vd24pIj48ZGVmcwogICAgIGlkPSJkZWZzMTEiIC8+PHNvZGlwb2RpOm5hbWVkdmlldwogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzY2NjY2NiIKICAgICBib3JkZXJvcGFjaXR5PSIxIgogICAgIG9iamVjdHRvbGVyYW5jZT0iMTAiCiAgICAgZ3JpZHRvbGVyYW5jZT0iMTAiCiAgICAgZ3VpZGV0b2xlcmFuY2U9IjEwIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIgogICAgIGlua3NjYXBlOnBhZ2VzaGFkb3c9IjIiCiAgICAgaW5rc2NhcGU6d2luZG93LXdpZHRoPSIxOTIwIgogICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9Ijk4OSIKICAgICBpZD0ibmFtZWR2aWV3OSIKICAgICBzaG93Z3JpZD0iZmFsc2UiCiAgICAgZml0LW1hcmdpbi10b3A9IjAiCiAgICAgZml0LW1hcmdpbi1sZWZ0PSIwIgogICAgIGZpdC1tYXJnaW4tcmlnaHQ9IjAiCiAgICAgZml0LW1hcmdpbi1ib3R0b209IjAiCiAgICAgaW5rc2NhcGU6em9vbT0iNC45MTY2NjY3IgogICAgIGlua3NjYXBlOmN4PSIxOCIKICAgICBpbmtzY2FwZTpjeT0iMTgiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LW1heGltaXplZD0iMSIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJMYXllcl8xIiAvPjxwYXRoCiAgICAgZD0ibSAzNiw1IHYgMjcgYSA0LDQgMCAwIDEgLTQsNCBIIDUgQSA1LDUgMCAwIDEgMCwzMSBWIDUgQSA1LDUgMCAwIDEgNSwwIGggMjYgYSA1LDUgMCAwIDEgNSw1IHoiCiAgICAgaWQ9InBhdGgyIgogICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgc3R5bGU9ImZpbGw6IzViOWVkZCIgLz48cGF0aAogICAgIGQ9Ik0gMjMuOTEsMjEuMTcgQyAyNiwxNy42NDEgMjcsMTMgMjcsMTMgaCAtNyB2IC0yIGggOSBWIDkgSCAyMCBWIDUuMDIgTCAxNiw1IFYgOSBIIDcgdiAyIGggOSB2IDIgSCA4IHYgMiBjIDAsMCAxMy4xMjUsMCAxNC41LC0wLjAxIC0wLjI4MSwwLjc5MyAtMC45OSwzLjE4OSAtMi4wMTUsNS4wNTUgQyAxNi42MDIsMTguODQgMTMuMDE5LDE4IDEwLjE0MywxOCBjIC02Ljg5OCwwIC04LjQyOCwzLjQ4MSAtOC4xMDIsNi42NjQgMC4yNjMsMi41NCAyLjE0NSw2LjI0OCA3Ljg5Myw2LjI0OCA1LjI1MSwwIDkuNDksLTMuMDIzIDEyLjA5OSwtNi42MjIgQyAyNy4wMDgsMjYuNTkxIDMyLjI2MywyOC45MDkgMzYsMzEgViAyNC45NjIgQyAzMi4wNDksMjMuNjAxIDI3Ljg5LDIyLjUzMSAyMy45MSwyMS4xNyBaIE0gOS4wOTgsMjguNzYyIGMgLTQuODU4LDAgLTUuNjEsLTIuNzUgLTUuNjk0LC00LjM5MiAtMC4wNzksLTEuNDM2IDAuODg2LC00LjEzMiA2LjM3MSwtNC4xMzIgMi4wNCwwIDUuMjc2LDEuMDQ2IDguOTA5LDIuNTcgLTIuMDUzLDIuNzA4IC01LjM0Myw1Ljk1NCAtOS41ODYsNS45NTQgeiIKICAgICBpZD0icGF0aDQiCiAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIKICAgICBzdHlsZT0iZmlsbDojZmZmZmZmIiAvPjxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTYiPjxyZGY6UkRGPjxyZGY6RGVzY3JpcHRpb24KICAgICAgICAgYWJvdXQ9Imh0dHBzOi8vaWNvbnNjb3V0LmNvbS9sZWdhbCNsaWNlbnNlcyIKICAgICAgICAgZGM6dGl0bGU9ImFsaXBheSIKICAgICAgICAgZGM6ZGVzY3JpcHRpb249ImFsaXBheSIKICAgICAgICAgZGM6cHVibGlzaGVyPSJJY29uc2NvdXQiCiAgICAgICAgIGRjOmRhdGU9IjIwMTctMTItMTUiCiAgICAgICAgIGRjOmZvcm1hdD0iaW1hZ2Uvc3ZnK3htbCIKICAgICAgICAgZGM6bGFuZ3VhZ2U9ImVuIj48ZGM6Y3JlYXRvcj48cmRmOkJhZz48cmRmOmxpPkljb25zODwvcmRmOmxpPjwvcmRmOkJhZz48L2RjOmNyZWF0b3I+PC9yZGY6RGVzY3JpcHRpb24+PGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPjxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PjxkYzp0eXBlCiAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz48ZGM6dGl0bGU+PC9kYzp0aXRsZT48L2NjOldvcms+PC9yZGY6UkRGPjwvbWV0YWRhdGE+PC9zdmc+"
+
+/***/ }),
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/bitcoin.ea6d0c84.png";
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/refresh.3c7ebf1d.png";

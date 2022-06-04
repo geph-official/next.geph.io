@@ -96,6 +96,7 @@ const Payer = (props) => {
   const [cryptoCurrency, setCryptoCurrency] = useState("BTC");
   const [promo, setPromo] = useState("");
   const [debouncedPromo] = useDebounce(promo, 500);
+  const [jumping, setJumping] = useState(false);
 
   const updatePrice = async () => {
     setLoaded(false);
@@ -167,12 +168,18 @@ const Payer = (props) => {
   };
 
   const checkout = async () => {
-    if (payMethod === "card") {
-      await stripeCheckout();
-    } else if (payMethod == "alipay") {
-      window.location.href = await getAlipayUrl();
-    } else if (payMethod == "crypto") {
-      window.location.href = await getCryptoUrl(cryptoCurrency);
+    try {
+      setJumping(true);
+      if (payMethod === "card") {
+        await stripeCheckout();
+      } else if (payMethod == "alipay") {
+        window.location.href = await getAlipayUrl();
+      } else if (payMethod == "crypto") {
+        window.location.href = await getCryptoUrl(cryptoCurrency);
+      }
+    } catch (e) {
+      alert(e.toString());
+      setJumping(false);
     }
   };
   return (
@@ -248,7 +255,7 @@ const Payer = (props) => {
             </div>
             <input
               type="text"
-              maxLength="10"
+              maxLength="20"
               style={{
                 width: "128px",
                 fontFamily: "monospace",
@@ -283,7 +290,7 @@ const Payer = (props) => {
             <button
               type="normal"
               className="btn btn-primary mb-3 mt-2"
-              disabled={!loaded}
+              disabled={!loaded || jumping}
               onClick={(_) => checkout()}
             >
               {props.localize("check-out")}
@@ -305,10 +312,7 @@ const Planner = (props) => {
   const [userInfo, setUserInfo] = useState(false);
   const sessid = (() => {
     if (typeof window !== "undefined") {
-      return (
-        window.sessionStorage.getItem("session-id") ||
-        "sess-38076985229524618203512498811228213434"
-      );
+      return window.sessionStorage.getItem("session-id");
     } else {
       return "NULL";
     }
