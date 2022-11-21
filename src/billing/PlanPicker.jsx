@@ -27,8 +27,8 @@ const getLang = () => {
   }
 };
 
-const toCNY = (eur) => 7.12 * eur;
-const toUSD = (eur) => 1.07 * eur;
+const toCNY = (eur) => 6.78 * eur;
+const toUSD = (eur) => 1.0 * eur;
 
 // Component for picking
 const Selector = (props) => (
@@ -150,8 +150,17 @@ const Payer = (props) => {
       months: months,
       method: "alipay",
     });
-    console.log("ALIPAY RESPONSE", response);
-    return response.data.data.pay_url;
+    return response.data.pay_url;
+  };
+
+  const getWechatUrl = async () => {
+    const response = await axios.post("https://web-backend.geph.io/aliwechat", {
+      sessid: props.sessid,
+      promo: promo,
+      months: months,
+      method: "wxpay",
+    });
+    return response.data.pay_url;
   };
 
   const getCryptoUrl = async (currency) => {
@@ -176,6 +185,8 @@ const Payer = (props) => {
         window.location.href = await getAlipayUrl();
       } else if (payMethod == "crypto") {
         window.location.href = await getCryptoUrl(cryptoCurrency);
+      } else if (payMethod == "wechat") {
+        window.location.href = await getWechatUrl();
       }
     } catch (e) {
       alert(e.toString());
@@ -215,6 +226,19 @@ const Payer = (props) => {
         </a>
 
         <a
+          className={payMethod === "wechat" ? "nav-link active" : "nav-link"}
+          onClick={(_) => {
+            setPayMethod("wechat");
+          }}
+        >
+          <img src={require("../assets/wechat.svg")} className="cardbrand" />
+          {props.localize("wechat")}&nbsp;
+          <span className="badge badge-danger">
+            5%&nbsp;{props.localize("fee")}
+          </span>
+        </a>
+
+        {/* <a
           className={payMethod === "crypto" ? "nav-link active" : "nav-link"}
           onClick={(_) => {
             setPayMethod("crypto");
@@ -225,7 +249,7 @@ const Payer = (props) => {
           <span className="badge badge-success">
             20%&nbsp;{props.localize("discount")}
           </span>
-        </a>
+        </a> */}
       </nav>
       <div className="card">
         <div className="card-body">

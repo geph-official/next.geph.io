@@ -1,38 +1,32 @@
 {
     "Date": "2020-02-02",
     "Android": {
-        "Latest": "4.4.20",
+        "Latest": "4.6.2",
         "SHA256": "",
         "Mirrors": [
-            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-android-4.4.20.apk"
+            "https://sos-ch-dk-2.exo.io/utopia/geph-releases/android-stable/4.6.2/geph-android.apk"
         ]
     },
     "Windows": {
-        "Latest": "4.4.20",
+        "Latest": "4.6.2",
         "SHA256": "",
         "Mirrors": [
-            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-windows-4.4.20-setup.exe"
+            "https://sos-ch-dk-2.exo.io/utopia/geph-releases/windows-stable/4.6.2/geph-windows-setup.exe"
         ]
     },
     "MacOS": {
-        "Latest": "4.4.20",
+        "Latest": "4.6.2",
         "SHA256": "",
         "Mirrors": [
-            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-macos-4.4.20.dmg"
-        ]
-    },
-    "Linux32": {
-        "Latest": "3.6.7",
-        "SHA256": "",
-        "Mirrors": [
-            "https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-linux32-3.6.7.tar.xz"
+            "https://sos-ch-dk-2.exo.io/utopia/geph-releases/macos-stable/4.6.2/geph-macos.dmg"
         ]
     },
     "Linux64": {
-        "Latest": "4.4.20",
+        "Latest": "4.6.2",
         "SHA256": "",
         "Mirrors": [
-            "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-linux64-4.4.20.tar.xz"
+            "https://sos-ch-dk-2.exo.io/utopia/geph-releases/linux-stable/4.6.2/Geph-x86_64.flatpak"
         ]
     }
 }
+

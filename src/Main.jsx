@@ -12,31 +12,24 @@ import { Helmet } from "react-helmet";
 import logo from "./logo.png";
 
 const lin64tar = (version) =>
-  "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" +
+  "https://sos-ch-dk-2.exo.io/utopia/geph-releases/linux-stable/" +
   version +
-  "/geph-linux64-" +
-  version +
-  ".tar.xz";
+  "/Geph-x86_64.flatpak";
 
 const win32exe = (version) =>
-  "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" +
+  "https://sos-ch-dk-2.exo.io/utopia/geph-releases/windows-stable/" +
   version +
-  "/geph-windows-" +
-  version +
-  "-setup.exe";
+  "/geph-windows-setup.exe";
 
 const mac64dmg = (version) =>
-  "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" +
+  "https://sos-ch-dk-2.exo.io/utopia/geph-releases/macos-stable/" +
   version +
-  "/geph-macos-" +
-  version +
-  ".dmg";
+  "/geph-macos.dmg";
+
 const androidapk = (version) =>
-  "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" +
+  "https://sos-ch-dk-2.exo.io/utopia/geph-releases/android-stable/" +
   version +
-  "/geph-android-" +
-  version +
-  ".apk";
+  "/geph-android.apk";
 
 const VERSIONS = require("versions.json");
 
@@ -51,7 +44,7 @@ const defaultDownload = () => {
     if (/Android/.test(platform)) {
       return ["Android APK", androidapk, ANDVER];
     } else if (/Linux/.test(platform)) {
-      return ["Linux amd64 (.tar.xz)", lin64tar, LINVER];
+      return ["Linux amd64 (flatpak)", lin64tar, LINVER];
     } else if (/Mac/.test(platform)) {
       return ["macOS 10.10+ (dmg)", mac64dmg, MACVER];
     } else {
@@ -174,7 +167,7 @@ export default (props) => {
                 />
                 <p class="card-text">
                   <a href={lin64tar(LINVER)}>
-                    <b>Linux amd64</b> (.tar.xz)
+                    <b>Linux amd64</b> (flatpak)
                   </a>
                   <br />
                 </p>

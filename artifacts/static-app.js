@@ -674,10 +674,16 @@ module.exports = require("@reach/router");
 /* 8 */
 /***/ (function(module, exports) {
 
-module.exports = require("detect-nearest-browser-locale");
+module.exports = require("axios");
 
 /***/ }),
 /* 9 */
+/***/ (function(module, exports) {
+
+module.exports = require("detect-nearest-browser-locale");
+
+/***/ }),
+/* 10 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1009,19 +1015,19 @@ var logo = __webpack_require__(69);
 
 
 var lin64tar = function lin64tar(version) {
-  return "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" + version + "/geph-linux64-" + version + ".tar.xz";
+  return "https://sos-ch-dk-2.exo.io/utopia/geph-releases/linux-stable/" + version + "/Geph-x86_64.flatpak";
 };
 
 var win32exe = function win32exe(version) {
-  return "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" + version + "/geph-windows-" + version + "-setup.exe";
+  return "https://sos-ch-dk-2.exo.io/utopia/geph-releases/windows-stable/" + version + "/geph-windows-setup.exe";
 };
 
 var mac64dmg = function mac64dmg(version) {
-  return "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" + version + "/geph-macos-" + version + ".dmg";
+  return "https://sos-ch-dk-2.exo.io/utopia/geph-releases/macos-stable/" + version + "/geph-macos.dmg";
 };
 
 var androidapk = function androidapk(version) {
-  return "https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/" + version + "/geph-android-" + version + ".apk";
+  return "https://sos-ch-dk-2.exo.io/utopia/geph-releases/android-stable/" + version + "/geph-android.apk";
 };
 
 var VERSIONS = __webpack_require__(70);
@@ -1038,7 +1044,7 @@ var defaultDownload = function defaultDownload() {
     if (/Android/.test(platform)) {
       return ["Android APK", androidapk, ANDVER];
     } else if (/Linux/.test(platform)) {
-      return ["Linux amd64 (.tar.xz)", lin64tar, LINVER];
+      return ["Linux amd64 (flatpak)", lin64tar, LINVER];
     } else if (/Mac/.test(platform)) {
       return ["macOS 10.10+ (dmg)", mac64dmg, MACVER];
     } else {
@@ -1185,7 +1191,7 @@ var defaultDownload = function defaultDownload() {
     "class": "card-text"
   }, external_react_default.a.createElement("a", {
     href: lin64tar(LINVER)
-  }, external_react_default.a.createElement("b", null, "Linux amd64"), " (.tar.xz)"), external_react_default.a.createElement("br", null)))), external_react_default.a.createElement("div", {
+  }, external_react_default.a.createElement("b", null, "Linux amd64"), " (flatpak)"), external_react_default.a.createElement("br", null)))), external_react_default.a.createElement("div", {
     className: "col-md card text-center"
   }, external_react_default.a.createElement("div", {
     "class": "card-body"
@@ -1201,12 +1207,6 @@ var defaultDownload = function defaultDownload() {
     href: "https://play.google.com/store/apps/details?id=io.geph.android"
   }, external_react_default.a.createElement("b", null, "Android 5.0+"), " (Google Play)"))))))), external_react_default.a.createElement(footer_Footer, null));
 });
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports) {
-
-module.exports = require("axios");
 
 /***/ }),
 /* 11 */
@@ -1832,7 +1832,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(8);
+/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(9);
 /* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(67);
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_router__WEBPACK_IMPORTED_MODULE_7__);
@@ -1898,7 +1898,7 @@ function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9);
+/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
@@ -1921,7 +1921,7 @@ module.exports = require("bootstrap/dist/css/bootstrap.min.css");
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9);
+/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
@@ -1938,7 +1938,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9);
+/* harmony import */ var _Main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
@@ -1967,13 +1967,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PlanPicker_l10n__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(34);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(29);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(10);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(8);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(13);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var use_debounce__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(43);
 /* harmony import */ var use_debounce__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(use_debounce__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(8);
+/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(9);
 /* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_11__);
 
 
@@ -2008,11 +2008,11 @@ var getLang = function getLang() {
 };
 
 var toCNY = function toCNY(eur) {
-  return 7.12 * eur;
+  return 6.78 * eur;
 };
 
 var toUSD = function toUSD(eur) {
-  return 1.07 * eur;
+  return 1.0 * eur;
 }; // Component for picking
 
 
@@ -2256,10 +2256,9 @@ var Payer = function Payer(props) {
 
           case 2:
             response = _context6.sent;
-            console.log("ALIPAY RESPONSE", response);
-            return _context6.abrupt("return", response.data.data.pay_url);
+            return _context6.abrupt("return", response.data.pay_url);
 
-          case 5:
+          case 4:
           case "end":
             return _context6.stop();
         }
@@ -2267,23 +2266,23 @@ var Payer = function Payer(props) {
     });
   };
 
-  var getCryptoUrl = function getCryptoUrl(currency) {
+  var getWechatUrl = function getWechatUrl() {
     var response;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function getCryptoUrl$(_context7) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function getWechatUrl$(_context7) {
       while (1) {
         switch (_context7.prev = _context7.next) {
           case 0:
             _context7.next = 2;
-            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_8___default.a.post("https://web-backend.geph.io/coinpayments", {
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_8___default.a.post("https://web-backend.geph.io/aliwechat", {
               sessid: props.sessid,
               promo: promo,
               months: months,
-              currency: currency
+              method: "wxpay"
             }));
 
           case 2:
             response = _context7.sent;
-            return _context7.abrupt("return", response.data);
+            return _context7.abrupt("return", response.data.pay_url);
 
           case 4:
           case "end":
@@ -2293,68 +2292,108 @@ var Payer = function Payer(props) {
     });
   };
 
-  var checkout = function checkout() {
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function checkout$(_context8) {
+  var getCryptoUrl = function getCryptoUrl(currency) {
+    var response;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function getCryptoUrl$(_context8) {
       while (1) {
         switch (_context8.prev = _context8.next) {
           case 0:
-            _context8.prev = 0;
-            setJumping(true);
+            _context8.next = 2;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_8___default.a.post("https://web-backend.geph.io/coinpayments", {
+              sessid: props.sessid,
+              promo: promo,
+              months: months,
+              currency: currency
+            }));
 
-            if (!(payMethod === "card")) {
-              _context8.next = 7;
-              break;
-            }
+          case 2:
+            response = _context8.sent;
+            return _context8.abrupt("return", response.data);
 
-            _context8.next = 5;
-            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(stripeCheckout());
-
-          case 5:
-            _context8.next = 17;
-            break;
-
-          case 7:
-            if (!(payMethod == "alipay")) {
-              _context8.next = 13;
-              break;
-            }
-
-            _context8.next = 10;
-            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getAlipayUrl());
-
-          case 10:
-            window.location.href = _context8.sent;
-            _context8.next = 17;
-            break;
-
-          case 13:
-            if (!(payMethod == "crypto")) {
-              _context8.next = 17;
-              break;
-            }
-
-            _context8.next = 16;
-            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getCryptoUrl(cryptoCurrency));
-
-          case 16:
-            window.location.href = _context8.sent;
-
-          case 17:
-            _context8.next = 23;
-            break;
-
-          case 19:
-            _context8.prev = 19;
-            _context8.t0 = _context8["catch"](0);
-            alert(_context8.t0.toString());
-            setJumping(false);
-
-          case 23:
+          case 4:
           case "end":
             return _context8.stop();
         }
       }
-    }, null, null, [[0, 19]]);
+    });
+  };
+
+  var checkout = function checkout() {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function checkout$(_context9) {
+      while (1) {
+        switch (_context9.prev = _context9.next) {
+          case 0:
+            _context9.prev = 0;
+            setJumping(true);
+
+            if (!(payMethod === "card")) {
+              _context9.next = 7;
+              break;
+            }
+
+            _context9.next = 5;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(stripeCheckout());
+
+          case 5:
+            _context9.next = 23;
+            break;
+
+          case 7:
+            if (!(payMethod == "alipay")) {
+              _context9.next = 13;
+              break;
+            }
+
+            _context9.next = 10;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getAlipayUrl());
+
+          case 10:
+            window.location.href = _context9.sent;
+            _context9.next = 23;
+            break;
+
+          case 13:
+            if (!(payMethod == "crypto")) {
+              _context9.next = 19;
+              break;
+            }
+
+            _context9.next = 16;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getCryptoUrl(cryptoCurrency));
+
+          case 16:
+            window.location.href = _context9.sent;
+            _context9.next = 23;
+            break;
+
+          case 19:
+            if (!(payMethod == "wechat")) {
+              _context9.next = 23;
+              break;
+            }
+
+            _context9.next = 22;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getWechatUrl());
+
+          case 22:
+            window.location.href = _context9.sent;
+
+          case 23:
+            _context9.next = 29;
+            break;
+
+          case 25:
+            _context9.prev = 25;
+            _context9.t0 = _context9["catch"](0);
+            alert(_context9.t0.toString());
+            setJumping(false);
+
+          case 29:
+          case "end":
+            return _context9.stop();
+        }
+      }
+    }, null, null, [[0, 25]]);
   };
 
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_9__["Helmet"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("script", {
@@ -2386,16 +2425,16 @@ var Payer = function Payer(props) {
   }), props.localize("alipay"), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
     className: "badge badge-danger"
   }, "5%\xA0", props.localize("fee"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-    className: payMethod === "crypto" ? "nav-link active" : "nav-link",
+    className: payMethod === "wechat" ? "nav-link active" : "nav-link",
     onClick: function onClick(_) {
-      setPayMethod("crypto");
+      setPayMethod("wechat");
     }
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
     src: __webpack_require__(80),
     className: "cardbrand"
-  }), props.localize("crypto"), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-    className: "badge badge-success"
-  }, "20%\xA0", props.localize("discount")))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }), props.localize("wechat"), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    className: "badge badge-danger"
+  }, "5%\xA0", props.localize("fee")))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "card"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "card-body"
@@ -2478,43 +2517,43 @@ var Planner = function Planner(props) {
   try {
     var toGo = function toGo() {
       var info;
-      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function toGo$(_context9) {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function toGo$(_context10) {
         while (1) {
-          switch (_context9.prev = _context9.next) {
+          switch (_context10.prev = _context10.next) {
             case 0:
               if (!(typeof window !== "undefined" && window.sessionStorage)) {
-                _context9.next = 14;
+                _context10.next = 14;
                 break;
               }
 
-              _context9.prev = 1;
+              _context10.prev = 1;
 
               if (!sessid) {
-                _context9.next = 9;
+                _context10.next = 9;
                 break;
               }
 
-              _context9.next = 5;
+              _context10.next = 5;
               return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(getUserInfo(sessid));
 
             case 5:
-              info = _context9.sent;
+              info = _context10.sent;
               console.log("INFO");
               console.log(info);
               setUserInfo(info);
 
             case 9:
-              _context9.next = 14;
+              _context10.next = 14;
               break;
 
             case 11:
-              _context9.prev = 11;
-              _context9.t0 = _context9["catch"](1);
-              alert(_context9.t0);
+              _context10.prev = 11;
+              _context10.t0 = _context10["catch"](1);
+              alert(_context10.t0);
 
             case 14:
             case "end":
-              return _context9.stop();
+              return _context10.stop();
           }
         }
       }, null, null, [[1, 11]]);
@@ -2769,6 +2808,11 @@ Object(_common_l10n_js__WEBPACK_IMPORTED_MODULE_1__[/* addl10n */ "a"])({
     zht: "支付寶",
     zhs: "支付宝"
   },
+  wechat: {
+    en: "WeChat",
+    zht: "微信",
+    zhs: "微信"
+  },
   "for-X-months": {
     en: function en(x) {
       return "for " + x + " months";
@@ -2833,7 +2877,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PlanPicker_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(33);
 /* harmony import */ var _PlanPicker_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_PlanPicker_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _PlanPicker_l10n__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(34);
-/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8);
+/* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(9);
 /* harmony import */ var detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(detect_nearest_browser_locale__WEBPACK_IMPORTED_MODULE_5__);
 
 
@@ -3654,7 +3698,7 @@ module.exports = __webpack_require__.p + "static/logo.80dd36d9.png";
 /* 70 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"Date\":\"2020-02-02\",\"Android\":{\"Latest\":\"4.4.20\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-android-4.4.20.apk\"]},\"Windows\":{\"Latest\":\"4.4.20\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-windows-4.4.20-setup.exe\"]},\"MacOS\":{\"Latest\":\"4.4.20\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-macos-4.4.20.dmg\"]},\"Linux32\":{\"Latest\":\"3.6.7\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph-dl/desktop-builds/geph-linux32-3.6.7.tar.xz\"]},\"Linux64\":{\"Latest\":\"4.4.20\",\"SHA256\":\"\",\"Mirrors\":[\"https://f001.backblazeb2.com/file/geph4-dl/Geph4Releases/4.4.20/geph-linux64-4.4.20.tar.xz\"]}}");
+module.exports = JSON.parse("{\"Date\":\"2020-02-02\",\"Android\":{\"Latest\":\"4.6.2\",\"SHA256\":\"\",\"Mirrors\":[\"https://sos-ch-dk-2.exo.io/utopia/geph-releases/android-stable/4.6.2/geph-android.apk\"]},\"Windows\":{\"Latest\":\"4.6.2\",\"SHA256\":\"\",\"Mirrors\":[\"https://sos-ch-dk-2.exo.io/utopia/geph-releases/windows-stable/4.6.2/geph-windows-setup.exe\"]},\"MacOS\":{\"Latest\":\"4.6.2\",\"SHA256\":\"\",\"Mirrors\":[\"https://sos-ch-dk-2.exo.io/utopia/geph-releases/macos-stable/4.6.2/geph-macos.dmg\"]},\"Linux64\":{\"Latest\":\"4.6.2\",\"SHA256\":\"\",\"Mirrors\":[\"https://sos-ch-dk-2.exo.io/utopia/geph-releases/linux-stable/4.6.2/Geph-x86_64.flatpak\"]}}");
 
 /***/ }),
 /* 71 */
@@ -3712,9 +3756,9 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 /* 80 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "static/bitcoin.ea6d0c84.png";
+module.exports = "data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ic3ZnLWljb24iIHN0eWxlPSJ3aWR0aDogMWVtOyBoZWlnaHQ6IDFlbTt2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO2ZpbGw6IGN1cnJlbnRDb2xvcjtvdmVyZmxvdzogaGlkZGVuOyIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0zOTUuODQ2IDYwMy41ODVjLTMuOTIxIDEuOTgtNy45MzYgMi45MjUtMTIuODEgMi45MjUtMTAuOSAwLTE5Ljc5MS01Ljg1LTI0Ljc2NC0xNC42MjVsLTIuMDA2LTMuODY0LTc4LjEwNi0xNjcuOTEzYy0wLjk1Ni0xLjk4LTAuOTU2LTMuODY1LTAuOTU2LTUuODQ1IDAtNy44MyA1LjkyOC0xMy42OCAxMy44NjMtMTMuNjggMi45NjUgMCA1LjkyOCAwLjk0NCA4Ljg5MyAyLjkyNGw5MS45NjUgNjQuNDNjNi44ODQgMy44NjQgMTQuODIgNi43OSAyMy43MDggNi43OSA0Ljk3MiAwIDkuODUtMC45NDUgMTQuODIyLTIuOTI2TDg2MS43MSAyODIuNDc5Yy03Ny4xNDktODkuODA0LTIwNC42ODQtMTQ4LjM4NC0zNDkuMTM1LTE0OC4zODQtMjM1LjM3MSAwLTQyNy4yNDIgMTU3LjE1OC00MjcuMjQyIDM1MS4yOTQgMCAxMDUuMzY4IDU3LjM2MSAyMDEuMDE3IDE0Ny4zMjMgMjY1LjQ0NyA2Ljg4IDQuOTA1IDExLjg1MiAxMy42OCAxMS44NTIgMjIuNDUgMCAyLjkyNS0wLjk1NyA1Ljg1LTIuMDA2IDguNzc1LTYuODgxIDI2LjMxOC0xOC44MzEgNjkuMzM0LTE4LjgzMSA3MS4yMjMtMC45NTggMi45Mi0yLjAxMyA2Ljc5LTIuMDEzIDEwLjc1IDAgNy44MyA1LjkyOSAxMy42OCAxMy44NjUgMTMuNjggMi45NjMgMCA1LjkyOC0wLjk0NCA3LjkzNS0yLjkyNWw5Mi45MjItNTMuNjc0YzYuODg1LTMuODcgMTQuODItNi43OTQgMjIuNzU2LTYuNzk0IDMuOTE2IDAgOC44ODkgMC45NDQgMTIuODEgMS45OCA0My40OTYgMTIuNjQ0IDkxLjAxMiAxOS41MyAxMzkuNDggMTkuNTMgMjM1LjM3MiAwIDQyNy4yNC0xNTcuMTU4IDQyNy4yNC0zNTEuMjk0IDAtNTguNTgtMTcuNzgtMTE0LjE0My00OC40NjctMTYzLjAwM2wtNDkxLjM5IDI4MC4wNy0yLjk2MyAxLjk4eiIgZmlsbD0iIzA5QkIwNyIgLz48L3N2Zz4="
 
 /***/ }),
 /* 81 */

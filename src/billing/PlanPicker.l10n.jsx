@@ -8,8 +8,7 @@ addl10n({
     zhs: "支付成功",
   },
   "payment-successful-blurb": {
-    en:
-      "You may need to manually refresh user status on newer versions of Geph.",
+    en: "You may need to manually refresh user status on newer versions of Geph.",
     zht: "較新版本的迷霧通可能需要手動刷新用戶狀態",
     zhs: "较新版本的迷雾通可能需要手动刷新用户状态",
   },
@@ -116,6 +115,7 @@ addl10n({
     zhs: "信用/借记卡",
   },
   alipay: { en: "Alipay", zht: "支付寶", zhs: "支付宝" },
+  wechat: { en: "WeChat", zht: "微信", zhs: "微信" },
   "for-X-months": {
     en: (x) => "for " + x + " months",
     zht: (x) => "（" + x + "個月）",
