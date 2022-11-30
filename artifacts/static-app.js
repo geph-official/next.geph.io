@@ -1015,27 +1015,27 @@ var logo = __webpack_require__(69);
 
 
 var lin64tar = function lin64tar(version) {
-  return "https://sos-ch-dk-2.exo.io/utopia/geph-releases/linux-stable/" + version + "/Geph-x86_64.flatpak";
+  return "https://f001.backblazeb2.com/file/geph4-dl/geph-releases/linux-stable/" + version + "/Geph-x86_64.flatpak";
 };
 
 var win32exe = function win32exe(version) {
-  return "https://sos-ch-dk-2.exo.io/utopia/geph-releases/windows-stable/" + version + "/geph-windows-setup.exe";
+  return "https://f001.backblazeb2.com/file/geph4-dl/geph-releases/windows-stable/" + version + "/geph-windows-setup.exe";
 };
 
 var mac64dmg = function mac64dmg(version) {
-  return "https://sos-ch-dk-2.exo.io/utopia/geph-releases/macos-stable/" + version + "/geph-macos.dmg";
+  return "https://f001.backblazeb2.com/file/geph4-dl/geph-releases/macos-stable/" + version + "/geph-macos.dmg";
 };
 
 var androidapk = function androidapk(version) {
-  return "https://sos-ch-dk-2.exo.io/utopia/geph-releases/android-stable/" + version + "/geph-android.apk";
+  return "https://f001.backblazeb2.com/file/geph4-dl/geph-releases/android-stable/" + version + "/geph-android.apk";
 };
 
 var VERSIONS = __webpack_require__(70);
 
-var WINVER = VERSIONS.Windows.Latest;
-var MACVER = VERSIONS.MacOS.Latest;
-var LINVER = VERSIONS.Linux64.Latest;
-var ANDVER = VERSIONS.Android.Latest;
+var WINVER = VERSIONS["windows-stable"].version;
+var MACVER = VERSIONS["macos-stable"].version;
+var LINVER = VERSIONS["linux-stable"].version;
+var ANDVER = VERSIONS["android-stable"].version;
 
 var defaultDownload = function defaultDownload() {
   try {
@@ -2008,11 +2008,11 @@ var getLang = function getLang() {
 };
 
 var toCNY = function toCNY(eur) {
-  return 6.78 * eur;
+  return 7.47 * eur;
 };
 
 var toUSD = function toUSD(eur) {
-  return 1.0 * eur;
+  return 1.04 * eur;
 }; // Component for picking
 
 
@@ -3698,7 +3698,7 @@ module.exports = __webpack_require__.p + "static/logo.80dd36d9.png";
 /* 70 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"Date\":\"2020-02-02\",\"Android\":{\"Latest\":\"4.6.2\",\"SHA256\":\"\",\"Mirrors\":[\"https://sos-ch-dk-2.exo.io/utopia/geph-releases/android-stable/4.6.2/geph-android.apk\"]},\"Windows\":{\"Latest\":\"4.6.2\",\"SHA256\":\"\",\"Mirrors\":[\"https://sos-ch-dk-2.exo.io/utopia/geph-releases/windows-stable/4.6.2/geph-windows-setup.exe\"]},\"MacOS\":{\"Latest\":\"4.6.2\",\"SHA256\":\"\",\"Mirrors\":[\"https://sos-ch-dk-2.exo.io/utopia/geph-releases/macos-stable/4.6.2/geph-macos.dmg\"]},\"Linux64\":{\"Latest\":\"4.6.2\",\"SHA256\":\"\",\"Mirrors\":[\"https://sos-ch-dk-2.exo.io/utopia/geph-releases/linux-stable/4.6.2/Geph-x86_64.flatpak\"]}}");
+module.exports = JSON.parse("{\"linux-stable\":{\"version\":\"4.6.3\",\"blake3\":\"deadbeef\",\"filename\":\"Geph-x86_64.flatpak\"},\"windows-stable\":{\"version\":\"4.6.3\",\"blake3\":\"deadbeef\",\"filename\":\"geph-windows-setup.exe\"},\"macos-stable\":{\"version\":\"4.6.3\",\"blake3\":\"deadbeef\",\"filename\":\"geph-macos.dmg\"},\"android-stable\":{\"version\":\"4.6.3\",\"blake3\":\"deadbeef\",\"filename\":\"geph-android.apk\"}}");
 
 /***/ }),
 /* 71 */

@@ -27,8 +27,8 @@ const getLang = () => {
   }
 };
 
-const toCNY = (eur) => 7.47 * eur;
-const toUSD = (eur) => 1.04 * eur;
+const toCNY = (eur) => 6.78 * eur;
+const toUSD = (eur) => 1.0 * eur;
 
 // Component for picking
 const Selector = (props) => (

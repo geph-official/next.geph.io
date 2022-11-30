@@ -12,31 +12,31 @@ import { Helmet } from "react-helmet";
 import logo from "./logo.png";
 
 const lin64tar = (version) =>
-  "https://sos-ch-dk-2.exo.io/utopia/geph-releases/linux-stable/" +
+  "https://f001.backblazeb2.com/file/geph4-dl/geph-releases/linux-stable/" +
   version +
   "/Geph-x86_64.flatpak";
 
 const win32exe = (version) =>
-  "https://sos-ch-dk-2.exo.io/utopia/geph-releases/windows-stable/" +
+  "https://f001.backblazeb2.com/file/geph4-dl/geph-releases/windows-stable/" +
   version +
   "/geph-windows-setup.exe";
 
 const mac64dmg = (version) =>
-  "https://sos-ch-dk-2.exo.io/utopia/geph-releases/macos-stable/" +
+  "https://f001.backblazeb2.com/file/geph4-dl/geph-releases/macos-stable/" +
   version +
   "/geph-macos.dmg";
 
 const androidapk = (version) =>
-  "https://sos-ch-dk-2.exo.io/utopia/geph-releases/android-stable/" +
+  "https://f001.backblazeb2.com/file/geph4-dl/geph-releases/android-stable/" +
   version +
   "/geph-android.apk";
 
 const VERSIONS = require("versions.json");
 
-const WINVER = VERSIONS.Windows.Latest;
-const MACVER = VERSIONS.MacOS.Latest;
-const LINVER = VERSIONS.Linux64.Latest;
-const ANDVER = VERSIONS.Android.Latest;
+const WINVER = VERSIONS["windows-stable"].version;
+const MACVER = VERSIONS["macos-stable"].version;
+const LINVER = VERSIONS["linux-stable"].version;
+const ANDVER = VERSIONS["android-stable"].version;
 
 const defaultDownload = () => {
   try {

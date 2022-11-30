@@ -1,32 +1,22 @@
 {
-    "Date": "2020-02-02",
-    "Android": {
-        "Latest": "4.6.2",
-        "SHA256": "",
-        "Mirrors": [
-            "https://sos-ch-dk-2.exo.io/utopia/geph-releases/android-stable/4.6.2/geph-android.apk"
-        ]
-    },
-    "Windows": {
-        "Latest": "4.6.2",
-        "SHA256": "",
-        "Mirrors": [
-            "https://sos-ch-dk-2.exo.io/utopia/geph-releases/windows-stable/4.6.2/geph-windows-setup.exe"
-        ]
-    },
-    "MacOS": {
-        "Latest": "4.6.2",
-        "SHA256": "",
-        "Mirrors": [
-            "https://sos-ch-dk-2.exo.io/utopia/geph-releases/macos-stable/4.6.2/geph-macos.dmg"
-        ]
-    },
-    "Linux64": {
-        "Latest": "4.6.2",
-        "SHA256": "",
-        "Mirrors": [
-            "https://sos-ch-dk-2.exo.io/utopia/geph-releases/linux-stable/4.6.2/Geph-x86_64.flatpak"
-        ]
-    }
+  "linux-stable": {
+    "version": "4.6.3",
+    "blake3": "deadbeef",
+    "filename": "Geph-x86_64.flatpak"
+  },
+  "windows-stable": {
+    "version": "4.6.3",
+    "blake3": "deadbeef",
+    "filename": "geph-windows-setup.exe"
+  },
+  "macos-stable": {
+    "version": "4.6.3",
+    "blake3": "deadbeef",
+    "filename": "geph-macos.dmg"
+  },
+  "android-stable": {
+    "version": "4.6.3",
+    "blake3": "deadbeef",
+    "filename": "geph-android.apk"
+  }
 }
-
